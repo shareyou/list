@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hqmvZtW0Tw+W8Z7NP3onFQ
+! Checksum: 79PujXYD8YbEzcOpAYwEzA
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201608172130
-! Last Modified: 2016年08月17日 21:30
+! Version: 201608172230
+! Last Modified: 2016年08月17日 22:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -190,7 +190,7 @@ tieba.baidu.com##.xiang-guan-tie
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="user_id\":1"]):not([data-field*="user_id\":2"]):not([data-field*="user_id\":3"]):not([data-field*="user_id\":4"]):not([data-field*="user_id\":5"]):not([data-field*="user_id\":6"]):not([data-field*="user_id\":7"]):not([data-field*="user_id\":8"]):not([data-field*="user_id\":9"])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="\"user_id\":1"]):not([data-field*="\"user_id\":2"]):not([data-field*="\"user_id\":3"]):not([data-field*="\"user_id\":4"]):not([data-field*="\"user_id\":5"]):not([data-field*="\"user_id\":6"]):not([data-field*="\"user_id\":7"]):not([data-field*="\"user_id\":8"]):not([data-field*="\"user_id\":9"])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_click_stats[href*="adn.baidu.com"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
 baidu.com###adCard
