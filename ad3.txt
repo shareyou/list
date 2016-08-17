@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JI+hJ+oMFP25KokwIZ6euQ
+! Checksum: BWvVOdCAWxd28ait45FLjA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201608172100
-! Last Modified: 2016年08月17日 21:00
+! Version: 201608172130
+! Last Modified: 2016年08月17日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5961,7 +5961,7 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 3k97.com###topblock
-tieba.baidu.com##.j_l_post:not([class="l_post l_post_bright j_l_post clearfix  "])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="user_id\":1"]):not([data-field*="user_id\":2"]):not([data-field*="user_id\":3"]):not([data-field*="user_id\":4"]):not([data-field*="user_id\":5"]):not([data-field*="user_id\":6"]):not([data-field*="user_id\":7"]):not([data-field*="user_id\":8"]):not([data-field*="user_id\":9"])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_click_stats[href*="adn.baidu.com"]
 3k97.com,caihongzy.com,xiaokuangyl.com###ShouYe_ShangBu > .themeauthor > TABLE:first-child
 caihongzy.com##A[href="http://www.aiqmz.com/"]
@@ -8747,7 +8747,6 @@ sina.cn##.j_article_cutpic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_banner_post
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*=",\""])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
@@ -10659,6 +10658,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||dpcm.cn/ad/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
