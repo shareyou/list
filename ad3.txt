@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BWvVOdCAWxd28ait45FLjA
+! Checksum: EkHeUqTtp3Azmm6tD0+MxQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201608172130
-! Last Modified: 2016年08月17日 21:30
+! Version: 201608172200
+! Last Modified: 2016年08月17日 22:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -12,6 +12,7 @@
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/template/html5/ads/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -2220,7 +2221,6 @@ mg*.6park.com/img/$image
 ||6vhao.com/d/f*.js
 ||70.86.24.120:8060/
 ||72.11.141.18/girls.gif
-||720rr.cc/template/html5/ads/
 ||72bbb.com/images/12.gif
 ||73p37.com/js/bottomall.js
 ||73p37.com/js/playad.html
@@ -2382,7 +2382,6 @@ mg*.6park.com/img/$image
 ||a4.yeshj.com^
 ||a4v5.top/Picture/aiai.gif
 ||a5.yeshj.com^
-||a6.hujiang.com^
 ||ab.ahlife.com^*.swf
 ||abc.hkepc.com^
 ||abcde.cn/2014images/*96060.jpg
@@ -5958,7 +5957,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||suv.cn/data/js/64.js
+||ckcdn.com/c/html5_ad/
+ac.qq.com###qgirlRefreshLead
 !------------------------Specific element hiding rules------------------------!
+ck101.com###top_banner
 gpcxw.com###AA2
 3k97.com###topblock
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="user_id\":1"]):not([data-field*="user_id\":2"]):not([data-field*="user_id\":3"]):not([data-field*="user_id\":4"]):not([data-field*="user_id\":5"]):not([data-field*="user_id\":6"]):not([data-field*="user_id\":7"]):not([data-field*="user_id\":8"]):not([data-field*="user_id\":9"])
@@ -10659,6 +10661,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@||dpcm.cn/ad/
+@@/adsimg/*$domain=wdxuexi.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
