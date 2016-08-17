@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J6n45wTyZDz7fieOMfOAaw
+! Checksum: +DWmc6FOdOqm+GaGiFCyKg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608172230
-! Last Modified: 2016年08月17日 22:30
+! Version: 201608180730
+! Last Modified: 2016年08月18日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -19610,7 +19610,6 @@ _mongo_stats/
 ||webworx24.co.uk/123trace.php
 ||webzel.com/counter/
 ||wetpaint.com^*/track?
-||whatismyip.akamai.com^
 ||whoson.creativemark.co.uk^$third-party
 ||whosread.com/counter/
 ||wibiya-actions.conduit-data.com^
@@ -24016,8 +24015,9 @@ _mongo_stats/
 @@||estafeta.com/shared/js/tracking.js
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||segundamano.mx^*/tealium.js
-@@||google-analytics.com/analytics.js$domain=tradera.com
-@@||googletagmanager.com/gtm.js?id=$domain=tradera.com
+@@||google-analytics.com/analytics.js$domain=tradera.com|xxl.se
+@@||google-analytics.com/plugins/ua/ec.js$domain=xxl.se
+@@||googletagmanager.com/gtm.js?id=$domain=tradera.com|xxl.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||reseguiden.se^*.siteCatalyst.js
 @@||lazada.co.th/js/tracking.js
