@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CIdDE3f/4pDu8NN/HcmSIQ
+! Checksum: olYjiCoFNYnJ+Qnwiiis9g
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608182000
-! Last Modified: 2016年08月18日 20:00
+! Version: 201608182030
+! Last Modified: 2016年08月18日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -407,6 +407,7 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/dygg_
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -1816,6 +1817,7 @@ ubmcmm.baidustatic.com
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
+|http:$popup,third-party,domain=wwp5.com
 |http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|bfooru.info|bforu.info|downhhh.com|downvrs.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|qqxbt.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||133gp.com^$popup
@@ -1833,7 +1835,6 @@ ubmcmm.baidustatic.com
 ||bjinxiu.cc^$popup,third-party
 ||c.admaster.com.cn^$popup
 ||dhqp68.com^$popup,third-party
-||fx8.lol^$popup,third-party
 ||gamer.com.tw/adcounter.$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
@@ -1862,7 +1863,6 @@ ubmcmm.baidustatic.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
-||xjxx.pw^$popup,third-party
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -3581,7 +3581,6 @@ mg*.6park.com/img/$image
 ||downza.cn/html/skin/default/ad/
 ||downza.cn/skin/v2015/images/soft/youdao
 ||doyo.cn/Tpl/web/Public/images/material/www_couplets/
-||doyo.cn/Tpl/web/Public/js/temp_gg/
 ||dpfile.com/pc/trip/*(600x400)
 ||dpp2019.com/js/swf/
 ||dqdm.com/js/dqdm/nei960
@@ -4769,7 +4768,7 @@ mg*.6park.com/img/$image
 ||meinv.com/templates/meinv/js/*_banner.js
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
-||meiyouad.com/user/union?
+||meiyouad.com/user/
 ||meizhou.com/images/topbanner
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfxp.com/images/
@@ -6365,6 +6364,7 @@ mg*.6park.com/img/$image
 ||patmm.com/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+csai.cn##.float-class2
 ifeng.com##.opcPop_tit_zz
 m.toutiao.com##.icon_ad + div + a
 se533.com##DIV[style="width:960px;margin:0 auto;text-align:center;"]
@@ -11064,6 +11064,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||meiyouad.com/ad.html
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
