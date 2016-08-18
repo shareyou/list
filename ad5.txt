@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JRIsXESfMH/f39txvU2iIA
+! Checksum: QD/BPN1KfiAmKHe2BzerFg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608181900
-! Last Modified: 2016年08月18日 19:00
+! Version: 201608182000
+! Last Modified: 2016年08月18日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6084,6 +6084,7 @@ mg*.6park.com/img/$image
 ||se533.com/template/new/css/*.js
 ||sinaimg.cn^$domain=se533.com
 ||wallstreetcn.com/v2/ads?
+||patmm.com/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 ifeng.com##.opcPop_tit_zz
@@ -23384,7 +23385,7 @@ _mongo_stats/
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
-@@||googletagmanager.com/gtm.js?$domain=bhaskar.com|computerworlduk.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|gamepix.com|google.com|jobs.net|keygames.com|newsy.com|optus.com.au|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|sixflags.com|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|usmagazine.com
+@@||googletagmanager.com/gtm.js?$domain=bhaskar.com|computerworlduk.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|gamepix.com|git-tower.com|google.com|jobs.net|keygames.com|newsy.com|optus.com.au|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|sixflags.com|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|usmagazine.com
 @@||googletagservices.com/tag/js/gpt.js$domain=speedtest.net
 @@||gorillanation.com/js/triggertag.js$domain=comingsoon.net|playstationlifestyle.net
 @@||grapeshot.co.uk/image-resize/$image
