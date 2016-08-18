@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4s885WI6W/r33q+a8qIv+A
+! Checksum: 6wHdZIbSotBnNIL8Vzhh2g
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608181300
-! Last Modified: 2016年08月18日 13:00
+! Version: 201608181600
+! Last Modified: 2016年08月18日 16:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -106,6 +106,7 @@ xhamster.com##.sponsorBottom
 ||cache1.value-domain.com/xrea_header.js
 ||cloudfront.net/atrk.js
 ||cloudusont.net/atrk.js
+||comgnnyx.com^
 ||cmsjs.eastmoney.com/js/news_*.js
 ||creative.xtendmedia.com^
 ||criteo.com^$third-party
@@ -145,6 +146,7 @@ xhamster.com##.sponsorBottom
 ||media.pussycash.com^$third-party
 ||member.jschina.com.cn/AD
 ||nytimes.com/bi/js/analytics/show_ads.js
+||okmuxdbq.com^
 ||onclickpredictiv.com^
 ||onclickads.net^
 ||openload.co/embed/
