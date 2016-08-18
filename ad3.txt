@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p5EeNJcX8NUK2Eyca3u03g
+! Checksum: rkzdfaL/2reD8CNswCL17A
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201608181230
-! Last Modified: 2016年08月18日 12:30
+! Version: 201608181300
+! Last Modified: 2016年08月18日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5967,6 +5967,7 @@ mg*.6park.com/img/$image
 ||wallstreetcn.com/v2/ads?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+m.toutiao.com##.icon_ad + div + a
 se533.com##DIV[style="width:960px;margin:0 auto;text-align:center;"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_p_postlist > [-abp-properties='width: 739px;']
 hc360.com,yaolan.com###AD
@@ -11766,10 +11767,11 @@ _300_250.
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||longzhu.com/i/api/videos/dailyRecommend?
 ||gz-chengkao.com/js/duo.js
-/toutiao/resource/tt_search/page/banner/banner_
-||pstatp.com/growth/webroot/resource/growth/mobile_detail/static/js/bannersdk/
+||pstatp.com^*/bannersdk/
 !------------------------Specific element hiding rules------------------------!
 ettoday.net##.etvideo_collect_1
+huaban.com##.ad
+tianya.cn###a_qiu
 ac.qq.com##.in-hd-mod
 longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
