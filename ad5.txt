@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U49vXUGShe/VBSCHzSD5XQ
+! Checksum: GoGk1AFHnjdxJeAnPSiySg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608192100
-! Last Modified: 2016年08月19日 21:00
+! Version: 201608192130
+! Last Modified: 2016年08月19日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -626,6 +626,7 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
+||bnuni.com^$third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -6085,9 +6086,13 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/b1601727gw1f6vh5mr4ksg208c06yaan.gif
 ||b.77vcd.com^
 ||s.yimg.com/*_160x800_$subdocument
+||qiyipic.com/common/*vivo
+.gif|$domain=janewsupdownspaces.info
 !------------------------Specific element hiding rules------------------------!
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
 gpcxw.com###AA2
+iqiyi.com##.kwltp-leftgg
+iqiyi.com##.kwltp-rightgg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
