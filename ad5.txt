@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kG9svUpQK6e2N3CaXUGskA
+! Checksum: C3xNE4XX4oCVNrtyM4Hx9A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608201500
-! Last Modified: 2016年08月20日 15:00
+! Version: 201608210730
+! Last Modified: 2016年08月21日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -18550,6 +18550,7 @@ _mongo_stats/
 ||dufue2m4sondk.cloudfront.net^
 ||dw.cbsi.com^
 ||dw.com.com^
+||dymlo6ffhj97l.cloudfront.net^
 ||dzxxxg6ij9u99.cloudfront.net^
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
@@ -18952,6 +18953,7 @@ _mongo_stats/
 ||mmpstats.mirror-image.com^
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
+||movementventures.com/_uid.gif
 ||mozilla.org/page/*/open.gif$third-party
 ||mp.pianomedia.eu^
 ||msecnd.net/jscripts/HA-$script
@@ -21805,6 +21807,7 @@ _mongo_stats/
 ||spotlight.accuweather.com^
 ||squidoo.com/track/
 ||srt.pch.com^
+||ssc.api.bbc.com^
 ||ssl-stats.wordpress.com^
 ||startpage.*/do/avt?$image
 ||startpage.*/elp?
@@ -23399,7 +23402,7 @@ _mongo_stats/
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
-@@||googletagmanager.com/gtm.js?$domain=bhaskar.com|broadcom.com|computerworlduk.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|gamepix.com|git-tower.com|google.com|jobs.net|keygames.com|newsy.com|optus.com.au|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|sixflags.com|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|usmagazine.com
+@@||googletagmanager.com/gtm.js?$domain=bhaskar.com|broadcom.com|computerworlduk.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|gamepix.com|git-tower.com|google.com|jobs.net|keygames.com|nestio.com|newsy.com|optus.com.au|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|sixflags.com|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|usmagazine.com
 @@||googletagservices.com/tag/js/gpt.js$domain=speedtest.net
 @@||gorillanation.com/js/triggertag.js$domain=comingsoon.net|playstationlifestyle.net
 @@||grapeshot.co.uk/image-resize/$image
