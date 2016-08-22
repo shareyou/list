@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sf8lSSGImcamCazoHKnYbw
+! Checksum: ic/k2SRJZ78bAGoxOSfKdw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608221200
-! Last Modified: 2016年08月22日 12:00
+! Version: 201608221230
+! Last Modified: 2016年08月22日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -624,6 +624,10 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 ||scriptcc.cc^
+||ptdrw.com^
+/getcode.jsp?uid=$script,third-party
+/g.jsp?uid=$script,third-party
+||sangxi.top^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -6104,7 +6108,10 @@ mg*.6park.com/img/$image
 ||imgbus.com^$domain=88files.net
 ||bahamut.com.tw/M/2KU/$domain=www.gamer.com.tw,~collapse
 ||bahamut.com.tw/B/2KU/$domain=www.gamer.com.tw,~collapse
+||acg.bz/5.
+||moe-acg.cc/images/*/310
 !------------------------Specific element hiding rules------------------------!
+acg.bz##.ad
 m.sohu.com##IMG.brand
 500.com##A[href="http://www.qqshidao.com/"]
 500.com##A[href^="http://www.qilin99.com/"]
