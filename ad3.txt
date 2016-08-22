@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rcjemyq8j0aS7xh1q2vEVQ
+! Checksum: gej/MB6mw4oa6TAS9Tyrhg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201608220900
-! Last Modified: 2016年08月22日 09:00
+! Version: 201608220930
+! Last Modified: 2016年08月22日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5979,7 +5979,10 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||itc.cn/s/wapChange/20168_2_11/a1nbve1294974230968.png
+||itc.cn/s/wapChange/20168_2_11/a3z0pl44100196391596.jpg
 !------------------------Specific element hiding rules------------------------!
+sohu.com##.brandAd
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8586,7 +8589,6 @@ www.eastmoney.com##.h160
 ting56.com##.h336
 hebei.com.cn##.h50px
 www.eastmoney.com##.h60
-m.sohu.com##.h6[href^="/n/500022345/"]
 mumayi.com##.h80
 jjwxc.net##.h8px + div[align="center"]
 www.eastmoney.com##.h90
