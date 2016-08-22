@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1z6WfBpSga2Zqfal/Ne2UA
+! Checksum: 4KbIx337nRBIJquQUh8oEw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608221130
-! Last Modified: 2016年08月22日 11:30
+! Version: 201608221200
+! Last Modified: 2016年08月22日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -898,6 +898,7 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
+||scriptcc.cc^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -6379,6 +6380,8 @@ mg*.6park.com/img/$image
 ||itc.cn/s/wapChange/20168_2_11/a1nbve1294974230968.png
 ||itc.cn/s/wapChange/20168_2_11/a3z0pl44100196391596.jpg
 ||imgbus.com^$domain=88files.net
+||bahamut.com.tw/M/2KU/$domain=www.gamer.com.tw,~collapse
+||bahamut.com.tw/B/2KU/$domain=www.gamer.com.tw,~collapse
 !------------------------Specific element hiding rules------------------------!
 m.sohu.com##IMG.brand
 500.com##A[href="http://www.qqshidao.com/"]
@@ -7529,7 +7532,6 @@ iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
 m.sohu.com###selected-game
-500.com###semFloatL
 nick18.com###sex
 265g.com###sfmt
 pan.baidu.com###share_ad_info_panl
@@ -11081,8 +11083,10 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
+gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||up2stream.com/vjs/lib/videojs-contrib-ads/videojs.ads.
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
