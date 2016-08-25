@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p2w5ItpsqreBLjC8pMPz9A
+! Checksum: MN2m03P2wTR40maNBR6tPw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608251030
-! Last Modified: 2016年08月25日 10:30
+! Version: 201608251045
+! Last Modified: 2016年08月25日 10:45
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -261,7 +261,7 @@ chaturbate.com##.banner
 ! Sohu
 ||tv.sohu.com/upload/Trace/$script
 ! QQVideo
-||imgcache.qq.com/*/MediaPlugin.swf
+||imgcache.qq.com/*/MediaPlugin.swf$domain=~v.qq.com
 ! vipVideos_skipAd
 @@|http://hc.yinyuetai.com/partner/yyt/
 @@|http://v.aty.sohu.com/v$object-subrequest
@@ -11517,6 +11517,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||qq.com/bossweb/jifen/
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com/web201602/js/ad.js
+@@||qq.com^*?ADTAG=
 @@||qqread.com/swf/qqread_rollpic.swf
 @@||rakuya.com.tw^*/common_ad.
 @@||ref.so/templates/ref/short_show/adview_
