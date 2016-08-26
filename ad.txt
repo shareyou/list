@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vi7yvuX2Dll0Q84PzX6g/w
+! Checksum: ODt4IEI4sSVxQuZa0npFJQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608261930
-! Last Modified: 2016年08月26日 19:30
+! Version: 201608262000
+! Last Modified: 2016年08月26日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -5401,9 +5401,6 @@ mg*.6park.com/img/$image
 ||shangdu.com/newfile2007/ad/tu/flash/3dboard.swf
 ||shangdu.com/tpnews/dazhe.gif
 ||shangqun.com/webforms/embed/
-||shanhe.cc/index.php?m=poster&
-||shanhe.cc/Scripts/ads_dl.js
-||shanhe.cc/Scripts/main-pf.js
 ||shaoxing.com.cn/6201.files/*.swf
 ||shaoxing.com.cn^*gg.
 ||share.dmhy.*/*?$image
@@ -6407,6 +6404,7 @@ mg*.6park.com/img/$image
 ||ctfile.com/iz.php?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+shanhe.cc##.ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10466,7 +10464,6 @@ xinhuanet.com##div[class^="ad_gd"]
 zhongsou.com##div[class^="ad_sp"]
 fang.com##div[class^="add2"]
 weather.com.cn##div[class^="adpos"]
-shanhe.cc##div[class^="ads"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
 8684.cn,autohome.com.cn,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
