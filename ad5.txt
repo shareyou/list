@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Fuya9o+MYjzVSCgy5htiaA
+! Checksum: ed74+7Ll92btGqRMvlXPGw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608280930
-! Last Modified: 2016年08月28日 09:30
+! Version: 201608281030
+! Last Modified: 2016年08月28日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6131,8 +6131,12 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||fqlook.cn/d/file/201*.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fqlook.cn###leftfloatad1
+fqlook.cn##DIV[class^="main_tonglan"]
+fqlook.cn##DIV[class^="main_tonglan"] + .main_center_z
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9083,8 +9087,6 @@ tvmost.com.hk##.main_ad_b
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 hongfen.org##.main_adser
-fqlook.cn##.main_tonglan
-fqlook.cn##.main_tonglan + .main_center_z
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 tianjinwe.com##.mainadv
@@ -16722,7 +16724,6 @@ _mongo_stats/
 ||rapidstats.net^$third-party
 ||rapidtrk.net^$third-party
 ||rating.in^$third-party
-||ravenjs.com^$third-party
 ||reachforce.com^$third-party
 ||reachsocket.com^$third-party
 ||reactful.com^$third-party
@@ -21364,6 +21365,7 @@ _mongo_stats/
 ||mayoclinic.org/js/gconversion.js
 ||mayoclinic.org/js/tracker.js
 ||mdmpix.com/js/connector.php?
+||mealime.com/assets/mealytics.js
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com^*/adblock.swf
 ||mediabistro.com/blogshare/js/trackingheader.js
