@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ethLmxGY1rdIQcvjJ78LOA
+! Checksum: d758s6c/FQyOo2gxJvbQUg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608301030
-! Last Modified: 2016年08月30日 10:30
+! Version: 201608301100
+! Last Modified: 2016年08月30日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5116,8 +5116,6 @@ mg*.6park.com/img/$image
 ||sexbarss.net/wap/
 ||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
-||sg169.com/uploadfile/*.gif
-||sg169.com/uploadfile/*.swf
 ||sgg.southcn.com^
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
@@ -6138,6 +6136,8 @@ mg*.6park.com/img/$image
 ||sxtv.com.cn/sx/img/201608081.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sg169.com###coupleft
+sg169.com###couprigth
 starbaby.cn##.bdad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7286,7 +7286,6 @@ nick18.com###sex
 265g.com###sfmt
 pan.baidu.com###share_ad_info_panl
 myqcloud.com###sharebtn > a
-sg169.com###shensuo
 hao123.com###shortcut-box > .tip
 hao123.com###shortcut-tuiguang
 chinaec.net###showEcAd
@@ -7354,7 +7353,6 @@ yxdown.com###sy
 tom365.com,tw116.com###t365
 e0575.cn###t_2 + .tac
 voicetube.com###tab-ad-site
-sg169.com###tab1
 sogou.com###tab857
 ezvivi.com###table1[width="336"]
 net767.com###table6
@@ -8476,7 +8474,7 @@ yxzoo.com##.downgg
 265g.com##.dr_top_text
 p2peye.com##.drag + .mod-side:nth-child(4)
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
-81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,sg169.com,sjzbus.com.cn,wendu.cn,xinhuanet.com##.duilian
+81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,sjzbus.com.cn,wendu.cn,xinhuanet.com##.duilian
 btup.net##.duilian_ad
 hnr.cn##.duilian_close
 0772fang.com##.duilian_l
