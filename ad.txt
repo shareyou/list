@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c+ZvZU59pjWobXXrnuQRMQ
+! Checksum: nmabPHZkLsz0R2LHgZ5o7Q
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201608301100
-! Last Modified: 2016年08月30日 11:00
+! Version: 201608301230
+! Last Modified: 2016年08月30日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -11082,7 +11082,7 @@ china.com#@#.adclass
 hc360.com,qqread.com#@#.adcont
 51cto.com#@#.addarea
 wed114.cn#@#.adpic
-bzfxw.com,ltn.com.tw#@#.adright
+ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 ipad.tgbus.com#@#.ads01
 zhaopin.com#@#.adsBox
@@ -11141,6 +11141,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=wgun.net
 @@.jstv.com/c/gg/
+@@||bzfxw.com/d/js/acmsd/thea24.js
 @@.tudouui.com^*&adSourceId=
 @@/2kuai/images/ad
 @@/32666/images/ad
@@ -11355,7 +11356,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||briian.com/advert.
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
-@@||bzfxw.com/adfile/sbss.js
 @@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
@@ -11377,7 +11377,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
 @@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=bzfxw.com|caibaojian.com|epinv.com|fxpan.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=caibaojian.com|epinv.com|fxpan.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -11523,7 +11523,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
 @@||pos.baidu.com^*=u1902679&$domain=caibaojian.com
 @@||pos.baidu.com^*=u1970872&$domain=fxpan.com
-@@||pos.baidu.com^*=u2550281&$elemhide,subdocument,domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
@@ -11532,6 +11531,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pos.baidu.com^*?di=144778&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2354095&$domain=epinv.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com
+@@||pos.baidu.com^*?di=164580&$domain=epinv.com
 @@||poster.weather.com.cn/p_files/base/$image
 @@||ps123.net/MyFile/toptxt.js
 @@||pub.alimama.com/common/adzone/
@@ -11677,7 +11678,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/analytics.php?$domain=xcar.com.cn
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
-@@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|sina.com.cn
+@@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|sina.com.cn
 @@/urchin.js$domain=on.cc
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
