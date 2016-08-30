@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: REynRV5LpxeimbDeLRrVbw
+! Checksum: bvhySSsqbi5LBI1pou8s0A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608300830
-! Last Modified: 2016年08月30日 08:30
+! Version: 201608300930
+! Last Modified: 2016年08月30日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5286,8 +5286,6 @@ mg*.6park.com/img/$image
 ||ssnn.net^*-200-250.jpg
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
-||starbaby.cn/adconnector/
-||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
 ||static.073img.com^$script
 ||static.aizhan.com/jsa/
@@ -6137,8 +6135,10 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||starbaby.cc/201608/36/f526d86de292e4.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+starbaby.cn##.bdad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7420,7 +7420,6 @@ abcde.cn,bbs.houdao.com###top-banner
 gaxhw.com###top1
 ithome.com###top3 + div:not(#con)
 teepr.com###topAdBlock
-starbaby.cn###topCurtain
 2345.com###topHf
 elecfans.com###topJf
 baiyjk.com###topRollAdver
@@ -8224,7 +8223,6 @@ hehagame.com##.bg_ad
 265g.com##.bg_ban_bar
 40407.com##.bg_l
 40407.com##.bg_r
-starbaby.cn##.big_ada
 gdzjdaily.com.cn##.big_news + div
 sgcn.com##.bigaimg
 bbs.cs090.com,bbs.wm090.com,rkanr.com,weiqitv.com##.bill
@@ -8686,7 +8684,6 @@ xindm.cn##.gg_botom_gg
 xiaopi.com##.gg_box
 eastday.com##.gg_channel_r_b
 eeyy.com##.gg_top
-starbaby.cn##.gg_ttb
 hgitv.com##.ggall
 360che.com##.ggbanner
 2300sjz.com##.ggbanner-1
