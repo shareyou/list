@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nYBXaQsucQIvdTJFya0BFg
+! Checksum: KxtEFfN3eo2pKn84RxdL8g
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201608310830
-! Last Modified: 2016年08月31日 08:30
+! Version: 201608310900
+! Last Modified: 2016年08月31日 09:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -503,6 +503,8 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
+##.f-sign-cont[data-dysign-adid]
+##.his-sign-cont[data-dysign-adid]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -8598,7 +8600,7 @@ techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
 bitauto.com##.gotop_ad
 mzyfz.com##.gov_article_banner
-ontopsy.com,whlnjy.com##.gray-show
+owyb1688.com##.gray-show
 jiaodong.net##.grayB
 loldk.com##.grid-adv
 bioon.com##.grid_6
@@ -11856,8 +11858,10 @@ _300_250.
 ||kuwo.cn/static/swf/xctg.swf
 ||guancha.cn/js/index.js
 ||blog.sina.com.cn/lm/mini/
+||dfcfw.com/public/js/left.js
 !------------------------Specific element hiding rules------------------------!
 guancha.cn###ewm_app
+zcool.com.cn##.ad
 guancha.cn###goapp
 ettoday.net##.etvideo_collect_1
 thepaper.cn###head_ask_app_down
