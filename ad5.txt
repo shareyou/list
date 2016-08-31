@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z+P3EgNWfcZwin2j+uoe9w
+! Checksum: HvwYx2AsrlvsqdSBIrsYUQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201608311300
-! Last Modified: 2016年08月31日 13:00
+! Version: 201608312030
+! Last Modified: 2016年08月31日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -10857,8 +10857,10 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
+poba.hk,poba.com.tw#@#.adlist
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@/adverts/*$domain=onlychild.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
