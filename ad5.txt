@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: klOeGCE8Aq8V+tLZOQVCjg
+! Checksum: J3TqiWpNw/xg+neHCSOhZw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609031930
-! Last Modified: 2016年09月03日 19:30
+! Version: 201609032000
+! Last Modified: 2016年09月03日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -631,6 +631,7 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
+##.ggdistich
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -2272,7 +2273,6 @@ mg*.6park.com/img/$image
 ||5442.com/style/ads5442.js
 ||54new.com/da/
 ||55.la/anonymous/banner/$domain=lxty66.com
-||55188.com/file/news/201512/3116/5684ed76efc08444672.jpg
 ||55aaee.com/detail/
 ||56.com/js/promo/
 ||56ads.com/js/main.js
@@ -6872,7 +6872,6 @@ hdzc.net###ggGao_content
 zhiboba.cc###ggbd1
 3d66.com###ggbody
 wenku.baidu.com###ggbtm-ads
-55188.com,g138.com###ggdistich
 btmee.net###ggg_tool_text
 china.com.cn###gggg
 5184.com###ggshow1
@@ -7253,7 +7252,7 @@ image.baidu.com###relEcom
 youku.com###relationvideo_async > .items > .v-horiz:nth-child(-n+2)
 image.baidu.com###relecom54
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###replyBusinessImg
-ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
+ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
 sogou.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
