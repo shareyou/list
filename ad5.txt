@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HCmi/puwhHEwI55eEfMqJg
+! Checksum: dH1K0r6tTNWReyY2p9Kpaw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609051830
-! Last Modified: 2016年09月05日 18:30
+! Version: 201609051900
+! Last Modified: 2016年09月05日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6149,6 +6149,11 @@ mg*.6park.com/img/$image
 ||adbox.sina.com.cn^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+quanmin.tv##.p-room_ad
+quanmin.tv##.p-room_chatad
+quanmin.tv##.p-star_adWrap
+quanmin.tv##.w-newhot_slot-wrapper
+quanmin.tv##A[href*=".2144.cn/"]
 acgzone.me##A[href*=".taobao.com"]
 pos.baidu.com###hotwords_down
 muchong.com###pid1 > DIV > A[class]
@@ -8884,7 +8889,6 @@ news18a.com,tom.com##.ina_ad_class
 news18a.com##.ina_ad_left
 qqyy.com##.ind_ad
 boxcdn.cn,faxingw.cn##.indadv1
-quanmin.tv##.index-ad-list
 yikexun.cn##.index-ad-tl
 cndesign.com##.index-add
 sogou.com##.index-banner
@@ -9138,7 +9142,6 @@ rj.baidu.com##.mid-recommend
 360zhibo.com##.middiv > div[style="text-align:center;"]
 letv.com##.middle-advert
 uc123.com##.middle-links
-quanmin.tv##.middleBananer
 timedg.com##.middleCrossAdvertise
 jmbbs.com##.middle_guanggao
 fenghuo.in##.mimi
@@ -9321,7 +9324,6 @@ uhaoye.com##.picturead
 keywin.org##.pindaolist
 creaders.net##.pinglun > .btmlist-title
 baofeng.com##.play-ads
-quanmin.tv##.play-bottom-hot
 bttiantang.com##.play-list
 v.17173.com##.playAd
 17173.com##.playGame
@@ -9376,7 +9378,6 @@ douni.com##.rad_1
 mydigit.cn##.radio
 0597kk.com##.radioBox
 ananvod.com##.rbPicAll
-quanmin.tv##.rbananer
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.rbanner
 818today.com##.rbdyg
 yuqingcn.cn##.rboxad
