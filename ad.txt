@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P9Bqw+gr0a99ZVZGYbb95g
+! Checksum: x7im3vNXLKGCRpGwOq2Cdw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609051230
-! Last Modified: 2016年09月05日 12:30
+! Version: 201609051400
+! Last Modified: 2016年09月05日 14:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -12275,8 +12275,16 @@ _300_250.
 ||guancha.cn/js/index.js
 ||blog.sina.com.cn/lm/mini/
 ||dfcfw.com/public/js/left.js
+||wbiao.cn/common/adapi/
+||wbiao.cn/common/newsbannerAds/
+||sinaimg.cn/finance/wanghong_
 !------------------------Specific element hiding rules------------------------!
 guancha.cn###ewm_app
+focus.cn##.qhb-fixed
+1010jiajiao.com##.fixed-bar
+1010jiajiao.com##.fixedbox2
+wbiao.cn##.wb-panel
+so.com###bqPromote
 zcool.com.cn##.ad
 guancha.cn###goapp
 ettoday.net##.etvideo_collect_1
@@ -12310,8 +12318,8 @@ ifeng.com##.yc_con_r
 chinaacc.com##.banner
 qq.com##.qGirl-wrap
 pchome.net###rightbar
-douyu.com,douyutv.com,wasu.cn###js-live-room-recommend
-douyu.com,douyutv.com,wasu.cn##.chat > .no-login
+douyu.com,douyutv.com###js-live-room-recommend
+douyu.com,douyutv.com##.chat > .no-login
 xcar.com.cn###eMeng
 ucptt.com##.hidden-sm
 ifeng.com###wx
@@ -12518,6 +12526,7 @@ fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; 
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||web.51.la^$third-party
 ||baidu.com/smalllog/
 ||ad-survey.com^$third-party
 ||ysont.cn^
@@ -12620,7 +12629,6 @@ fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; 
 ||qunar.com/render/googlesem.jsp
 ||record.kuai.xunlei.com^
 ||runsky.com/phpstat/
-||s.360.cn^
 ||s.so.360.cn^
 ||sogou.com/js/pb_*.js
 ||sohu.com/mail/pv/
