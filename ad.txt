@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3aY83TkblSdXZoXOZ4p6uA
+! Checksum: RdSG87wTxXRFCpW3MFiVMw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609062100
-! Last Modified: 2016年09月06日 21:00
+! Version: 201609062200
+! Last Modified: 2016年09月06日 22:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -3197,9 +3197,6 @@ mg*.6park.com/img/$image
 ||bs.baidu.com/app-ads%
 ||bs028.com/js/inc/
 ||btago.com/static/banner/
-||btbbt.cc/bt.js
-||btbbt.cc/jslb.js
-||btbbt.cc/jstb.js
 ||btbt.info/js/top960.js
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
@@ -6423,6 +6420,9 @@ mg*.6park.com/img/$image
 ||av30.xyz/cs/
 ||myhack58.com/Articleacb0
 ||scibook.cn/tuiguang.
+||btbtt.la/bt.js
+||btbtt.la/jslb.js
+||btbtt.la/jstb.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jeasyui.net###carousel-example-generic
@@ -9148,7 +9148,6 @@ playallvideos.com,pron.co,ratedxbiz.com##.ima
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
-btbbt.cc##.img > li > a[href^="http"]:not([href*=".btbbt."])
 junshi.xilu.com##.imgTwo > li > a[href^="http"]:not([href*=".xilu."])
 10jqka.com.cn##.imgWrap
 v17go.com##.imgcon2
@@ -10319,7 +10318,6 @@ cnfol.com##a[href="http://www.168licai.cn/"]
 xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
-btbbt.cc##a[href="http://www.btbbt.cc/thread-index-fid-1192-tid-4302262.htm"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 anquan.org##a[href="http://www.jiasule.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
