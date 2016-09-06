@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v3CbTacFjSgrQJVsCzNR2g
+! Checksum: ptJEg2934ilcVctyIyK7cg
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201609051830
-! Last Modified: 2016年09月05日 18:30
+! Version: 201609060900
+! Last Modified: 2016年09月06日 09:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -191,7 +191,6 @@ tieba.baidu.com##.xiang-guan-tie
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-pos.baidu.com###hotwords_down
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
 baidu.com###adCard
 baidu.com###adMainTopLeft
@@ -246,6 +245,7 @@ baidu.com###gamePromo
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_rank
 wenku.baidu.com###ggbtm-ads
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
+pos.baidu.com###hotwords_down
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
 baidu.com###index_banner_top
@@ -503,7 +503,6 @@ comefromchina.com,zhidao.baidu.com#@#.ad-block
 v.baidu.com#@#.has-ad
 @@|http://tieba.baidu.com/|$genericblock
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||pos.baidu.com^*=u2550281&$domain=bzfxw.com
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
 @@||cb.baidu.com^$object-subrequest,domain=v.baidu.com
 @@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pic.tiexue.net|xdf.cn
@@ -511,6 +510,7 @@ v.baidu.com#@#.has-ad
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||pos.baidu.com^*=u1970872&$domain=fxpan.com
+@@||pos.baidu.com^*=u2550281&$domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
