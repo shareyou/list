@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: SQlcIVxSc7yTtxhFTu9yJQ
+! Checksum: CZXi6BgQz1L1i3q6IVnEJA
 ! Title: [proxy]Filters
 ! Expires: 12 hours
-! Version: 201607311015
-! Last Modified: 2016年07月31日 10:15
+! Version: 201609071715
+! Last Modified: 2016年09月07日 17:15
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则为自用简洁版，欢迎补充规则
@@ -296,7 +296,6 @@
 ||nibblebit.com
 ||nimplus.com
 ||now.com^
-||npmcdn.com
 ||nuderdudeblog.com
 ||nydailynews.com
 ||nytimes.com
@@ -415,6 +414,7 @@
 ||twitter.com
 ||twittercounter.com
 ||ultraxs.com
+||unpkg.com
 ||uploadhouse.com
 ||urchin.com
 ||userscontent.net
