@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 41uvdD0bEoINE9IAb5lnfQ
+! Checksum: mE8i2V0qmLRyt9L/o1uJTg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609082300
-! Last Modified: 2016年09月08日 23:00
+! Version: 201609082330
+! Last Modified: 2016年09月08日 23:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -7423,8 +7423,8 @@ image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
 ifeng.com###optimusPrimeContentId
 jiyingdm.com###otherWindowBox
-zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu.tv/resource/"])
-zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu.tv/resource/"]) + h2
+zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu.tv/eresource/"])
+zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu.tv/eresource/"]) + h2
 lalulalu.com###overture-side-bar-ads
 3boys2girls.com###overture_ads_long
 lalulalu.com###overture_main_banner
