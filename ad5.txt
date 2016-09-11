@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6frUuAOj1IsunldMj1Z16w
+! Checksum: TMKggqrH6G0Pw6m+9DhfnA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609111900
-! Last Modified: 2016年09月11日 19:00
+! Version: 201609111930
+! Last Modified: 2016年09月11日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3113,7 +3113,7 @@ mg*.6park.com/img/$image
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
-||citysbs.com/no/*/800x90-
+||citysbs.com^*/800x90-
 ||citysbs.com/no/*/980x
 ||citysbs.com^*swf
 ||cj.qidian.com/Picture/$domain=forum.qidian.com|sosu.qidian.com
@@ -6150,6 +6150,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+19lou.com##.zx-link
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7656,7 +7657,6 @@ dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
 dianping.com##.J_mkt-group-2
 dianping.com##.J_mkt-group-3
-19lou.com,ihome99.com##.J_pm
 dbw.cn##.Jutop
 3d66.com##.King_Chance_LayerCont
 edu.qq.com##.L
