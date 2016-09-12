@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P6FwBT0xjQJTN2/IOjQPaQ
+! Checksum: jIA4cft6WmH0kAGDRh2TkA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609122030
-! Last Modified: 2016年09月12日 20:30
+! Version: 201609122100
+! Last Modified: 2016年09月12日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -1592,6 +1592,7 @@ ubmcmm.baidustatic.com
 ||ztdsp.com^$third-party
 ||zytwq.net^$third-party
 ||zzrcz.com^
+||yiwuds.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
@@ -1806,8 +1807,8 @@ _yad_jsonp_
 mg*.6park.com/img/$image
 |http:$domain=e.70e.com|e701.net
 |http:$script,domain=189so.cn
-|http:$script,third-party,domain=btkitty.red|diggbt.me|quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=23wx.com|dhzw.com|kewaishu.net|shenmabook.com|vodtw.com
+|http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|btkitty.bid|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
 |http:$subdocument,domain=glcdynpcws.net|howbbs.com|jtwybgxiumsx.net|pc6.com|tytl.tk
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
@@ -18717,6 +18718,7 @@ _mongo_stats/
 ||dw.cbsi.com^
 ||dw.com.com^
 ||dymlo6ffhj97l.cloudfront.net^
+||dzmxze7hxwn6b.cloudfront.net^
 ||dzxxxg6ij9u99.cloudfront.net^
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
