@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 708Zz8PSij7A+rxqFlBZSQ
+! Checksum: 9qZtYT/sKJm6hWJbTcJ9lw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609151930
-! Last Modified: 2016年09月15日 19:30
+! Version: 201609152000
+! Last Modified: 2016年09月15日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -132,6 +132,7 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/8drama_yahoo/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -6168,6 +6169,7 @@ mg*.6park.com/img/$image
 ||moe-acg.cc/images/*/730
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+mmrelax.com###yytf
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -12708,6 +12710,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .PixelNedstatStatistic/
 .pt/n.gif?
 .pt/t.gif?
+.ru/0.gif?
 .sg/t.gif?
 .sharecounter.$third-party
 .sitecatalyst.js
@@ -20344,6 +20347,7 @@ _mongo_stats/
 ||gnezdo.ru/cgi-bin/$third-party
 ||hubrus.com^$third-party
 ||ifolder.ru/stat/?
+||imgsmail.ru/gstat?
 ||infopolit.com/counter/
 ||inforotor.net/rotor/
 ||izhevskinfo.ru/count/
