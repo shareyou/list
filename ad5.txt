@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pzPC30Co8+uEOJ6qvqfUtw
+! Checksum: YAKFz97SCXSqKi3vuosOwA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609152130
-! Last Modified: 2016年09月15日 21:30
+! Version: 201609160730
+! Last Modified: 2016年09月16日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15738,6 +15738,7 @@ _mongo_stats/
 ||botsvisit.com^$third-party
 ||bounceexchange.com^$third-party
 ||bouncex.com^$third-party
+||brat-online.ro^$third-party
 ||brcdn.com^$third-party
 ||bridgevine.com^$third-party
 ||brightedge.com^$third-party
@@ -16387,6 +16388,7 @@ _mongo_stats/
 ||istrack.com^$third-party
 ||itrackerpro.com^$third-party
 ||ivcbrasil.org.br^$third-party
+||ivwbox.de^$third-party
 ||iwebtrack.com^$third-party
 ||iwstats.com^$third-party
 ||ixiaa.com^$third-party
@@ -17209,6 +17211,7 @@ _mongo_stats/
 ||trafficjoint.com^$third-party
 ||trafficregenerator.com^$third-party
 ||traffikcntr.com^$third-party
+||trafic.ro^$third-party
 ||trafinfo.info^$third-party
 ||trail-web.com^$third-party
 ||trailheadapp.com^$third-party
@@ -17582,7 +17585,6 @@ _mongo_stats/
 ||ipcount.net^$third-party
 ||ipcounter.net^$third-party
 ||iptrack.biz^$third-party
-||ivwbox.de^$third-party
 ||iyi.net^$third-party
 ||keytrack.de^$third-party
 ||klamm-counter.de^$third-party
@@ -18004,13 +18006,11 @@ _mongo_stats/
 ||sambaads.com^$third-party
 ||tailtarget.com^$third-party
 ||best-top.ro^$third-party
-||brat-online.ro^$third-party
 ||gtop.ro^$third-party
 ||hit100.ro^$third-party
 ||profitshare.ro^$third-party
 ||statistics.ro^$third-party
 ||top-ro.ro^$third-party
-||trafic.ro^$third-party
 ||trafix.ro^$third-party
 ||zontera.com^$third-party
 ||24log.ru^$third-party
@@ -18905,6 +18905,7 @@ _mongo_stats/
 ||green-griffin-860.appspot.com^
 ||gridsumdissector.com/gs.gif?
 ||grymco.com^*/event?
+||gsn.chameleon.ad^$~script
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/gen_204?
 ||gu-pix.appspot.com^$third-party
@@ -21258,6 +21259,7 @@ _mongo_stats/
 ||hostels.com/includes/thing.php?
 ||hotelplanner.com/TT.cfm
 ||hothardware.com/stats/
+||hotnews.ro/pageCount.htm?
 ||houzz.com/js/log?
 ||hoverstock.com/boomerang?
 ||howcast.com/images/h.gif
