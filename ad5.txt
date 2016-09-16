@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JzxwDuXei/FENh2tQOYHgg
+! Checksum: qeQWCYYo+C0G9F4wzn1smQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609161200
-! Last Modified: 2016年09月16日 12:00
+! Version: 201609161300
+! Last Modified: 2016年09月16日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -132,6 +132,7 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+:8081/abc/interurl.jsp?
 /stoneip_Sidebar.png
 .cc/js/ads/
 .cn/ads/
@@ -2075,7 +2076,6 @@ mg*.6park.com/img/$image
 ||2008xxx.com:888
 ||201*.myhard.com^
 ||20150930.cf^
-||202.102.41.15:8081/abc/interurl.jsp?
 ||204.12.228.235^*.png
 ||204.12.228.236^*.png
 ||211600.com/data/attachment/portal/
@@ -6171,7 +6171,9 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||stoneip.info/wp-content/uploads/*/SIM-
 ||bahudy.com/Runtime/js/fumeiti.js
+||masturbation22.com/d/
 !------------------------Specific element hiding rules------------------------!
+masturbation22.com##.ima
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9193,7 +9195,8 @@ iqiyi.com##.mod_focus-index_list > li:last-child
 firefoxchina.cn##.module-banner
 sogou.com##.module-fourpic-box
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
-www.autohome.com.cn##.monkey_box
+autohome.com.cn##.monkey_box
+autohome.com.cn##.monkey_box_big
 tiexue.net##.moveBox
 wasu.cn##.movie_ad
 jmw.com.cn##.mr_1
