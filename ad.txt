@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ckc6gG4jodLYl2T0QYzAbw
+! Checksum: cO86bP6GMppjyzPXegv+pw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609161930
-! Last Modified: 2016年09月16日 19:30
+! Version: 201609162030
+! Last Modified: 2016年09月16日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -408,6 +408,10 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/1867fa6ff2e978a303d41b08e2b30b50.gif
+/120704004750.gif
+/120704004751.gif
+/122300031760.gif
 :8081/abc/interurl.jsp?
 /stoneip_Sidebar.png
 .cc/js/ads/
@@ -1883,6 +1887,7 @@ ubmcmm.baidustatic.com
 ||zytwq.net^$third-party
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
+/freeone/1024.html$popup
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
@@ -1949,7 +1954,7 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .gdmm.com/mp4/bgy.mp4
-.gif|$domain=51dll.com|janewsupdownspaces.com|janewsupdownspaces.info|jjyyfsdowns.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
+||51dll.com/dll/img/1.gif
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 .pcrookie.com/ad/
