@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SEF4OrO09GB5nYJ9niT4rg
+! Checksum: 83mPFNXVpeP5gEn8prbSxg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609172000
-! Last Modified: 2016年09月17日 20:00
+! Version: 201609180730
+! Last Modified: 2016年09月18日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14284,6 +14284,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /PBSTrackingPlugIn.
 /pcookie_get_key
 /pcount.asp
+/Peermap/Log/*
 /performance.fcgi?
 /permalink-tracker.html?
 /pgtracking.
@@ -17300,6 +17301,7 @@ _mongo_stats/
 ||velaro.com^$third-party
 ||vendri.io^$third-party
 ||ventivmedia.com^$third-party
+||vepxl1.net^$third-party
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||verticalscope.com^$third-party
@@ -19266,6 +19268,7 @@ _mongo_stats/
 ||pcmag.com/tview/$image
 ||pcrl.co/js/jstracker.min.js
 ||pebed.dm.gg^
+||peermapcontent.affino.com^
 ||perr.h-cdn.com^$third-party
 ||petitionermaster.appspot.com^
 ||pf.aclst.com^$third-party
@@ -19345,6 +19348,7 @@ _mongo_stats/
 ||purevideo.com^*/pvshim.gif?
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
+||px.247inc.net^
 ||px.dynamicyield.com^$third-party
 ||px.excitedigitalmedia.com^
 ||px.marchex.io^
@@ -24204,10 +24208,10 @@ _mongo_stats/
 @@||bolha.com/js/gemius_.js?
 @@||csfd.cz/log?
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|sportrevue.cz|zive.cz
-@@||common.tv2.dk/mpx/adobeanalytics/$script
 @@||cxense.com/cx.js$domain=common.tv2.dk
 @@||dbastatic.dk/Content/scripts/analytics.js$script
 @@||msecnd.net^*/site-tracker.js$domain=momondo.dk
+@@||tv2.dk/js/adobeanalytics/AppMeasurement.js$script
 @@||bundol.nl/skin/*/js/prototype/prototype.js,*/GoogleAnalyticsPlus/
 @@||globecharge.com/images/ping.gif?
 @@||google-analytics.com/analytics.js$domain=vd.nl
