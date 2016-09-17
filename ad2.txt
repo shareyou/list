@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201609170730
-! Last Modified: 2016年09月17日 07:30
+! Version: 201609170830
+! Last Modified: 2016年09月17日 08:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
@@ -644,6 +644,8 @@ baofeng.com##[class|=ad],div.play-top-ad
 |http://v.aty.sohu.com/v
 tv.sohu.com###playerBar > div.area ~a
 |http://www.1905.com/coll/ad$subdocument
+!||afp.m1905.com/mediafiles/creative/$object-subrequest
+||afpssp.alimama.com/crossdomain.xml$domain=1905.com
 ||click.hunantv.com/
 |http://sdk.yunfan.com/crossdomain.xml
 ||res.hunantv.com/
