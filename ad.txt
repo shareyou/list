@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: echboAtb0UYEFNvd2wgkHQ
+! Checksum: kmM14dTKV0h53ES5zfKMJw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609190900
-! Last Modified: 2016年09月19日 09:00
+! Version: 201609191030
+! Last Modified: 2016年09月19日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -408,6 +408,7 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/api/autosda.php
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -621,7 +622,6 @@ tieba.baidu.com##.xiang-guan-tie
 /ttmeiju/images/ts.gif
 /tuiguang/*
 /u/_sponsor/*
-/uedbet/pause.
 /View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
@@ -5732,7 +5732,6 @@ mg*.6park.com/img/$image
 ||tianshui.com.cn/sd.swf
 ||tianshui.com.cn/yb.html
 ||tiansin.com/wp-adsense/
-||tiantian.tv/api/autosda.php
 ||tiantian.tv/js/banner.js
 ||tiantian.tv/sda/$image
 ||tiantiandy.com/ad-js/
@@ -6461,8 +6460,10 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||04stream.tv/sda/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tiantian.tv##.apprecomm
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10888,7 +10889,6 @@ v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
 danhuaer.com##div[style^="width: 336px;height: 280px;"]
 guofs.com##div[style^="width: 882px;"]
-t6t8.com##div[style^="width: 965px;height:90px;"]
 imanhua.com##div[style^="width: 978px;"]
 my0538.com##div[style^="width:1000px;"][style*="50px;"]
 house365.com##div[style^="width:1200px;height:"]
