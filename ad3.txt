@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7ZQDEJ8BRzZgoSDC77JHhQ
+! Checksum: E1ZWyIzBEtU5dOA7pTqyhA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201609191430
-! Last Modified: 2016年09月19日 14:30
+! Version: 201609191630
+! Last Modified: 2016年09月19日 16:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6063,6 +6063,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||04stream.tv/sda/
 ||tingroom.com/js/sp.js
+||sinaimg.cn/large/ed5e6a1djw1f7nh14ua7ag20i802g1kx.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 tumutanzi.com###text-2
@@ -11954,6 +11955,8 @@ _300_250.
 ||sinaimg.cn/finance/wanghong_
 !------------------------Specific element hiding rules------------------------!
 mumu.163.com##.pic-con
+pc841.com##.today-hot-layer
+zhcw.com##.khdpc
 163.com###floatLayer
 guancha.cn###ewm_app
 focus.cn##.qhb-fixed
@@ -12202,6 +12205,7 @@ fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; 
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||s.btime.com^
 ||web.51.la^$third-party
 ||baidu.com/smalllog/
 ||ad-survey.com^$third-party
