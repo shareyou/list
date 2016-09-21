@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y8K4PXhq0QAFQ6vi6ux59g
+! Checksum: wuh5ZWRzw2JyPqs+84LcWQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609212100
-! Last Modified: 2016年09月21日 21:00
+! Version: 201609212130
+! Last Modified: 2016年09月21日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -5623,7 +5623,6 @@ mg*.6park.com/img/$image
 ||srzc.com^*/zwfjs/
 ||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
-||sspai.com/attachment/origin/2016/09/09/346529.png
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
 ||starbaby.cc/201608/36/f526d86de292e4.jpg
@@ -8747,7 +8746,7 @@ u-car.com.tw##.contad
 766.com##.container > .fl
 gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
-sspai.com##.content > hr + p:nth-last-child(3)
+sspai.com##.content > HR:nth-last-child(-n+4) ~ P
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
