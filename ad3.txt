@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: av2JJVwL8fh+QJ0U4tuOMA
+! Checksum: 83T131OgFQjYgxOTZcsNJw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201609221130
-! Last Modified: 2016年09月22日 11:30
+! Version: 201609221300
+! Last Modified: 2016年09月22日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2846,7 +2846,6 @@ mg*.6park.com/img/$image
 ||bp.blogspot.com^$domain=avmimi.com
 ||brand.sogou.com/micro?yyid=
 ||bs.baidu.com/app-ads%
-||bs028.com/js/inc/
 ||btago.com/static/banner/
 ||btbt.info/js/top960.js
 ||btbtt.la/bt.js
@@ -5435,7 +5434,6 @@ mg*.6park.com/img/$image
 ||tuku.cc/extra/*.js
 ||tumb8r.com/zb_users/upload/20*.gif
 ||tv380.com/ovp/ovp_home/*/adi/
-||tv6080.com/520/index.htm
 ||tv6080.com/qqt/
 ||tvf4.com/1/mugua.js
 ||tvf4.com^$subdocument
@@ -6080,6 +6078,9 @@ mg*.6park.com/img/$image
 ||perlmaven.com/img/linode
 ||perlmaven.com/img/*0x2
 ||imgur.com/df53F09.jpg
+||9tcn.com/getgame/
+||peryi.net/js/imp/Finc.js
+||peryi.net/js/imp/SysCon.js
 !------------------------Specific element hiding rules------------------------!
 tianshit.com###comment-ad
 gpcxw.com###AA2
@@ -7611,7 +7612,6 @@ woshipm.com##.R-ad
 198zone.com##.Rad2
 qidian.com##.RightAD
 huoche.net##.SX2016
-bs028.com##.Sys_head
 tuku.cc##.TLAD
 dfdaily.com##.TOP_BANNER
 avmimi.com##.TW_UTtoy
