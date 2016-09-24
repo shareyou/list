@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +T6BZ7xIY58oLX0WbZ6ZOQ
+! Checksum: GTLOidrJL+Kbknu1Wo3lGw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609241100
-! Last Modified: 2016年09月24日 11:00
+! Version: 201609241200
+! Last Modified: 2016年09月24日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -6478,8 +6478,13 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||2345.com/dypcimg/ads/
+||2345.com/dypcimg/dianying/upload/5a9111d7a77cb498150b6b619724f48e.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+2345.com##.aPlayBtn[href^="http://g.wan."]
+2345.com##.adMainBg
+2345.com##.adMainBg_1440
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11247,6 +11252,8 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||afpeng.alimama.com^$domain=crecgec.com
+@@||alicdn.com/g/mm/afp-cdn/JS/k.js$domain=crecgec.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
