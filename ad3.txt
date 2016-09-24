@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B6agvRRcrkNikwq9N6hAxA
+! Checksum: 3ZpOgNeC6NABVd2lzkGjTA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201609231900
-! Last Modified: 2016年09月23日 19:00
+! Version: 201609241100
+! Last Modified: 2016年09月24日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -525,7 +525,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||hw6.com^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -1060,6 +1059,7 @@ ubmcmm.baidustatic.com
 ||hr44.com^
 ||hsmkj.net^$third-party
 ||humanding.com^
+||hw6.com^
 ||hwmwin.com^$third-party
 ||hxqu.com^$third-party
 ||hxyx360.com^
@@ -6083,9 +6083,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tech2ipo.com##.ad-article-text
-sijihuisuo.club##.textbox > .box-title + P[align="center"]
-baidu.com##.search-aside-adWrap
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7660,6 +7657,7 @@ eprice.com.tw##.ad-970x90-g
 ihome99.com##.ad-980x60
 19lou.com,ihome99.com##.ad-980x90
 weibo.com##.ad-adidas
+tech2ipo.com##.ad-article-text
 baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 html-js.com##.ad-blank
@@ -9427,6 +9425,7 @@ playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
 yeeyi.com##.sd[style="width:208px;text-align:left;float:right;overflow-x:hidden;"]
 pediy.com##.search
+baidu.com##.search-aside-adWrap
 hao.rising.cn##.search-right
 dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
@@ -9620,6 +9619,7 @@ baidu.com##.text-advertise
 baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
+sijihuisuo.club##.textbox > .box-title + p[align="center"]
 zhainanfulishe.net##.textwidget > a[href^="http"]:not([href^="http://www.zhainanfulishe."])
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
