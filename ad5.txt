@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TFNxNIWm0M4TYYp5LS4o7g
+! Checksum: s8em5htV21V98MEl9pH4bw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609252000
-! Last Modified: 2016年09月25日 20:00
+! Version: 201609252030
+! Last Modified: 2016年09月25日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6195,6 +6195,7 @@ mg*.6park.com/img/$image
 ||dayout.io/recbanner.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tiexue.net##A[href*=".yueleyu."]
 tiexue.net##.ad_xuanfu
 m.tiexue.net##.threeImg.titleUp
 07073.com##.subarea_ad
@@ -14318,6 +14319,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageviews-counter-
 /pageviews/*$domain=~tools.wmflabs.org
 /pageviews?token=
+/pageviews_counter.
 /PageviewsTracker.
 /pap.swf?
 /partner/transparent_pixel-$image
@@ -15653,6 +15655,7 @@ _mongo_stats/
 ||airpr.com^$third-party
 ||akanoo.com^$third-party
 ||akstat.com^$third-party
+||alcvid.com^$third-party
 ||alenty.com^$third-party
 ||alexacdn.com^$third-party
 ||alexametrics.com^$third-party
@@ -16612,6 +16615,7 @@ _mongo_stats/
 ||mlno6.com^$third-party
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
+||mmccint.com^$third-party
 ||mmetrix.mobi^$third-party
 ||mmi-agency.com^$third-party
 ||mobalyzer.net^$third-party
@@ -16708,6 +16712,7 @@ _mongo_stats/
 ||nstracking.com^$third-party
 ||nuconomy.com^$third-party
 ||nudatasecurity.com^$third-party
+||nudgespot.com^$third-party
 ||nuggad.net^$third-party
 ||numerino.cz^$third-party
 ||nyctrl32.com^$third-party
