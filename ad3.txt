@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l0oxGSUWiRWb51Lff+HmhA
+! Checksum: mTVjTtiX/OsQcFjDLUuW7w
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201609251900
-! Last Modified: 2016年09月25日 19:00
+! Version: 201609251930
+! Last Modified: 2016年09月25日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6074,6 +6074,7 @@ mg*.6park.com/img/$image
 ||tianmu.com/DA201
 ||adserve2.tom.com^
 ||igao7.com/api/default/LeiphoneArticleProduct
+||dayout.io/recbanner.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 tiexue.net##.ad_xuanfu
@@ -11977,6 +11978,7 @@ _300_250.
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
 ||sinaimg.cn/finance/wanghong_
+||hexun.com/inc/popbox.aspx
 !------------------------Specific element hiding rules------------------------!
 mumu.163.com##.pic-con
 pc841.com##.today-hot-layer
@@ -12223,6 +12225,8 @@ feng.com##div[class^="wep_e_"]
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
 !---------------------------------CSS Whitelist-------------------------------!
 !---------------------------------URL Whitelist-------------------------------!
+@@||fm.ipinyou.$domain=ipinyou.com.cn
+@@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
 /analytics.js$domain=qunar.com
 /cv/*&uuid=$object-subrequest
