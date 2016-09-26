@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MAXg7Fn1sroSJRtYzqX5+Q
+! Checksum: 3UdZHLJPFV5CxDHc4A1IVw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609261300
-! Last Modified: 2016年09月26日 13:00
+! Version: 201609261330
+! Last Modified: 2016年09月26日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -5706,7 +5706,6 @@ mg*.6park.com/img/$image
 ||sztaofang.com/out/Out_BBs.asp
 ||t.58xs.com/hot/
 ||taihainet.com/biz/
-||taihe.net/js/ad
 ||taizhou.com.cn/52.files/a*20
 ||taizhou.com.cn/52.files/c120151010.swf
 ||taizhou.com.cn^*/3890.files/xchad.jpg
@@ -5774,7 +5773,6 @@ mg*.6park.com/img/$image
 ||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
 ||tigtag.com/ttad/
-||timedg.com/hfhtml/baiduad.html?
 ||tingchina.com/js/*220-
 ||tingchina.com/js/760
 ||tingchina.com/js/990
@@ -8701,7 +8699,6 @@ tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
 tieba.baidu.com##.client_ad_topBanner_all
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + div:last-child
-timedg.com##.clsRightTopAd
 v.duba.com##.cmcm-stuct-x
 2345.com##.cmoe-nxh-dx
 bbs.xmfish.com##.cmp_v
