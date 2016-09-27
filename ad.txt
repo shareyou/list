@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: by31DklAJGbd0vQgxJ14qA
+! Checksum: kaMzB3drJNzb6qglCNwU+A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201609271930
-! Last Modified: 2016年09月27日 19:30
+! Version: 201609272030
+! Last Modified: 2016年09月27日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -5766,9 +5766,6 @@ mg*.6park.com/img/$image
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
-||tiexue.net/post2gg/
-||tiexue.net/test*.aspx
-||tiexue.net/tsetforiph/
 ||tigtag.com/images/pic1/
 ||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -6069,7 +6066,6 @@ mg*.6park.com/img/$image
 ||wyh.tv/image/upload/ad/
 ||wyzu.cn/js/3.js
 ||wzbh.org/imgad/
-||x.itiexue.net/html/$script
 ||x.jd.com/static/js/auto.js
 ||x.jd.com/static/js/cpc.js
 ||x4399.com/?ss=
@@ -6508,7 +6504,6 @@ avmimi.com###ArticlesEx_box
 2345.com###BAIDU_DSPUI_FLOWBAR
 zhicheng.com###BAIDU_SSP__wrapper_u2394962_1
 gamer.com.tw###BH-ad_banner
-tiexue.net###Baidu_AdTopBar
 cnfol.com###CjAdvBt
 pjtime.com###Couplet_l_big
 pjtime.com###Couplet_l_small
@@ -7803,7 +7798,6 @@ haoyangmao8.com###tuijian1
 sohu.com###turn-ad
 ali213.net###tv
 qidian.com###two_dimensional
-tiexue.net###txAdOne
 muyuge.net###txt_r
 makaidong.com###txtlink
 tianya.cn###ty_msg_mod
@@ -7933,9 +7927,6 @@ xinhuanet.com##.AdvColumn1
 js0573.com##.Adv_banner
 feixiangtv.com##.Advertisement
 big5.china.com.cn##.Advertising > a
-bbs.tiexue.net##.AreaL > div > div > img
-bbs.tiexue.net##.AreaL > div > div > img ~ p
-tiexue.net##.AreaR_ad
 ifeng.com##.Avt01
 ifeng.com##.Avt02
 qiqu888.com##.Axing_add_Page2
@@ -8689,7 +8680,6 @@ guidaye.com##.charu
 cb.com.cn##.chbox_r_ad
 china.com.cn##.chinaJZG
 firefoxchina.cn##.chip-banners
-tiexue.net##.cj-box
 ku6.com##.ckl_ios
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
@@ -9122,7 +9112,6 @@ ynet.com##.hc4 > .L2
 973.com##.hc_ad
 youth.cn##.hd_pic
 wn789.com##.hdadbox
-tiexue.net##.head + script + div[style="overflow:hidden; position:relative;"]
 19lou.com,55bbs.com##.head-ad
 fbook.net##.head-d
 jnnews.tv##.headAD
@@ -9312,8 +9301,6 @@ tiexue.net##.jiangWuTang + .mTop10
 973.com##.jk_ku
 m.autohome.com.cn##.jmp-promote
 ifeng.com##.jp_list
-tiexue.net##.jph-goods
-tiexue.net##.jpshow
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show
 haosou.com##.js-mh-ad-abtest
@@ -9760,7 +9747,6 @@ fuliba.net,fulibba.com,hexieba.com,uliba.net,yiwugou.com##.right-banner
 image.baidu.com##.right-banner-area
 thjunshi.com##.right-comul > li > a[href^="http"]:not([href*=".thjunshi."])
 muzhiwan.com##.right.w_246 > a
-tiexue.net##.right03
 news.ifeng.com##.right1
 baby-kingdom.com##.right5
 fxingw.com##.rightAD1
@@ -9862,7 +9848,6 @@ zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
 sucaijiayuan.com##.show_title
-tiexue.net##.showimg
 99770.cc,99comic.com,99manga.com##.sic
 99770.cc,99comic.com,99manga.com##.sid
 aohua.com.au##.sidBoxNoborder
@@ -10017,7 +10002,6 @@ hepuwang.com##.teshu_header
 qiwen8.com##.test
 startos.com##.test-240
 xiazaiba.com##.test-90
-tiexue.net##.test-goods
 baidu.com##.text-advertise
 baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
@@ -10328,7 +10312,6 @@ zdfans.com##A[href="http://t.cn/zOPcnAI"]
 qiuziti.com##A[href="http://www.55555tao.com/Actives/32.html"]
 tvhome.com##A[href^="http://www.tvhome.com/SiteAdvert?"]
 3g.cn##A[id^="randomAd_"]
-tiexue.net##A[onclick*="_BdAdClick"]
 bilibilijj.com##[class$="_Game"]
 tiexue.net##[class*="junph"]
 gamme.com.tw##[class^="sidead_"]
@@ -10358,7 +10341,6 @@ oupeng.com##a[href*=".adbxb."]
 techweb.com.cn##a[href*=".aliyun.com/"]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
-tiexue.net##a[href*=".cokolo."]
 dapenti.com##a[href*=".fang.com"]
 dapenti.com,dexiazai.com,iqiyi.com##a[href*=".jd.com"]
 tiexue.net##a[href*=".junph."]
@@ -10483,7 +10465,6 @@ chinadaily.com.cn##a[href^="http://www.huabian.com/"]
 bejson.com##a[href^="http://www.jisuapi.com"]
 bejson.com##a[href^="http://www.liepin.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
-tiexue.net##a[href^="http://www.mywoqu."]
 500.com##a[href^="http://www.qilin99.com/"]
 d5yuansu.com##a[href^="http://www.shenhuangyiyao.com/"]
 6park.com##a[href^="http://www.vava8.com"]
@@ -10565,7 +10546,6 @@ ifeng.com##div[class="adbox02"]
 ithome.com.tw##div[class="span4"]
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 bilibilijj.com##div[class][style$=" margin-top 1.5s cubic-bezier(0.2,0.2,0,1);height:100%;"]
-tiexue.net##div[class][style="display:none;"] + div[class]
 bilibilijj.com##div[class][style^="height:100%"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
@@ -10993,7 +10973,6 @@ muchong.com##p[onclick="view_ok();"]
 lolshipin.com##script + .box:nth-child(2)
 csj.xinhuanet.com##script + center > a > img
 wendu.cn##script + div[style="width:1000px; margin:0px auto;"]
-tiexue.net##script + style + div[class]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 bbs.my0511.com##span.smalltxt
 163.com##span[class^="gg"]
@@ -11002,11 +10981,7 @@ bbs.xmfish.com##span[id^="ads"]
 gamebase.com.tw##span[id^="aid_"]
 hkgolden.com##span[id^="lineImage"]
 hanzify.org##span[style^="float:right;"]
-tiexue.net##style + [style="display:none;"] + div[class]
-tiexue.net##style + div[class] > style ~ img
-tiexue.net##style + img + div[class] > .list
 tiexue.net##style + script + div + div[class]
-tiexue.net##style + script + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
@@ -11592,7 +11567,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||inte.sogou.com/ask?id=$domain=fmdisk.com
 @@||itc.cn/public_photo/advert/$domain=focus.cn
-@@||itiexue.net/js/tiexue/statistic/wwwindex/
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||jdzrencai.com/gposinfo/ad/img/
 @@||jinhongweiqi.com/ad/update/

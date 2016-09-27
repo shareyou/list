@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201609251600
-! Last Modified: 2016年09月25日 16:00
+! Version: 201609272030
+! Last Modified: 2016年09月27日 20:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
@@ -262,6 +262,7 @@ tieba.baidu.com###footer~*,#guide_fc,.firework_sender_wrap,#global_notice_wrap,.
 ||xcdf.cn^
 ||xe2c.com/
 ||weareqy.com/
+||werpig.com/$third-party
 ||xibei70.com/
 ||xmgktt.com/$popup
 ||xtgreat.com^$third-party
@@ -297,6 +298,7 @@ tieba.baidu.com###footer~*,#guide_fc,.firework_sender_wrap,#global_notice_wrap,.
 ||wan.$subdocument,script,object,object-subrequest
 ||iwan.$third-party
 !-------------------通用脚本广告--------------------
+*/51ads/
 *.cn/s.php?id=
 *.com/ga.js^
 -ads-$script
