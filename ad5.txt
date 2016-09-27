@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ylNceEjSpwm7Qq/EoHBIug
+! Checksum: uNgH1KWZNHbnNokoKG+NjQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609272330
-! Last Modified: 2016年09月27日 23:30
+! Version: 201609280730
+! Last Modified: 2016年09月28日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -646,7 +646,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||117.25.133.209^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -750,6 +749,7 @@ ubmcmm.baidustatic.com
 ||115.29.148.61^$third-party
 ||116.55.227.242^
 ||116b.com^$third-party
+||117.25.133.209^
 ||118114.cn^$third-party
 ||1188.com^$third-party
 ||122.227.254.195^
@@ -4010,6 +4010,7 @@ mg*.6park.com/img/$image
 ||ietv.cc/min/b=Runtime/Js&f=
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
+||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
 ||ifeng.com/a_if/taobao-
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
@@ -4290,6 +4291,7 @@ mg*.6park.com/img/$image
 ||jiangcao.com/pic/
 ||jianglishi.cn/statics/statics/js/code_
 ||jianhucheng.com/data/attachment/portal/
+||jianke.net/jk2016/0318/02/jquery.ppt.
 ||jianshen114.com/images/Advistings/
 ||jianxun.io/ad/
 ||jiaodong.net/a/js/
@@ -5622,6 +5624,7 @@ mg*.6park.com/img/$image
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v.huanqiu.com/tres/xml/vda.xml
 ||v1.cn/cms/*/js/ad_new.js
+||v4.cc/m/common.js
 ||v8gay.com/apps/misc.php?action=advert&
 ||van698.com/api.php?mod=js&bid=369
 ||vanpeople.com/ad$subdocument
@@ -6178,12 +6181,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||jianke.net/jk2016/0318/02/jquery.ppt.
-||v4.cc/m/common.js
-||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
 !------------------------Specific element hiding rules------------------------!
-baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
-3g.tianya.cn,m.tianya.cn##A[href^="http://dol.tianya.cn/"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6293,6 +6291,7 @@ csdn.net###Topic_Top
 qinzhou360.com###Txtadv-show
 07073.com###Vsss00
 cnzol.com,ysx8.net###Wl_Float_Div
+baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 duote.com###\32 345_ad
 morningpost.com.cn###\33 60hot
 zongheng.com###\36 roomRecommend
@@ -10126,6 +10125,7 @@ zhibo8.cc##a[href^="http://caipiao."]
 cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 51dll.com##a[href^="http://clk.uunt."] ~ a:not([href*="/yanzheng."])
 52che.com##a[href^="http://count.52che.com/goto.html?"]
+3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
@@ -10771,7 +10771,7 @@ muchong.com##td[style="padding:10px;font-size:14px;"] > div > [style="color:gree
 muchong.com##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
 muchong.com##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
 findprice.com.tw##td[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > table > tbody > tr:nth-last-child(n+3)
-hkgolden.com##td[style="width: 644px; vertical-align: top;"] > div[style^="height:29"]
+hkgolden.com###mtblock
 50.7.31.230,tvboxnow.com##td[style="width:15%;height:100%;"]
 vvvdj.com##td[valign="top"][bgcolor="#13161E"][align="center"]
 cctime.com##td[width$="5"] + td[width="775"]
