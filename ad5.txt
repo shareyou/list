@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wT/hGHZxXOW70qglHpAQEw
+! Checksum: g9qhPpXBc8YTDynwkduYqw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609281230
-! Last Modified: 2016年09月28日 12:30
+! Version: 201609281330
+! Last Modified: 2016年09月28日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3374,7 +3374,7 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
-||dnvod.eu/upload/youtube/
+||dnvod.eu/upload/video/
 ||dnvod.eu^*.gif$object-subrequest
 ||dnvod.eu^*.jpg$object-subrequest
 ||dnvod.eu^*/201$object-subrequest
@@ -6641,7 +6641,7 @@ wenyoutai.com###comiis_xwyt_ad04
 fuli.us,tianshit.com###comment-ad
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
-apk.tw###confirmOverlay
+apk.tw###confirmOverlay2
 gate.baidu.com,m.baidu.com###container
 ylnet.com.cn###container > div[style*="990px;"]
 jinhua.com.cn###container > div[style^="height:"]
