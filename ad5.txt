@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Jq7l/nr8jPtXQCBspNBVNQ
+! Checksum: Or7G8YTDLtSEyO7qYitkjw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201609281900
-! Last Modified: 2016年09月28日 19:00
+! Version: 201609281930
+! Last Modified: 2016年09月28日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6186,6 +6186,7 @@ mg*.6park.com/img/$image
 ||piimg.com^$domain=99re.com|99ww7.com
 ||516qq.cn/theme/dd/
 ||paigu.com/assets/js/paigu.js
+||51credit.com/js/app/end-layer.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 516qq.cn###full
@@ -10016,7 +10017,7 @@ meili.cn##.zw_300_ad
 iqiyi.com##.zzVideo
 v7v3.com##.zzsl
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
-www.bilibilijj.com##:not(br):not(canvas):not(e):not(f):not(html):not(body):not(div):not(img):not(input):not(a):not(span):not(iframe):not(ul):not(li)
+www.bilibilijj.com##:not(br):not(canvas):not(html):not(body):not(div):not(img):not(input):not(a):not(span):not(iframe):not(ul):not(li):not(.BGZZ)
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 zdfans.com##A[href="http://t.cn/zOPcnAI"]
