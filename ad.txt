@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qAsDdpqYHa604V4V4U0eKg
+! Checksum: uqMZrdwqxOPTN9l2xfxOrg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610020930
-! Last Modified: 2016年10月02日 09:30
+! Version: 201610021030
+! Last Modified: 2016年10月02日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -408,6 +408,7 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/20160420_uho_bn.gif
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -5065,7 +5066,6 @@ mg*.6park.com/img/$image
 ||nownews.com/public/combat300x600.gif
 ||ntpcb.com/html/channel/citypark/images/p83_temp_
 ||nuqk.com/qiwen
-||nutrimate.com.tw^$subdocument
 ||nvsheng.com/js/gg.js
 ||nyaa.se/ab-
 ||nyaa.se/ba
@@ -5263,7 +5263,6 @@ mg*.6park.com/img/$image
 ||putonghua520.com/skins/10ym/klq
 ||pzxw.cn/1212banner
 ||pzzc.net/data/attachment/ad2/
-||q-touch.com.tw^$subdocument
 ||q.cn/images/floater_
 ||q.cn/images/notepad.gif
 ||qbaobei.com/data/attachment/portal/201310/23/171807xmyi29gah8cypbh6.gif
@@ -5731,7 +5730,6 @@ mg*.6park.com/img/$image
 ||taoguba.com.cn/js/tgbduilian
 ||taohua.me/tool/taohuazu.js
 ||taohuazu.tw/tool/
-||tasteforlife.com.tw^$subdocument
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tc.cn/ad123/
 ||tc.cn/g/dl.ashx?
@@ -6466,7 +6464,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||sinaimg.cn/mw690/006pfRVrjw1f2mzpvp18jg305k05kgqg.gif
+||puudeng.com.tw^$subdocument
+||50megumi.com.tw^$subdocument
 !------------------------Specific element hiding rules------------------------!
+uho.com.tw##.adsense
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
