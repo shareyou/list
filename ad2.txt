@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201610011400
-! Last Modified: 2016年10月01日 14:00
+! Version: 201610032130
+! Last Modified: 2016年10月03日 21:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
@@ -54,7 +54,7 @@ wenku.baidu.com##div.mod.lastcell-dialog
 ||bdimg.share.baidu.com/static/js/logger.js
 ||img.baidu.com/hunter/alog/alog.min.js
 ||static.wenku.bdimg.com/static/wkview/widget/crmAd/
-www.baidu.com###content_left>div:not(.c-container)
+www.baidu.com###content_left>div:not(.c-container):not(.hit_top_new),#content_right > table > tbody > tr > td > :not(#con-ar)
 www.baidu.com##div.result.c-container:has(h3>a[data-landurl])
 zhidao.baidu.com##div#left-promotion,div#ui-tooltip-0,div.cms-slide.cms-slide-optimus,div.wgt-bottom-ask,div.cms-slide.cms-slide-lazy
 !--百度音乐---
@@ -572,13 +572,14 @@ oschina.net##div.google_ads,#QuestionWizard+div
 |http://static.oschina.net/*_banner_$image
 bbs.pcbeta.com###wp>style+div,#scbar+div,#pt+div>div[style$=";border:9px solid #EDEEF0;"]
 pcbeta.com###sitefocus,#weixinqr
-pconline.com.cn##div.jcztl
+pconline.com.cn##div.jcztl,#JrightSideFocus,div.box.best,div.ivy-330
 ||buy.pconline.com.cn/$script
 ||pcgames.com.cn/g/extlin/pcdownpic/$script
 |http://www.pconline.com.cn/_hux_*/index.js
 |http://www.pconline.com.cn/jrzcz/$script
 |http://www.pconline.com.cn/ssi/*/download/
-|http://ivy.pconline.com.cn/adpuba/show
+||ivy.pconline.com.cn/show$script
+||ivy.pconline.com.cn/adpuba/show
 ||pconline.com.cn/download/images/soft/dl_ad.jpg
 ||jwz.3conline.com/adpuba/
 |http://pacd.3conline.com/$script
@@ -591,7 +592,7 @@ pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
 qiushibaike.com##div.shopwindow
 |http://www.toutiao.com/api/web_ads/
 |http://toutiao.com/adsafe/$subdocument
-toutiao.com##li[ga_event=ad_item_click],div[ga_event^=click_banner]
+toutiao.com##li[ga_event=ad_item_click],div[ga_event^=click_banner],iframe[src^="http://toutiao.com/adsafe/"],#pagelet-detailadd
 ttmeiju.com###wrapper~div,ul.menu~*
 |http://pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 |http://www.sz1001.net/ab$script
