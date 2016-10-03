@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5l2Cvmu/ypvMH/38vRkoxw
+! Checksum: 8Qoge82jJk9otZ6Old66og
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610031000
-! Last Modified: 2016年10月03日 10:00
+! Version: 201610031030
+! Last Modified: 2016年10月03日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5053,7 +5053,6 @@ mg*.6park.com/img/$image
 ||s-msn.com/portal/xiatui.js
 ||s.tankr.net/n/
 ||s.tankr.net/s/$script
-||s.u17t.com/leaflet/upload/
 ||s.video.sina.com.cn/video/play?video_id=249750205&
 ||s.yimg.com/*_160x800_$subdocument
 ||s.yimg.com/gs/apex/
@@ -5487,7 +5486,7 @@ mg*.6park.com/img/$image
 ||upload.chinaz.com/20*.gif$domain=bbs.chinaz.com
 ||upload.jjxw.cn^*.swf
 ||uploadhouse.com^*.gif$domain=wishct.com
-||uploads.duapp.com/images/$domain=v7v6.com
+||uploads.duapp.com/images/$domain=52vip.net
 ||url.cn^$domain=shuajizhijia.com
 ||uschinapress.com/2014/0922/1411428929105.png
 ||uschinapress.com/2015/0115/1421375153170.gif
@@ -6068,6 +6067,8 @@ mg*.6park.com/img/$image
 ||gg.uuu9.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+upan.cc###ShowDIV
+uuu9.com##.yoyofc
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10292,7 +10293,6 @@ douyu.com,douyutv.com##div[id^="sign_p_"]
 4c.cn##div[id^="top_ad"]
 my0511.com##div[id^="topad"]
 u17.com##div[id^="u17-advert"]
-u17.com##div[id^="u17-couplet-"]
 lnd.com.cn##div[id^="wflash"]
 eyuyao.com##div[id^="x_ad_"]
 ebiotrade.com##div[id^=adA]
