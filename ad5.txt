@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DDSJE+b6w4IUGl24xm5JUg
+! Checksum: Cyj7EfxRsMZf01q8rxDCPA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610031030
-! Last Modified: 2016年10月03日 10:30
+! Version: 201610032100
+! Last Modified: 2016年10月03日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6183,6 +6183,7 @@ mg*.6park.com/img/$image
 ||uc.cn/s/uae/g/0s/ua.js
 ||upantool.com/bay/
 ||gg.uuu9.com^
+||btbtt.la/upload/400x75_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 upan.cc###ShowDIV
@@ -6298,7 +6299,7 @@ cnzol.com,ysx8.net###Wl_Float_Div
 baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2)
 baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .t > a[href^="http://www.baidu.com/baidu.php?"]
-baidu.com###\31 ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
+baidu.com###\32 ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 duote.com###\32 345_ad
 morningpost.com.cn###\33 60hot
 zongheng.com###\36 roomRecommend
