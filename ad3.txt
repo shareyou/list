@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ROJtFp0BeWOVaRvulvUqNw
+! Checksum: YGI4GVCOpP3dPDW/QZAOQw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610032100
-! Last Modified: 2016年10月03日 21:00
+! Version: 201610032300
+! Last Modified: 2016年10月03日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5527,7 +5527,7 @@ mg*.6park.com/img/$image
 ||vip.luanren.com/data/*.swf
 ||vipcn.com/hezuo/
 ||vipcn.com/images/cfdh*.gif
-||vipcn.com/images/jk500.gif
+||vipcn.com/hz/down_r.js
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
 ||vista.tgbus.com/s.js
@@ -5544,7 +5544,6 @@ mg*.6park.com/img/$image
 ||vvpan.com^*/zsz
 ||vvshu.com/images/cp_
 ||vvvdj.com/sms/
-||vzhuan.cn/html/*.php
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wal8.com/img48/544027_20160424182911/146446612161.gif
@@ -6066,8 +6065,12 @@ mg*.6park.com/img/$image
 ||upantool.com/bay/
 ||gg.uuu9.com^
 ||btbtt.la/upload/400x75_
+||vzhuan.cn/html/$subdocument
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+vipcn.com###z_baidu
+vzhuan.cn###box
+vzhuan.cn###jxy_cd
 upan.cc###ShowDIV
 uuu9.com##.yoyofc
 hc360.com,yaolan.com###AD
@@ -8182,7 +8185,6 @@ xianzhenyuan.cn##.bm.a_c
 ftchinese.com##.bn-ph
 oogps.com##.bnn
 oogps.com##.bnn1
-vipcn.com##.bnr
 yeeyi.com##.boardnav > #ct > .sd
 qq.com##.body-Top-Ad
 qdmm.com,qidian.com##.bodyRecWrap
@@ -8642,7 +8644,6 @@ dealmoon.com,dnvod.eu##.ggw
 dnvod.eu##.ggw-l
 rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
-vipcn.com##.ggzs_bottom
 douyu.com,douyutv.com##.giftbox
 zhumengwl.com##.git_banner
 zhumengwl.com##.git_rec
