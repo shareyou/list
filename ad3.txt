@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4KE/mqF0SWh4yPB4WwKMKQ
+! Checksum: 4U1bucK7gqUjwkP60gMa7Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610040900
-! Last Modified: 2016年10月04日 09:00
+! Version: 201610041030
+! Last Modified: 2016年10月04日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5520,7 +5520,6 @@ mg*.6park.com/img/$image
 ||vc52.cn/data/attachment/forum/201407/28/115351zb26p62jojh6oo49.gif
 ||vdisk.cn/img/*.gif
 ||veryhuo.com/plus/js/
-||veryim.net^*/1111
 ||verypsp.com:8081/sy.jpg
 ||vgugu.com/iframes/xp-
 ||video.sdo.com/index.php?m=poster&c=index&a=show_poster&id=
@@ -5531,13 +5530,12 @@ mg*.6park.com/img/$image
 ||vip.luanren.com/data/*.swf
 ||vipcn.com/hezuo/
 ||vipcn.com/hz/down_r.js
-||vipcn.com/images/cfdh*.gif
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
 ||vista.tuwan.com/s.js
-||vjie.com/templates/lieqi/js/_banner.js
+||lieqi.com/templates/*/js/_banner.js
 ||vkeke.net/public/agd
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
@@ -5546,7 +5544,6 @@ mg*.6park.com/img/$image
 ||vupload.duowan.com^
 ||vvpan.com/templates/32666/imgs/down001.gif
 ||vvpan.com^*/zsz
-||vvshu.com/images/cp_
 ||vvvdj.com/sms/
 ||vzhuan.cn/html/$subdocument
 ||w010w.com.cn^$subdocument
@@ -8766,7 +8763,6 @@ chinasmartgrid.com.cn##.ht60ad
 online.cq.cn,skinme.cc##.huodong
 iqiyi.com##.hwLink
 buytong.cn##.hy_top_left
-vipcn.com##.hz-bottom
 52pk.com##.hz_adv
 99.com.cn##.hzh_botleft
 haodou.com##.i-ad
@@ -9618,7 +9614,6 @@ tieba.baidu.com##.tl_shadow + * + li[class]:not(.tl_shadow)
 tieba.baidu.com##.tl_spread
 esnai.com##.tlgg
 srzc.com##.tlgg_one
-veryim.net##.tmall1111 + .clearfix
 sxrom.com##.tmk
 198zone.com##.tongad
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
