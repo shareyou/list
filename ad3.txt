@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wDPN0CEIbqkjFAZlR7zrjg
+! Checksum: 1gB3zXEa/DUJuQ1OP5MHOA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610042000
-! Last Modified: 2016年10月04日 20:00
+! Version: 201610042100
+! Last Modified: 2016年10月04日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5551,7 +5551,6 @@ mg*.6park.com/img/$image
 ||wan.sogou.com/pop/
 ||wan.sogou.com/static/fragment/
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
-||wangdaizhijia.com/data/attachment/portal/
 ||wanghualang.com/wp-content/gallery/thumbnail/*-ad.
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
@@ -6052,6 +6051,8 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 wbzol.com##.banner1
 wbzol.com##.banner2
+wdzj.com##.adv-img
+wdzj.com##.logo-banner
 wbzol.com##.sg
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6721,7 +6722,6 @@ lysq.com###frameD955k5
 shhhy.org###frameMLzskg_left
 dabin69.com###frameOa2lrD
 ytshe.com###frameUTSzKE
-wangdaizhijia.com###frameVjrRzL
 yangluo.cn###frameVw7574
 gz0668.com###framec32DR1
 tvapk.net###framecd6V1M
@@ -9647,7 +9647,7 @@ huarenjie.com##.topadcss
 huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
 itavcn.com##.topadvzone
-21ic.com,hao565.cn,pyccoo.cn,wangdaizhijia.com##.topbanner
+21ic.com,hao565.cn,pyccoo.cn##.topbanner
 kocpc.com.tw##.topbarad
 163disk.com##.topfly
 cqwb.com.cn##.topgg
@@ -10213,7 +10213,7 @@ weather.com.cn##div[id^="adpos"]
 cbmland.com##div[id^="ads_"]
 actoys.net,mgbbs.cn,shangdu.com##div[id^="ads_d_"]
 chinayk.com,e0575.cn,eyuyan.com##div[id^="ads_r_"]
-52ch.net,wangdaizhijia.com,xiancn.com##div[id^="adv"]
+52ch.net,xiancn.com##div[id^="adv"]
 house.shangdu.com##div[id^="advertise"]
 ali213.net##div[id^="ali-ad-js-"]
 zhihujingxuan.com##div[id^="aup"]
