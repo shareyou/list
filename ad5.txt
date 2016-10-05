@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fn+qj6iTDh2sOzM21PM0IQ
+! Checksum: xcu4CMwwll6DFbuDiuzEtA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610052130
-! Last Modified: 2016年10月05日 21:30
+! Version: 201610060730
+! Last Modified: 2016年10月06日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12507,6 +12507,7 @@ weibo.com##.apps_PCD_reco_detail_right
 -scroll-tracker.js
 -seo-tracker.
 -social-tracking.
+-stat/collect/
 -tracking-pixel.
 -tracking.js?
 -trackingScript.
@@ -13587,6 +13588,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /gifbanner?
 /gifstats.
 /glbltrackjs.
+/global-analytics.js
 /global/ga.js?
 /globalpagetracking.js
 /gmasst.gif?guid=
@@ -13945,6 +13947,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /logLoad/?
 /LogMediaClick?
 /LogPage.aspx?
+/logprogress.
 /logpstatus.
 /logpv.aspx?
 /LogRecorder.
@@ -15315,6 +15318,7 @@ _247seotracking.
 _adcenterconversion.
 _Analytics.js?
 _analytics.php?
+_artcl_log/
 _astatspro/
 _audience_pixel.
 _baynote.
@@ -17094,6 +17098,7 @@ _mongo_stats/
 ||teljari.is^$third-party
 ||tellapart.com^$third-party
 ||tellaparts.com^$third-party
+||temnos.com^$third-party
 ||tendatta.com^$third-party
 ||tentaculos.net^$third-party
 ||terabytemedia.com^$third-party
@@ -20172,6 +20177,7 @@ _mongo_stats/
 ||stats.e-go.gr^
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
+||onet.pl/eclk/
 ||pagerank.g-easy.hu^
 ||videostat-new.index.hu^
 ||videostat.index.hu^
