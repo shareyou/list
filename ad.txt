@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W0vYzReUhNUBm1stVlYcmw
+! Checksum: r0VqPn4wg+XUwMnjHSdzEw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610051900
-! Last Modified: 2016年10月05日 19:00
+! Version: 201610052000
+! Last Modified: 2016年10月05日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -840,18 +840,9 @@ _popAds.
 ##.ggad
 ##.ggbox
 ##.ggdistich
-##.ggg-in-post1
-##.ggg-in-post2
-##.gggggpost-below
-##.gggggtop
-##.ggggtop
-##.gggpost-above
-##.gggtop
-##.ggpost-below
 ##.ggtop
 ##.google_adsense2
 ##.his-sign-cont[data-dysign-adid]
-##.home-ggggg430
 ##.indexad2
 ##.indexad3
 ##.indexad4
@@ -870,7 +861,6 @@ _popAds.
 ##.mlad
 ##.movie-advert-link
 ##.pagead_3
-##.papapaabp
 ##.player-bottom-gg
 ##.rect-wrap + .sa-sub
 ##.room-ad-bottom
@@ -5194,7 +5184,6 @@ mg*.6park.com/img/$image
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.jd-bbs.com^*.swf
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
-||pic.wpdaxue.com^*.js
 ||pic.xgo-img.com.cn^
 ||pic.yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
 ||pic.yupoo.com/heidongke_v/Dz3G6aBA/kSHc3.gif
@@ -6443,7 +6432,11 @@ mg*.6park.com/img/$image
 ||wei2008.com/js/*0.
 ||wei2008.com/js/jump
 ||j9lib.com/js/bnr_
+||wpdaxue.com/2015/02/lx1.png
+||wpdaxue.com/2015/03/wx0329.jpg
+||wpdaxue.com/2016/09/20160904210313.png
 !------------------------Specific element hiding rules------------------------!
+wpdaxue.com##IMG[width="360"]
 gpcxw.com###AA2
 windowszj.com###system_type
 hc360.com,yaolan.com###AD
@@ -8332,7 +8325,7 @@ chinanews.com##.advert_dingtong
 hao123.com,sohu.com,tieba.baidu.com##.advertise
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 inside.com.tw,sina.com.cn##.advertisement
-elecfans.com,wpdaxue.com##.advertising
+elecfans.com##.advertising
 4493.com##.advline
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
@@ -10433,7 +10426,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##body [style*="important"] *
 leduwo.com##br + #adtop
 btcherry.com##button[style="width: 960px; height: 90px; background: transparent; border: 0; padding: 0; cursor: hand;"]
 1000fr.net##center
-wpdaxue.com##div > * > a[target="_blank"] > img
 wpmee.com##div > a[href^="http://www.wpmee.com/i?a="]
 gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
