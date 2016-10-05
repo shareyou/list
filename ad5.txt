@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L6aDpvjy6UJPMYBje4NXVQ
+! Checksum: HTVWq7+AerCWUcNpAjOmXQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610051830
-! Last Modified: 2016年10月05日 18:30
+! Version: 201610051900
+! Last Modified: 2016年10月05日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2369,7 +2369,6 @@ mg*.6park.com/img/$image
 ||591hx.com/js/floatbox.js
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
-||5avlib.com/js/bnr_
 ||5dmail.net/image/$object
 ||5dmail.net/image/ad_
 ||5dmail.net/image/ORF_1000.gif
@@ -4285,11 +4284,9 @@ mg*.6park.com/img/$image
 ||j.ccnovel.com^
 ||j8vlib.com/js/bnr_
 ||ja.gamersky.com^
-||ja7lib.com/js/bnr_
 ||jandan.com/static/gggg/
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
-||javli6.com/js/bnr_
 ||javlibrary.com/js/bnr_
 ||jb51.net/2012js/
 ||jbyf.net/JS/1
@@ -6164,6 +6161,7 @@ mg*.6park.com/img/$image
 ||windowszj.com^*/xiaoyu
 ||wei2008.com/js/*0.
 ||wei2008.com/js/jump
+||j9lib.com/js/bnr_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 windowszj.com###system_type
@@ -14053,6 +14051,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /mpulse.min.js
 /msftaudience.
 /mstartracking/*
+/mstats.
 /mstrack/*
 /mtrack.nl/js/*
 /mtracking.
