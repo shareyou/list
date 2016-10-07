@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dImchMx04y4BlrLMAYfp7w
+! Checksum: C25Hy1L/sgXLvbPBnoou/A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610071030
-! Last Modified: 2016年10月07日 10:30
+! Version: 201610071200
+! Last Modified: 2016年10月07日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2678,7 +2678,7 @@ mg*.6park.com/img/$image
 ||63007.com/haodxi.js
 ||64.120.16.146/hsk_update/upload/*.gif
 ||64bobo.com/ckplay/js.jpg
-||64vk.com/java/
+||373nn.com/java/
 ||654mmm.com^
 ||66.fmx.cn/js/
 ||6620070.com/js/
@@ -2988,7 +2988,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=mlook.mobi|xiadele.com|xm9x.net
+||alicdn.com^$domain=mlook.mobi|xiadele.com
 ||alicdn.com^*.gif$domain=htai.me
 ||alicdn.com^*.jpg$domain=htai.me
 ||alifeifei.net/s/*.js
@@ -6103,8 +6103,6 @@ mg*.6park.com/img/$image
 ||xkxs.org/js/bd
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
-||xlfans.com/wp-content/uploads/2016/01/30%E5%A4%A9.jpg
-||xlfans.com/wp-content/uploads/2016/01/s1.gif
 ||xlpu.cc/adv/
 ||xmfish.com/chanel/www/cpm.html
 ||xnnews.com.cn/images/yr_wsm.js
@@ -6123,7 +6121,6 @@ mg*.6park.com/img/$image
 ||xpgod.com/UploadPic/xpgod/
 ||xs.houyi.baofeng.net^
 ||xs8.cn/xs8_stat.js
-||xskhome.com/JS/Statistical
 ||xskhome.com/pic/20*/all/
 ||xtzgjx.com/images/jiaoyou
 ||xue163.com/ajs/b.js
@@ -6410,6 +6407,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||xunleiyy.com/du/
+||xm9x.net/includes/js/dl.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 pptv.com##.ad
@@ -6531,7 +6529,6 @@ morningpost.com.cn###\33 60hot
 zongheng.com###\36 roomRecommend
 hao123.com###\5f _wgt_0_1
 hao123.com###\5f _wgt_0_13
-xskhome.com###\5f cs_rich_flash_div_cs_right_bottom
 xiaot.com###\5f sc_dialog
 xiaot.com###\5f sc_overlay
 hao123.com###__elm_0_4
@@ -9822,7 +9819,6 @@ baidu.com##.spread-wrap
 2345.com##.spreadHotWords
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
 aisex.com##.sptable
-xskhome.com##.startgame
 klss.cn##.stat8
 kaoyan.com##.subAd
 07073.com##.subarea_ad
@@ -10735,7 +10731,6 @@ co188.com##div[style="width:960px;height:100px;margin:0 auto;"]
 dxrr.com##div[style="width:960px;height:110px;margin:5px auto;"]
 gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
-xskhome.com##div[style="width:970px; margin:0px auto;z-index:0;position:relative;padding-top:130px; "]
 yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:center;"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 duowan.com##div[style="width:980px;height:60px;margin:0 auto 10px;"]
