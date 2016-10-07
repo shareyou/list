@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fIjUktG0v4yPO/PMCTKG7g
+! Checksum: 80QXyMGy8oSbFh1L33wOCA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610071330
-! Last Modified: 2016年10月07日 13:30
+! Version: 201610071400
+! Last Modified: 2016年10月07日 14:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -857,8 +857,8 @@ _popAds.
 ##.lyzm-prevent
 ##.menutab_ad
 ##.ml_ad1
-###content > .screen > .sa-rect
-###content > .screen > .sa-suba
+##.w990 > .screen > .sa-rect
+##.w990 > .screen > .sa-suba
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
@@ -1952,7 +1952,6 @@ ubmcmm.baidustatic.com
 ||ihualun.com^$popup
 ||img999.com^$popup,domain=tt1069.com
 ||iqiyi.com/track$popup
-||iswan.cn^$popup,third-party
 ||jjwxc.net/jjad*.html$popup
 ||kanzipai.com^$popup,domain=zhongzi.in
 ||kuai.xunlei.com/do_e_mu?data=$popup
@@ -6113,7 +6112,7 @@ mg*.6park.com/img/$image
 ||xnnews.com.cn/templets/js/wzydl.js
 ||xntk.net^$script
 ||xp510.com/images/*.gif
-||xp510.com/skin/*.gif
+||xp510.com/statics/swf/
 ||xp811.com/img/xitong.gif
 ||xp85.com/statics/js/all.js
 ||xpgod.com/bui/
@@ -7846,7 +7845,6 @@ china.com.cn##.Banner_right
 bilibilijj.com##.Box > div > div > div > :first-child
 bilibilijj.com##.Box > script + div[class]:not([style])
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
-xvna.com##.Cad1
 ifeng.com##.ColBLAvt
 ifeng.com##.ColBRAvt
 ifeng.com##.ColDLAvt
