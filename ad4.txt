@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4RE+PjWFOhPrfW/JjH8B0g
+! Checksum: urPTHrNBGioeLt9IrVt6qA
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201610080800
-! Last Modified: 2016年10月08日 08:00
+! Version: 201610082000
+! Last Modified: 2016年10月08日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -191,9 +191,9 @@ tieba.baidu.com##.xiang-guan-tie
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2)
-baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2) + .f13:last-child
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .t > a[href^="http://www.baidu.com/baidu.php?"]
+baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
+baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .t > a[href^="http://www.baidu.com/baidu.php?"]
 baidu.com###\32 ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
 baidu.com###adCard
