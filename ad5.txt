@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 19K/E6ZwCfjxd4JicmBJ6A
+! Checksum: XicCfAd8ZC0XfrAYB/584w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610081030
-! Last Modified: 2016年10月08日 10:30
+! Version: 201610081100
+! Last Modified: 2016年10月08日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15702,6 +15702,7 @@ _mongo_stats/
 ||clickmanage.com^$third-party
 ||clickmeter.com^$third-party
 ||clickpathmedia.com^$third-party
+||clickprotector.com^$third-party
 ||clickreport.com^$third-party
 ||clicksagent.com^$third-party
 ||clicksen.se^$third-party
@@ -16186,6 +16187,7 @@ _mongo_stats/
 ||iclive.com^$third-party
 ||ics0.com^$third-party
 ||icstats.nl^$third-party
+||id-visitors.com^$third-party
 ||ideoclick.com^$third-party
 ||idio.co^$third-party
 ||idtargeting.com^$third-party
@@ -17116,6 +17118,7 @@ _mongo_stats/
 ||tscounter.com^$third-party
 ||tsk4.com^$third-party
 ||tsk5.com^$third-party
+||tst14netreal.com^$third-party
 ||tstlabs.co.uk^$third-party
 ||tsw0.com^$third-party
 ||tubetrafficcash.com^$third-party
@@ -18182,6 +18185,7 @@ _mongo_stats/
 ||analytics.bigcommerce.com^
 ||analytics.brandcrumb.com^
 ||analytics.carambo.la^
+||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
 ||analytics.closealert.com^
 ||analytics.cmg.net^
