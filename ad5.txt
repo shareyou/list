@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fJQtaNQTNBWVKv7m8jVUAg
+! Checksum: iAYMvDZeQbZxOCBDRbDYbQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610090930
-! Last Modified: 2016年10月09日 09:30
+! Version: 201610091200
+! Last Modified: 2016年10月09日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14133,6 +14133,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pcount.asp
 /Peermap/Log/*
 /performance.fcgi?
+/performance_timing/log?
 /permalink-tracker.html?
 /pgtracking.
 /pgtrackingV3.
@@ -14815,6 +14816,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking/pixel/*
 /tracking/pixel_
 /tracking/pixels.
+/tracking/referrer?
 /tracking/simplified_
 /tracking/tag_commander.php?
 /tracking/track.jsp?
@@ -19054,6 +19056,7 @@ _mongo_stats/
 ||mtv.com^*spacer.gif?
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/metrics/
+||murdoog.com^*/Pixel/$image
 ||museter.com/track.php?
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
@@ -22054,6 +22057,7 @@ _mongo_stats/
 ||t.kck.st^
 ||t.paypal.com^
 ||t.vimeo.com^
+||t.wayfair.com^
 ||t2.hulu.com^
 ||t2.huluim.com^
 ||t3.com/js/trackers.js
