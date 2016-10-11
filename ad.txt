@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +ysCCzYqXj4ZTwK8sYEtzQ
+! Checksum: wtfizkbz0kdw81XSFHGPEw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610111900
-! Last Modified: 2016年10月11日 19:00
+! Version: 201610111930
+! Last Modified: 2016年10月11日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -920,6 +920,7 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
+||top267.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -2114,7 +2115,7 @@ _yad_jsonp_
 mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=23wx.com|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|btkitty.bid|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
 |http:$subdocument,domain=glcdynpcws.net|jtwybgxiumsx.net|pc6.com
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
