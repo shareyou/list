@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FUpQhia5V6dMsX2Ph8gwKg
+! Checksum: dPkk8fKz775z1C7ttUCZSg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610120930
-! Last Modified: 2016年10月12日 09:30
+! Version: 201610121100
+! Last Modified: 2016年10月12日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2266,7 +2266,6 @@ mg*.6park.com/img/$image
 ||131.com/js/131InsideAD$script
 ||131.com/test2/2014/09/04/201409041715356f5.jpg
 ||131458.com/union/
-||135qp.com/sjzswf/banner.swf
 ||141h.com/data/attachment/noblock/cf/
 ||14bobo.com/js/
 ||1518.com/ss/
@@ -5168,7 +5167,7 @@ mg*.6park.com/img/$image
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.jd-bbs.com^*.swf
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
-||pic.xgo-img.com.cn^
+||pics.xgo-img.com.cn^
 ||pic.yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
 ||pic.yupoo.com/heidongke_v/Dz3G6aBA/kSHc3.gif
 ||pic.yupoo.com/showflash/
@@ -6072,7 +6071,6 @@ mg*.6park.com/img/$image
 ||xizi.com/a/
 ||xizi.com/js/rotator.js
 ||xkhouse.com/display/displaygg/
-||xkhouse.com/xkhouse/ggvert/
 ||xkxs.org/js/bd
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
@@ -6111,8 +6109,7 @@ mg*.6park.com/img/$image
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
 ||xx978.info/images/468-60OK.gif
-||xxdm.com/js/union/
-||xxdm.org/js/union/
+||xxdm.*/js/union/
 ||xxhh.com/static/assets/pics/moguzbad.jpg
 ||xxhh.com/xh.js
 ||xxs8.com/data/attachment/forum/201308/02/154213bpecdb6qly7fgv71.jpg
@@ -7725,7 +7722,6 @@ jmbbs.com###xjj_jmbbs2015_01
 xilinjie.com###xlj-spread
 m4jl.com###xrAd
 chrome007.com###xxxx
-xizi.com###xz_8
 hk.search.auctions.yahoo.com###yauadysmh
 redocn.com###yc_adv_1_2
 cdict.net###yhoo_text_ads
@@ -8510,7 +8506,6 @@ meizhou.com##.cc_z1
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 11luba.com,niluba.cc##.center > div:last-child
-xizi.com##.center_md
 manhuadao.com##.cf[style="width: 960px; height: 90px;margin:10px auto 0;"]
 huarenjie.com##.cfad
 hao.rising.cn##.channel-adimg
@@ -9268,7 +9263,6 @@ like101.com.tw##.masonry-brick[style^="width: 212px; height: 216px;"]
 265g.com##.mban
 hao.360.cn##.mbar-bd
 2345.com##.mco-ex-ndxh
-xizi.com##.md310_90
 bejson.com##.media-body > .btn-group
 lrshare.com##.menu-item > a[href^="http:"]:not([href^="http://www.lrshare."])
 taihainet.com##.menu_bg + .box10 + .wrapper
