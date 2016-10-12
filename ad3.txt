@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gYQDgQrivhhhT5g+mcf70g
+! Checksum: s8fdjz8kyoIHiQa0ErasFA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610122130
-! Last Modified: 2016年10月12日 21:30
+! Version: 201610122200
+! Last Modified: 2016年10月12日 22:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11130,6 +11130,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 baidu.com#@#.share-line
 baidu.com#@#.share-list
+zhidao.baidu.com#@#.share-area
 dj92cc.com,tingqq.com#@#.share_list
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 !-------------------------------Fixed EasyPrivacy-----------------------------!
