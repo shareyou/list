@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NGxjhPJavZ/lFviWklIx5Q
+! Checksum: mtDieo4oy0SkvHLykTIKxw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610122200
-! Last Modified: 2016年10月12日 22:00
+! Version: 201610130730
+! Last Modified: 2016年10月13日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14341,6 +14341,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /scripts/ga.js
 /scripts/hbx.js
 /scripts/log.
+/scripts/statistics/*
 /scripts/stats/*
 /scripts/xiti/*
 /sctracker.
@@ -14388,6 +14389,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /setTDUID.do?
 /shareCounts.
 /shareTrackClient.
+/sherlock.gif?
 /shinystat.
 /shinystat_
 /shopify_stats.js
@@ -14498,8 +14500,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /statistics.asp?
 /statistics.aspx?profile
 /statistics.js?
+/statistics/fab.
+/statistics/ga.
 /statistics/getcook.php?
+/statistics/imr.
 /statistics/logging/*
+/statistics/metrica.
 /statistics?eventType=
 /statlogger.
 /stats-js.cgi?
@@ -18301,6 +18307,7 @@ _mongo_stats/
 ||bzpics.com/jslib/st.js?
 ||c.compete.com^
 ||c.homestore.com^
+||c.live.com^
 ||c.mgid.com^
 ||c.wen.ru^
 ||c.ypcdn.com^*&ptid
@@ -24103,6 +24110,7 @@ _mongo_stats/
 @@||imrworldwide.com/v60.js$domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
+@@||paginegialle.it/js/shinystat.js
 @@||repstatic.it^*/Nielsen.js
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
