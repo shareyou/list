@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sXWPdgr3cvWjTSvZ6HwLrA
+! Checksum: /6aUe0dnkQdhv6ufUdJgmg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610131830
-! Last Modified: 2016年10月13日 18:30
+! Version: 201610131900
+! Last Modified: 2016年10月13日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -642,6 +642,7 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
+||videondun.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -10742,7 +10743,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advertisement/*$domain=cits.cn|ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com|ygo-sem.cn
+@@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com
+@@_adview_pic_$domain=ygo-sem.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|qdxqs.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
