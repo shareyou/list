@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cax4NsqkI8Nu9UN5ojGrLA
+! Checksum: kVzUQT8wHDCBd+4VNrX4nQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610141100
-! Last Modified: 2016年10月14日 11:00
+! Version: 201610141200
+! Last Modified: 2016年10月14日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -1918,6 +1918,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+/freeone/htm/2048.html$popup
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
