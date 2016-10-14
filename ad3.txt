@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AZsNeG4LPKJ328MXDPtvmQ
+! Checksum: MLKTvazFvSSIfwS1UC8N9A
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610141800
-! Last Modified: 2016年10月14日 18:00
+! Version: 201610141930
+! Last Modified: 2016年10月14日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2740,7 +2740,7 @@ mg*.6park.com/img/$image
 ||bbs.winning11cn.com/temp/*.gif
 ||bbs.xbaodi.com/plugin.php
 ||bbs.xiashanet.com/js/adsview.js
-||bbs.yhcgo.com/attachment/Mon_1112/74_1_5c13cbc5db6ba7c.jpg
+||yhcgo.com/attachment/Mon_1112/74_1_5c13cbc5db6ba7c.jpg
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
@@ -4229,7 +4229,6 @@ mg*.6park.com/img/$image
 ||js.tlt.cn/js/
 ||js.tv.itc.cn/gg$script
 ||js.tv.itc.cn/site/play/v*/vip_discount_
-||js.youxi369.com^
 ||js0573.com/images/cus/
 ||jschina.com.cn/2016zt/jianhang2016.swf
 ||jssd.uumeitu.com^
@@ -4568,7 +4567,6 @@ mg*.6park.com/img/$image
 ||mshow.fang.com/s?z=
 ||msn.com/homep_ad
 ||msn.people.com.cn/css/2010tianrun/
-||msn.ynet.com/vtui_js01.js
 ||mt30.com/ok/
 ||mtime.cn/tg/
 ||muyuge.com/js/bb/
@@ -5728,8 +5726,6 @@ mg*.6park.com/img/$image
 ||xz7.com/up/UploadPic/2014-5/201452517141272046.gif
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
 ||y3600.com/16-
-||y80s.org:85/img/960x90.gif
-||y80s.org:85/upload/468-60
 ||yaerwen.com/5200js/59.js
 ||yam.com/ad_yam/
 ||yangtianya.com/images/
@@ -5908,7 +5904,6 @@ mg*.6park.com/img/$image
 ||zhzyw.org/js/InsertJS.js
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
-||zimuzu.tv/yingtan.jpg
 ||zisai.com/2013.ad/
 ||zisai.com/2014.ad/
 ||ziti.jz123.cn/js/
@@ -6099,7 +6094,6 @@ hao.360.cn###activity
 ruten.com.tw###ad-467
 acfun.tv###ad-b
 itxueyuan.org###ad-beifeng-729-90
-k5.cc###ad-bigbanner
 duba.com###ad-detail-banner
 duba.com###ad-dongman
 qq.com###ad-fullscreen
@@ -7873,7 +7867,6 @@ gamefy.cn##.att-bar
 u17.com##.auto_ad
 liba.com##.avdert1190
 qiqu888.com##.ax-arc610161
-yam.com##.axdBox
 qiqu888.com##.axing_add_ad
 17k.com##.b950
 pinshan.com##.b_adv
@@ -9000,7 +8993,6 @@ quanmin.tv##.p-star_adWrap
 jj59.com##.p_ad
 bbdj.com##.p_banner
 bbdj.com##.p_c4
-yinyuetai.com##.p_demo
 bbdj.com##.p_left2
 actoys.net##.p_new_ad
 sina.cn##.p_newsmore
@@ -9796,7 +9788,6 @@ sm.cn##a[href^="http://m.sm.cn/adclick?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://m.tianya.cn/g?f="]
 cnbeta.com##a[href^="http://note.youdao.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
-allyingshi.com##a[href^="http://ok.sina.com.cn/"]
 pctowap.com##a[href^="http://ptw.la/"]
 sina.cn##a[href^="http://sax.sina."]
 finance.sina.com.cn##a[href^="http://sax.sina.com.cn/click?"]
