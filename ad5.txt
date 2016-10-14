@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ORxZ8vQyyiaLTnYyPMJ1Vg
+! Checksum: rmO8W8G+173P92TACjiy0g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610141200
-! Last Modified: 2016年10月14日 12:00
+! Version: 201610141230
+! Last Modified: 2016年10月14日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5924,7 +5924,6 @@ mg*.6park.com/img/$image
 ||yskej.com/data/attachment/forum/*.gif
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
-||yto.net.cn/gw/chajian/
 ||yubei8.com/boximg/
 ||yubei8.com/img/
 ||yunaw.qiniudn.com/tuixiao.png
@@ -6979,7 +6978,6 @@ ezvivi.com###marsk
 ezvivi.com###marsk2
 yaolan.com###maryAd
 gzmama.com###mdvtips
-yzz.cn###media_float_right
 qtfy30.cn###menu + a
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 51cto.com###message
@@ -7197,8 +7195,6 @@ myqcloud.com###sharebtn > a
 hao123.com###shortcut-box > .tip
 hao123.com###shortcut-tuiguang
 chinaec.net###showEcAd
-yzz.cn###showSlideAD_big
-yzz.cn###showSlideAD_small
 hinews.cn###showgg
 club.pchome.net,kdslife.com###side a[href*="youxi."]
 hunantv.com,mgtv.com###side-join-ad
@@ -7435,7 +7431,6 @@ starbaby.cn###yindex_ads
 dm5.com###youce
 0598yu.com###yu2015_ad_news_01
 mmrelax.com###yytf
-yzz.cn###yzz_couplet
 vipcn.com###z_baidu
 51.la###zanzhu
 zhiboba.cc###zb_left
@@ -7651,7 +7646,6 @@ chinayk.com##.ad1024
 yuqingcn.cn##.ad1024x90
 178.com,766.com,btpeer.com,c114.net,chddh.com,china.com.cn,izhufu.net,qingdaonews.com,qz828.com##.ad2
 ifeng.com##.ad200-2
-bbs.yzz.cn##.ad200x340
 alu.cn##.ad235x60
 yaolan.com##.ad24090
 alu.cn##.ad240x60
@@ -8025,7 +8019,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,bamuyu.com,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 fulibar.net##.banner-contenttop
@@ -8637,7 +8631,6 @@ mumayi.com##.h80
 jjwxc.net##.h8px + div[align="center"]
 www.eastmoney.com##.h90
 kekenet.com##.h_news_c
-bbs.yzz.cn##.half-banner
 ynet.com##.hc4 > .L2
 973.com##.hc_ad
 youth.cn##.hd_pic
@@ -8672,7 +8665,7 @@ ks.js.cn##.height200
 ks.js.cn##.height60
 ks.js.cn##.height70
 ks.js.cn##.height80
-meineihan.cc,yawen8.com##.hengfu
+meineihan.cc##.hengfu
 168cz.com##.hengfu-960
 qqjia.com##.hengfuad
 btago.com##.hezuoboxs
