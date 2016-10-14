@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: epNJNKZlCRSXv/HQPw9eyg
+! Checksum: Cc+2fC8BYKTmewnpAfQiDg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610142100
-! Last Modified: 2016年10月14日 21:00
+! Version: 201610142230
+! Last Modified: 2016年10月14日 22:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12632,6 +12632,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /AnalTrack.js
 /analyse.js
 /analysis-logger/*
+/analytic/count.
 /analytic_data_
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
@@ -13076,6 +13077,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /counter/ct.php?
 /counter/process.asp?
 /counter/r.pl
+/counter/stat.
 /counter?id=
 /counter_1.php
 /counter_2.php?
@@ -15901,6 +15903,7 @@ _mongo_stats/
 ||find-ip-address.org^$third-party
 ||finderlocator.com^$third-party
 ||fishhoo.com^$third-party
+||fitanalytics.com^$third-party
 ||flagcounter.com^$third-party
 ||flash-counter.com^$third-party
 ||flash-stat.com^$third-party
@@ -20261,6 +20264,8 @@ _mongo_stats/
 ||counter.mtgnewmedia.se^
 ||stats.dominoplaza.com^
 ||vizzit.se^$third-party
+||analytic.piri.net^
+||analyticapi.piri.net^
 ||hit.dogannet.tv^
 ||counter.opinion.com.ua^
 ||metalportal.com.ua/count.php?
@@ -23068,7 +23073,6 @@ _mongo_stats/
 ||vg.no/stats/
 ||webhit.aftenposten.no^
 ||irib.ir/count.php?
-||irib.ir/counter/stat.js
 |http://x.o2.pl^
 ||analytics.gazeta.pl^
 ||dot.wp.pl^
@@ -23149,6 +23153,7 @@ _mongo_stats/
 ||haberler.com/dinamik/
 ||p.milliyet.com.tr^
 ||sahibinden.com/sbbi/
+||visit.hepsiburada.com^
 |http://r.i.ua/s?
 ||at.ua/stat/
 ||counter.ukr.net^
