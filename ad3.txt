@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pHlGxT2bF0b0XMOB8NNXIQ
+! Checksum: MrEuSRVsIBpTIPhHTzerKw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610151200
-! Last Modified: 2016年10月15日 12:00
+! Version: 201610151300
+! Last Modified: 2016年10月15日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -711,7 +711,7 @@ ubmcmm.baidustatic.com
 ||52kmh.com^$third-party
 ||52kmk.com^
 ||52lover.info^$third-party
-||52xiyou.com^$third-party
+||52xiyou.com^$~image,third-party
 ||5399.com^$third-party
 ||565882.com^$third-party
 ||57union.com^
@@ -5954,6 +5954,7 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 qiuziti.com##A[style$="height: 600px; cursor: pointer;"]
 gpcxw.com###AA2
+zxba.cc###yx
 youth.cn##DIV[style="width:960px;height:90px;margin:0 auto;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9364,7 +9365,6 @@ baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
 sijihuisuo.club##.textbox > .box-title + p[align="center"]
-zhainanfulishe.net##.textwidget > a[href^="http"]:not([href^="http://www.zhainanfulishe."])
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
