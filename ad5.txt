@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bvYEmkkCCnpgTbSEfZ5yvA
+! Checksum: 3mMEZHjMN/g/csgobzIjIQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610152230
-! Last Modified: 2016年10月15日 22:30
+! Version: 201610160730
+! Last Modified: 2016年10月16日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15211,6 +15211,7 @@ http://utm.$domain=~utoronto.ca
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 _adblock_stat.
 _mongo_stats/
+/cdn-cgi/pe/bag2?*bluekai.com
 /cdn-cgi/pe/bag2?*dnn506yrbagrg.cloudfront.net
 /cdn-cgi/pe/bag2?*geoiplookup
 /cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js
@@ -18692,6 +18693,7 @@ _mongo_stats/
 ||gowatchit.com^*/tracking/
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
+||graph.facebook.com/?ids=*&callback=$script,third-party
 ||gravity.com^*/beacons/
 ||green-griffin-860.appspot.com^
 ||gridsumdissector.com/gs.gif?
@@ -23568,6 +23570,7 @@ _mongo_stats/
 @@||mixpanel.com/site_media/js/api/mixpanel.js$domain=blog.cloudflare.com
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=ads.twitter.com|change.org|greentoe.com|kickstarter.com|mint.com|nbc.com|thefrisky.com|vid.me
 @@||mlb.com/b/ss/$image
+@@||mlb.com/scripts/stats/app/$script
 @@||mlb.com/shared/scripts/bam.tracking.js
 @@||mmi.bemobile.ua/lib/lib.js$domain=uatoday.tv
 @@||monetate.net/img/$script,domain=newegg.com
