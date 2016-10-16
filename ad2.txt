@@ -1,12 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201610151600
-! Last Modified: 2016年10月15日 16:00
+! Version: 201610170000
+! Last Modified: 2016年10月17日 00:00
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
+! Last modified: 2016/10/17
+! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
 @@*$domain=taobao.com|alipay.com|suning.com|www.vmall.com|etao.com|tmall.com|paipai.com|jd.com|i.qq.com|my.csdn.net
 |http://$subdocument,domain=u17.com|iqiyi.com|dm456.com|sz1001.net|music.baidu.com
@@ -183,6 +185,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||dleke.com/
 ||dian500.com
 ||dian5000.com
+||e706.net/
 ||e708.net/
 ||eclkspbn.com/
 ||f6ce.com/
@@ -229,6 +232,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||mytanwan.com/$third-party
 ||newrelic.com/
 ||niuxgame77.com/
+||nr1234.com/
 ||olcdn.com/
 ||optimix.asia^$third-party
 ||pic9382.com^$third-party
@@ -297,6 +301,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 @@|http://shurufa.baidu.com/img/ime/index_banner_btn.png
 */index_banner_
 */pageMediaControl
+*/mediaController
 */piaofu.
 */piaofu/
 */piwik.
@@ -646,6 +651,7 @@ www.hao123.com##div#ecom,div.widget-topbanner,A.link.download,#shortcut-box,#sho
 |http://itv.hexun.com/
 |http://utrack.hexun.com/
 |http://hrtsea.com/936x90.gif
+@@||www.infoq.com/scripts/ads.js
 ithome.com##div#hd_float,#side_func,#con>#tt5>div
 ||ithome.com/file/js/money/
 ||img.ithome.com/file/js/slick.
@@ -674,7 +680,7 @@ pcpop.com##[id^=ad_],div.ad1,div.pcpop_ad1,div#banner9th
 qiushibaike.com##div.shopwindow
 ||www.toutiao.com/api/web_ads/
 ||toutiao.com/adsafe/$subdocument
-toutiao.com##li[ga_event=ad_item_click],div[ga_event^=click_banner],iframe[src^="http://toutiao.com/adsafe/"],#pagelet-detailadd
+toutiao.com##[ga_event=ad_item_click],div[ga_event^=click_banner],iframe[src^="http://toutiao.com/adsafe/"],#pagelet-detailadd,div.carAd
 ttmeiju.com###wrapper~div,ul.menu~*
 |http://pic.yupoo.com/*/medish.jpg$domain=~ttmeiju.com
 u17.com##[id^=u17-advert-fix-ad],div.ad_wrap
@@ -873,7 +879,6 @@ tucao.tv##div.a2013d
 @@||olcdn.com/net/v1/gb2312/$script
 @@||share.dmhy.org/images/$image
 @@||xsc.lise.edu.cn/ad/
-@@*.com/adsafe
 @@|http://dvs.china.com/crossdomain.xml
 */7mad.$image,object,object-subrequest
 */9vads
