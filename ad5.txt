@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VKufj5od7+HJr4dezXt/gg
+! Checksum: SFueio0WK0veuobhzugJ4A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610161300
-! Last Modified: 2016年10月16日 13:00
+! Version: 201610161330
+! Last Modified: 2016年10月16日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6067,7 +6067,10 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||dhzw.com/m-
+||techug.com/mug/
 !------------------------Specific element hiding rules------------------------!
+techug.com##.mug
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -13808,6 +13811,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /micro.php?action=view&
 /microreporting.
 /middle?call=http
+/minder-tracker.
 /mindshare-tracking.
 /mint/?js
 /mint/?record
@@ -15166,6 +15170,7 @@ _logHuman=
 _logimpressions.
 _m10banners/tracking.php?
 _metricsTagging.
+_minder_tracking/
 _modal?referer=
 _nedstat.js
 _nielsen.js
@@ -21021,6 +21026,7 @@ _mongo_stats/
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
 ||gmonitor.aliimg.com^
+||go.com/disneyid/responder?
 ||go.com/globalelements/utils/tracking
 ||go.com/stat/
 ||go.com^*/analytics.js
