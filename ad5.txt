@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9PQ4D4FlMtkAGRXUgDfTOg
+! Checksum: uMTCKp7ssFIugF0t3MHxaA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610181130
-! Last Modified: 2016年10月18日 11:30
+! Version: 201610181230
+! Last Modified: 2016年10月18日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5639,7 +5639,7 @@ mg*.6park.com/img/$image
 ||wal8.com/img48/544027_20160424182911/146446612161.gif
 ||wallstcn.com/image?url=http%3A%2F%2Fcbjs.
 ||wallstcn.com^*-300x250.
-||wallstreetcn.com/v2/ads?
+||wallstreetcn.com/v2/ads^
 ||wan.liebao.cn/zt/
 ||wan.sogou.com/cdn/$subdocument
 ||wan.sogou.com/pop/
@@ -5961,8 +5961,6 @@ mg*.6park.com/img/$image
 ||zc173.com/173fee/
 ||zc173.com/pp/
 ||zchot.com/images/jiaoyou
-||zdface.com/Controls/ChannelHot/ChannelHotTypeID19ClassID0.aspx
-||zdface.com/Controls/ChannelHot/ChannelHotTypeID8ClassID317.aspx
 ||zdfans.com/adsens/kiees.jpg
 ||zdfans.com/ex?i=
 ||zdfans.com/Picture/2345
@@ -5995,7 +5993,6 @@ mg*.6park.com/img/$image
 ||zhifuok.com/19xa.jpg
 ||zhihu.com/node/Banner?
 ||zhijia.com/hd/*.swf
-||zhlzw.com/wlles/2015/995XX.js
 ||zhongtaozs.com/%5Cad/
 ||zhongyi.ifeng.com/a/zt.js
 ||zhoushan.cn/new.js
@@ -6068,6 +6065,8 @@ mg*.6park.com/img/$image
 ||zongheng.com^*/index_r_b.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+zhlzw.com##.area_ad
+zhlzw.com##SPAN[style^="float:left;height:"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6970,7 +6969,7 @@ neihanshe.cn###mobile_client
 haosou.com,so.com,youdao.com###mohe-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
-dnvod.eu,itavcn.com,jmnews.com.cn,xt700.com,zdface.com###msg_win
+dnvod.eu,itavcn.com,jmnews.com.cn,xt700.com###msg_win
 dnvod.eu###msg_winw
 wz.zj.cn###msnLeft
 hkgolden.com###mtblock
@@ -7952,10 +7951,8 @@ sm.cn##.article.ali_row + #sc ~ .article.ali_row
 haha.mx##.article.mt-20
 xvna.com##.articleAD
 xuite.net##.articleExtAd
-zhlzw.com##.article_ad2
 toutiao.com##.article_link[ad-tag]
 toutiao.com##.article_link[data-tag="ad"]
-zhlzw.com##.article_oo
 thjunshi.com##.article_push
 fulishequ.com##.asb-index-01
 78dm.net##.aside-add
@@ -9416,7 +9413,6 @@ qingdaonews.com##.surround
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
 heiguang.com##.syAdTopTxt
 17jiaoyu.com##.sy_ad
-zhlzw.com##.sygg
 zhifang.com##.sytl
 bcbay.com,creaders.net##.syzx
 17ok.com##.t-bann
@@ -23315,6 +23311,7 @@ _mongo_stats/
 @@||canoe.ca/generix/omniture/TagOmnitureEngine.js
 @@||capitalone360.com/urchin.js
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
+@@||cbc.ca/g/stats/videoheartbeat/*/cbc-videoheartbeat.js$domain=cbcmusic.ca
 @@||cbc.ca^*/loggingservice.js?
 @@||cbsimg.net/js/cbsi/dw.js$domain=cbssports.com|gamespot.com
 @@||cbsistatic.com^*/clicktale-$script,domain=cbsnews.com|cnet.com
