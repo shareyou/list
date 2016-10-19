@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jOPTCOXwwpE0+gdDKgLCjA
+! Checksum: sO35VT5xmd0qW75T6UGGdQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610190900
-! Last Modified: 2016年10月19日 09:00
+! Version: 201610190930
+! Last Modified: 2016年10月19日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -923,6 +923,7 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/cpv/*.ashx?$third-party
+||cmaxisolation.com^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -5224,7 +5225,6 @@ mg*.6park.com/img/$image
 ||property.hk/ad_$script
 ||ps123.net/MyFile/
 ||pstatp.com/site/reads-sdk/*.js
-||pt80.net/data/attachment/forum/201610/12/005727yoi6m0pmxmarxx6y.jpg
 ||pt80.net/source/plugin/fysq_ad/
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
@@ -6350,6 +6350,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+pt80.net##IMG[width="960"]
 zznews.cn##.ad:not([style])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
