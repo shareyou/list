@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rgGKLfFdARQyE0AR6Xc+Mg
+! Checksum: +8v7sCl6CBwcQfkf2F3CVQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610222030
-! Last Modified: 2016年10月22日 20:30
+! Version: 201610222300
+! Last Modified: 2016年10月22日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6047,7 +6047,12 @@ mg*.6park.com/img/$image
 ||70mao.com/520/
 ||1024down.com/images/*.gif
 ||0517w.com/data/attachment/portal/201608/11/100415sjjvnuauy076110n.gif
+||jmcdn.cn/file/script/A
+||opticsky.cn/images/2015/gy-px201
+||opticsky.cn/images/2016/ma1021.png
 !------------------------Specific element hiding rules------------------------!
+opticsky.cn##.p83_gridC > .clB
+opticsky.cn##.tac.mb5
 gpcxw.com###AA2
 0772fang.com##.top_bt
 hupu.com###shihuo1111
@@ -11747,7 +11752,12 @@ _300_250.
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=75
 ||sinaimg.cn/finance/ny_live*.js
 ||tv002.com/img/down1_ssp1.gif
+||koolearn.com/v2/js/wxewm.js
+||yytcdn.com/js/common/widget/pcpusher.
 !------------------------Specific element hiding rules------------------------!
+sporttery.cn###mask
+sporttery.cn###newDiv
+koolearn.com##.news_pf
 firefox.com.cn,firefoxchina.cn###thside-left-banner
 mumu.163.com##.pic-con
 muchong.com###xd_popbox
