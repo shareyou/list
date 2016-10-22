@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LxcQWR4GkuBLfcBepjvoFw
+! Checksum: NDVY/YFSdbS1wIdxNBvfdQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610221830
-! Last Modified: 2016年10月22日 18:30
+! Version: 201610222000
+! Last Modified: 2016年10月22日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -1906,7 +1906,7 @@ mg*.6park.com/img/$image
 ||073img.com^*/rich.js
 ||0756.la/ad-htm/
 ||0758net.com/data/attachment/portal/
-||0772fang.com/assets/js/imgorflash.js
+||0772fang.com/assets/js/flashorimg.js
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
 ||09765.com/templates/junshi2015/js/_banner.js
@@ -6051,6 +6051,7 @@ mg*.6park.com/img/$image
 ||meijukankan.net/Uploads/images/ourads.gif
 ||snwx.com/m-
 ||70mao.com/520/
+||1024down.com/images/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hupu.com###shihuo1111
@@ -11161,7 +11162,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 /images/*.gif$domain=cao.pe|caoporn.club|caoporn.com|k88.club|me88.pw|p5p.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 2c2.website,2p8.space,cao.pe,caoporn.club,caoporn.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-||1024down.com/images/*.gif
 ||sinaimg.cn^$domain=2c2.website|2p8.space|cao.pe|caoporn.club|caoporn.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
