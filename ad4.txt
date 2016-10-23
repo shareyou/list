@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qXNaV3IRwbdt6Eg3c3IX6g
+! Checksum: 4XYOJFHibq03rMYCzvsKKw
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201610221230
-! Last Modified: 2016年10月22日 12:30
+! Version: 201610231315
+! Last Modified: 2016年10月23日 13:15
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -509,14 +509,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 comefromchina.com,zhidao.baidu.com#@#.ad-block
 v.baidu.com#@#.has-ad
-@@||cbjs.baidu.com/js/o.js$domain=jkpan.cc
-@@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
 @@|http://tieba.baidu.com/|$genericblock
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
 @@||cb.baidu.com^$object-subrequest,domain=v.baidu.com
 @@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pic.tiexue.net|xdf.cn
-@@||cbjs.baidu.com/js/o.js$domain=7958.com.cn|g3000.com.cn|missioncouver.com.cn
+@@||cbjs.baidu.com/js/o.js$domain=7958.com.cn|g3000.com.cn|jkpan.cc|missioncouver.com.cn
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||pos.baidu.com^$domain=xoyo.com
@@ -527,6 +525,7 @@ v.baidu.com#@#.has-ad
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1147177&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1147178&$domain=fxpan.com
+@@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
 @@||pos.baidu.com^*?di=144778&$domain=epinv.com
 @@||pos.baidu.com^*?di=164580&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
