@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8evU5V9Qc86FBgF4RLqwfg
+! Checksum: BRQadU4KE3Wv7JB8oU8Kdw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610232230
-! Last Modified: 2016年10月23日 22:30
+! Version: 201610240730
+! Last Modified: 2016年10月24日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12606,6 +12606,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analyse.js
 /analysis-logger/*
 /analytic/count.
+/analytic/view.gif?
 /analytic_data_
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
@@ -14585,6 +14586,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track/event/*
 /track/imp?
 /track/impression/*
+/track/impression?
 /track/jsinfo
 /track/mygreendot/*
 /track/pix.asp?
@@ -15468,6 +15470,7 @@ _mongo_stats/
 ||bigmir.net^$third-party
 ||bigstats.net^$third-party
 ||bigtracker.com^$third-party
+||bikepasture.com^$third-party
 ||bionicclick.com^$third-party
 ||bitrix.info^$third-party
 ||bizible.com^$third-party
@@ -19300,6 +19303,7 @@ _mongo_stats/
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
 ||stats.olark.com^
+||stats.ombx.io^
 ||stats.openload.co^
 ||stats.ozwebsites.biz^
 ||stats.polldaddy.com^
@@ -19312,6 +19316,7 @@ _mongo_stats/
 ||stats.smartclip.net^
 ||stats.snacktools.net^
 ||stats.snappytv.com^
+||stats.solidopinion.com^
 ||stats.staging.suite101.com^
 ||stats.surfaid.ihost.com^
 ||stats.svpply.com^
@@ -21053,6 +21058,7 @@ _mongo_stats/
 ||gosanangelo.com/metrics/
 ||gov.in/js/ga.js
 ||gq-magazine.co.uk^*/LogPageView
+||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
 ||groupon.com/tracking
 ||gumtree.com.au/?pc=
@@ -21183,6 +21189,7 @@ _mongo_stats/
 ||intensedebate.com/empty.php
 ||intent.cbsi.com^
 ||intercom.io/gtm_tracking/
+||internetslang.com/jass/$script
 ||investegate.co.uk/Weblogs/IGLog.aspx?
 ||io9.com/at.js.php
 ||io9.com^*/trackers.html
@@ -21729,6 +21736,7 @@ _mongo_stats/
 ||rs.mail.ru^
 ||rsscache.com/Section/Stats/
 ||rsys2.net/pub/as?
+||rt.imgur.com^
 ||rt.prnewswire.com^
 ||rt.rakuten.co.jp^
 ||rta.dailymail.co.uk^
