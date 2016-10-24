@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eZX+/0QDkbrMhI36yRcpxg
+! Checksum: menNlR53inhUiSnZ1/plTA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610241330
-! Last Modified: 2016年10月24日 13:30
+! Version: 201610242000
+! Last Modified: 2016年10月24日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -1803,12 +1803,6 @@ mg*.6park.com/img/$image
 ||103.225.198.230:8080/index.html
 ||107.182.131.103/cache/?q=/images/
 ||108.171.248.234^
-||1080pba.com/templets/default/images/02.gif
-||1080pba.com/templets/default/images/1.gif
-||1080pba.com/templets/default/images/2.gif
-||1080pba.com/templets/default/images/3.gif
-||1080pba.com/templets/default/images/4.gif
-||1080pba.com/templets/default/images/8.gif
 ||10jqka.com.cn/public/stock/red.html?
 ||10pan.cc/rili.gif
 ||10pan.cn/images/gd
@@ -3335,9 +3329,6 @@ mg*.6park.com/img/$image
 ||dxrc.cn/images/sy.gif
 ||dy2018.com/jsdd/
 ||dydh.tv/img/
-||dydh.tv/img/2345.gif
-||dydh.tv/img/384.gif
-||dydh.tv/img/960.gif
 ||dydh.tv/statics/js/tuku
 ||dysfz.net/images/qianying.gif
 ||dytt.com/xzbn.js
@@ -5937,6 +5928,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+100shuai.com###show_startgg
+dydh.tv##DIV[style="margin:0 auto 10px auto;width:960px;height:90px"]
 2345.com###J_acts11_footerfixed
 2345.com##.acts11-sidefixed
 hc360.com,yaolan.com###AD
@@ -7192,7 +7185,6 @@ imanhua.com###topmon
 hnr.cn###topphotos
 999caijing.com###topright
 49lou.com###topwarning_7ree
-1080pba.com###topxia
 fuli.us###toubuads
 qidian.com###tr-banner
 qz828.com###transient
