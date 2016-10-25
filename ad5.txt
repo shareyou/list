@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5hUgEhKuSzek8fGgRljjHg
+! Checksum: Uvc1Hy5GgA6G73nNgOvygA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610252230
-! Last Modified: 2016年10月25日 22:30
+! Version: 201610252300
+! Last Modified: 2016年10月25日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -132,6 +132,7 @@ tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/js/ads888/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -6049,6 +6050,9 @@ mg*.6park.com/img/$image
 ||168img.com/aa/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fun01.cc###popad
+fun01.cc##.ads
+fun01.cc##DIV[style="margin:0 auto 10px auto;text-align:center;width:728px"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10619,6 +10623,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 anjia365.com#@#.adv_bg
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||xxbiquge.com/ad.aspx
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
