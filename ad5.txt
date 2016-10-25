@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1DX4GGhbobtXhSKEWZKvMA
+! Checksum: hOBgtCBymLm4w6zJ6ytS0g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610251300
-! Last Modified: 2016年10月25日 13:00
+! Version: 201610251630
+! Last Modified: 2016年10月25日 16:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -16507,6 +16507,7 @@ _mongo_stats/
 ||pingdom.net^$third-party
 ||pingil.com^$third-party
 ||pingomatic.com^$third-party
+||pippio.com^$third-party
 ||pixel.ad^$third-party
 ||pixel.parsely.com^$third-party
 ||pixel.watch^$third-party
@@ -19601,7 +19602,6 @@ _mongo_stats/
 ||vindicosuite.com/xumo/swf/$third-party
 ||virgingames.com/tracker/
 ||virginmedia.com^*/analytics/
-||virtualearth.net^*/loggingservice/
 ||virtueworldwide.com/ga-test/
 ||visa.com/logging/logEvent$third-party
 ||visit.geocities.com^
@@ -23822,6 +23822,7 @@ _mongo_stats/
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
 @@||view.atdmt.com^*/iview/$domain=starwoodhotels.com
 @@||view.atdmt.com^*/view/$domain=starwoodhotels.com
+@@||virtualearth.net/webservices/v1/LoggingService/$script
 @@||virtualearth.net^*/LoggingService.svc/Log?$script,domain=bing.com|spatialbuzz.com
 @@||visa.com^*/vendor/unica.js
 @@||visiblemeasures.com/crossdomain.xml$object-subrequest,domain=espn.go.com|live.indiatimes.com
