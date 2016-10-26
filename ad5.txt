@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iOnYmL32Kpbch5+DHgVe3A
+! Checksum: c8N1XaXv/Z/JkBCK/YXJUw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610261130
-! Last Modified: 2016年10月26日 11:30
+! Version: 201610261230
+! Last Modified: 2016年10月26日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2030,7 +2030,7 @@ mg*.6park.com/img/$image
 ||168img.com/a/
 ||168img.com/aa/
 ||16sucai.com/ads/
-||16sucai.com/images/46060_
+||16sucai.com/images/*0
 ||17173.com/2013/new/channel-float.js
 ||17173.com/advideo/
 ||17173.com/api/video/PlayerPopup?
@@ -6047,6 +6047,7 @@ mg*.6park.com/img/$image
 ||126xiazai.com/static/rili-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+16sucai.com##TABLE[width="960"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8559,7 +8560,7 @@ putclub.com##.gtest
 58.com##.guaguabox
 97aa1.com,niu20.com##.guang4
 hkwb.net##.guangg
-131458.com,adreep.cn,baoliny.com,hgitv.com,nen.com.cn,rznews.cn,sqkz.com##.guanggao
+adreep.cn,baoliny.com,hgitv.com,nen.com.cn,rznews.cn,sqkz.com##.guanggao
 my0538.com##.guanggao1
 my0538.com##.guanggao2
 cnmo.com##.guanggao_type
