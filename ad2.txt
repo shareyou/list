@@ -1,22 +1,21 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201610211600
-! Last Modified: 2016年10月21日 16:00
+! Version: 201610261100
+! Last Modified: 2016年10月26日 11:00
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2016/10/21
+! Last modified: 2016/10/26
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
 @@*$domain=taobao.com|alipay.com|suning.com|www.vmall.com|etao.com|tmall.com|paipai.com|jd.com|i.qq.com|my.csdn.net
 |http://$subdocument,domain=u17.com|iqiyi.com|dm456.com|sz1001.net|music.baidu.com
 !-----------------------屏蔽第三方资源---------------------------
-! 会拖慢规则解析速度，用uBlock的可用动态规则代替
-! *$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.com
-! *$subdocument,third-party,domain=lepan.cc|tieba.baidu.com|yatu.tv
-! *$third-party,domain=greasyfork.org|xxbiquge.com|shumilou.co
+|http://$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.com
+|http://$subdocument,third-party,domain=lepan.cc|tieba.baidu.com|yatu.tv
+*$third-party,domain=greasyfork.org|xxbiquge.com|shumilou.co
 @@*/jquery.$script
 @@*/jquery-$script
 !---------------------NoScript，可加上自己要过滤的域名--------------------
@@ -247,7 +246,6 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||reachmax.cn^$third-party
 ||s8x1.com
 ||scorecardresearch.com^$third-party
-||sharrysweb.com^
 ||shouyou.com/$third-party
 ||sscefsol.com/
 ||statcounter.com/
@@ -806,6 +804,8 @@ www.soku.com##li.sb_ad,div.sk-banner,div.sk_banner
 |http://module.youku.com/*.html$script
 |http://passport.youku.com/index_loginregGuide/$subdocument
 youku.com###youku_ad_crazy,#ad_crazy_youku_taobao,div[id^="ab_v_"],div[class^="yk-AD-"],.pop-prompt-box,li.js-draw,a[href^="http://poll.youku."]
+@@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
+@@||www.bilibili.com/html/html5player.html
 ||bilibili.com/html/$~xmlhttprequest
 ||elec.bilibili.com/
 !播放器右侧广告图片XHR请求
