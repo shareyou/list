@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c8N1XaXv/Z/JkBCK/YXJUw
+! Checksum: EhI/S0f42BPIZNFZGBGIRQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610261230
-! Last Modified: 2016年10月26日 12:30
+! Version: 201610270800
+! Last Modified: 2016年10月27日 08:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -645,7 +645,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||xlcun.com^$third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -1584,6 +1583,7 @@ ubmcmm.baidustatic.com
 ||xixianad.com^$third-party
 ||xjidian.com^
 ||xk2012.com^
+||xlcun.com^$third-party
 ||xlingdi.com^$third-party
 ||xlwnx.com^
 ||xmshqh.com^$third-party
@@ -1983,6 +1983,7 @@ mg*.6park.com/img/$image
 ||126.net/house/sjz/*96070
 ||126.net/house/sjz/flash/
 ||126.net/house/sjz/xt/
+||126xiazai.com/static/rili-
 ||127.net/external/js6promote
 ||127.net/m/*/promPic.jpg
 ||12img.com/ad/
@@ -6044,10 +6045,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||126xiazai.com/static/rili-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-16sucai.com##TABLE[width="960"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10430,7 +10429,7 @@ qqyanhuang.com##table[width="779"][height="25"]
 6park.com##table[width="89%"][bordercolor="#a0d880"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 97ub.com##table[width="920"]
-bbxxbbs.net##table[width="960"]
+16sucai.com,bbxxbbs.net##table[width="960"]
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 cnjxol.com,verypsp.com##table[width="960"][bgcolor="#FFFFFF"]
 3773.com.cn##table[width="960"][height="100"]
