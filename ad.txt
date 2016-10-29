@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xhmNs+sr1h3xHr5lk5e3+w
+! Checksum: H2saE6wfqapsdj69DNhmtQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201610291800
-! Last Modified: 2016年10月29日 18:00
+! Version: 201610291900
+! Last Modified: 2016年10月29日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -4002,8 +4002,7 @@ mg*.6park.com/img/$image
 ||greatwuyi.com/tplimg/1.files/ad
 ||greenhouseglobal.cn^
 ||greenxf.com/asp/
-||greenxf.com/img/46860.gif
-||greenxf.com/js/main.js
+||greenxf.com/js/mai
 ||greenxiazai.com/greenjs/
 ||greenxiazai.com/jsgreen/
 ||groupa.onlylady.com^
@@ -4207,7 +4206,6 @@ mg*.6park.com/img/$image
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/Web/
 ||hrszyl.com/images/jiaoyou
-||hrtsea.com/936x90.gif
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hsbianma.com/content/mogujie/
 ||htai.me/tb
@@ -4336,7 +4334,6 @@ mg*.6park.com/img/$image
 ||ifengimg.com^*/yingguang-
 ||ifengimg.com^*couplet$script
 ||ifengimg.com^*Float$script
-||ifonce.com/813.gif
 ||ifxtx.com/tp/
 ||ifxtx.com/tss/chexian960.gif
 ||igao7.com/api/default/LeiphoneArticleProduct
@@ -6327,8 +6324,11 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||btbt.tv/dd/
+||52tux.com/friend/images/channel/778x94.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+loldk.com###video_right_ad2
+loldk.com###video_right_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7995,7 +7995,7 @@ hupu.com##.ad_980
 cheshi.com##.ad_980105
 bjxxw.com##.ad_ad
 tpy888.cn##.ad_all
-400gb.com,bego.cc,ctfile.com,ifonce.com,pipipan.com,shenchuang.com##.ad_area
+400gb.com,bego.cc,ctfile.com,pipipan.com,shenchuang.com##.ad_area
 download.csdn.net##.ad_area_1
 sogou.com##.ad_aside_inner
 shm.com.cn##.ad_baidu_300250
@@ -10953,7 +10953,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=fmdisk.com|fmdisk.net|fmpan.com
 @@/images/*/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
-@@/images/ad$domain=10pan.cn|789xz.com|gueizu.com|ifonce.com|wwp5.com
+@@/images/ad$domain=10pan.cn|789xz.com|gueizu.com|wwp5.com
 @@/images/ad/*$domain=9588.com|dod-tec.com|jxedt.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
