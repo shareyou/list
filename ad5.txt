@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eJohxrV9IMAwX7fWZLEkoA
+! Checksum: GMsYA9FWmtve+/scME6OcA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610301030
-! Last Modified: 2016年10月30日 10:30
+! Version: 201610301100
+! Last Modified: 2016年10月30日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -16389,7 +16389,6 @@ _mongo_stats/
 ||netmng.com^$third-party
 ||netratings.com^$third-party
 ||newpoints.info^$third-party
-||newrelic.com^$third-party
 ||newscurve.com^$third-party
 ||newstatscounter.info^$third-party
 ||nexeps.com^$third-party
@@ -17064,7 +17063,6 @@ _mongo_stats/
 ||verticalsearchworks.com^$third-party
 ||vertster.com^$third-party
 ||videostat.com^$third-party
-||vigo.ru^$third-party
 ||vinlens.com^$third-party
 ||vinub.com^$third-party
 ||viralninjas.com^$third-party
@@ -18791,6 +18789,7 @@ _mongo_stats/
 ||jobvite.com/analytics.js
 ||join-safe.com/tracking/
 ||jotform.io/getReferrer/$third-party
+||js-agent.newrelic.com^
 ||jsrdn.com/i/1.gif?
 ||k7-labelgroup.com/g.html?uid=$image
 ||kalstats.kaltura.com^
@@ -23626,6 +23625,7 @@ _mongo_stats/
 @@||netinsight.travelers.com/scripts/ntpagetaghttps.js
 @@||networkworld.com^*/demandbase.js
 @@||newrelic.com/nr-*.min.js$domain=play.spotify.com
+@@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||newsinc.com/getids?uid=$script,domain=ap.org
 @@||newsinc.com^*/getPlacements.js?pid=$xmlhttprequest,domain=ap.org|csmonitor.com
 @@||newyorker.com^*/cn-fe-stats/$script
