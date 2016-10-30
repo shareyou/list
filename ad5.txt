@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YiDZRwv+KBUia/VHbph4YA
+! Checksum: i3naPXPcN9cpOs/GAgYtpQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201610300730
-! Last Modified: 2016年10月30日 07:30
+! Version: 201610300830
+! Last Modified: 2016年10月30日 08:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -131,7 +131,6 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
-/js/showgg.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -275,6 +274,7 @@ tieba.baidu.com##.xiang-guan-tie
 /js/bocaiadv.
 /js/guanggao_gg.js
 /js/jsstyle-$third-party
+/js/showgg.js
 /js/toutiaoiframe.js
 /js/utils51.js
 /js/utils78.js
@@ -569,6 +569,8 @@ _popAds.
 ##.ggad
 ##.ggbox
 ##.ggdistich
+##.gggtop
+##.ggpost-below
 ##.ggtop
 ##.google_adsense2
 ##.his-sign-cont[data-dysign-adid]
@@ -644,17 +646,7 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
-##.gggtop
-##.ggpost-below
 !----------------------------------Ads-Union----------------------------------!
-||twitterzs.com^
-||xhsxgmt.cn^
-||kele4.com^
-||adytx.com^
-||qiqiyii.com^
-||wzjijia.com^
-||sinaalicdn.com^
-||wangsufast.com^
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -951,6 +943,7 @@ ubmcmm.baidustatic.com
 ||adunioncode.com^$third-party
 ||adver.com.tw^$third-party
 ||adxiaozi.com^$third-party
+||adytx.com^
 ||adyun.com^$third-party
 ||affiliate.rakuten.co.jp^$third-party
 ||afjlb.com^
@@ -1283,6 +1276,7 @@ ubmcmm.baidustatic.com
 ||kdly.net^$third-party
 ||kefeng56.com^$third-party
 ||kejet.$third-party
+||kele4.com^
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keyyou.net^
@@ -1399,6 +1393,7 @@ ubmcmm.baidustatic.com
 ||ptdrw.com^
 ||qidou.com^$third-party
 ||qiqiww.com^
+||qiqiyii.com^
 ||qiyou.com^$third-party
 ||qling.com^$third-party
 ||qmkdy.com^
@@ -1440,6 +1435,7 @@ ubmcmm.baidustatic.com
 ||si9377.com^
 ||sicentlife.com^
 ||sin114.com^$third-party
+||sinaalicdn.com^
 ||sino-seve.com^
 ||sitemaji.com^$third-party
 ||snmi.cn^$third-party
@@ -1504,6 +1500,7 @@ ubmcmm.baidustatic.com
 ||tukj.net^$third-party
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
+||twitterzs.com^
 ||twm.com.tw^$third-party
 ||twrank.com^$third-party
 ||twzui6.com^
@@ -1548,6 +1545,7 @@ ubmcmm.baidustatic.com
 ||vsnoon.com^$third-party
 ||vtale.org^
 ||w65p.com^
+||wangsufast.com^
 ||wantaico.com^
 ||wazero.online^
 ||wdzsb.com.cn^
@@ -1573,6 +1571,7 @@ ubmcmm.baidustatic.com
 ||wudang05.com^$third-party
 ||wuwho.cn^
 ||wyhzzy.com^
+||wzjijia.com^
 ||x8ad.com^$third-party
 ||x9377a.com^
 ||xa9t.com^
@@ -1588,6 +1587,7 @@ ubmcmm.baidustatic.com
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
 ||xhmrv.com^
+||xhsxgmt.cn^
 ||xiaobiaoucai.cn^
 ||xiaxuanfu.com^
 ||xibei70.com^
@@ -2333,6 +2333,7 @@ mg*.6park.com/img/$image
 ||52rd.com/Pic2/*_600_60.
 ||52solution.com/js/duilian-bbs.js
 ||52tian.net/qq/
+||52tux.com/friend/images/channel/778x94.jpg
 ||52waha.com/static/js/func_bbs.js
 ||52wmb.com/2014js/GG_
 ||52z.com/feixianggg/
@@ -2977,6 +2978,7 @@ mg*.6park.com/img/$image
 ||bs.baidu.com/app-ads%
 ||btago.com/static/banner/
 ||btbt.info/js/top960.js
+||btbt.tv/dd/
 ||btbtt.la/bt.js
 ||btbtt.la/jslb.js
 ||btbtt.la/jstb.js
@@ -6044,14 +6046,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||btbt.tv/dd/
-||52tux.com/friend/images/channel/778x94.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhiboba.cc##.ctgg_1
-zhiboba.cc##.tvpftgg1
-loldk.com###video_right_ad2
-loldk.com###video_right_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7342,6 +7338,8 @@ yzz.cn###video_ff
 loldk.com###video_new_ad
 ifeng.com###video_p
 baidu.com###video_push_box
+loldk.com###video_right_ad
+loldk.com###video_right_ad2
 aipai.com###videosRightDown
 tingvoa.com###vipbox
 jstv.com###vplayad
@@ -8266,6 +8264,7 @@ timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 sm.cn##.crumb-link + .other
 123.sogou.com##.cs_right_hw
+zhiboba.cc##.ctgg_1
 tigtag.com##.custom-box02
 iplaysoft.com##.d250
 iplaysoft.com##.d250x90
@@ -9568,6 +9567,7 @@ bamuyu.com##.tui_tu
 7060.la,haosou.com,so.com##.tuiguang
 m.hao123.com##.tuizhan
 tvhome.com##.tvAd
+zhiboba.cc##.tvpftgg1
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
 cntour2.com##.txtPicAd
 ltaaa.com##.txtads
