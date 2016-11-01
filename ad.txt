@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: opl0JFXw9yxACDJ7XK1vYA
+! Checksum: UqDHO8ac7LM6T/rX93zu7g
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611010900
-! Last Modified: 2016年11月01日 09:00
+! Version: 201611010930
+! Last Modified: 2016年11月01日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -1999,7 +1999,7 @@ ubmcmm.baidustatic.com
 ||gamer.com.tw/adcounter.$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
-||gd.189.*/push/$popup
+||gd.189.cn*/push/$popup
 ||gd.ct10000.com^*/push/$popup,third-party
 ||goo.gl^$popup,domain=up2stream.com
 ||greenet.cn^*_popu_$popup
@@ -6333,6 +6333,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||duba.com/static/images/public/20161031/bd5987bf3f741da87b0f630ec0e11629.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 duba.com###J_BottomAdBan
@@ -10912,6 +10913,9 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||dup.baidustatic.com/js/ds.js$domain=epinv.com
+@@||pos.baidu.com^*?di=739405&$domain=epinv.com
+@@||pos.baidu.com^*=u1331029&$domain=epinv.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
