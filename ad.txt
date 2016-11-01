@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /peIG5JKsLHu5iDVA/G7ug
+! Checksum: iRdHUoshVo81Vvmu5MnGLA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611011330
-! Last Modified: 2016年11月01日 13:30
+! Version: 201611011930
+! Last Modified: 2016年11月01日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -409,6 +409,8 @@ tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/meinv/js/*_banner.js
+/meinv/js/_ads_tuku.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -2622,7 +2624,6 @@ mg*.6park.com/img/$image
 ||52wmb.com/2014js/GG_
 ||52z.com/feixianggg/
 ||52zy.com/other/js/
-||53.net/templates/meinv/js/_banner.js
 ||5399.com/poster_js/
 ||543et.com/detail/
 ||5442.com/style/ads5442.js
@@ -4895,7 +4896,6 @@ mg*.6park.com/img/$image
 ||meijukankan.net/Uploads/images/ourads.gif
 ||meiliren.net/tuijs/
 ||meimb.com^$domain=94as.com
-||meinv.com/templates/meinv/js/*_banner.js
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
 ||meiyouad.com/user/admin?

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q2jX+tCq3p4ZvwAO5f9mwQ
+! Checksum: Y+4+yXYIOs/1aCMcU7hIBw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611011330
-! Last Modified: 2016年11月01日 13:30
+! Version: 201611011930
+! Last Modified: 2016年11月01日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11,6 +11,8 @@
 !
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
+/meinv/js/*_banner.js
+/meinv/js/_ads_tuku.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -2224,7 +2226,6 @@ mg*.6park.com/img/$image
 ||52wmb.com/2014js/GG_
 ||52z.com/feixianggg/
 ||52zy.com/other/js/
-||53.net/templates/meinv/js/_banner.js
 ||5399.com/poster_js/
 ||543et.com/detail/
 ||5442.com/style/ads5442.js
@@ -4497,7 +4498,6 @@ mg*.6park.com/img/$image
 ||meijukankan.net/Uploads/images/ourads.gif
 ||meiliren.net/tuijs/
 ||meimb.com^$domain=94as.com
-||meinv.com/templates/meinv/js/*_banner.js
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
 ||meiyouad.com/user/admin?
