@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MDZITkxSDzd0EqlDpgRlXg
+! Checksum: P/MxZi8gs1PJ/mICwme/Aw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201610312230
-! Last Modified: 2016年10月31日 22:30
+! Version: 201611010800
+! Last Modified: 2016年11月01日 08:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -528,7 +528,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||218.25.246.118^
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -670,6 +669,7 @@ ubmcmm.baidustatic.com
 ||211.167.105.131^
 ||2155ec.com^$third-party
 ||217wo.com^$third-party
+||218.25.246.118^
 ||218.26.217.*.html
 ||219.234.83.60^
 ||220.115.251.25^
@@ -3317,6 +3317,8 @@ mg*.6park.com/img/$image
 ||dsqnw.com/ac/
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
+||duba.com/dhads?id=
+||duba.com/static/images/public/20161030/e3636a363bfb07b2b5dc8e3518e3f8eb.png
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
 ||duoku.com/common/js/hanawa.js
@@ -3693,6 +3695,7 @@ mg*.6park.com/img/$image
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||haokoo.com/images/MoonCherry.jpg
 ||haolepic.com/blz/
+||haolepic.com/js/
 ||haoring03.com/ads/
 ||haoxxoo.com/player/ad.html
 ||haoyangmao.cc/wp-content/uploads/2016/*.gif
@@ -4148,6 +4151,7 @@ mg*.6park.com/img/$image
 ||javjunkies.com/FL$subdocument
 ||javlibrary.com/js/bnr_
 ||jb51.net/2012js/
+||jb51.net/js/jbLoader.js
 ||jbyf.net/JS/1
 ||jbyf.net/JS/6
 ||jbyf.net/JS/9
@@ -5620,6 +5624,7 @@ mg*.6park.com/img/$image
 ||xdowns.com/js/lefttuijian.js
 ||xdyjt.com^
 ||xfsub.com/bt/ad/
+||xfvcd.com/js/dd/
 ||xghylt.com/api.php?mod=ad&adid=
 ||xghylt.com/newad/
 ||xgrb.cn/newad/
@@ -5931,17 +5936,11 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||xfvcd.com/js/dd/
-||haolepic.com/js/
-||duba.com/dhads?id=
-||duba.com/static/images/public/20161030/e3636a363bfb07b2b5dc8e3518e3f8eb.png
-||jb51.net/js/jbLoader.js
 !------------------------Specific element hiding rules------------------------!
-duba.com###one-mid
-duba.com##.bgOpen
-xfvcd.com##.top980
-bbs.feng.com##.wrap.fl_row
 gpcxw.com###AA2
+duba.com###J_BottomAdBan
+duba.com###oneTip
+duba.com##.cool_textlink
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6880,6 +6879,7 @@ dissgold.com###nv_forum > center
 pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
 3g.qq.com###omgad-wechat-bigpic
+duba.com###one-mid
 duba.com###oneone
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
@@ -7957,6 +7957,7 @@ yesky.com##.bdtj
 pinshan.com##.bea_adv2
 dnvod.eu##.bfq-r
 uc123.com##.bg-wrapper
+duba.com##.bgOpen
 hehagame.com##.bg_ad
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
@@ -9407,7 +9408,7 @@ rj.baidu.com##.top-recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 ifeng.com##.top-tg
 52wubi.com##.top960
-700kan.com,jjvcd.com,ktkkt.com##.top980
+700kan.com,jjvcd.com,ktkkt.com,xfvcd.com##.top980
 ktkkt.com##.top980a
 cn.msn.com,cwan.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com##.topAdBox
@@ -9569,6 +9570,7 @@ tui18.com##.wp[style^="width:"]
 bbs.gfan.com##.wpp
 we.poppur.com##.wrap > div[style="height:112px"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
+bbs.feng.com##.wrap.fl_row
 paipai.fm,paipaitxt.com##.wrapbg
 image.baidu.com##.wrapper_dot_box.dot_black
 jmw.com.cn##.wy_bottom_box
