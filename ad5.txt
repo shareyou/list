@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kTtoAgsiXwwfiM4UK3IStA
+! Checksum: y5N4J/QkmZ4fI+0WvglQrA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611022100
-! Last Modified: 2016年11月02日 21:00
+! Version: 201611022130
+! Last Modified: 2016年11月02日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15426,6 +15426,7 @@ _mongo_stats/
 ||arcadeweb.com^$third-party
 ||arch-nicto.com^$third-party
 ||arena-quantum.co.uk^$third-party
+||arianelab.com^$third-party
 ||arkayne.com^$third-party
 ||arlime.com^$third-party
 ||arpuonline.com^$third-party
@@ -19451,6 +19452,7 @@ _mongo_stats/
 ||tout.com/tracker.js
 ||tr-metrics.loomia.com^
 ||tr.advance.net^
+||tr.cloud-media.fr^
 ||tr.interlake.net^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
@@ -19945,7 +19947,6 @@ _mongo_stats/
 ||t.planvip.fr^$third-party
 ||tag.leadplace.fr^
 ||tmgr.ccmbg.com^
-||tr.cloud-media.fr^
 ||tra.pmdstatic.net^
 ||track.byzon.swelen.net^$third-party
 ||track.laredoute.fr^$image
@@ -20296,8 +20297,10 @@ _mongo_stats/
 ||track.bluecompany.cl^
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||cis.schibsted.com^
+||cloudfront.net/autoTrackerBlocket.
 ||collector.schibsted.io^
 ||counter.mtgnewmedia.se^
+||schibsted.com/autoTrackerBlocket.
 ||stats.dominoplaza.com^
 ||vizzit.se^$third-party
 ||analytic.piri.net^
