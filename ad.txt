@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M9RNRSSYII4pa0XAv/FNtQ
+! Checksum: dk9btV1KYzACl+RPfbKehA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611021830
-! Last Modified: 2016年11月02日 18:30
+! Version: 201611021930
+! Last Modified: 2016年11月02日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -929,6 +929,7 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 ||yxszy.com^
+||pyzkk.com^
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -1974,6 +1975,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+||gd.189.cn^*.htm?SP=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -6336,6 +6338,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zgjm.org/data/cache/mytag-13.htm
+||ifengimg.com^*600.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 ettoday.net##DIV[id^="crt-"]
