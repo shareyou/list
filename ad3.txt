@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y9jOTEZBagZSd2nLfLLH7A
+! Checksum: 81Svr9QYq6vA7NsHn9LJNQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611020830
-! Last Modified: 2016年11月02日 08:30
+! Version: 201611021100
+! Last Modified: 2016年11月02日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2071,8 +2071,6 @@ mg*.6park.com/img/$image
 ||315che.com/tree/ad.js
 ||3199.cn/ggs_
 ||324324.cn/zz/
-||32666.com/ads/
-||32666.com/img/
 ||33.autohome.com.cn^$object,script
 ||33.autoimg.cn/homeurl/*.js
 ||33.autoimg.cn/t/Adhtmlnet/*.jpg
@@ -2315,7 +2313,6 @@ mg*.6park.com/img/$image
 ||67.159.44.187/js/v1.js
 ||67.198.197.27^
 ||6701.com/galgameads/
-||676000.com/001.htm
 ||68design.net/inc/news.
 ||68mtv.com/js/gg.js
 ||69.30.217.155^*.png
@@ -2417,7 +2414,7 @@ mg*.6park.com/img/$image
 ||90oo.com/tp/js
 ||90oo.com/tp/msn.jpg
 ||90oo.com/tp/w981.gif
-||90zq.com/bf/ad/
+||90zq.com/bf/mykdata/mkdata.js
 ||90zy.cn/data/attachment/portal/
 ||91.com/*hezuo/
 ||91.com/uploads/game/*-%E5%B9%BF%E5%91%8A.
@@ -2755,7 +2752,6 @@ mg*.6park.com/img/$image
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
 ||bcok.com^$subdocument
-||bcwft.com/jc.js
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -5940,6 +5936,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||zgjm.org/data/cache/mytag-13.htm
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10261,7 +10258,6 @@ gpshk.cc##img[width="770"]
 jd-bbs.com##img[width="900"][height="100"]
 855699.com##img[width="922"]
 hz0572.com,pingpang.info##img[width="950"]
-676000.com##img[width="957"]
 0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn,pt80.net##img[width="960"]
 jznews.com.cn##img[width="980"]
 gog.cn##img[width^="100"]
