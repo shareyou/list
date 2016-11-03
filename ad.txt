@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zPczrP1EjEejA0h9LoJgCQ
+! Checksum: 1xO7ev0yUjJKJtL226SMRg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611032230
-! Last Modified: 2016年11月03日 22:30
+! Version: 201611032245
+! Last Modified: 2016年11月03日 22:45
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -95,7 +95,6 @@ xhamster.com##.sponsorBottom
 ||adxxx.$third-party
 ||adrunnr.com^
 ||adzerk.net^
-||aqgyju.cn^
 ||aidigua.com^
 ||amung.us^
 ||an.yandex.ru^
@@ -104,7 +103,6 @@ xhamster.com##.sponsorBottom
 ||atemda.com^$third-party
 ||awempire.com^$third-party
 ||baifendian.com^$third-party
-||birdmedia.com^
 ||blogamethu.com^
 ||bookbao.com/images/app_banner.jpg
 ||bthand.com/static/js/default.js
@@ -171,7 +169,6 @@ xhamster.com##.sponsorBottom
 ||prscripts.com^$third-party
 ||prpops.com^$third-party
 ||qiniucdn.com^$domain=enrz.com,image
-||qiqiyii.com^
 ||revcontent.com^$third-party
 ||sax.sina.cn/wap/impress?
 ||serving-sys.com^
@@ -206,7 +203,6 @@ xhamster.com##.sponsorBottom
 ||xxxnavy.com^$third-party
 ||xtube.com/js/ht.js
 ||xtube.com/theme/v2/vendor/js-popunder/
-||xulizui6.com^
 ||yllix.com^
 ||yahoo.com^*banner_ad
 ||yimg.com/*/ads/
