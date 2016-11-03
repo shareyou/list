@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E0cQnA0mkNNKnpqPOpUvjQ
+! Checksum: RY5P+BIHiIXwvINYANUcuQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611032200
-! Last Modified: 2016年11月03日 22:00
+! Version: 201611032230
+! Last Modified: 2016年11月03日 22:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -1577,9 +1577,9 @@ ubmcmm.baidustatic.com
 ||ztdsp.com^$third-party
 ||zytwq.net^$third-party
 ||zzrcz.com^
+||b99u.top^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||onelink.to^$popup,domain=gamer.com.tw
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -5953,6 +5953,8 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 3g.cn##H6[style="font-size: 18px; line-height: 32px;"]
 345qyl.com##.ads
+jobbole.com##A[href="http://group.jobbole.com/22945/"]
+jobbole.com##A[href^="http://apeclass.cn/"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
