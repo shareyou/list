@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1xO7ev0yUjJKJtL226SMRg
+! Checksum: 9wgKTkYcKIrthXgLKxuprA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611032245
-! Last Modified: 2016年11月03日 22:45
+! Version: 201611032300
+! Last Modified: 2016年11月03日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -22,6 +22,7 @@ coding.net##.smart-app-banner
 mp.weixin.qq.com###js_pc_qr_code
 m.jd.com##.download-pannel
 m.jiemian.com###js-b-ad
+m.qidian.com###app_download_blank_show, .app_download_ad, .app_download_ad02
 news.sina.com.cn##.news_weixin_ercode
 yahoo.com###html_fp
 yahoo.com###my-adsFPL
@@ -6346,9 +6347,12 @@ mg*.6park.com/img/$image
 ||hudong.pl.youku.com/jsapi/interact/playerPlugins.js
 ||sinaimg.cn^$domain=345qyl.com
 ||3g.cn/baidualading/
+||itiexue.net/other/shuang11.jpg
 !------------------------Specific element hiding rules------------------------!
 3g.cn##H6[style="font-size: 18px; line-height: 32px;"]
 345qyl.com##.ads
+tiexue.net##.AreaR > .lunbo
+tiexue.net##.gousi
 jobbole.com##A[href="http://group.jobbole.com/22945/"]
 jobbole.com##A[href^="http://apeclass.cn/"]
 gpcxw.com###AA2
