@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PXF2rvR8sFe42v8ZzzmU+g
+! Checksum: K3UkO7jLzNWKpKa9PHo8bw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611032300
-! Last Modified: 2016年11月03日 23:00
+! Version: 201611040730
+! Last Modified: 2016年11月04日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12342,6 +12342,10 @@ weibo.com##.apps_PCD_reco_detail_right
 -seo-tracker.
 -social-tracking.
 -stat/collect/
+-stats/fab.
+-stats/ga.
+-stats/imr.
+-stats/metrica.
 -tracking-pixel.
 -tracking.js?
 -trackingScript.
@@ -14413,6 +14417,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /slimstat/*
 /small.gif?type
 /smarta.
+/smartserve-
 /social_tracking.
 /socialButtonTracker.
 /SocialTrack_
@@ -14589,6 +14594,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tealiumpixel.
 /textlink.php?text
 /thetracker.js
+/third-party-stats/*
 /thirdpartyCookie.
 /thirdPartyPixel.
 /thirdPartyTags.js
@@ -15552,7 +15558,6 @@ _mongo_stats/
 ||boomerang.com.au^$third-party
 ||boomtrain.com^$third-party
 ||botsvisit.com^$third-party
-||bounceexchange.com^$third-party
 ||bouncex.com^$third-party
 ||brat-online.ro^$third-party
 ||brcdn.com^$third-party
@@ -16841,6 +16846,7 @@ _mongo_stats/
 ||smarterremarketer.net^$third-party
 ||smartracker.net^$third-party
 ||smartzonessva.com^$third-party
+||smct.co^$third-party
 ||smfsvc.com^$third-party
 ||smileyhost.net^$third-party
 ||smrtlnks.com^$third-party
@@ -18655,6 +18661,7 @@ _mongo_stats/
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
 ||facebook.com*/impression.php
+||facebook.com/ai.php?
 ||facebook.com/audience_network/$image
 ||facebook.com/brandlift.php
 ||facebook.com/common/scribe_endpoint.php
