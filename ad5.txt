@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pvv+VDBrylJgi8Hxft5Qig
+! Checksum: Uq32M/yHJL0dFY6ybz5CKQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611040900
-! Last Modified: 2016年11月04日 09:00
+! Version: 201611040930
+! Last Modified: 2016年11月04日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6074,6 +6074,7 @@ mg*.6park.com/img/$image
 ||000001.azureedge.net/script/common.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+btbtt.la##.wrapper_bg_c
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11630,6 +11631,7 @@ _300_250.
 -bobo_recommend_
 /dongaogg/*
 /tb/_/video_frs_head_
+/z.zolapp.
 !------------------------General element hiding rules-------------------------!
 ###windlocation
 ###qrcodeWrap
@@ -11790,6 +11792,11 @@ _300_250.
 ||rrjc.com/home/seo/ad/
 ||wuxibus.com/Image/title
 !------------------------Specific element hiding rules------------------------!
+zol.com.cn##.zolapp
+scsjgjj.com###floatinfo
+neihanshequ.com###pageletBottomBanner
+neihanshequ.com###pageletTopBanner
+neihanshequ.com###appDownload
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###video_aside
 golinksworld.com###btn_download
 sogou.com##.pop-tuiguang
