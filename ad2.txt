@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201611041730
-! Last Modified: 2016年11月04日 17:30
+! Version: 201611062130
+! Last Modified: 2016年11月06日 21:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2016/11/01
+! Last modified: 2016/11/06
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
@@ -657,8 +657,10 @@ ithome.com##div#hd_float,#side_func,#con>#tt5>div
 |http://wa.kuwo.cn/lyrics/img/kwgg/
 iciba.com##div[class|=ad],div.newpc-entry
 |http://cdn.iciba.com/web/co/ci/$image
-||jb51.net/image/aliyun
-||jb51.net/image/kuyun
+jb51.net###txtlink,div.topimg
+||alicdn.com/$image,domain=jb51.net
+||www.yuaniis.com/jb51/$image
+||files.jb51.net/image/*.gif|$image
 lepan.cc##div.alert_windows
 |http://image.lepan.cc/vipcz/$image
 |http://image.lepan.cc/ydxz/
