@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RGm+qIvv44YN7GfloTPTpw
+! Checksum: 51k2DHkfHZYCB+HucA+d1w
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611091000
-! Last Modified: 2016年11月09日 10:00
+! Version: 201611091330
+! Last Modified: 2016年11月09日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5068,7 +5068,7 @@ mg*.6park.com/img/$image
 ||s-msn.com/msnportal/hp/luckyday/
 ||s-msn.com/portal/hp/2015/807.html
 ||s-msn.com/portal/xiatui.js
-||s.pacn.ws^*?$image
+||s.pacn.ws^*?$image,domain=dmhy.org
 ||s.tankr.net/n/
 ||s.tankr.net/s/$script
 ||s.video.sina.com.cn/video/play?video_id=249750205&
@@ -10990,7 +10990,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
-@@||s.pacn.ws^*/generate-captcha?
+@@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sakai-hk.com/advertisement.js
 @@||sakai.club/advertisement.js
