@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XOhMD9A8+IDCvfZqRZeVDw
+! Checksum: 0pdY+UxHLB9oVf0JCSkthA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611100000
-! Last Modified: 2016年11月10日 00:00
+! Version: 201611101100
+! Last Modified: 2016年11月10日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -534,9 +534,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|shumilou.co
 !----------------------------------Ads-Union----------------------------------!
-||minisplat.cn^
-||gclick.cn^$third-party
-||xingjuhe.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1064,6 +1061,7 @@ ubmcmm.baidustatic.com
 ||gamecps.com^$third-party
 ||gameone.com^$third-party
 ||gansha.co^$third-party
+||gclick.cn^$third-party
 ||gdxxb.com^$third-party
 ||geotmt.com^$third-party
 ||gf108.com^
@@ -1249,6 +1247,7 @@ ubmcmm.baidustatic.com
 ||miaozhen.com^$third-party
 ||micromoon.com.cn^$third-party
 ||mingxianshanghang.cn^
+||minisplat.cn^
 ||mlt01.com^
 ||mobads.baidu.com^$third-party
 ||momzs.com^$third-party
@@ -1516,6 +1515,7 @@ ubmcmm.baidustatic.com
 ||xiaxuanfu.com^
 ||xibei70.com^
 ||xilele.com^
+||xingjuhe.com^
 ||xitao3.com^$third-party
 ||xixianad.com^$third-party
 ||xjidian.com^
@@ -4611,6 +4611,7 @@ mg*.6park.com/img/$image
 ||mtime.cn/tg/
 ||muyuge.com/js/bb/
 ||muyuge.net/js/bb/
+||muyutian.com/db.js
 ||mw6.me/images/*.gif
 ||mwsl.qiniudn.com/250x250-
 ||mxwz.com/swf/yidong2015.swf
@@ -5976,10 +5977,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||muyutian.com/db.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .tbui_slideshow_list
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6975,6 +6974,7 @@ hao.360.cn###plane > .plane-hd
 hao.360.cn###plane-ria
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .activity_head
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .tbui_slideshow_list
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_left_float
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
 160.com###playBox
