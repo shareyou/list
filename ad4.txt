@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oAbEM3cs3KFT7oqLsQ4J4A
+! Checksum: HoetPIWBQTPlSl4KH7zvxA
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201611101100
-! Last Modified: 2016年11月10日 11:00
+! Version: 201611110930
+! Last Modified: 2016年11月11日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -589,6 +589,7 @@ news.baidu.com##.recommend-mask
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/tam-ogel/
+||bdstatic.com^*/QSURrcmRKV.js
 @@||bdstatic.com/??*,*,*,
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||bdstatic.com^*/ask/share/share_
