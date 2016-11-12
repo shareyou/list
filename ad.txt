@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RIHkR20quJx5mKjM93ZIYw
+! Checksum: n81kr757/rp+pX7D0BdQVw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611121000
-! Last Modified: 2016年11月12日 10:00
+! Version: 201611121030
+! Last Modified: 2016年11月12日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -933,6 +933,9 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|shumilou.co
 !----------------------------------Ads-Union----------------------------------!
 .cn/showpage.asp?u=$script,third-party
+||shbywsd.cn^
+||wyttech.cn^
+||kqy1.com^
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -2922,7 +2925,7 @@ mg*.6park.com/img/$image
 ||a4.yeshj.com^
 ||a5.yeshj.com^
 ||ab.ahlife.com^*.swf
-||abbao.cn/resources/js/page/checkadblock.
+||abbao.cn^*adblock
 ||abc.hkepc.com^
 ||abcde.cn/2014images/*96060.jpg
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
@@ -4516,8 +4519,8 @@ mg*.6park.com/img/$image
 ||ishuaji.cn/public/images/banner.jpg
 ||ishuhui.com/cartoon/book-1/*/sp
 ||ishuhui.com/setting/get_conf/option/ad/
-||isite.tw/wp-content/cache/minify/41446.js
-||isite.tw/wp-content/cache/minify/8f1e4.js
+||isite.tw/wp-content/cache/minify/8d516.js
+||isite.tw/wp-content/cache/minify/838ad.js
 ||isso.com.cn/club/adv2Tools.js
 ||isso.com.cn/ggimage/*.swf
 ||isso.com.cn/upload_image/A-D/
