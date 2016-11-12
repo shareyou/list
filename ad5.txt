@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5QO8GJrzc4F5o/QAO6YWqQ
+! Checksum: /Wr4hOqT4erI1K4BCSrW5A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611120930
-! Last Modified: 2016年11月12日 09:30
+! Version: 201611121000
+! Last Modified: 2016年11月12日 10:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6103,6 +6103,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||ltn.com.tw/js/ad_door.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10119,7 +10120,7 @@ nba.hupu.com##div[class^="nba-ad"]
 sun0769.com##div[class^="pagecenter sungg"]
 wasu.cn##div[class^="play_ads"]
 infoq.com##div[class^="related_sponsors"]
-91fuli.xyz,diyifuli.top,idaohang.top,ifulione.com,ifulione.top,onedh.xyz,onefuli.top##div[class^="sa-"]
+91fuli.xyz,diyifuli.top,idaohang.top,ifulione.com,ifulione.top,onedh.xyz,onefuli.top##.toparea
 qidian.com##div[class^="show_ggpic_"]
 vvic.com##div[class^="side"]
 86wan.com##div[class^="tonglan"]
@@ -16396,7 +16397,6 @@ _mongo_stats/
 ||marinsm.com^$third-party
 ||market015.com^$third-party
 ||market2lead.com^$third-party
-||marketingautomation.services^$third-party
 ||marketizator.com^$third-party
 ||marketo.net^$third-party
 ||martianstats.com^$third-party
@@ -19032,6 +19032,7 @@ _mongo_stats/
 ||mansion.com/mts.tracker.js
 ||mantisadnetwork.com/sync?
 ||mapquestapi.com/logger/
+||marketingautomation.services/net?$third-party
 ||marketinghub.hp.com^
 ||mas.nth.ch^
 ||mashery.com/analytics/
