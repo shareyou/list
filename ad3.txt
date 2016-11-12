@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3HxL/oyFvEP7vI+CTBm9oQ
+! Checksum: HwO5c8+9sYhrXp4OXgELsA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611121930
-! Last Modified: 2016年11月12日 19:30
+! Version: 201611122000
+! Last Modified: 2016年11月12日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -71,7 +71,6 @@
 /aoyou372down300_
 /api/autosda.php
 /attachments/ad/*
-/bab8ab1fgw1f5t7p0pjwxj20940fg76k.jpg
 /baichuan/*$subdocument
 /Banner-pcbeta-
 /banner468x60_live173.$~collapse
@@ -5188,7 +5187,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
-||sinaimg.cn/large/005M5Ibcgw1f1d5gnlocmg30qo01odgs.gif
 ||sinaimg.cn/large/68299a77jw1et76sa28ljg208c03i0t0.gif
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
@@ -5983,8 +5981,11 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||ltn.com.tw/js/ad_door.js
 ||infoqstatic.com^*/scripts/rightbarOptionalVcrBox.js
+||webhek.com/1478937898.jpg
+||begeek.cn/bab8ab1fgw1f5i5whsy91j20940fgwg9.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+techug.com##.google-ad + .recent-container
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
