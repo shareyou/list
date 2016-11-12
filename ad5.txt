@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k2qHfXWd02dpWH8E8wmyAw
+! Checksum: b3eABUkBn9qNg7nQW5Vu6g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611121700
-! Last Modified: 2016年11月12日 17:00
+! Version: 201611121930
+! Last Modified: 2016年11月12日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -638,11 +638,6 @@ _popAds.
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="]
 ##a[href*="/?intr="]
-##a[href^="http://188.qy8.me"]
-##a[href^="http://js.50bang.org/?"]
-##a[href^="http://www.86600.com"]
-##a[href^="http://www.whao9.com"]
-##a[href^="https://www.18vpn.biz/r.php"]
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
@@ -650,10 +645,10 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##span[title="neteasefooter"]
+###netease_mail_footer
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com
-|https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|shumilou.co
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
+|https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 .cn/showpage.asp?u=$script,third-party
 ||xihashuale.com^
