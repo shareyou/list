@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZbBDfRNjfCpiayKpvpmqMw
+! Checksum: kXo8Im8al2CYimxgOQzbLA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611121330
-! Last Modified: 2016年11月12日 13:30
+! Version: 201611121400
+! Last Modified: 2016年11月12日 14:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -4193,8 +4193,8 @@ mg*.6park.com/img/$image
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
 ||javlibrary.com/js/bnr_
-||jb51.net/2012js/
-||jb51.net/js/jbLoader.js
+||jb51.net/templets/2016js/
+||common.jb51.net^*.js
 ||jbyf.net/JS/1
 ||jbyf.net/JS/6
 ||jbyf.net/JS/9
@@ -11598,6 +11598,7 @@ _300_250.
 ||tui.cnzz.net^$third-party
 ||lxbjs.baidu.com^$third-party
 ||goutong.baidu.com^
+||soperson.com^$third-party
 !---------------------------Popups--------------------------------------------!
 ||tsdm.net/qxs.php|$popup,domain=www.tsdm.net
 ||tsdm.net/qxs.php/|$popup,domain=www.tsdm.net
@@ -11606,6 +11607,7 @@ _300_250.
 ||dmf8.taobao.com/|$popup,domain=www.tsdm.net
 ||loli.cd/|$popup,domain=www.tsdm.net
 !--------------------------Specific blocking filters--------------------------!
+||igo.cn/liuxue/js/slideBar.js
 ||eastmoney.com/js/news_fixed_
 ||dahe.cn/indiboy/ads/
 ||tianya.cn/shang/*/index.shtml
@@ -11735,7 +11737,16 @@ _300_250.
 ||yytcdn.com/js/common/widget/pcpusher.
 ||rrjc.com/home/seo/ad/
 ||wuxibus.com/Image/title
+||hjfile.cn/site/js/bottomActive
+||hjfile.cn/site/js/passAddAd.js
+||hjfile.cn/site/js/pop_gift_plugin.js
+||hjfile.cn/site/js/questionnaire.js
+||a6.hujiang.com^$domain=~class.hujiang.com
+||hjapi.com/v1/pageSoftText?
 !------------------------Specific element hiding rules------------------------!
+hjenglish.com,hujiang.com##.lamu_banner
+hjenglish.com###regscrollcontainer
+infoq.com##.ab_detect
 zol.com.cn##.zolapp
 scsjgjj.com###floatinfo
 neihanshequ.com###pageletBottomBanner
@@ -12011,6 +12022,8 @@ fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; 
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||cnfol.com/Count.html
+||pv.ltn.com.tw^
 ||s.btime.com^
 ||web.51.la^$third-party
 ||baidu.com/smalllog/
