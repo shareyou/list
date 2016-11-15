@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lsmZ5KEUPfYCd2nC/lrZiA
+! Checksum: K1LjF5qYpGFzaCPoJ+AFSA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611151100
-! Last Modified: 2016年11月15日 11:00
+! Version: 201611151230
+! Last Modified: 2016年11月15日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -650,6 +650,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||zhudiaosz.com^
+||tvrom.cn^$third-party
 ||kkcaicai.com^
 ||jsmwd.com^
 .cn/showpage.asp?u=$script,third-party
@@ -6111,6 +6112,9 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||baidu.com/rec?platform=wise&ms=1&rset=ad&
+||69shuba.com/js/aadgty.js
+||69shuba.com/js/judfgdm.js
+||69shuba.com/js/sdfadf.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10722,6 +10726,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||268xue.com/2016/item-web/exam-pc/images/adv
 @@||tt1069.com/ads.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
