@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jecEFoQU7mJ7gal9JUEUcA
+! Checksum: eTpdXo/QoBU6oPKXryFlEw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611162230
-! Last Modified: 2016年11月16日 22:30
+! Version: 201611162330
+! Last Modified: 2016年11月16日 23:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6010,6 +6010,7 @@ mg*.6park.com/img/$image
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
 ||scw98.com/js/temp/
+||ifeng.com/a_if/
 !------------------------Specific element hiding rules------------------------!
 zimuzu.tv##A[href^="http://www.6.cn/coop/"]
 v2ex.com##.sidebar_compliance
@@ -10625,6 +10626,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 xxt.cn#@##mainAd
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||ifengimg.com/ifeng/sources/inice_$domain=v.ifeng.com
+@@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||gaoqingkong.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
