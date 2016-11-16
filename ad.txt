@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wmwtrUBNLLwJ5BeIBt4zzQ
+! Checksum: MA3ElgO22Yo8d2nTULw5KA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611160930
-! Last Modified: 2016年11月16日 09:30
+! Version: 201611161000
+! Last Modified: 2016年11月16日 10:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -1001,6 +1001,7 @@ ubmcmm.baidustatic.com
 |http://1*.*.*.*/show.js|$script,third-party
 |http://1.3.0.10^
 |http://js*/i.php?$script,third-party
+|http://js*/i.js?$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://r.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
@@ -2018,6 +2019,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+||d6262.com^$popup
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
