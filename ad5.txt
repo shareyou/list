@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gNPTDo25p5clEhP6o1VZvg
+! Checksum: yItononrdEAXM5VUfcmZjg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611162100
-! Last Modified: 2016年11月16日 21:00
+! Version: 201611162200
+! Last Modified: 2016年11月16日 22:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6124,7 +6124,12 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||sdbeta.com/statics/mystyle/js/1688.js
 ||wdstatic.cn/tg/v2ex/
+||admx.baixing.com^
+||scw98.com/ADMM.
+||scw98.com/js/Index
+||scw98.com/js/temp/
 !------------------------Specific element hiding rules------------------------!
+zimuzu.tv##A[href^="http://www.6.cn/coop/"]
 v2ex.com##.sidebar_compliance
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9997,7 +10002,7 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
-allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
+allyingshi.com##a[href^="http://www.6.cn/coop/"]
 v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
