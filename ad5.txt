@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DZD8TxQo5FU7lb40hJQBSg
+! Checksum: S4QnS4TPL5gmKPnhSqTD8Q
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611171130
-! Last Modified: 2016年11月17日 11:30
+! Version: 201611171230
+! Last Modified: 2016年11月17日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -650,6 +650,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||kiwihk.net^$third-party
+||xyssp.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -3329,7 +3330,6 @@ mg*.6park.com/img/$image
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d.107788.com^
 ||d.39.net/a.htm?
-||d.5.to^$subdocument
 ||d.pixiv.org/show?zone_id=
 ||d.taomato.com^
 ||d0.xcar.com.cn^
@@ -4080,7 +4080,7 @@ mg*.6park.com/img/$image
 ||ifeng.com/showjs?*apids=
 ||ifeng.com/ssi-incs/
 ||ifeng.com/statics/comment_baidu.html
-||ifeng.com/uploadfile/2016/0301/20160301115859438.swf
+||auto.ifeng.com/uploadfile/201*.swf
 ||ifeng.com/wapAdversApi?
 ||ifeng.com^*&ADUNITID=
 ||ifengimg.com/*/taobaopudi/
