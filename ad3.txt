@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eTpdXo/QoBU6oPKXryFlEw
+! Checksum: /xMTxb7EE/UUKdGvsA2PHw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611162330
-! Last Modified: 2016年11月16日 23:30
+! Version: 201611170900
+! Last Modified: 2016年11月17日 09:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -528,7 +528,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||ssdaili.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -603,8 +602,8 @@ ubmcmm.baidustatic.com
 |http://*:*/s.php?id=$script,third-party
 |http://1*.*.*.*/show.js|$script,third-party
 |http://1.3.0.10^
-|http://js*/i.php?$script,third-party
 |http://js*/i.js?$script,third-party
+|http://js*/i.php?$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://r.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
@@ -1376,6 +1375,7 @@ ubmcmm.baidustatic.com
 ||sphwq.net^$third-party
 ||sscefsol.com^
 ||sscj123.com^$third-party
+||ssdaili.com^
 ||sstc360.com^
 ||staqnet.com^
 ||star8.net^$third-party
@@ -1622,10 +1622,8 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||d6262.com^$popup
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-/?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /freeone/1024.html$popup
 /freeone/htm/2048.html$popup
@@ -1635,6 +1633,7 @@ ubmcmm.baidustatic.com
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
 |http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|bfooru.info|bforu.info|downhhh.com|downvrs.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|qqxbt.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|sju.wang|tenitt.info|ttft.in|wwp5.com|xhcbb.com|xunfs.com|yzhlive.com
+|http://*/?$popup,domain=linkbucks.com|zytpirwai.net
 ||093game.com^$popup,third-party
 ||133gp.com^$popup
 ||189.cn/actpush/$popup,third-party
@@ -1650,6 +1649,7 @@ ubmcmm.baidustatic.com
 ||baidu.com/baidu.php?url=$popup
 ||c.admaster.com.cn^$popup
 ||ctfile.com/popjump.php?$popup
+||d6262.com^$popup
 ||gamer.com.tw/adcounter.$popup
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
@@ -1817,7 +1817,7 @@ _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
-|http:$subdocument,domain=glcdynpcws.net|jtwybgxiumsx.net|pc6.com
+|http:$subdocument,domain=pc6.com
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
 |http://*/bn/$domain=chimatong.com
@@ -2588,6 +2588,7 @@ mg*.6park.com/img/$image
 ||admin5.com/hezuo/action/
 ||admin5.com/lib/js/*_article
 ||admin6.com/templates/index/default/images/100060.gif
+||admx.baixing.com^
 ||adnetpub.yaolan.com^
 ||adp.cnool.net^
 ||adpub.yaolan.com^
@@ -3951,6 +3952,7 @@ mg*.6park.com/img/$image
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
 ||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
+||ifeng.com/a_if/
 ||ifeng.com/a_if/taobao-
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
@@ -5125,12 +5127,16 @@ mg*.6park.com/img/$image
 ||script.cmfu.com/Script/GameAdAptationInfo.js
 ||scsn.cn/Public/config/Couplet/16.js
 ||scsn.cn/Public/config/Couplet/Index
+||scw98.com/ADMM.
+||scw98.com/js/Index
+||scw98.com/js/temp/
 ||sd.xinhuanet.com/2014xb/flash/
 ||sd.xinhuanet.com/2014xb/html/albbg.htm
 ||sd.xinhuanet.com/2014xb/images/shanhang.gif
 ||sd173.com/images/
 ||sd888.org/flash/
 ||sd888.org/house/flash/
+||sdbeta.com/statics/mystyle/js/1688.js
 ||sdgundam.cn/js/91.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/bmby.jpg
@@ -5607,6 +5613,7 @@ mg*.6park.com/img/$image
 ||wd147.com/templets/mm/js/cs.js
 ||wdlm.cn/img/ad1/
 ||wdown.cn/falala/
+||wdstatic.cn/tg/v2ex/
 ||weathercn.com/m_mobile/ad_image/
 ||web.900.la^
 ||webhek.com/1478937898.jpg
@@ -6004,16 +6011,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||sdbeta.com/statics/mystyle/js/1688.js
-||wdstatic.cn/tg/v2ex/
-||admx.baixing.com^
-||scw98.com/ADMM.
-||scw98.com/js/Index
-||scw98.com/js/temp/
-||ifeng.com/a_if/
 !------------------------Specific element hiding rules------------------------!
-zimuzu.tv##A[href^="http://www.6.cn/coop/"]
-v2ex.com##.sidebar_compliance
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9327,6 +9325,7 @@ kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
 shangdu.com##.sidebarBanner
 pic.sogou.com##.sidebar_box.shut
+v2ex.com##.sidebar_compliance
 qq.com##.sider_ad
 docin.com##.sider_gg
 danlan.org##.siderright > .mb20
@@ -9885,7 +9884,7 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
-allyingshi.com##a[href^="http://www.6.cn/coop/"]
+allyingshi.com,zimuzu.tv##a[href^="http://www.6.cn/coop/"]
 v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
@@ -10524,6 +10523,7 @@ soft.macx.cn#@##googlead
 soft.macx.cn#@##googlead1
 52vfx.com#@##head_ad
 29yyl.com#@##index_ad
+xxt.cn#@##mainAd
 www.zol.com.cn#@##search_ad
 wangnba.com#@##showAd
 etidol.com#@##slidead
@@ -10623,13 +10623,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-xxt.cn#@##mainAd
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
-@@||ifengimg.com/ifeng/sources/inice_$domain=v.ifeng.com
-@@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
-@@||gaoqingkong.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10724,7 +10719,6 @@ xxt.cn#@##mainAd
 @@zpw.com/gposinfo/ad/img/
 @@|http:$image,script,domain=jjcast.com
 @@|http:$script,~third-party,domain=btaia.com
-@@|http:$subdocument,domain=sasontnwc.net
 @@|http://*/AD/$domain=33kk.cc|ff7.cc
 @@|http://*/gg/*.css
 @@|http://tieba.baidu.com/|$genericblock
@@ -10930,8 +10924,10 @@ xxt.cn#@##mainAd
 @@||fscinda.com/ad/$~third-party
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
+@@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||gamersky.com^*/dhgame_
 @@||ganji.com/findjob/send_resume.*&ad_type=
+@@||gaoqingkong.com^$generichide
 @@||gg.img123456.com^
 @@||gg.woniu.com^$domain=snail.com
 @@||gg.yxdown.com/count/countzt.js
@@ -10958,8 +10954,9 @@ xxt.cn#@##mainAd
 @@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
-@@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|www.ifeng.com
+@@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
+@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=xuite.net
 @@||img.ybbbs.com/2014/*app
 @@||indeep.com.tw/images/ad.swf?
