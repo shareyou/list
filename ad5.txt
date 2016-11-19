@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /K5qQnTVwhwKRMJkwS9cpw
+! Checksum: H5vC2uS/gMo+JiWciPufkA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611191330
-! Last Modified: 2016年11月19日 13:30
+! Version: 201611191600
+! Last Modified: 2016年11月19日 16:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -7081,7 +7081,6 @@ hacg.red###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 tgbus.com###neck_970
 40407.com###nei_fmt
-163.com###netease_house_ztc_bar960-70
 fun.tv###network-mobile
 hc360.com###newAppBox
 hc360.com###newAppBox1
@@ -11334,6 +11333,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
+@@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
