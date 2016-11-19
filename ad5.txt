@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B3TDGvb76D14GsGvQaVffQ
+! Checksum: e6ZWU+jdlKOI9o8JFbCh3w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611191100
-! Last Modified: 2016年11月19日 11:00
+! Version: 201611191200
+! Last Modified: 2016年11月19日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -650,13 +650,13 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||fnkjj.com^
-||msltzer.cn
+||msltzer.cn^
 ||fxtducb.cn^
-||jdlcg.cn
-||fytza.cn
+||jdlcg.cn^
+||fytza.cn^
 ||panel-cn.com^
 ||wantfour.com^
-||nmkgs.cn
+||nmkgs.cn^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -6151,6 +6151,8 @@ mg*.6park.com/img/$image
 ||alitui.weibo.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+163.com##.topad
+163.com##.idx_top_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
