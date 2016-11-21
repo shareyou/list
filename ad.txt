@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HRmAbkbjpafCJtLaTQO1+A
+! Checksum: Lah8NZELI6G2AUItmq32xw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611211800
-! Last Modified: 2016年11月21日 18:00
+! Version: 201611211930
+! Last Modified: 2016年11月21日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2427,7 +2427,6 @@ mg*.6park.com/img/$image
 ||19iiii.info/js/tonglan.js
 ||1bet2.com/d/file/p/
 ||1bet2.com/images/*.gif
-||1fun.com.hk/bb/189X180B.swf
 ||1kejian.com/js/topA.js
 ||1m1m.cn/bar/
 ||1pad.cn/ahead/01.gif
@@ -2472,8 +2471,6 @@ mg*.6park.com/img/$image
 ||234fang.com/index.php?/ajax/get_adv/
 ||239300.net/data/attachment/album/
 ||23sc.cn*/007/js/$script
-||23wx.com/scripts/style_tan.js
-||23youku.com/Runtime/js/
 ||23zw.com/sda/mediav.html
 ||2500sz.com/ad20
 ||2500sz.com/site/
@@ -2481,7 +2478,6 @@ mg*.6park.com/img/$image
 ||258zb.com/jsData/users.aspx
 ||25xz.com/ads/
 ||25xz.com/degeye.gif
-||265.com/static/pages/img/*_ads.
 ||265g.com^$third-party
 ||265la.com/html/
 ||268de.com/js/
@@ -6408,6 +6404,7 @@ mg*.6park.com/img/$image
 ||11img.com/ad/
 ||sinaimg.cn^$domain=vx666.com
 ||421688.com/d/file/p/
+||sunrtb.cn/s?m=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 vx666.com##.async[href^="http"]
@@ -6635,7 +6632,6 @@ baidu.com###ad_xbox_3
 qidian.com###ad_yxword
 qidian.com###ad_yxword_a
 141hongkong.com###adan
-265.com###adb
 localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
 lzep.cn###add
@@ -7054,7 +7050,6 @@ opbbs.in###frame435JTi
 yangluo.cn###frame51RcxP
 211600.com###frame5B94Fv
 tvapk.net###frame5zglZ4
-2000fun.com###frameA20TTA
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
 lysq.com###frameD955k5
 zb7.com###frameHeXI7z
