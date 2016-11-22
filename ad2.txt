@@ -1,22 +1,22 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201611062130
-! Last Modified: 2016年11月06日 21:30
+! Version: 201611221830
+! Last Modified: 2016年11月22日 18:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2016/11/06
+! Last modified: 2016/11/22
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
 @@*$domain=taobao.com|alipay.com|suning.com|www.vmall.com|etao.com|tmall.com|paipai.com|jd.com|i.qq.com|my.csdn.net
 |http://$subdocument,domain=u17.com|iqiyi.com|dm456.com|sz1001.net|music.baidu.com
 !-----------------------屏蔽第三方资源---------------------------
-|http://$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.com
-|http://$subdocument,third-party,domain=lepan.cc|tieba.baidu.com|yatu.tv
-*$third-party,domain=greasyfork.org|xxbiquge.com|shumilou.co
+! |http://$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.com
+! |http://$subdocument,third-party,domain=lepan.cc|tieba.baidu.com|yatu.tv
+! *$third-party,domain=greasyfork.org|xxbiquge.com|shumilou.co
 @@*/jquery.$script
 @@*/jquery-$script
 !---------------------NoScript，可加上自己要过滤的域名--------------------
@@ -180,6 +180,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||cmp288.com/
 ||cnbole.net/
 ||cnzz.$domain=~live.bilibili.com|~toutiao.com
+||code222.com^
 ||csad.cc^
 ||ctsywy.com
 ||dazhantai.com
@@ -242,6 +243,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||public6.com/
 ||qihaoqu.com/$third-party
 ||qiqipower.com
+||qiqiww.com^
 ||qucaigg.com^$third-party
 ||questionmarket.com^$third-party
 ||reachmax.cn^$third-party
@@ -564,6 +566,7 @@ v.360.cn##div.banner-g4
 |http://sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 |http://src.house.sina.com.cn/imp/imp/deal/$object
 !-------------------ifeng.com--------------------
+@@||ifengimg.com/a/201*/ad.js
 ifeng.com##div[class^=adList],div[class^=adbox],div[class^=ad10]
 ||deliver.ifeng.com/
 ||ifeng.com/statics/all_content_ad_
@@ -608,6 +611,10 @@ zongheng.com###zh_ab_rb,#sumcard_flag,#gameFTip
 |http://vd.51cto.com/
 ||52pk.com/$object
 ||live.ali213.net/$domain=~live.ali213.net
+autohome.com.cn###s2287
+||x.autoimg.cn/dealer/custom/subsite/forcePicAd20160628.js
+||autoimg.cn/admdfs/
+||autohome.com.cn/adfront/
 baike.com###right_ad_div
 ||hdad.baike.com/
 bitauto.com##div.col-ad,div.col-adside,div[id^=bitAd_],#video_floatBox
@@ -641,8 +648,8 @@ ftchinese.com##div[data-id|=banner],div[data-id|=storympu],div[data-id|=mpu],div
 hupu.com##.sidebar-ad-A,.sidebar-ad-B,.sidebar-ad-C,[id|='div-gpt-ad'],[class^='nba-ad'],[class^='hp-ad'],.sidebar>div[class^='ad'],div.ad980-60,div.ad720-90
 www.hao123.com##div#ecom,div.widget-topbanner,A.link.download,#shortcut-box,#shortcut-box~*,div[monkey=yixing]
 |http://itv.hexun.com/
-|http://utrack.hexun.com/
-|http://hrtsea.com/936x90.gif
+@@||hxsame.hexun.com/s?z=hexun&
+quote.futures.hexun.com###topFullWidthBanner
 @@||www.infoq.com/scripts/ads.js
 ithome.com##div#hd_float,#side_func,#con>#tt5>div
 ||ithome.com/file/js/money/
