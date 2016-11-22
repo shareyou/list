@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VQjMGplW0/lmN6oSZHRJNg
+! Checksum: YB2VbpGvfIP1XelA8nNNqg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611221830
-! Last Modified: 2016年11月22日 18:30
+! Version: 201611221900
+! Last Modified: 2016年11月22日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -10753,6 +10753,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||bilibilijj.com/APIword/$elemhide
 @@||weike22.com/images/*_
 @@||weike22.com/images/fbxx.gif
 @@||weike22.com/images/hyzx.gif
@@ -15128,6 +15129,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wa01.gif?log=
 /wanalytics/*
 /wcount.php?
+/web/analytics.$script
 /web_analytics/*
 /web_answertip.
 /web_traffic_capture.js
@@ -15732,7 +15734,6 @@ _mongo_stats/
 ||c3metrics.com^$third-party
 ||c3tag.com^$third-party
 ||c4tracking01.com^$third-party
-||c4tw.net^$third-party
 ||cache.am^$third-party
 ||cache.fm^$third-party
 ||cadreon.com^$third-party
@@ -19565,6 +19566,7 @@ _mongo_stats/
 ||systemmonitoring.badgeville.com^
 ||t-staging.powerreviews.com^
 ||t.bimvid.com^
+||t.c4tw.net^
 ||t.cfjump.com^
 ||t.devnet.com^$third-party
 ||t.dgm-au.com^$third-party
