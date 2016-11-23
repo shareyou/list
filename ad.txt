@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: syDCyoBVFeiP8B3rg4dtfQ
+! Checksum: skk//sSc1YNuLGKKEJOvAQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611232245
-! Last Modified: 2016年11月23日 22:45
+! Version: 201611240000
+! Last Modified: 2016年11月24日 00:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -233,24 +233,15 @@ live.bilibili.com##.user-level-icon
 ||cam4.com^$popup
 ||cam4.com/ads/
 ||cam4.com/buygift/
-||cam4.com/directoryCounts?
 ||cam4.com/directoryFanClubs?
-||cam4.com/js/modules/jqueryPlugins/jquery.iframetracker.js
-||cdnads.cam4.com^
-||edgecast.cam4s.com/web/images/campaigns/
 cam4.com###Cam4DialogContainer
 cam4.com###disclaimerModal
-cam4.com###goldHolidayIcon
 cam4.com###goldNavbar
-cam4.com###goldPromoBanner
-cam4.com###rssGoldHoliday
 cam4.com###subfoot
 cam4.com###tippingCulture
-cam4.com##.promo-ad
+cam4.com##.hbanner
 cam4.com##.sponsorAd
 cam4.com##.stickyAd
-cam4.com##.xmlAdsTitle
-cam4.com##.xmlAdsWrapper
 ! Chaturbate
 ||chaturbate.com/affiliates/
 ||nsimg.net^
