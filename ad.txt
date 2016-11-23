@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eK6jUr+qQxfmo1c5YxKjCQ
+! Checksum: DJWkzCwH8Muc8urHPxJcMA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201611231130
-! Last Modified: 2016年11月23日 11:30
+! Version: 201611231200
+! Last Modified: 2016年11月23日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -4363,7 +4363,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
 ||ifengimg.com/a/201*600.
-||ifengimg.com/a/2016/0929/su/yemei.jpg
+||ifengimg.com/a/*/yemei
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
 ||ifengimg.com/ifengimcp/pic/*_w24_h100.
@@ -5136,7 +5136,8 @@ mg*.6park.com/img/$image
 ||open-open.com^*_banner.
 ||opinion.people.com.cn/GB/
 ||opticsky.cn/images/2015/gy-px201
-||opticsky.cn/images/2016/ma1021.png
+||opticsky.cn/images/2016/240X60.png
+||opticsky.cn/images/2016/vlf2016.gif
 ||orsoon.com*/zhuanti/
 ||orsoon.com/images/*.gif
 ||orsoon.com/v1/da/js.js
@@ -6415,6 +6416,10 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ifeng.com##A[href^="http://yemei.tv/"]
+house.qq.com##.bm
+house.qq.com###yf
+ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
 25xz.com##.p_ads
 25xz.com##DIV[style*="1002px;"]
 25xz.com##DIV[style*="724px;"]
@@ -9135,7 +9140,6 @@ wangyeba.com##.innner950
 131458.com##.inq_07
 baidu.com##.intro-adv
 loldk.com##.intro-area > div[style="margin-top:7px;"]
-ifeng.com##.ipad_none:nth-child(33):nth-last-child(2)
 people.com.cn##.ipc_none
 leiphone.com##.iphone7-fix
 iqiyi.com##.iqiyi-shangcheng
@@ -9468,7 +9472,7 @@ sgcn.com##.oyad2.cl
 quanmin.tv##.p-room_ad
 quanmin.tv##.p-room_chatad
 quanmin.tv##.p-star_adWrap
-opticsky.cn##.p83_gridC > .clB
+opticsky.cn##.p83_gridC > .cc
 jj59.com##.p_ad
 bbdj.com##.p_banner
 bbdj.com##.p_c4
