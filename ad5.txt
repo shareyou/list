@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5FN1d39z5lwjOE7iLGmdfQ
+! Checksum: T0WsJxsiqxsZL0KCFa0KBw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611260800
-! Last Modified: 2016年11月26日 08:00
+! Version: 201611260930
+! Last Modified: 2016年11月26日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -133,7 +133,6 @@ tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/inc/g2g.html
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -260,6 +259,7 @@ tieba.baidu.com##.xiang-guan-tie
 /images/ta1234.js
 /img/xbyeye.png
 /ina_ad_
+/inc/g2g.html
 /itg-widget.
 /jfjs/ad.js
 /jinhuatv/ad
@@ -651,15 +651,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||qyctj.com^
-||xinasiaj.com^
-||8368661.com^
-||linkbide.com^
-||loandatec.com^
-||xycnz.com^
-||bingyinq.com^
-||picsinfog.com^
-||corocksi.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -898,6 +889,7 @@ ubmcmm.baidustatic.com
 ||7wen.cn^
 ||7xz3.com^
 ||81c.cn^
+||8368661.com^
 ||85tgw.com^
 ||860010.com^
 ||88818122.cn^
@@ -1018,6 +1010,7 @@ ubmcmm.baidustatic.com
 ||biddingx.com^$third-party
 ||bigbos.top^
 ||billionfocus.com^
+||bingyinq.com^
 ||birdmedia.com^$third-party
 ||biyibia.com^
 ||blogad.com.tw^$third-party
@@ -1073,6 +1066,7 @@ ubmcmm.baidustatic.com
 ||coinadv.com^$third-party
 ||coolnay.com^$third-party
 ||cooolyi.cn^
+||corocksi.com^
 ||couqm.com.cn^
 ||cpc.cc^$third-party
 ||cpcv.cc^
@@ -1365,12 +1359,14 @@ ubmcmm.baidustatic.com
 ||lianjie.phpwind.com^$third-party
 ||lianle.com^$third-party
 ||lianmeng.360.cn^$domain=~lianmeng.360.cn
+||linkbide.com^
 ||linkpage.cn^
 ||linkvans.com^$third-party
 ||lishuanghao.com^
 ||livehapp.com^
 ||lm.35.com^$third-party
 ||lnr1.com^$third-party
+||loandatec.com^
 ||log.interest.mix.sina.com.cn^
 ||lovestyl.com^
 ||lthxz.cn^
@@ -1448,6 +1444,7 @@ ubmcmm.baidustatic.com
 ||pay838.com^
 ||pdsjycm.com^
 ||pedailyu.com^
+||picsinfog.com^
 ||pofang.com^
 ||polkoa.com^
 ||pos.baidu.com^
@@ -1472,6 +1469,7 @@ ubmcmm.baidustatic.com
 ||qtmojo.com^$third-party
 ||qubilou.com^$third-party
 ||qucaigg.com^
+||qyctj.com^
 ||rayli.com.cn^$third-party
 ||re.taotaosou.com^
 ||rekanw.com^$third-party
@@ -1676,6 +1674,7 @@ ubmcmm.baidustatic.com
 ||xibei70.com^
 ||xihashuale.com^
 ||xilele.com^
+||xinasiaj.com^
 ||xingjuhe.com^
 ||xitao3.com^$third-party
 ||xixianad.com^$third-party
@@ -1697,6 +1696,7 @@ ubmcmm.baidustatic.com
 ||xxhrd.com^
 ||xxwkjl.com^
 ||xxyzwtsylw.com^
+||xycnz.com^
 ||xyqxr.com^
 ||xyrhd.com^
 ||xyssp.com^
@@ -2066,6 +2066,7 @@ mg*.6park.com/img/$image
 ||123564.com^*/plaza.js
 ||1236226.com/html/
 ||123cha.com/2568
+||123du.cc/show/
 ||125.46.61.28^
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/hangzhou/ad/
@@ -3389,6 +3390,7 @@ mg*.6park.com/img/$image
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/tg/rightAd_v2.js
 ||dhzw.com/m-
+||dhzw.com/news-
 ||dhzw.com/ssss.
 ||dhzw.com:8080/s/i.js
 ||diaobao.xici.net^
@@ -6140,14 +6142,9 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||123du.cc/show/
-||dhzw.com/news-
+.qidian.com/bgImg.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-isanxia.com##DIV[style="width:958px;height:90px;overflow:hidden;"]
-isanxia.com##DIV[style="width:340px;height:284px;float:left;"]
-acg12.com##.ad-container
-taohuabt.net##TABLE[style="width:100%;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7682,7 +7679,7 @@ zhidao.baidu.com##.ad-block-1
 15w.com,bookshi.com,iwan.baidu.com,qq.com,zol.com.cn##.ad-box
 15w.com##.ad-box-r
 easou.com##.ad-charge
-nanrenwo.net,newtalk.tw##.ad-container
+acg12.com,nanrenwo.net,newtalk.tw##.ad-container
 cqmmgo.com##.ad-cycle
 simplecd.me##.ad-entry-sidebar-1
 simplecd.me##.ad-entry-sidebar-2
@@ -10418,6 +10415,7 @@ backchina.com##div[style="width:300px; min-height: 250px; background-color: #f5f
 bendibao.com##div[style="width:300px;height:250px;float:left;margin:5px 25px 15px 0;"]
 liaoxuefeng.com##div[style="width:336px;height:280px;float:left;"]
 auto-online.com.tw##div[style="width:336px;height:280px;margin:0;background:#000000"]
+isanxia.com##div[style="width:340px;height:284px;float:left;"]
 niwota.com##div[style="width:365px;height:310px;border:0px solid #ccc;float:left; margin: 0px 10px 5px 0px;"]
 818today.com##div[style="width:610px;height:255px;margin:0px auto;"]
 93994.com##div[style="width:640px; height:275px;  margin:0 auto;text-align:center;"]
@@ -10427,6 +10425,7 @@ auto-online.com.tw##div[style="width:728px;height:130px;margin:0;background:#000
 mjtd.com##div[style="width:728px;height:90px;margin: 0px;"]
 131458.com##div[style="width:788px;border:solid 1px #def0e1;padding:0 10px;overflow:hidden;background:#fff9f3; height:35px;line-height:35px;"]
 bejson.com##div[style="width:900px;text-align:center;"]
+isanxia.com##div[style="width:958px;height:90px;overflow:hidden;"]
 28xl.com##div[style="width:960px; height:128px; margin:10px auto 10px auto; "]
 93994.com##div[style="width:960px; height:90px; margin:0 auto; margin-top:10px"]
 cqnews.net##div[style="width:960px; height:90px; overflow:hidden; padding:0 20px; background:#fafafa; margin-bottom:15px"]
@@ -10561,6 +10560,7 @@ win007.com##table[id^="table_Ad"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
 travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
 52life.cc##table[style="margin-top:0"]
+taohuabt.net##table[style="width:100%;"]
 dijiuzww.com##table[style="width:770px;height:260px"]
 28xl.com##table[style^="width:678px; height:280px;"]
 jjwxc.net##table[style^="width:984px;"]
