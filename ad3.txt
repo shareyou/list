@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OfzO/gOYd9cSR6ehRFGjMQ
+! Checksum: YExnmVLvTd6MkV+1GkzoUg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611261200
-! Last Modified: 2016年11月26日 12:00
+! Version: 201611261230
+! Last Modified: 2016年11月26日 12:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2245,7 +2245,7 @@ mg*.6park.com/img/$image
 ||51ztzj.com/res/web/img/pic/inshow.jpg
 ||51zxw.net/adad/
 ||51zxw.net/fzsplayer/adtextzxw.asp?
-||520bdy.com/images/888.jpg
+||520bdy.com/images/888
 ||520cc.me/ad/$~collapse
 ||520kankan.com/960x80.gif
 ||521000.com/co/
@@ -2299,7 +2299,6 @@ mg*.6park.com/img/$image
 ||5dmail.net/image/ad_
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/js/
-||5i5j.com/themes/new2015/common/images/5jd.png
 ||5icool.org/uploadfile/poster/1080x60.
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
@@ -4905,7 +4904,6 @@ mg*.6park.com/img/$image
 ||pub.mop.com^
 ||pub.stockstar.com/feedback/
 ||pub.sxrtv.com/crossdomain.xml
-||public6.com/m.js
 ||publicize.liao1.com^
 ||publish.ad.youth.cn^
 ||putonghua520.com/skins/10ym/klq
