@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3cI7oQrTBKDMWGatbHf4VQ
+! Checksum: /DAcey6ES/G//fTFuIT7nA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611271000
-! Last Modified: 2016年11月27日 10:00
+! Version: 201611271030
+! Last Modified: 2016年11月27日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -526,10 +526,13 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.customSlideshow-ad-below
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||99lolo.com^
+||juhepen.com^$third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -6017,6 +6020,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 ||bdimg.com^$domain=91fuli.xyz|diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
+||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hacg.li,hacg.red###metaslider_widget-2
