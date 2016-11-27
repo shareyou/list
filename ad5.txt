@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6RRsaWgZAqYZ8D77DE3g/Q
+! Checksum: yw2cowA71HYB9uWZ9xEe8A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611271630
-! Last Modified: 2016年11月27日 16:30
+! Version: 201611271730
+! Last Modified: 2016年11月27日 17:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6144,6 +6144,8 @@ mg*.6park.com/img/$image
 ||anzhuotan.com/Runtime/js/bofangye.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+oschina.net##A[data-traceid^="questionbanner"]
+oschina.net##A[data-traceid="news_detail_above_text_link_1"]
 galacg.me##A[href="https://www.galacg.me/game"]
 xianzhenyuan.cn##.sd_ad
 hacg.fi,hacg.li,hacg.red###metaslider_widget-2
@@ -9911,7 +9913,7 @@ bilibilijj.com##[style="height:100%;"]
 bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
-oschina.net##a[data-traceid="www_news_details_sidebar_1_ad"]
+oschina.net##A[data-traceid$="_ad"]
 oschina.net##a[data-tracepid^="index_banner_"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
@@ -21448,7 +21450,6 @@ _mongo_stats/
 ||issn.org/isens_marker.php?
 ||itp.net/ga.js
 ||itv.com/_app/cmn/js/bcm.js
-||itv.com/itv/count/
 ||ixquick.*/do/avt?$image
 ||ixquick.*/elp?
 ||ixquick.*/pelp?
