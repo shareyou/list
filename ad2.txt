@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201611221830
-! Last Modified: 2016年11月22日 18:30
+! Version: 201611271530
+! Last Modified: 2016年11月27日 15:30
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2016/11/22
+! Last modified: 2016/11/27
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
@@ -457,6 +457,7 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],[class|=ad],[id^=ad_]
 ||gdt.qq.com^
 ||qq.com/js/adswf_tl_object.js$script
 @@||l.qq.com/livemsg?ty=web&ad_type=
+@@||livew.l.qq.com/livemsg?
 ||qq.com/livemsg?
 ||l.qq.com/lview?
 ||l.qq.com/p?
@@ -471,9 +472,7 @@ zol.com.cn##.down-h4,span.down-alink,div[class^=ad_],[class|=ad],[id^=ad_]
 @@||pinghot.qq.com/pingd?dm=y.qq.com.hot&url=
 ||pinghot.qq.com/
 ||pingfore.qq.com/
-||pingjs.qq.com/$domain=~lol.qq.com
-||rcgi.video.qq.com/
-||tj.video.qq.com
+||tj.video.qq.com/
 ||qzs.qq.com/qzone/biz/res/tmpl/vehicle.html
 ||qzs.qq.com/qzone/biz/res/v.swf?loc=
 ||rh.qq.com^
