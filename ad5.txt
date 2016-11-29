@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sikH9ZLfJWSOkroO3N7Mgg
+! Checksum: oJU4OHHdLZo+1Scac20ttQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201611281330
-! Last Modified: 2016年11月28日 13:30
+! Version: 201611290930
+! Last Modified: 2016年11月29日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2344,6 +2344,7 @@ mg*.6park.com/img/$image
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51gugu.com/popwin/AutoHAdShow.aspx
 ||51hanhua.com/2013/
+||51img1.com/v6/my/js/bdm.js
 ||51img1.com^$domain=hdscg.com
 ||51t.com^$subdocument
 ||51test.net/baiduunion/
@@ -6139,10 +6140,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||51img1.com/v6/my/js/bdm.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-51cto.com###postform + A[style]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7169,6 +7168,7 @@ ld0766.com###portal_ad3
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 chinawin.net,itkee.com###postTopAd
+51cto.com###postform + a[style]
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
 wenku.baidu.com###ppt-bottom-ads
@@ -10650,6 +10650,7 @@ chanet.com.cn#@##ad_content
 pupuapp.com#@##ad_img
 dpp.org.tw#@##ad_small
 timesdata.com#@##adbody
+abbao.cn#@##adcontent
 pbhz.com#@##adsense
 182.18.61.50#@##adslist
 aixiaoshuo.com.cn,baishuku.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
@@ -10762,10 +10763,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-abbao.cn#@##adcontent
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||2d-gate.org^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10888,6 +10887,7 @@ abbao.cn#@##adcontent
 @@||192.168.*/advertising_$stylesheet
 @@||221.7.250.35/caches/poster_js/21.js
 @@||268xue.com/2016/item-web/exam-pc/images/adv
+@@||2d-gate.org^$generichide
 @@||2kandy.com/source/plugin/fieah_blockadblock/
 @@||2kandy.com^$generichide
 @@||33.autohome.com.cn/njs/10055.js
