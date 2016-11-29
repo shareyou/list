@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kz3ae4NZ6bBrxF5M/tBu0Q
+! Checksum: iWth9W4K8Jkttrm4YO00Gw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611290930
-! Last Modified: 2016年11月29日 09:30
+! Version: 201611291130
+! Last Modified: 2016年11月29日 11:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6024,6 +6024,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+52ch.net##.chn_pb
+52ch.net##DIV[style="margin-top:5px; height:80px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9681,7 +9683,7 @@ weeiy.com##.widget_text:nth-child(5)
 hanfan.cc,ii-i.org##.widget_ui_textasb
 leitingcn.com##.wlt670 > div[style]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
-52ch.net##.wp > div[style^="margin-top:5px; height:"]
+52ch.net##DIV[style^="margin-top:5px; height:60px;"]
 shuaijiao.com##.wp.m-t20.h90
 cangjige.net,cangjige.win##.wp[style="height:36px;padding-top:15px;"]
 seowhy7.com##.wp[style="margin-top:10px;"]
