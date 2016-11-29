@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s3ypyaESmn32WIJ52Z97DQ
+! Checksum: i7rHUJcrWGjUp5VvBuMJzg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201611291700
-! Last Modified: 2016年11月29日 17:00
+! Version: 201611291730
+! Last Modified: 2016年11月29日 17:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -533,6 +533,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||govgift.com^
+||ychml.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
