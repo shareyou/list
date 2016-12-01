@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lE0AOk3tr096fmCZSsrGXA
+! Checksum: /hn/J43o33bHWvi9XidSDQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612011930
-! Last Modified: 2016年12月01日 19:30
+! Version: 201612012100
+! Last Modified: 2016年12月01日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -536,6 +536,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||pnhfc.com^
+||pubbirdf.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -2212,7 +2213,6 @@ mg*.6park.com/img/$image
 ||4kong.com/xk.jpg
 ||500xxxx.com/go.js
 ||5011.net/template/images/*0.gif
-||5068.com/uploads/allimg/150116/71_150116175734_1.jpg
 ||5068.com/websleft.js
 ||506ys.com/js/200.js
 ||50970.com/js/jd_view/jbox_l05.html
@@ -2319,7 +2319,6 @@ mg*.6park.com/img/$image
 ||61.164.108.184^*.swf
 ||61.235.249.195^*/Default.aspx?id=
 ||61.31.228.20/live/*_468x60$~collapse
-||61ef.cn/image/201604/05/2016040505211300.gif
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
 ||63007.com/haodxi.js
@@ -6020,6 +6019,7 @@ mg*.6park.com/img/$image
 ||shangxueba.com/ask/images/view_590_65.jpg
 ||feesoon.com/js/cnzz_
 ||5068.com/*gg
+||xxbiquge.com/js/xbiquge.js
 !------------------------Specific element hiding rules------------------------!
 shangxueba.com###rightfloatdiv
 apk.tw##ins.adsbygoogle
