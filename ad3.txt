@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y5k4FvH9SE9SOnx0kCVCMg
+! Checksum: MicFdMFv04OEeV++Gu03QA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612010930
-! Last Modified: 2016年12月01日 09:30
+! Version: 201612011030
+! Last Modified: 2016年12月01日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -1760,7 +1760,6 @@ ubmcmm.baidustatic.com
 /aServ_header.$domain=9gui.net|miejw.com
 /assets/sidebar/*$domain=v2ex.com
 /Atemplate/dd_1010/baidu
-/attachment/album/*$domain=www.52hardware.com
 /avshow_cn1.gif
 /baha/*$subdocument,domain=gamer.com.tw
 /banner.js$domain=28188.com|28188.net
@@ -2259,8 +2258,6 @@ mg*.6park.com/img/$image
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 ||52fanquan.com/index.php?i=
-||52hardware.com/images/baimg/
-||52hardware.com/topic/a2
 ||52pk.com/jkjs/imp-
 ||52rd.com/Pic/Click/
 ||52rd.com/Pic2/*_600_60
@@ -2300,7 +2297,6 @@ mg*.6park.com/img/$image
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
 ||5ips.net/love/
-||5iyq.com/skin/default/js/topad
 ||5iyq.com/zhigt/
 ||5mplayer.duapp.com/player/ad.xml
 ||5vdd.com/2345ws.jpg
@@ -6020,8 +6016,11 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||itheat.com/?show=
 !------------------------Specific element hiding rules------------------------!
+itheat.com##.hot_ad
 gpcxw.com###AA2
+5iyq.com##.div_ad
 cam4.tw##.sponsorAd
 cam4.tw##.hbanner
 cam4.tw##.subfoot-section
@@ -6995,8 +6994,6 @@ toutiao.com###pagelet-detailadd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 srzc.com###pageright > .padding:nth-child(2)
 oh100.com###pagetop
-5iyq.com###pan1
-5iyq.com###pan2
 whnews.cn###panel
 muchong.com###paper161111
 xdowns.com###part_1
@@ -9555,10 +9552,8 @@ qidian.com##.top_game_info
 0579.cn,xizi.com##.top_gg
 hdzc.net##.top_gg1
 hdzc.net##.top_gg2
-5iyq.com##.top_l
 2345.com##.top_news
 jmw.com.cn##.top_pic
-5iyq.com##.top_r
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
 163.com,changsha.cn,jrj.com.cn,kekenet.com,neotv.com.cn,sina.com.cn##.topad
 huarenjie.com##.topadcss
@@ -9632,7 +9627,6 @@ aipai.com##.video_gg
 muchong.com##.viewad
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
 2345.com##.vipTopBanner
-5iyq.com##.vip_xj
 cztv.com##.vivo
 ktkkt.com##.vod980
 jjvcd.com##.vod980_2
