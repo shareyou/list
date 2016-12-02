@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z88gUcARWA4FZrslD4Xvow
+! Checksum: 05m1sI0zXaVtz3sljAFzOg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612022030
-! Last Modified: 2016年12月02日 20:30
+! Version: 201612022100
+! Last Modified: 2016年12月02日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12902,6 +12902,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /angular-tag.
 /angular-tag_
 /angularlytics.
+/angularytics.
+/angularytics/*
 /anycent_tracker_
 /api/*/visitor?
 /api/0/stats
@@ -13615,6 +13617,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /google-analytics-
 /google-analytics.
 /google-analytics/*
+/google-nielsen-analytics.
 /google.analytics.
 /google.eventTracking.js
 /google/analytics.js
@@ -15030,6 +15033,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /triggit-analytics.
 /trk-fr.
 /trk.gif?
+/trk/p.gif?
 /trkr.js
 /truehits.php?
 /tse/tracking.
@@ -20291,6 +20295,7 @@ _mongo_stats/
 ||alice.it/cnt/
 ||analytics.digitouch.it^
 ||analytics.linkwelove.com^
+||analytics00.meride.tv^
 ||aruba.it/servlet/counterserver?
 ||audienceserver.aws.forebase.com^
 ||bstracker.blogspirit.net^
@@ -20314,6 +20319,7 @@ _mongo_stats/
 ||livestats.matrix.it^
 ||log.superweb.ws^
 ||maxusglobal.it/init.js
+||meride.tv/banzai.gif?
 ||mibatech.com/track/
 ||mrwebmaster.it/work/stats.php?
 ||nanopress.it/lab.js
