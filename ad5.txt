@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nUv0N5um9ezqvk6uqwmauA
+! Checksum: QcV4MIp76Es78xC2OkfkFQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612021630
-! Last Modified: 2016年12月02日 16:30
+! Version: 201612021700
+! Last Modified: 2016年12月02日 17:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13149,6 +13149,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /click-logger.
 /click-stat.js
 /click-tracker
+/click.cgi?callback=
 /click_metrics-jquery.js
 /click_stat/*
 /click_statistics/*
@@ -14972,6 +14973,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /TrackingCookieCheck.
 /trackingcookies.
 /TrackingData.
+/trackingDTM.js
 /trackingfilter.json?
 /trackingFooter.
 /TrackingHandler.
@@ -15361,6 +15363,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?triggertags=
 ?wpgb_public_action=*&referrer=
 ^name=atatracker^
+_.gif?ref=
 _247seotracking.
 _adcenterconversion.
 _Analytics.js?
@@ -18677,6 +18680,7 @@ _mongo_stats/
 ||cts.vresp.com^
 ||cumulus-cloud.com/trackers/
 ||curate.nestedmedia.com^
+||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
 ||cx.atdmt.com^
 ||d.rcmd.jp^$image
@@ -19591,6 +19595,7 @@ _mongo_stats/
 ||stats2.lightningcast.net^
 ||stats3.unrulymedia.com^
 ||statsadv.dadapro.com^$third-party
+||statsapi.screen9.com^
 ||statsdev.treesd.com^
 ||statsrv.451.com^
 ||statt-collect.herokuapp.com^
