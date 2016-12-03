@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8rrNUL593fR5+/v1tgNnTg
+! Checksum: GDVwnB57dTzOhNreS87Wdw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612030900
-! Last Modified: 2016年12月03日 09:00
+! Version: 201612030930
+! Last Modified: 2016年12月03日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -3753,7 +3753,7 @@ mg*.6park.com/img/$image
 ||duba.com/dhads?id=
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
-||duoku.com/common/js/hanawa.js
+||18183.com/common/js/naruto.js
 ||duoku.com/common/js/maruko.js
 ||duowan.com/lgn/x/images/lgnadv/
 ||duowan.com/s/yuanbao-entrance.js
@@ -11633,6 +11633,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+/js/ads-
 .html?ad_
 /adstatic/*
 ##.adtable
@@ -12033,6 +12034,7 @@ _300_250.
 /dongaogg/*
 /tb/_/video_frs_head_
 /z.zolapp.
+/tencentvideo/script/webtips/*
 !------------------------General element hiding rules-------------------------!
 ###windlocation
 ###qrcodeWrap
@@ -12202,6 +12204,7 @@ _300_250.
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||hjapi.com/v1/pageSoftText?
 !------------------------Specific element hiding rules------------------------!
+mmonly.cc###\32 vm_box
 tianya.cn##.qhb-Box
 51cto.com##.suspend
 sina.com.cn###J_forAutoShow
