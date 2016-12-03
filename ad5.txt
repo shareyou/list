@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IjNhHANgN+7PGazTSL+VgA
+! Checksum: pUVawHEmZv2XFax618rSkQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612032030
-! Last Modified: 2016年12月03日 20:30
+! Version: 201612040730
+! Last Modified: 2016年12月04日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -18586,7 +18586,7 @@ _mongo_stats/
 ||cloudfront.net/analytics.js
 ||cloudfront.net/analytics_$script
 ||cloudfront.net/analyticsengine/
-||cloudfront.net/autotracker.
+||cloudfront.net/autotracker
 ||cloudfront.net/bti/
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
@@ -19464,6 +19464,7 @@ _mongo_stats/
 ||sana.newsinc.com^
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
+||schibsted.com/autoTracker
 ||scout.haymarketmedia.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
@@ -20535,10 +20536,8 @@ _mongo_stats/
 ||track.bluecompany.cl^
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||cis.schibsted.com^
-||cloudfront.net/autoTrackerBlocket.
 ||collector.schibsted.io^
 ||counter.mtgnewmedia.se^
-||schibsted.com/autoTrackerBlocket.
 ||stats.dominoplaza.com^
 ||vizzit.se^$third-party
 ||analytic.piri.net^
