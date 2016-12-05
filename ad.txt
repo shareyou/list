@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mTRKqMjh8joF7wFJY88ajQ
+! Checksum: L99ZNtNFCC2xeOf4X9O2TQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612051230
-! Last Modified: 2016年12月05日 12:30
+! Version: 201612051330
+! Last Modified: 2016年12月05日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -926,6 +926,7 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||xhydrs.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1001,6 +1002,7 @@ ubmcmm.baidustatic.com
 |http://*:*/s.php?id=$script,third-party
 |http://1*.*.*.*/show.js|$script,third-party
 |http://1.3.0.10^
+||chadegongxiao.com^
 |http://js*/i.js?$script,third-party
 |http://js*/i.php?$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
@@ -6402,6 +6404,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/eb52fa4bgw1f9l21uqgbnj20hs01omya.jpg
 ||78dm.net/uploads/imgs/2013/*760
 ||7scs.com/YD/
+||btcherry.org/adm.js
 !------------------------Specific element hiding rules------------------------!
 fuli.us##.slick
 163.com##.gg300 + .blank20 + STYLE + #js-epTabRank
