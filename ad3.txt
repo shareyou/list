@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U+F/PZVa7Yd97s3dU9ISeA
+! Checksum: 9Rc/Z/hDOJ9c019LzCEJGg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612051900
-! Last Modified: 2016年12月05日 19:00
+! Version: 201612051930
+! Last Modified: 2016年12月05日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -537,6 +537,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 ||xhydrs.cn^
+||jgchq.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -11184,9 +11185,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
-/images/*.gif$domain=cao.pe|caoporn.city|caoporn.club|caoporn.com|caoporn.wales|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
-2c2.website,2p8.space,cao.pe,caoporn.city,caoporn.club,caoporn.com,caoporn.wales,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-||sinaimg.cn^$domain=2c2.website|2p8.space|cao.pe|caoporn.city|caoporn.club|caoporn.com|caoporn.wales|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
+/images/*.gif$domain=cao.pe|caohot.club|caoporn.club|caoporn.com|caoporn.wales|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
+2c2.website,2p8.space,cao.pe,caohot.club,caoporn.club,caoporn.com,caoporn.wales,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+||sinaimg.cn^$domain=2c2.website|2p8.space|cao.pe|caohot.club|caoporn.club|caoporn.com|caoporn.wales|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
