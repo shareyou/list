@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LyQ8kZEZ1xjVqDT0U4YBGQ
+! Checksum: jE6drnb7o0xKvgIalp83Ww
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612061100
-! Last Modified: 2016年12月06日 11:00
+! Version: 201612061130
+! Last Modified: 2016年12月06日 11:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -571,7 +571,6 @@ tieba.baidu.com##.xiang-guan-tie
 /lfadvertise.js
 /main.js?v=*&sp=*&ty=
 /main/s?
-/mbjx1.jpg?
 /meinv/js/*_banner.js
 /meinv/js/_ads_tuku.js
 /module/adsview/*
@@ -608,7 +607,6 @@ tieba.baidu.com##.xiang-guan-tie
 /Runtime/js/top960.js
 /sbo8gg/*
 /scripts/youthad.js
-/shareman1.jpg?
 /show.js?sp=*&oid=
 /shunwang/css/newgames/img/welfare.png
 /sobt_adv.js
@@ -645,7 +643,6 @@ tieba.baidu.com##.xiang-guan-tie
 /xiazai_downloaderAD.
 /z63/img/88.jpg
 /zahuishi/images/show38070.js
-/ZDS1.jpg?
 /zzhzad/*
 :1010/openV5.js
 :8080/ad/
@@ -2276,7 +2273,6 @@ mg*.6park.com/img/$image
 |http://*/p$script,domain=99770.cc|99comic.com|99manga.com
 |http://*/t.js$domain=99770.cc|99comic.com|99manga.com
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
-|http://dm.51.re^*?
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
 ||000001.azureedge.net/script/common.js
@@ -2924,7 +2920,6 @@ mg*.6park.com/img/$image
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
 ||acg.tv^$image,object,domain=bilibili.com
 ||acgbenzi.com^$image
-||acghelp.me^*?$image
 ||acgnx.se/images/adwork/
 ||acode.b2b.cn/JS/
 ||act.chinatimes.com/aimg/
@@ -3691,8 +3686,6 @@ mg*.6park.com/img/$image
 ||dm456.com/m/
 ||dm530.com/pic/fgr/*.js
 ||dmfans.net/template/haokandemanhhua/images/g_js/
-||dmhy*.aewb.cn^*?$image
-||dmhy.dandanplay.com^*?$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
@@ -6042,7 +6035,6 @@ mg*.6park.com/img/$image
 ||windowszj.com^*/xiaoyu
 ||winvvv.com^$subdocument
 ||wishdown.com/images/*.gif
-||wlmacao.dyndns.pro^*?$image
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
 ||wo256.com/256_gg/*.gif
@@ -6410,8 +6402,10 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||dmhy*.aewb.cn^*?$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qq.com##.yw-gg-float
 dmzj.com##A[href^="http://zt.dmzj.com/test/jump.html?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -10461,7 +10455,7 @@ weibo.com##div[feedtype="ad"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
 mail.126.com,mail.163.com##div[id$="_FooterDiv"]
-dmhy.dandanplay.com,share.dmhy.org##div[id$="_ad"]
+share.dmhy.org##div[id$="_ad"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id$="_canvas"]
 mail.126.com,mail.163.com##div[id$="_dvBlockInfo"]
 58.com##div[id$="_gdbg"]
@@ -11195,7 +11189,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||abchina.com^*/images/ad.
 @@||acg.tv/flash.swf?
 @@||acgbenzi.com//dist/images/top.png
-@@||acghelp.me/common/generate-captcha?
 @@||ad-specs.guoshipartners.com/static/js/isip.js$domain=appledaily.com.tw
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
@@ -11297,12 +11290,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cy.com^$generichide
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
-@@||dandanplay.com/common/generate-captcha?
 @@||daoju.qq.com/time/*/js/ad/
 @@||digiland.tw/advert.js
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
-@@||dm.51.re/common/generate-captcha?
-@@||dmhy*.aewb.cn/common/generate-captcha?
 @@||do189.com/zb_users/theme/duoyi/style/images/text_bg.gif
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$generichide
@@ -11459,7 +11449,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
-@@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sakai-hk.com/advertisement.js
 @@||sakai.club/advertisement.js
@@ -11470,7 +11459,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||selfimg.com.cn/??
 @@||serve.netsh.org^$elemhide
 @@||sf-express.com/.galleries/advertisement/
-@@||share.dmhy.*/generate-captcha?
+@@||dmhy.org/common/generate-captcha?
+@@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
 @@||simba.taobao.com/?name=mcad$script
 @@||sina.com.cn/litong/*/close
 @@||sina.com.hk^*_ads.cgi
