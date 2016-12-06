@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ER4iZmxDHmLwa0+wGRvYFQ
+! Checksum: 43uw1FmXOEt0rS5QssK8JA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612062230
-! Last Modified: 2016年12月06日 22:30
+! Version: 201612062300
+! Last Modified: 2016年12月06日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -6406,6 +6406,8 @@ mg*.6park.com/img/$image
 ||netreddaily.com/api.php?mod=
 !------------------------Specific element hiding rules------------------------!
 88448.com###ad_forum_banner
+sspai.com##.widget-color-bns_sidebar_03
+sspai.com##.widget-color-bns-article-04
 gpcxw.com###AA2
 qq.com##.yw-gg-float
 dmzj.com##A[href^="http://zt.dmzj.com/test/jump.html?"]
@@ -8599,7 +8601,6 @@ jfinfo.com##.contBottomFix
 u-car.com.tw##.contad
 gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
-sspai.com##.content > hr:nth-last-child(-n+4) ~ p
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
@@ -10370,7 +10371,6 @@ qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
 jznews.com.cn##div[class*="n_ads_index"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
-sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
 ifeng.com##div[class="adbox02"]
 ithome.com.tw##div[class="span4"]
