@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IcfkTrre0ZXpg6y8c/IGcg
+! Checksum: 9N/Z0fNwR4m5Z0++hpcPSA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612061330
-! Last Modified: 2016年12月06日 13:30
+! Version: 201612061400
+! Last Modified: 2016年12月06日 14:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -120,7 +120,6 @@
 /gg4.
 /gg5.
 /gg6.
-/ggad/*
 /ggao.
 /ggao/*
 /ggclass/*
@@ -595,7 +594,6 @@ _popAds.
 ubmcmm.baidustatic.com
 |http://*.*.cn/?ss=$script,third-party
 |http://*.*.com/?q=*|*$script,third-party
-|http://*.*.com/?ss=$script,third-party
 |http://*.*.net/?ss=$script,third-party
 |http://*.cc/s.php?id=$script,third-party
 |http://*.cn/s.php?id=$script,third-party
@@ -2749,7 +2747,6 @@ mg*.6park.com/img/$image
 ||baidu.com/tbliveact/data/xiu8/
 ||baidu.com/tequan/adpadmin_feed/
 ||baidu.com/ur/scun?di=contentunion
-||baidu.com/videoadv.js
 ||baidu.com/videoapi/?*_ad_promote&
 ||baidu.com/WerbungAjax/getBeitou?
 ||baidu.com/WerbungAjax/getTonglan?
@@ -3939,7 +3936,6 @@ mg*.6park.com/img/$image
 ||ietv.cc/Runtime/Js/web_bug.js
 ||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
 ||ifeng.com/a_if/
-||ifeng.com/a_if/taobao-
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
 ||ifeng.com/iframe/toquickbet
@@ -7696,7 +7692,6 @@ hupu.com##.ad_980
 cheshi.com##.ad_980105
 bjxxw.com##.ad_ad
 tpy888.cn##.ad_all
-400gb.com,bego.cc,ctfile.com,pipipan.com,shenchuang.com##.ad_area
 download.csdn.net##.ad_area_1
 sogou.com##.ad_aside_inner
 shm.com.cn##.ad_baidu_300250
