@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B0fYu2ZF3FFVWTobexoDUA
+! Checksum: tGz+o2QRDcXYUbjMDN8XAw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612060900
-! Last Modified: 2016年12月06日 09:00
+! Version: 201612060930
+! Last Modified: 2016年12月06日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6022,6 +6022,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dmzj.com##A[href^="http://zt.dmzj.com/test/jump.html?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10699,7 +10700,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/bag2?r[]=*&r[]=$domain=free.com.tw|macx.cn
 @@/cdn-cgi/pe/bag2?r[]=*google$script,domain=bnstree.com
 @@/cms/ads/*$domain=17.com
-@@||cntv.cn^*/cntv_Advertise.js
+@@||cntv.cn/include/video/js/cntv_Advertise.js
 @@||cctv.com/js/cntv_Advertise.js
 @@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
 @@/data/attachment/*_300_250_
