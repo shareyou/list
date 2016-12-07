@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jQ4C9WSVwo1wtt/tz8QToQ
+! Checksum: h8hnghvF2NQfvVPKkZczmA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612070800
-! Last Modified: 2016年12月07日 08:00
+! Version: 201612070930
+! Last Modified: 2016年12月07日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3647,8 +3647,8 @@ mg*.6park.com/img/$image
 ||fububu.com/zb_users/*/ttz
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fuli.us/ad.js
-||fuli.us/wp-content/uploads/2016/10/2016103005450610.jpg
-||fuli.us/wp-content/uploads/ad/
+/wp-content/uploads/2016/10/2016103005450610.jpg
+fuli.*/wp-content/uploads/ad/
 ||fuli69.com/wp-content/uploads/sug
 ||fulibac.com/images/upload/ad/
 ||fulibar.net/img/
@@ -6133,6 +6133,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
+sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
+sspai.com##.content > HR:nth-last-child(-n+4) ~ P
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
