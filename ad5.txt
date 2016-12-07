@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HsMGC8brw+Ivh7RKseoTbQ
+! Checksum: amKYGhXmeRjgkYv2Lgq0SA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612072330
-! Last Modified: 2016年12月07日 23:30
+! Version: 201612080730
+! Last Modified: 2016年12月08日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12835,6 +12835,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics-dotcom/*
 /analytics-event-
 /analytics-js.
+/analytics-plugin/*
 /analytics-tag.
 /analytics-v1.
 /analytics.ashx
@@ -13217,6 +13218,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cognitive_match/*
 /collect/kf?
 /collect?callback=
+/collection.php?data=
 /collector/*/*?*&euidl=*&url=
 /collector/hit?
 /collector?report=
@@ -13729,6 +13731,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /hpmetrics.
 /hrtrackjs.gif?
 /hs_track.
+/hstrck-detect.
 /i/b.gif?
 /i/i.gif?
 /i2a.js
@@ -14786,6 +14789,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /textlink.php?text
 /thetracker.js
 /third-party-stats/*
+/third-party/tracking.
 /thirdpartyCookie.
 /thirdPartyPixel.
 /thirdPartyTags.js
@@ -16279,6 +16283,7 @@ _mongo_stats/
 ||guardwork.info^$third-party
 ||guruquicks.net^$third-party
 ||gvisit.com^$third-party
+||gweini.com^$third-party
 ||h4k5.com^$third-party
 ||halldata.com^$third-party
 ||halstats.com^$third-party
@@ -17626,6 +17631,7 @@ _mongo_stats/
 ||hitmaster.de^$third-party
 ||hot-count.com^$third-party
 ||hotcounter.de^$third-party
+||hstrck.com^$third-party
 ||hung.ch^$third-party
 ||iivt.com^$third-party
 ||imcht.net^$third-party
@@ -22939,6 +22945,7 @@ _mongo_stats/
 ||mm.welt.de^
 ||mobilcom-debitel.de/track/
 ||mopo.de/uid/
+||motorsport-total.com/z.php?
 ||ms.computerbild.de^
 ||msn.com^*/detrack.js
 ||msxstudios.de^*/system/stats/
