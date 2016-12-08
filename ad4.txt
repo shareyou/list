@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sXy8RskQuhZPqOwIeLPdBQ
+! Checksum: vW+GtnE4Lv+LmPYuu/JCkg
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201612071230
-! Last Modified: 2016年12月07日 12:30
+! Version: 201612080830
+! Last Modified: 2016年12月08日 08:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -192,7 +192,6 @@ tieba.baidu.com##.xiang-guan-tie
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-baidu.com##.manual-spread
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .t > a[href^="http://www.baidu.com/baidu.php?"]
@@ -409,6 +408,7 @@ muzhi.baidu.com##.leftnest
 zhidao.baidu.com##.link-banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.lot_wrap
+baidu.com##.manual-spread
 rj.baidu.com##.mid-recommend
 image.baidu.com##.mod-promo
 baidu.com##.nav_ads
