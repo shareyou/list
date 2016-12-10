@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qmvik6ST9R1arRPSqoxfsA
+! Checksum: kUVTTCVNEoDxZ+rMm7Othw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612102000
-! Last Modified: 2016年12月10日 20:00
+! Version: 201612102030
+! Last Modified: 2016年12月10日 20:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2429,7 +2429,6 @@ mg*.6park.com/img/$image
 ||8683ys.com/template/380x60.gif
 ||8684.cn/id/ad_
 ||8684.com/com/sys_ad_
-||8684.com/hybk/static/images/images_70.jpg
 ||8684.com/local/bdadv.
 ||880fg.com/css/*.js
 ||880sy.com/Public/js/index_gg.js
@@ -6038,6 +6037,7 @@ mg*.6park.com/img/$image
 ||2345.com/js/index/activity/20161212/
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||script.vccoo.com^
+||8684.com/shuang11/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 up01.cc##.ads
@@ -10043,7 +10043,7 @@ fang.com##div[class^="add2"]
 weather.com.cn##div[class^="adpos"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
-8684.cn,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
 mkzhan.com##div[class^="advertising_"]
@@ -10810,7 +10810,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||75.125.41.29:8080/*/
 @@||7958.com.cn/download/authad
 @@||7vk.com/detail/shehuipinlun.js
-@@||8591.com.tw^*/buyAd.css
 @@||85po.com^$generichide
 @@||85porn.net^$generichide
 @@||88box.com/images/ad_images/
