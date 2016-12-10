@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yIY91dMx0sFtB4a3jmPd0A
+! Checksum: Ni1VAjAsGmanc2nkwkzxmw
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201612091200
-! Last Modified: 2016年12月09日 12:00
+! Version: 201612102230
+! Last Modified: 2016年12月10日 22:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -250,7 +250,6 @@ baidu.com###gamePromo
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_rank
 wenku.baidu.com###ggbtm-ads
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
-pos.baidu.com###hotwords_down
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
 baidu.com###index_banner_top
@@ -523,7 +522,6 @@ v.baidu.com#@#.has-ad
 @@||libs.baidu.com/jquery/$domain=xxbiquge.com
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=u1331029&$domain=epinv.com
-@@||pos.baidu.com^*=u2550281&$domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn

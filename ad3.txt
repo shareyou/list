@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kUVTTCVNEoDxZ+rMm7Othw
+! Checksum: QWazNqQuS0rPLjnOnSZ92Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612102030
-! Last Modified: 2016年12月10日 20:30
+! Version: 201612102230
+! Last Modified: 2016年12月10日 22:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6038,6 +6038,7 @@ mg*.6park.com/img/$image
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||script.vccoo.com^
 ||8684.com/shuang11/
+||china.com/v_test
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 up01.cc##.ads
@@ -6795,7 +6796,6 @@ ruanyifeng.com###homepage_pos
 sogou.com###hotel_vr_details
 news.sohu.com###hotpicnew
 mtime.com###hotplayHeadImgRegion
-pos.baidu.com###hotwords_down
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
 huanqiu.com###hqbl123
@@ -10692,7 +10692,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/ads.js?$domain=codejie.net|imuum.com
 @@/ads/*$domain=189.cn|95516.com
 @@/adsame.$domain=liba.com|libaclub.com
 @@/adsbox.$domain=long7.qq.com
@@ -10700,7 +10699,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=kysec.cn|mndxy.org
 @@/advert.$domain=izo.tw
-@@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|youyuan.com
+@@/advert/*$domain=banggo.com|cctcw.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|youyuan.com
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com
@@ -10732,7 +10731,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/LoadAds.$domain=webcars.com.cn
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/PIC/AD/*$domain=ybjk.com
-@@/pop.js|$domain=189.cn|ali213.net|coolpad.com
+@@/pop.js|$domain=189.cn|ali213.net
 @@/pop.php?id=$domain=videomega.tv
 @@/popunderv2.$domain=up2stream.com
 @@/pub/ad/*$domain=ruten.com.tw
@@ -10891,7 +10890,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
 @@||buyad.bi-xenon.cn^
-@@||bzfxw.com/d/js/acmsd/thea25.js
 @@||cache.adm.cnzz.net^$domain=gx.91s.org
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
@@ -10902,7 +10900,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ccb.com^*^ad
 @@||cctv.com/js/cntv_Advertise.js
 @@||changyou.com^$generichide
-@@||chinahr.com/ad$domain=chinahr.com
 @@||chinamobile.com^$generichide
 @@||chinamobile.com^*/ad$~third-party
 @@||chinatimes.com/css-main/ad.css
@@ -10916,8 +10913,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cntv.cn^*_ad.js
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
-@@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=bzfxw.com|epinv.com
+@@||countrygarden.com.cn/ad/
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=epinv.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -10939,9 +10936,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
 @@||dvbcn.com/caches/poster_js/23.js
-@@||dvs.china.com/adv1.xml
-@@||dvs.china.com/crossdomain.xml
 @@||dzwww.com/ad/jsfiles/fillCon.js
+@@||china.com/dianbo/adv1.xml
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e701.net^$script,domain=2mn.im
 @@||e701.net^*=300&$subdocument,domain=2mn.im
@@ -11059,7 +11055,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=u1331029&$domain=epinv.com
-@@||pos.baidu.com^*=u2550281&$domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
