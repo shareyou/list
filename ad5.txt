@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2RT7LQikVRrAUy9PsTct+g
+! Checksum: tqdF0QuMN19bwupG3mgXng
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612112130
-! Last Modified: 2016年12月11日 21:30
+! Version: 201612120730
+! Last Modified: 2016年12月12日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13921,6 +13921,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /log/log.php?
 /log/p.gif?
 /log2.php?
+/log?action=
 /log?data=
 /log?documentUrl=
 /Log?entry=
@@ -17847,6 +17848,7 @@ _mongo_stats/
 ||51yes.com^$third-party
 ||99click.com^$third-party
 ||acs86.com^$third-party
+||ad7.com^$third-party
 ||admaster.com.cn^$third-party
 ||baifendian.com^$third-party
 ||blog104.com^$third-party
@@ -17861,12 +17863,14 @@ _mongo_stats/
 ||growingio.com^$third-party
 ||gtags.net^$third-party
 ||hotrank.com.tw^$third-party
+||ipinyou.com^$third-party
 ||irs01.$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||mediav.com^$third-party
 ||mmstat.com^$third-party
 ||oadz.com^$third-party
+||p0y.cn^$third-party
 ||phpstat.com^$third-party
 ||pixanalytics.com^$third-party
 ||ptengine.cn^$third-party
@@ -20254,6 +20258,7 @@ _mongo_stats/
 ||look.urs.tw^$third-party
 ||n.yunshipei.com^
 ||pos.baidu.com^
+||qbox.me/vds.js
 ||r.sax.sina.com.cn^
 ||sitemaji.com/nownews.php?
 ||sobeycloud.com/Services/Stat.
@@ -23165,6 +23170,7 @@ _mongo_stats/
 ||eclick.baidu.com^
 ||firefoxchina.cn/*/trac.js
 ||fls-cn.amazon.cn^
+||ftchinese.com/js/log.js
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
 ||hk.ndx.nextmedia.com^
