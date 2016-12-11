@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PWNMTpk+0bbuXYJFa2whCw
+! Checksum: WFVTVDMxZ4UQohK9zYUGDw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612111230
-! Last Modified: 2016年12月11日 12:30
+! Version: 201612111430
+! Last Modified: 2016年12月11日 14:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -5530,8 +5530,8 @@ mg*.6park.com/img/$image
 ||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
 ||sesepa.com/topjs/
-||sex169.xyz/aabbac/
-||sex169.xyz/ablock/
+||sex169.info^*.gif
+||sex169.xyz/a
 ||sexbarss.net/wap/
 ||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
