@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +0QnY4oEfjpfVBA0U8jL+w
+! Checksum: xjvDy2oQ/bz9cJQa31WUZQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612111830
-! Last Modified: 2016年12月11日 18:30
+! Version: 201612111900
+! Last Modified: 2016年12月11日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6023,9 +6023,15 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
+||2345.com/images/activity/20161212/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-108.62.192.124,plus28.com##.pages_btns + DIV[style="margin: auto;width: 960px;margin-bottom: 10px;"]
+2345.com##DIV[id^="J_TopicBanner"]
+2345.com##DIV[id^="bd-search-ad"]
+2345.com##.coem-dzhcn
+2345.com##.s11-fixNav
+2345.com##.s12-fullNav
+108.62.192.124,plus28.com##DIV[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6091,8 +6097,6 @@ wuxi.cn###Information
 96weixin.com###J-adBd2
 duba.com###J_BottomAdBan
 duba.com###J_S11
-2345.com###J_TopicBanner
-2345.com###J_TopicBanner01
 2345.com###J_acts11_footerfixed
 linovel.com###J_ad_
 xiami.com###J_albumSale
@@ -6352,9 +6356,6 @@ zimuzu.tv###bbs_list_ad
 muchong.com###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
-2345.com###bd-search-ad
-2345.com###bd-search-ad-1
-2345.com###bd-search-ad-2
 manhuadao.com###bd1
 dm456.com###bdSider
 naruto.hk###bdbqy
