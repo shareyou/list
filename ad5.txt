@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 57qMOKwy1+9m1IQLloSLuA
+! Checksum: YDiEuKYfiCVislY3tPw30g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612111800
-! Last Modified: 2016年12月11日 18:00
+! Version: 201612111830
+! Last Modified: 2016年12月11日 18:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -1865,12 +1865,12 @@ ubmcmm.baidustatic.com
 ||son999.com^$popup,third-party
 ||taobao.com^$popup,domain=bilibilijj.com|xianzhenyuan.cn
 ||tmall.com^$popup,domain=xianzhenyuan.cn
-||todayapp.tv^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
+||todayapp.tv^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
 .543evv.com/js/config.js
 .adsame.libaclub.com^
@@ -6143,7 +6143,7 @@ mg*.6park.com/img/$image
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-plus28.com##.pages_btns + DIV[style="margin: auto;width: 960px;margin-bottom: 10px;"]
+108.62.192.124,plus28.com##.pages_btns + DIV[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9923,7 +9923,7 @@ cnbeta.com##a[href*=".upyun."]
 letv.com##a[href*=".vip.com"]
 zhibo8.cc##a[href*=".wanjiashe."]
 tiexue.net##a[href*=".yueleyu."]
-plus28.com##a[href*="/?Extend="]
+108.62.192.124,plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
