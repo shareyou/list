@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9nmVMk7Lc85Bb87zkHfG+A
+! Checksum: LPmyhfQrBuzmkVjeScYgTw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612112000
-! Last Modified: 2016年12月11日 20:00
+! Version: 201612112130
+! Last Modified: 2016年12月11日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11,7 +11,6 @@
 !
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
--cstdio_ads-
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -263,7 +262,6 @@
 :8898/ads_
 =ads.processReqChange^
 =ajaxGetAds&type=
-=cstdio_ads:
 =loginExtAD.
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
@@ -6023,6 +6021,7 @@ mg*.6park.com/img/$image
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||2345.com/images/activity/20161212/
+||168gamer.*ads
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zuoye.baidu.com,zybang.com##.cpro
@@ -11218,6 +11217,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+/show_ads.js
 /ggad/*
 /ads2/*
 /js/ads-
@@ -11794,7 +11794,12 @@ _300_250.
 ||chinatimes.com/ads/
 ||chinanews.com/fileftp/2016/06/2016-06-13/U194P4T47D35171F967DT20160613093733.jpg
 ||chinanews.com/fileftp/2016/08/2016-08-04/U194P4T47D36220F967DT20160804155100.jpg
+||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
+||zuoyebang.cc/zyb_e47d9b7f269de651f60b8cd04718f762.jpg
+||kekenet.com/images/*/app
 !------------------------Specific element hiding rules------------------------!
+kekenet.com###weixinwz
+kekenet.com###weixinwz1
 qudao.com###wechat
 iciba.com##.cb-downmask
 sina.com.cn###tg_app_w
