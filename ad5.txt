@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z+fJQIJCW4s6SiONFugmFQ
+! Checksum: 6VBFI/d6CeCzshR/SKPk5Q
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612122130
-! Last Modified: 2016年12月12日 21:30
+! Version: 201612122200
+! Last Modified: 2016年12月12日 22:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6148,8 +6148,10 @@ mg*.6park.com/img/$image
 ||qq.com/getadv.
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
 ||2324av.com/zz/
+.qidian.com/gameBox.
 !------------------------Specific element hiding rules------------------------!
 acg12.com##A[href^="http://www.diyidan."]
+qidian.com###j-topHeadBox
 duba.com###J_FloorWrap
 anzhuotan.com##A[href^="https://weidian.com/"]
 duba.com###J_FloorWave
@@ -11935,6 +11937,7 @@ _300_250.
 ||zuoyebang.cc/zyb_e47d9b7f269de651f60b8cd04718f762.jpg
 ||kekenet.com/images/*/app
 !------------------------Specific element hiding rules------------------------!
+baidu.com###activateGuidePopupOuter
 kekenet.com###weixinwz
 kekenet.com###weixinwz1
 qudao.com###wechat
@@ -11961,7 +11964,6 @@ neihanshequ.com###appDownload
 golinksworld.com###btn_download
 wallstreetcn.com##.download-coantainer
 51cto.com###f_close_box
-51cto.com###ipadFloada
 blog.51cto.com##.relatedArt.box
 xdf.cn##.footadv
 xdf.cn##.middleadv
@@ -12229,6 +12231,7 @@ blog.163.com###topbar_yxpArea
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||qdp.qidian.com^
 ||chouti.com/js/tingyun-rum.js
 ||113.105.248.169^
 ||fcm.baidu.com^
