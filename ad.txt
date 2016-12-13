@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0+FmvkaM+ZwjlbksSy+hHg
+! Checksum: F99OnHtbwjrbw6V7O2XSTw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612131915
-! Last Modified: 2016年12月13日 19:15
+! Version: 201612131930
+! Last Modified: 2016年12月13日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -39,7 +39,7 @@ www.15yan.com##.tooltip
 www.52tian.net##.adwidewrap
 www.acfun.tv###guide-fix
 www.acfun.tv##.app-magic
-www.cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+www.cnbeta.com##DIV[style*="display:block !important;padding:10px;margin:0 auto"]
 www.dwnews.com##.big2-gg
 www.freehao123.com##A[href*="/go/"]
 www.google.com##.ads-ad
@@ -11591,7 +11591,7 @@ zhidao.baidu.com#@#.share-area
 baidu.com#@#.share-line
 baidu.com#@#.share-list
 dj92cc.com,tingqq.com#@#.share_list
-@@||bdstatic.com^*/ask/share/share_
+@@||bdstatic.com^*/share/share_
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
