@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LIaKixAanNtWMHH1KFWjqw
+! Checksum: +wUtbDvqpW5flebU5jj4sw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612151130
-! Last Modified: 2016年12月15日 11:30
+! Version: 201612151300
+! Last Modified: 2016年12月15日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -221,11 +221,11 @@ xhamster.com##.sponsorBottom
 ||zencdn.net^$domain=freegaypornsex.net|www.gayvl.info
 ||zrblog.net/zanzhu/
 ! BiliBili
+bilibili.com###b_app_link
 live.bilibili.com##.announcement-container
 live.bilibili.com##.gift-msg
 live.bilibili.com##.live-ad-full
 live.bilibili.com##.live-icon.vip-color.v-middle
-live.bilibili.com##.live-icon.vip-icon.p-absolute.vip-gray
 live.bilibili.com##.live-title-icon
 live.bilibili.com##.medal-icon
 live.bilibili.com##.supergift
