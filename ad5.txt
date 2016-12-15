@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yRH1lsCXKMAvzbrfOrdSTw
+! Checksum: XWFOnhe4YDbf2fwaYC8HKA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612151100
-! Last Modified: 2016年12月15日 11:00
+! Version: 201612151130
+! Last Modified: 2016年12月15日 11:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -657,6 +657,7 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||fmgoal.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -2758,7 +2759,6 @@ mg*.6park.com/img/$image
 ||aliyuncs.com/wjy99re/
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
-||alu.cn/2011/images/conglin.gif
 ||alu.cn/aluTrade/Fragments/ListAdvertisementProducts.
 ||am.6park.com^
 ||am.szhome.com^
@@ -6160,8 +6160,15 @@ mg*.6park.com/img/$image
 ||imgshost.pw/02_cn_ad/
 ||ww7814.win/pic/
 ||akjunshi.com/v6/images/adver/
+||alu.cn/alutg/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+alu.cn##.adv235x60
+alu.cn##.tg120x70
+alu.cn##.tg235x60
+alu.cn##.tg240x60
+alu.cn##.tg260
+alu.cn##.tg315x60
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7620,7 +7627,6 @@ shenchuang.com##.MainR_ad3
 33yq.com##.Messageml
 07073.com##.No1
 bing.com##.OpInNwWndw
-azpan.com##.Page_left > .gg-up-line
 chinaz.com##.Postcon-ad
 chinaitlab.com,idcquan.com##.Prt_right[style^="HEIGHT:"]
 hackhome.com##.Qad
@@ -7733,15 +7739,11 @@ chinayk.com##.ad1024
 yuqingcn.cn##.ad1024x90
 btpeer.com,c114.net,chddh.com,china.com.cn,izhufu.net,qingdaonews.com,qz828.com##.ad2
 ifeng.com##.ad200-2
-alu.cn##.ad235x60
 yaolan.com##.ad24090
-alu.cn##.ad240x60
 dbw.cn##.ad245
 jokeji.cn##.ad250_1
 jokeji.cn##.ad250_2
-alu.cn##.ad260
 admin5.com,izhufu.net,nanrenwo.net,sportscn.com,tpy888.cn##.ad3
-alu.cn##.ad315x60
 jokeji.cn##.ad3602
 jokeji.cn##.ad360_280
 qtv.com.cn##.ad360_z
@@ -7764,7 +7766,6 @@ ting89.com##.ad7
 yaolan.com##.ad71090
 tompda.com##.ad713
 hupu.com##.ad720-90
-alu.cn##.ad720x70
 ifeng.com##.ad728_tit
 pujia8.com##.ad740
 it.com.cn##.ad750
@@ -9991,7 +9992,6 @@ caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 znds.com##a[href="http://www.dangbei.com/"]
-anquan.org##a[href="http://www.jiasule.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.masadora.net/"]
 fuliba.net,fulibba.com##a[href="http://www.meidebi.com"]
@@ -10670,7 +10670,7 @@ timesdata.com#@##adbody
 abbao.cn#@##adcontent
 pbhz.com#@##adsense
 182.18.61.50#@##adslist
-aixiaoshuo.com.cn,baishuku.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
+baishuku.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 2d-gate.org#@##banner_ad
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
