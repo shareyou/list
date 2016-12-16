@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OXkfsy5iAgQsofHlPpRHBw
+! Checksum: d73rV/B+9cFMKYUWkjiVZQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612161400
-! Last Modified: 2016年12月16日 14:00
+! Version: 201612161800
+! Last Modified: 2016年12月16日 18:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2747,7 +2747,7 @@ mg*.6park.com/img/$image
 ||akjunshi.com/g/js/v1/momo.js
 ||akjunshi.com/v6/images/adver/
 ||akjunshi.com^*/center
-||aknba.com/cache/ads.js
+||aknba.com/lz.
 ||alabout.com/images/*.gif
 ||alexa.cn/ad$subdocument
 ||ali213.net/css/data/promotion.css
@@ -4831,7 +4831,6 @@ mg*.6park.com/img/$image
 ||newsmth.net/nForum/baiduunion/
 ||newsmth.net/nForum/files/adv/
 ||newsmth.net/nForum/googlead/
-||nextmedia.com/web_images/recruit_banner.jpg
 ||nga.*/common_res/js_adscommon.js
 ||nga.*/proxy/cache_attach/ds_list.js
 ||ngacn.cc/common_res/js_adscommon.js
@@ -10951,7 +10950,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||abchina.com^*/images/ad.
 @@||acg.tv/flash.swf?
 @@||acgbenzi.com//dist/images/top.png
-@@||ad-specs.guoshipartners.com/static/js/isip.js$domain=appledaily.com.tw
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
 @@||ad.3.cn/ads/mgets?$script,domain=item.jd.com
