@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FreLuSuTfUckLBy5b8kTrw
+! Checksum: HJu8W4q1hhfETt2SL/hx3A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612180900
-! Last Modified: 2016年12月18日 09:00
+! Version: 201612180930
+! Last Modified: 2016年12月18日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -928,6 +928,7 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||ad-survey.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -5459,7 +5460,7 @@ mg*.6park.com/img/$image
 ||qzss.cn/ssad
 ||qzwb.com/gb/img/9465.files/1G3G.gif
 ||qzwb.com^*.swf|
-||r3.ykimg.com/crossdomain.xml
+||r3.ykimg.com^$object-subrequest
 ||r3sub.com/images/banners/
 ||rainmall.com/tv/js/ad
 ||rainmall.com/tv/js/bofang
@@ -6462,6 +6463,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||888god.tk^*.$script,third-party
 ||888god.tk^*/*/*.gif
+||1ketang.com/Runtime/js/play
+||1ketang.com/Runtime/js/play
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
