@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fKMCIosZla1THQLw2YXRHA
+! Checksum: lWXJoH7azjSigti4+vfA0g
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201612171900
-! Last Modified: 2016年12月17日 19:00
+! Version: 201612180830
+! Last Modified: 2016年12月18日 08:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -194,7 +194,6 @@ tieba.baidu.com##.xiang-guan-tie
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-zhidao.baidu.com##DIV[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .t > a[href^="http://www.baidu.com/baidu.php?"]
@@ -503,6 +502,7 @@ wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
 image.baidu.com##div[id^="relecom"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[srcid="13602"] > .c-border
+zhidao.baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="app_normal"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="houses_new"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecl_health"] > .c-border
