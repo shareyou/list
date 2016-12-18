@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6RTbWNvaDhmNZhWxQwlD5g
+! Checksum: XM92PuZrBELqOp8LGwBD0A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612181400
-! Last Modified: 2016年12月18日 14:00
+! Version: 201612181630
+! Last Modified: 2016年12月18日 16:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -51,7 +51,6 @@ www.le.com###full_Column_small
 www.le.com###rightBottomPop
 www.smzdm.com###footer_layer
 www.raybt.com##td[width="13"]
-www.ttmeiju.com###new-user, #dialog-overlay
 tumblr.com##.standalone-ad-container
 www.xilinjie.com###xlj-da-block-overlay
 xhamster.com##.sponsorBottom
@@ -77,7 +76,6 @@ xhamster.com##.sponsorBottom
 |https://$third-party,domain=ttdbh.com
 @@|http://$generichide,domain=nibblebit.com|www.aiwanba.net
 @@||adblockdetect.xyz^
-@@||libs.baidu.com
 |http://b.scorecardresearch.com
 ||115.com/static/plug/video_play/qrcode.js
 ||123yq.org/ssi/
@@ -136,8 +134,6 @@ xhamster.com##.sponsorBottom
 ||feih.com.cn^$third-party
 ||flashi.tv/histats.php?
 ||forum.xitek.com/xml/flash.swf
-||gclick.cn^
-@@||cache.gclick.cn^
 ||genieessp.com^$third-party
 ||google.com/uds/api/ads/
 ||greencompute.org^$third-party
@@ -154,7 +150,6 @@ xhamster.com##.sponsorBottom
 ||moatads.com^
 ||media.pussycash.com^$third-party
 ||member.jschina.com.cn/AD
-||nytimes.com/bi/js/analytics/show_ads.js
 ||okmuxdbq.com^
 ||onclickpredictiv.com^
 ||onclickads.net^
@@ -6461,13 +6456,14 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||888god.tk^*.$script,third-party
-||888god.tk^*/*/*.gif
+||888god.*/*.$script,third-party
+||888god.*/*/*.gif
 ||1ketang.com/Runtime/js/play
 ||1ketang.com/Runtime/js/play
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
 ||tieyou.com/images/xiao_tuan_you.jpg
 ||kuxun.cn/Partner/
+||duapp.com^$domain=sexcar.cn
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
