@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i56RKOTxuOBuLfNUQM9WQA
+! Checksum: g7WdhpOI2oAbts9LEILhiQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612191030
-! Last Modified: 2016年12月19日 10:30
+! Version: 201612191100
+! Last Modified: 2016年12月19日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -10827,6 +10827,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||mokeedev.com/js/fuckadblock.
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.mokeedev.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
