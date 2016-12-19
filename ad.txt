@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8GQ6RpGhThyyuX78Ta7lhg
+! Checksum: oF578JFlkO3w+VIvoKBgWg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612191330
-! Last Modified: 2016年12月19日 13:30
+! Version: 201612191500
+! Last Modified: 2016年12月19日 15:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -246,8 +246,8 @@ chaturbate.com##IMG[rel="nofollow"]
 chaturbate.com##.ad
 chaturbate.com##.banner
 ! Google
-||google-analytics.com^$third-party
-||googleadservices.com^$third-party
+||google-analytics.com^
+||googleadservices.com^
 ! Letv
 |http://*/letv-gug/
 ||dc.letv.com/op/?
