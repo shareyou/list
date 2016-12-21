@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d4DwFc542w0jsvJcRV37XA
+! Checksum: 3oU/jt2d0csHPdkyiKvYiw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612211830
-! Last Modified: 2016年12月21日 18:30
+! Version: 201612212000
+! Last Modified: 2016年12月21日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6094,6 +6094,7 @@ mg*.6park.com/img/$image
 ||vjcdn.com/wp-content/uploads/*640x200
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+baidu.com##.qb-other-answer-wmad
 fang.com###xmlAd
 vjmedia.com.hk##.code-block
 vjmedia.com.hk###text-33
@@ -8831,8 +8832,8 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5feb\\u8baf\\u5927\\u7ba1\\u5bb6\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list:not([data-field])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + LI[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list:not([data-field])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4756933479,"]
 jstv.com##.jadv
