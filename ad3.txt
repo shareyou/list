@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mfWJLMPgSP/0tS0HMKK1hA
+! Checksum: nIzMIhq9u0giY4fPzAEoMQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612211130
-! Last Modified: 2016年12月21日 11:30
+! Version: 201612211200
+! Last Modified: 2016年12月21日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6091,8 +6091,10 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||caoliuzx.*/*/*.$script,third-party
 ||caoliuzx.*/*/*/*.gif
+||vjcdn.com/wp-content/uploads/*640x200
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+vjmedia.com.hk###text-33
 m.autohome.com.cn###s2205
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6253,7 +6255,7 @@ price.com.hk###ad5
 yuqingcn.cn###ad715x90
 hur.cn###ad810_2
 hur.cn###ad810_6
-vjmedia.com.hk##IMG[width="1040"]
+vjmedia.com.hk###ad900
 bocaidy.com###ad960x90
 yxdown.com###ad970x60
 dahe.cn###adArea1
@@ -7300,7 +7302,6 @@ blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
-vjmedia.com.hk###text-33
 realtw.com###text-37
 zreading.cn###text-5
 uisdc.com###text-6
