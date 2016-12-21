@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rkNlxmeMbuc1LFvG55/fIg
+! Checksum: 45X0rKy8KbAZVF2Lo4eeTA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612212000
-! Last Modified: 2016年12月21日 20:00
+! Version: 201612212130
+! Last Modified: 2016年12月21日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -661,6 +661,7 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||xiaoyang.mobi^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -6213,6 +6214,7 @@ mg*.6park.com/img/$image
 ||caoliuzx.*/*/*.$script,third-party
 ||caoliuzx.*/*/*/*.gif
 ||vjcdn.com/wp-content/uploads/*640x200
+||92uq.com/Ads/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 baidu.com##.qb-other-answer-wmad
