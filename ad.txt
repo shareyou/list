@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 48orVMnyp9kRLlCdx7NzTQ
+! Checksum: 9jvPThJgswiKUtOIbHbkAg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612222100
-! Last Modified: 2016年12月22日 21:00
+! Version: 201612222130
+! Last Modified: 2016年12月22日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -11707,6 +11707,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+.com/ads?
 /banner468.
 /show_ads.js
 /ggad/*
@@ -12588,6 +12589,7 @@ blog.163.com###topbar_yxpArea
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||btdb.in/beacon.html
 ||autoimg.cn/bi/mda/
 ||qdp.qidian.com^
 ||chouti.com/js/tingyun-rum.js
@@ -12812,7 +12814,7 @@ weibo.com###v6_trustPagelet_recom_member
 !---首页右侧用户名下的【亚洲新歌榜】
 weibo.com###v6_pl_rightmod_rank
 !---首页顶部【游戏】
-weibo.com##.S_txt1[nm="game"] !添加了视频,会误拦.weibo.com##.gn_nav_list > LI:nth-child(3)
+weibo.com##.S_txt1[nm="game"]
 !---首页底部之【微博精彩等】
 weibo.com##.WB_footer > .footer_link
 !---首页底部之【备案】
