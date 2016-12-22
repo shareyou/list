@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XlXbR3Fkkvh6SIGFjxr0yA
+! Checksum: RqCOyajtNPKc39NXaqK2+A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612221300
-! Last Modified: 2016年12月22日 13:00
+! Version: 201612221600
+! Last Modified: 2016年12月22日 16:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -6438,7 +6438,6 @@ mg*.6park.com/img/$image
 ||zk168.com.cn/js/s.js
 ||zkrdy.com^
 ||zmtiantang.com/static/m.js
-||znds.com/image/dangbei.gif
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol.com.cn/adrs/
@@ -6475,11 +6474,15 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||abpchina.tk^*/*.$script,third-party
 ||abpchina.tk^*/*/*.gif
+||abpchina2.*/*.$script,third-party
+||abpchina2.*/*/*.gif
 /contents/other/player/*$domain=99ff0.com|99re.com
 ||link.fobshanghai.com/bbsimage/
 ||cidianwang.com/images/taobao/
 ||cidianwang.com/js/zdtop.js
 ||lancdn.com/tmp/jd_
+|http:$script,third-party,xmlhttprequest,domain=btdb.in
+|https:$script,third-party,xmlhttprequest,domain=btdb.in
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10327,7 +10330,6 @@ xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
-znds.com##a[href="http://www.dangbei.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.masadora.net/"]
 fuliba.net,fulibba.com##a[href="http://www.meidebi.com"]
