@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M/Y9z8V1er0fF0xoYCH6Tw
+! Checksum: 0dlak+/tW9sBXR686sSm7w
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612241900
-! Last Modified: 2016年12月24日 19:00
+! Version: 201612242000
+! Last Modified: 2016年12月24日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6127,6 +6127,7 @@ mg*.6park.com/img/$image
 ||7abpchina.*/*/*.gif
 ||discuss.com.hk/yna*_prod.html
 ||uwants.com/yna*_prod.html
+||sinaimg.cn^$domain=rarbt.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 autofan.com.cn##.xf_ad
@@ -11352,6 +11353,9 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+###advertisement_box
+/admonitor.
+/adx.$domain=~adx.uk.com
 .com/ads?
 /banner468.
 /show_ads.js
@@ -11936,6 +11940,7 @@ _300_250.
 ||kekenet.com/images/*/app
 ||kgimg.com/public/root//images/hardware.jpg
 !------------------------Specific element hiding rules------------------------!
+zuowen.com##.cj
 qidian.com##.app_download_ad02
 qidian.com##.app_download_ad
 qidian.com###app_download_blank_show
@@ -12234,6 +12239,8 @@ blog.163.com###topbar_yxpArea
 /js/soku-analytics.js
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
+||91160.com/nykj/f=static/v4/common/tj.js
+||ejieban.com^
 ||btdb.in/beacon.html
 ||autoimg.cn/bi/mda/
 ||qdp.qidian.com^
