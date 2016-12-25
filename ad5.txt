@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RocuVdpdLkkNn0cy9Q9+4A
+! Checksum: QYdWc8hz998WGXWIV0PF0w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612251230
-! Last Modified: 2016年12月25日 12:30
+! Version: 201612251300
+! Last Modified: 2016年12月25日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -112,27 +112,12 @@ jump.bdimg.com,tieba.baidu.com##.edui-btn-paypost
 jump.bdimg.com,tieba.baidu.com##.j_surveillance
 ! Mobile
 ||tieba.baidu.com/mo/q/appSpecialThread
-tieba.baidu.com##div > a[href^="redirect?u="]
-tieba.baidu.com###index-app-overlay
-tieba.baidu.com##.ad_app_download
-tieba.baidu.com##.advertise_top
-tieba.baidu.com##.bottom-wonderful-recommend
 tieba.baidu.com##.client_ghost_icon
 tieba.baidu.com##.daoliu_sign_in_show
-tieba.baidu.com##.dia_mask
-tieba.baidu.com##.dia_wrapper
 tieba.baidu.com##.forum_recommend_w
-tieba.baidu.com##.is_prompt_show
 tieba.baidu.com##.light_top_ext_area
-tieba.baidu.com##.j_cool_game
-tieba.baidu.com##.more_btn_package
-tieba.baidu.com##.pad_overlay
-tieba.baidu.com##.tb-multi-ad-wrap
-tieba.baidu.com##.tbpad-panel
-tieba.baidu.com##.tl_spread_frs
-tieba.baidu.com##.top_ext_li
+tieba.baidu.com##.j_click_stats, .j_click_stats+*
 tieba.baidu.com##.tuijian-wrap
-tieba.baidu.com##.xiang-guan-tie
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
