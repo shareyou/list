@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RAEJm6hwRM9wX/b7cYiALw
+! Checksum: ecn739UoavDTgqQIwCBVrg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612251345
-! Last Modified: 2016年12月25日 13:45
+! Version: 201612251400
+! Last Modified: 2016年12月25日 14:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -21,7 +21,7 @@ coolapk.com##[style*="position: fixed;bottom: 0"]
 mp.weixin.qq.com###js_pc_qr_code
 m.jd.com##.download-pannel
 m.jiemian.com###js-b-ad
-m.qidian.com###app_download_blank_show, #fixBoxs, #read_app_download, .app_download_ad, .app_download_ad02
+m.qidian.com###fixBoxs, #read_app_download
 news.sina.com.cn##.news_weixin_ercode
 yahoo.com###html_fp
 yahoo.com###my-adsFPL
@@ -913,6 +913,7 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||feidalu.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
