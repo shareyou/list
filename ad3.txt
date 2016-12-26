@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dO+sSHXoO7oviXpSo3fSSg
+! Checksum: Oj38K2G38sV6P5AULLyU/Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612261600
-! Last Modified: 2016年12月26日 16:00
+! Version: 201612262000
+! Last Modified: 2016年12月26日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6136,6 +6136,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||ab2pchina.*/*/*.$script,third-party
 ||ab2pchina.*/*/*.gif
+||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 asp300.com##.index711-mask
