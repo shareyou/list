@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B2CWb4+mI3uxpdPNeDo2xw
+! Checksum: dTpd6BbM6Iy6qDWYvVQcSQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612272200
-! Last Modified: 2016年12月27日 22:00
+! Version: 201612280730
+! Last Modified: 2016年12月28日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2239,7 +2239,6 @@ ubmcmm.baidustatic.com
 /homead/*_appledaily_bg.
 /html/taobao_focus_
 /ifengRotatorAd.js
-/image/2016-11-03/4607082d89df5d2b162d7634ec31a493.jpg
 /images/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
 /images/20$domain=sex169.info|sex169.org
@@ -2247,9 +2246,7 @@ ubmcmm.baidustatic.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/amsun100.png
 /images/content/1436/*$domain=chineseinla.com
-/images/men$domain=106.185.27.133|imoutolove.me|north-plus.net|soul-plus.net|soul-plus.org
-/images/moe$domain=106.185.27.133|imoutolove.me|north-plus.net|soul-plus.net|soul-plus.org
-/images/tuangou$domain=bjxxw.com
+||bjxxw.com/wp-content/themes/point/images/jp2.jpg
 /img/*$image,domain=txzqw.cc
 /img/br300.gif$domain=qzntv.com|qzwb.com
 /img/br650.gif$domain=qzntv.com|qzwb.com
@@ -6523,6 +6520,12 @@ mg*.6park.com/img/$image
 ||duba.com/static/images/public/20161227/e5e6743dbdae89b707a6f3364098a6c5.jpg
 ||cao688.net/images//uploads/ad/
 ||cao688.net/images//uploads/index_banner/
+||soul-plus.net/images/men
+||north-plus.net/images/men
+||imoutolove.me/images/men
+||abp3china.*/*/*.gif
+||abp3china.*/*/*.$script,third-party
+||cilibaba.org/static/ad.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 3g.qq.com##li[data-adtype="qbad"] > A[class^="type"]
@@ -7496,7 +7499,8 @@ toutiao.com###pagelet-detailadd
 srzc.com###pageright > .padding:nth-child(2)
 oh100.com###pagetop
 whnews.cn###panel
-muchong.com###paper161111
+muchong.com###mask
+muchong.com##DIV[id^="paper"]
 xdowns.com###part_1
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
