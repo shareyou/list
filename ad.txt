@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3XRNli4WWhhnjYQwHXSSVg
+! Checksum: nFR1qwyhLZcOmdRya5Tybg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612281800
-! Last Modified: 2016年12月28日 18:00
+! Version: 201612281830
+! Last Modified: 2016年12月28日 18:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -266,6 +266,7 @@ www.youku.com##.yk-olympic-medal
 |http://passport.youku.com/index_loginregGuide/$subdocument
 |http://k.youku.com/player/getFlvPath/sid/*&vl=0$domain=www.doyoudo.com
 ! Youtube
+youtube.com###video-masthead
 ||youtube.com/_get_ads?
 ||youtube.com/api/stats/ads?
 ! Baidu
