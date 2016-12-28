@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E31n0JnCEAf+/4ZNQnT7Tg
+! Checksum: DzyQxmOOpBVGeJEIsy5SyA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612281845
-! Last Modified: 2016年12月28日 18:45
+! Version: 201612281930
+! Last Modified: 2016年12月28日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -924,6 +924,8 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 ||hxadt.com^
 ||wapadv.com^
+||jermr.com^
+||huimee.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -3363,7 +3365,6 @@ mg*.6park.com/img/$image
 ||brand.sogou.com/micro?yyid=
 ||bs.baidu.com/app-ads%
 ||btago.com/static/banner/
-||btbt.info/js/top960.js
 ||btbt.tv/dd/
 ||btbtt.*/bt.js
 ||btbtt.*/jslb.js
@@ -3774,7 +3775,7 @@ mg*.6park.com/img/$image
 ||dm1.tom61.com^
 ||dm456.com/install/loading.html
 ||dm456.com/m/
-||dm530.com/pic/fgr/*.js
+||dm530.net/pic/fgr/*.js
 ||dmfans.net/template/haokandemanhhua/images/g_js/
 ||dmhy*.aewb.cn^*?$image
 ||dmmfx.com.au/dmm-tag/
@@ -6531,6 +6532,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||dm530.net/js/newjs/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6780,7 +6782,7 @@ elecfans.com###adsm-berry
 ynet.com###adt01
 sina.com.cn###adtopad
 btspreadcn.com###adultwarningmask
-bumimi.com,dahanju.com,dm530.com,hxnews.com###adv
+bumimi.com,dahanju.com,dm530.net,hxnews.com###adv
 xinhuanet.com###adv-1
 xinhuanet.com###adv-B1
 b5m.com###adv-bottom
