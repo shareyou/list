@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8xu+PRFbvMlW7pAJeFnmAQ
+! Checksum: 423YtWAdjVxL6opjdhcGVQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201612291900
-! Last Modified: 2016年12月29日 19:00
+! Version: 201612292000
+! Last Modified: 2016年12月29日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -10118,7 +10118,6 @@ wendu.cn##body > div[style^="width:1000px;"]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 62422.cn##body > table[width="778"][align="center"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##body [style*="important"] *
 leduwo.com##br + #adtop
 btcherry.com##button[style="width: 960px; height: 90px; background: transparent; border: 0; padding: 0; cursor: hand;"]
 wpmee.com##div > a[href^="http://www.wpmee.com/i?a="]
