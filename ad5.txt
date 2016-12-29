@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D5ptQIW1jph2RazSC/vPlA
+! Checksum: GJvaJ7u2HSYMNKC7Ja2y4w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612292230
-! Last Modified: 2016年12月29日 22:30
+! Version: 201612300730
+! Last Modified: 2016年12月30日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -23001,6 +23001,7 @@ _mongo_stats/
 ||yell.com/js/omniture-H.25.js
 ||radio-canada.ca/omniture/omni_stats_base.js?
 /csi?v=*&action=$domain=tellows.de
+/nm_trck.gif?$domain=spiegel.de
 ||a.watchseries.to^$domain=thewatchseries.to
 ||addthis.com/live/$domain=thewatchseries.to
 ||cpx.to^$domain=quoka.de
@@ -23008,8 +23009,11 @@ _mongo_stats/
 ||exactag.com^$domain=quoka.de
 ||facebook.com*/impression.php$domain=tellows.de
 ||hotjar.com^$domain=quoka.de
+||met.vgwort.de^$domain=spiegel.de
+||mxcdn.net^$domain=spiegel.de
 ||nuggad.net^$domain=quoka.de
 ||theadex.com^$domain=quoka.de
+||visualrevenue.com^$domain=spiegel.de
 ||watchseries.to/piwik.js
 !-----------------International individual tracking systems-----------------!
 ||4players.de^*/foreplaypixel.js
@@ -23742,6 +23746,7 @@ _mongo_stats/
 @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/wp-content/plugins/google-analytics-dashboard-for-wp/*$~third-party
+@@||1dmp.io/pixel.gif$image,domain=overclockers.co.uk
 @@||247sports.com/site/minify.js?*/scripts/stats/$script
 @@||4game.com^*/yandex-metrika.js
 @@||a.visualrevenue.com/vrs.js$domain=ebaumsworld.com|nydailynews.com
