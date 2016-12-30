@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rLz8lnn+H1zQcBuwRy11Zg
+! Checksum: I8u+gb4RoOvxzCRsY2j7lg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612302330
-! Last Modified: 2016年12月30日 23:30
+! Version: 201612310730
+! Last Modified: 2016年12月31日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13693,6 +13693,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /fsrscripts/*
 /FTTrack2.js
 /g-track/*
+/g=analytics&
 /g_track.php?
 /ga-affiliates.
 /ga-async-
@@ -14060,6 +14061,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /jslogger.php?ref=
 /json/stats?
 /json?referer=
+/jsonp_geoip?
 /jsstat.
 /jstats.php
 /jstats/js/*
@@ -15354,6 +15356,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /VisitorIdentification.js
 /visitortracker.pl?
 /visits_contor.
+/VisitSite.js
 /VisitTracking?
 /visitWebPage?_
 /visual_revenue.
@@ -17645,7 +17648,6 @@ _mongo_stats/
 ||wishloop.com^$third-party
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
-||worldgravity.com^$third-party
 ||worldlogger.com^$third-party
 ||wowanalytics.co.uk^$third-party
 ||wp-stats.com^$third-party
@@ -18549,6 +18551,7 @@ _mongo_stats/
 ||analytic.pho.fm^
 ||analytic.xingcloud.com^$third-party
 ||analyticapi.pho.fm^
+||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-v2.anvato.com^
@@ -18667,6 +18670,7 @@ _mongo_stats/
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
 ||axislogger.appspot.com^
+||azureedge.net/track
 ||b-aws.aol.com^
 ||b.bedop.com^
 ||b5media.com/bbpixel.php
@@ -24416,7 +24420,7 @@ _mongo_stats/
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||aplus.com/p.gif?$~third-party
-@@||112.2o7.net/b/ss/$image,domain=espn.com.br
+@@||112.2o7.net/b/ss/$image,domain=espn.com.br|nissan-global.com
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|citibank.co.in|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
 @@||amazoncustomerservice.d2.sc.omtrdc.net/b/ss/*/H.25.1/$image
 @@||castorama.fr/b/ss/$image
