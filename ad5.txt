@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kC4ir4QIdtZYxyO/mmA4XQ
+! Checksum: rLz8lnn+H1zQcBuwRy11Zg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201612302230
-! Last Modified: 2016年12月30日 22:30
+! Version: 201612302330
+! Last Modified: 2016年12月30日 23:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6286,6 +6286,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/md/*/v_responsive
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qq.com##.mod_stridead
 ifeng.com###js_videopause_container
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -11480,6 +11481,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
+@@||adidasoriginals-lookbook.com.tw/js/adtracking.js
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
@@ -16449,8 +16451,10 @@ _mongo_stats/
 ||google-analytics.com/collect
 ||google-analytics.com/cx/api.js
 ||google-analytics.com/ga_exp.js
+||google-analytics.com/internal/analytics.js
+||google-analytics.com/internal/collect^
 ||google-analytics.com/plugins/
-||google-analytics.com/r/collect?
+||google-analytics.com/r/collect^
 ||google-analytics.com/siteopt.js?
 ||googleadservices.com^$third-party
 ||googlerank.info^$third-party
@@ -18670,6 +18674,7 @@ _mongo_stats/
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||barium.cheezdev.com^
+||bat.bing.com^
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||bc.geocities.
@@ -20224,6 +20229,7 @@ _mongo_stats/
 ||clipkit.de/metrics?
 ||cloudfront.net/customers/24868.min.js
 ||collect.finanzen.net^
+||collector.bunchbox.co^$third-party
 ||com.econa.com^
 ||confido.dyndns.org^*/dot.php?
 ||count.snacktv.de^
