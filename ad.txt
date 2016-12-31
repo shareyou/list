@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QfWDBkqw5kEx67ixGsXTPA
+! Checksum: L728gBmrRHA9/AsvPVUALA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201612311900
-! Last Modified: 2016年12月31日 19:00
+! Version: 201612312015
+! Last Modified: 2016年12月31日 20:15
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -217,6 +217,7 @@ bilibili.com###b_app_link
 live.bilibili.com##.announcement-container
 live.bilibili.com##.gift-msg
 live.bilibili.com##.live-ad-full
+live.bilibili.com##.live-haruna-ctnr
 live.bilibili.com##.live-icon.vip-color.v-middle
 live.bilibili.com##.live-title-icon
 live.bilibili.com##.medal-icon
