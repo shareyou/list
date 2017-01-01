@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ovLQVwtMLorNeADViLyLHw
+! Checksum: 4HZHIFd7M1xavk2LlujSlQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701020000
-! Last Modified: 2017年01月02日 00:00
+! Version: 201701020730
+! Last Modified: 2017年01月02日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13263,6 +13263,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cclickTracking.
 /cdn-cgi/ping?$image
 /cdn-monitoring-pixel.
+/cdn.stats2?
 /cdn5.js?
 /cds-webanalytics.
 /cdx-radar/*
@@ -23324,7 +23325,7 @@ _mongo_stats/
 ||p.pagesjaunes.fr^
 ||pagesjaunes.fr/bva/track.js
 ||pagesjaunes.fr/crmmetrix/
-||pim.nextinpact.com^
+||pam.nextinpact.com^
 ||r.orange.fr^
 ||rtl.be^*/trkfblk.js
 ||rtl.fr/stats/
@@ -24157,6 +24158,7 @@ _mongo_stats/
 @@||mybuys.com/webrec/wr.do?
 @@||mycokerewards.com^*/webtrends/mcr3-webtrends_POST_$script
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
+@@||myqnapcloud.com/static/*.angular-google-analytics.js$script
 @@||narf-archive.com^*/clickstream.js
 @@||nasa.gov/js/libraries/angulartics/angulartics-google-analytics.js
 @@||nationalgeographic.com/assets/scripts/utils/event-tracking.js
