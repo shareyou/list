@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q2kiWDBO7+6eOGejGnB3Ig
+! Checksum: KCIJolxitiCi9tfhs79Lvg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701011030
-! Last Modified: 2017年01月01日 10:30
+! Version: 201701011100
+! Last Modified: 2017年01月01日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5486,7 +5486,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
 ||sinaimg.cn/large/eb52fa4bgw1f9l21uqgbnj20hs01omya.jpg
 ||sinaimg.cn/large/ed5e6a1djw1f7nh14ua7ag20i802g1kx.gif
-||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
 ||sinaimg.cn/mw690/006pfRVrjw1f2mzpvp18jg305k05kgqg.gif
 ||sinaimg.cn/mw690/006pfRVrjw1f61lg21i2jg304g0go76n.gif
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
@@ -6291,6 +6290,7 @@ mg*.6park.com/img/$image
 ||bilibilijj.com/Squall/
 !------------------------Specific element hiding rules------------------------!
 bilibilijj.com##DIV[style="height: 462px;"]
+bigear.cn##.adpicright
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6522,7 +6522,6 @@ eol.cn###adfloat_r
 msn.ynet.com###adr02 + .hc1
 ahtv.cn,bejson.com,frdic.com,fububu.com,gnhome.com,huasing.net,it168.com,piao.com.cn,qinbing.cn###ads
 nownews.com###ads-footer-bar
-baiyjk.com###ads_14
 dmfans.net###ads_250_250
 dmfans.net###ads_980_90
 dmfans.net###ads_980_90_1
@@ -7537,7 +7536,6 @@ qidian.com###topBgBox
 2345.com###topHf
 elecfans.com###topJf
 qidian.com###topOpBox
-baiyjk.com###topRollAdver
 starbaby.cn###top_ad_show
 ck101.com,cq.xinhuanet.com###top_banner
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
