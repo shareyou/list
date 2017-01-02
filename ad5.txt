@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k+KtxfjFOyYngirVGkFu6g
+! Checksum: GtSvz/u9jQRcKhAmNp3p4Q
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701022030
-! Last Modified: 2017年01月02日 20:30
+! Version: 201701022100
+! Last Modified: 2017年01月02日 21:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2115,7 +2115,6 @@ mg*.6park.com/img/$image
 ||0772fang.com/assets/js/flashorimg.js
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
-||09765.com/templates/junshi2015/js/_banner.js
 ||0dian8.org/data/js/
 ||100.admin5.com^
 ||100ksw.com/include/ksbdfd.js
@@ -2987,7 +2986,6 @@ mg*.6park.com/img/$image
 ||bb.tuku.cc^
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbcss.com/templates/haijun5/js/_banner.js
-||bbcss.com/templates/junshi2015/js/_banner.js
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.fengbao.com/image/bingzuan925X80.jpg
 ||bbs.hotavxxx.com/images/201*.gif
@@ -3226,7 +3224,7 @@ mg*.6park.com/img/$image
 ||chazidian.com/all/mobile_
 ||chazidian.com/mobile_general_
 ||chcj.net/comiis_ad/
-||chddh.com*/A*D/
+||chddh.com/G1G/
 ||cheers.com.tw/assets/js/fancyapps-
 ||chengruide.com/ad_js/
 ||chewen.com/pics/2013/09/13/02013091317191365.jpg
@@ -22786,6 +22784,7 @@ _mongo_stats/
 ||vstat.vidigy.com^
 ||vstats.digitaltrends.com^
 ||vzaar.com/libs/stats/
+||w88.espn.com^
 ||w88.go.com^
 ||wa.metro.co.uk^
 ||wa.ui-portal.de^
