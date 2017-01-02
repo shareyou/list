@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xYfzdzvp9H6U2h+Pru0aIg
+! Checksum: DEDVE/MV6T0vXgLfin0tbg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701022230
-! Last Modified: 2017年01月02日 22:30
+! Version: 201701022300
+! Last Modified: 2017年01月02日 23:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -246,7 +246,6 @@ chaturbate.com##IMG[rel="nofollow"]
 chaturbate.com##.ad
 chaturbate.com##.banner
 ! Facebook
-www.facebook.com###pagelet_ego_pane
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 ! Google
@@ -12334,6 +12333,8 @@ _300_250.
 ||ithome.com/file/js/win7china.js
 ||sp.qf.56.com^
 !------------------------Specific element hiding rules------------------------!
+soku.com###\5f xbox_ad
+smzdm.com###footer_layer
 youku.com##.laifeng
 youku.com##A[href^="http://cps.laifeng.com/"]
 youku.com##a[href^="http://cps.laifeng.com/"] + .bg + IMG
