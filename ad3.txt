@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yea8gm3CpZkHb1xIwCobBA
+! Checksum: QsIlZQkeSX5/3Jynksq0Ag
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701031830
-! Last Modified: 2017年01月03日 18:30
+! Version: 201701031930
+! Last Modified: 2017年01月03日 19:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -550,6 +550,10 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 ||yjbys.org^$third-party
+||dnvus.com^
+|http://js*:8080/$script,third-party
+||hyz86.com^
+||zrpfk.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -6013,7 +6017,7 @@ mg*.6park.com/img/$image
 ||ylzx8.cn/style/js/sad.js
 ||ynet.com/c/js/meat_china.js
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
-||you85.cn/ling/
+||you85.*/ling/
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/dress/
 ||youku.com/QVideo/~ajax/getDefaultItem?
@@ -6174,7 +6178,7 @@ mg*.6park.com/img/$image
 ||jfrft.com/images/index_
 ||eweiqi.com/affiche.
 ||77file.com/jsa/
-||you85.com/ling/
+||dhtdig.xyz/static/jsaa/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 oco88.com###last_box_147
