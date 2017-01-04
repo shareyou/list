@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PSSIyu/LMJYUVfcORGWl2g
+! Checksum: YU0378i8EOc7Fyc6lkLlTg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701041830
-! Last Modified: 2017年01月04日 18:30
+! Version: 201701041900
+! Last Modified: 2017年01月04日 19:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -417,7 +417,7 @@ _popAds.
 ##.a_cn
 ##.a_fl
 ##.a_fr
-~125.la,~52pojie.cn,~chcj.net##.a_mu
+~125.la,~52pojie.cn,~chcj.net,~chysg.com##.a_mu
 ##.a_p
 ##.a_pb
 ##.a_pr
@@ -6183,6 +6183,7 @@ mg*.6park.com/img/$image
 ||it168.com/forum/201412/19/151606lvf3btnnotc62rl6.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+chysg.com##IMG[width="232"][height="90"]
 chcj.net###comiis_sfcs00
 chcj.net##IMG[width="232"][height="90"]
 6789.com###daily-hotwords
@@ -10831,6 +10832,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advertise/*$domain=sfbuy.com
 @@/advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=fharr.com
+@@/advertisement/*$domain=yxjc.13322.com
 @@/advertisement/*$domain=cits.cn|ininin.com|midea.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
