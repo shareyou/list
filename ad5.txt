@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3/PSu9wxlz8ySjV/wiPC/g
+! Checksum: 8/TYNNFoY6JlybFs2uZFlA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701041900
-! Last Modified: 2017年01月04日 19:00
+! Version: 201701050730
+! Last Modified: 2017年01月05日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -23011,33 +23011,39 @@ _mongo_stats/
 ||3gl.net^$domain=stern.de
 ||a.watchseries.to^$domain=thewatchseries.to
 ||addthis.com/live/$domain=thewatchseries.to
-||bluekai.com^$domain=disqus.com
-||chartbeat.com^$domain=stern.de
+||babator.com^$domain=focus.de
+||bluekai.com^$domain=disqus.com|widgets.outbrain.com
+||chartbeat.com^$domain=gala.de|stern.de
 ||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||cpx.to^$domain=quoka.de
 ||crwdcntrl.net^$domain=disqus.com
+||cxense.com^$domain=focus.de
 ||disqus.com/api/ping?$domain=autobild.de
 ||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
-||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||ds-aksb-a.akamaihd.net^$domain=gala.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|stern.de|transfermarkt.de
 ||exactag.com^$domain=quoka.de
 ||exelator.com^$domain=disqus.com
-||facebook.com*/impression.php$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
 ||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
+||facebook.com/tr/?$domain=gala.de
 ||google-analytics.com/collect$domain=stern.de
 ||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
 ||hotjar.com^$domain=quoka.de
+||hpr.outbrain.com^$domain=focus.de
 ||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||log.outbrain.com^$domain=autobild.de
-||met.vgwort.de^$domain=spiegel.de|stern.de
-||metrics.brightcove.com^$domain=stern.de
-||mxcdn.net^$domain=spiegel.de
+||log.outbrain.com^$domain=autobild.de|focus.de
+||meetrics.net^$domain=stern.de
+||met.vgwort.de^$domain=focus.de|gala.de|spiegel.de|stern.de
+||metrics.brightcove.com^$domain=gala.de|stern.de
+||mxcdn.net^$domain=spiegel.de|stern.de
 ||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||pippio.com^$domain=disqus.com
 ||referrer.disqus.com^$domain=autobild.de
-||rlcdn.com^$domain=autobild.de
+||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
+||rqtrk.eu^$domain=stern.de
 ||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||tealiumiq.com^$domain=autobild.de|transfermarkt.de
 ||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
@@ -23046,7 +23052,7 @@ _mongo_stats/
 ||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
 ||watchseries.to/piwik.js
 ||webtrekk.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||wt-eu02.net^$domain=stern.de
+||wt-eu02.net^$domain=gala.de|stern.de
 ||wt-safetag.com^$domain=stern.de
 ||xplosion.de^$domain=stern.de
 !-----------------International individual tracking systems-----------------!
@@ -24290,6 +24296,7 @@ _mongo_stats/
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com|thescene.com
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
+@@||sergent-major.com^*/js/tracking.js$domain=sergent-major.com
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
 @@||services.fliqz.com/metrics/*/applications/$object-subrequest,domain=leftlanenews.com
 @@||setelia.com*/page-tracking.js?$script,~third-party
