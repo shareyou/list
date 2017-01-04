@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NVF3H2B9cxm7/qRSERy3KQ
+! Checksum: ZCowgNoAZzTARLyIXXC0RA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701041100
-! Last Modified: 2017年01月04日 11:00
+! Version: 201701041130
+! Last Modified: 2017年01月04日 11:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -7558,7 +7558,7 @@ fuli.us###toubuads
 qidian.com###tr-banner
 qz828.com###transient
 tianya.cn###travel_float
-tsdm.net###tsdmadv_img
+tsdm.me,tsdm.net###tsdmadv_img
 ithome.com###tt1
 ithome.com###tt2
 ithome.com###tt3
@@ -10740,7 +10740,7 @@ cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
 sinoca.com##td[align="center"][height="90"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
 linuxdiyf.com##td[bgcolor="#FFFFFF"] > a > img
-tsdm.net##td[colspan="5"]:first-child:last-child
+tsdm.me,tsdm.net##td[colspan="5"]:first-child:last-child
 ebiotrade.com##td[height="135"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
 tianshui.com.cn##td[height="420"]
