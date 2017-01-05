@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MEg/5py3u9n3EiWqAXLI0w
+! Checksum: 2vb2N52WCW8WLO+trkvnOw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701051030
-! Last Modified: 2017年01月05日 10:30
+! Version: 201701051130
+! Last Modified: 2017年01月05日 11:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -548,7 +548,6 @@ tieba.baidu.com##.tuijian-wrap
 /js/utils51.js
 /js/utils78.js
 /jsadv/*
-/jumbo_banner_Gif_
 /k120g270.
 /k300g250.
 /k960g90.
@@ -3357,8 +3356,6 @@ mg*.6park.com/img/$image
 ||bjmxw.net/bd/
 ||bjxxw.com/tpIndex/?s=/home/index/ads/
 ||bjxxw.com/wp-content/themes/point/images/jp2.jpg
-||bkill.com/css/abc/
-||bkill.net/js/top.js
 ||bkjia.com/bkjia/js/art_rightad
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
@@ -6560,6 +6557,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
+||bkill.com/css/js/soft.js
+||bkill.com/css/js/xinbkill.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 dfpan.com##DIV[style*="img.com/"]
@@ -8594,7 +8593,6 @@ chinairn.com##.bizrpt
 12580sky.com##.bk8 + table[style="text-align:center;width:100%;"]
 kaifu.com##.bk_ad
 baby-kingdom.com##.bk_list_right_ads
-bkill.com##.bkill960
 blog.sina.cn##.bl-art-yy
 erji.com,erji.net##.black.y-style
 hkcna.hk##.blank17 + .fd > a[href^="http"]:not([href^="http://www.hkcna."])
