@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 06K6xau8wwsmqz5unFjJag
+! Checksum: N8lbl+XuHfyXUi9OtNM7wQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701061900
-! Last Modified: 2017年01月06日 19:00
+! Version: 201701062000
+! Last Modified: 2017年01月06日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -926,6 +926,13 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||saferwet.com^
+||fthcz.com^
+||zgyemy.com^
+||wu65.com^
+||wowips.com^
+||wgnlz.com^
+||wka8.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -3310,7 +3317,6 @@ mg*.6park.com/img/$image
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/tam-ogel/
-||beanfun.com/playweb/adpicpage.htm
 ||beareyes.com.cn/2/cat/js/*_centerl
 ||beareyes.com.cn^*/ad/
 ||beephone.com.tw/ad-middle.php
@@ -3379,8 +3385,6 @@ mg*.6park.com/img/$image
 ||bnext.com.tw/static/web/all.js
 ||bnext.com.tw/static/web/images/banners/
 ||bonbonme.com/js/g1313166/
-||bookabc.net/js/tt.js
-||bookabc.net/js/xian
 ||bookbao.cc/js/
 ||bookgew.com/hz1/tcby.js
 ||bookgew.com/ml85/
@@ -7072,8 +7076,6 @@ wz.zj.cn###div1
 qdwenxue.com,qidian.com###divADClient
 findprice.com.tw###divBestBuy
 76xh.com###divFendDuo
-beanfun.com###divGoogleAD_1
-beanfun.com###divGoogleAD_2
 qidian.com###divUserGuide
 sogou.com###div_ad
 qzone.qq.com###div_corner_ad_container
@@ -11380,7 +11382,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdstatic.com/??*,*,*,
 @@||bdstatic.com/static/common/widget/ui/admanager/
-@@||beanfun.com/ADClient/
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bilibilijj.com/APIword/$elemhide
 @@||bilibilijj.com/old$elemhide
