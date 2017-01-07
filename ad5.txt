@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GKaGyNH+sJD7tyc+eEmKAw
+! Checksum: 3u8KT0uJaxomnqosOU0L2Q
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701062300
-! Last Modified: 2017年01月06日 23:00
+! Version: 201701070830
+! Last Modified: 2017年01月07日 08:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -124,7 +124,6 @@ tieba.baidu.com##.tuijian-wrap
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 &psr=*&par=
-/crifan_com/fyee_net_promotion.gif
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -216,6 +215,7 @@ tieba.baidu.com##.tuijian-wrap
 /content/plugins/em_ad/*
 /cpro/ui/*
 /cpv/i.php?z=
+/crifan_com/fyee_net_promotion.gif
 /data/ad/*
 /data/attachment/ad/*
 /data/bcs/*/bw1000h
@@ -662,13 +662,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||saferwet.com^
-||fthcz.com^
-||zgyemy.com^
-||wu65.com^
-||wowips.com^
-||wgnlz.com^
-||wka8.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1224,6 +1217,7 @@ ubmcmm.baidustatic.com
 ||fmgoal.com^
 ||fnkjj.com^
 ||founseezb.cn^
+||fthcz.com^
 ||fu68.com^
 ||fv99.com^
 ||fwt0.com^
@@ -1572,6 +1566,7 @@ ubmcmm.baidustatic.com
 ||rwjfs.com^
 ||s17cnzz.com^$third-party
 ||s8dj.com^$third-party
+||saferwet.com^
 ||sales-frontier.com^$third-party
 ||samboc.com^$third-party
 ||sangxi.top^
@@ -1734,6 +1729,7 @@ ubmcmm.baidustatic.com
 ||weddingeeos.com^$third-party
 ||weizhanle.com^$third-party
 ||werpig.com^
+||wgnlz.com^
 ||wgnmp.com^
 ||whytoss.com^
 ||wicp.net^*.swf
@@ -1743,16 +1739,19 @@ ubmcmm.baidustatic.com
 ||winvestern.com.cn^
 ||wit.qq.com^$third-party
 ||wjguc.com^
+||wka8.com^
 ||wlkpa.cn^
 ||wo685.com^$third-party
 ||wodemeitu.com^$third-party
 ||wodhid.com^
 ||wofan.net^$third-party
+||wowips.com^
 ||wqsph.net^
 ||wqzyt.net^$third-party
 ||ws341.com^
 ||ws7j.com^
 ||wstztt.com^
+||wu65.com^
 ||wudang05.com^$third-party
 ||wuwho.cn^
 ||wyhzzy.com^
@@ -1875,6 +1874,7 @@ ubmcmm.baidustatic.com
 ||zgc66.com^
 ||zgksb.com^
 ||zgunion.cn^
+||zgyemy.com^
 ||zgyiyi.com^$third-party
 ||zhihei.com^
 ||zhuba8.com^
@@ -4184,6 +4184,7 @@ mg*.6park.com/img/$image
 ||idcot.com^
 ||idcquan.com/linux/cio_new.html
 ||idcxr.com/images/ad
+||iecer.de^$domain=bzdiao.com
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
 ||iefans.net/wp-content/uploads/2009/js/llq/2345llq.gif
@@ -5098,8 +5099,6 @@ mg*.6park.com/img/$image
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.jd-bbs.com^*.swf
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
-||yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
-||yupoo.com/heidongke_v/FJKFWmhp/jsI59.gif
 ||pic.yupoo.com/showflash/
 ||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
 ||pic.zol-img.com.cn^$object
@@ -6174,6 +6173,8 @@ mg*.6park.com/img/$image
 ||yunlaige.com/configs/article/tcgg.js
 ||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
 ||yunupload.net/jsa/
+||yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
+||yupoo.com/heidongke_v/FJKFWmhp/jsI59.gif
 ||yupoo.com/ttmeiju/
 ||yxad.com/baidu/
 ||yxad.com/js/lady.gif
@@ -6300,7 +6301,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||iecer.de^$domain=bzdiao.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10914,7 +10914,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||download.mokeedev.com^$generichide,script,xmlhttprequest
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11164,6 +11163,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dmhy.org/common/generate-captcha?
 @@||do189.com/zb_users/theme/duoyi/style/images/text_bg.gif
 @@||down.cc/down/js/ad.js
+@@||download.mokeedev.com^$generichide,script,xmlhttprequest
 @@||dpcm.cn/ad/
 @@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
