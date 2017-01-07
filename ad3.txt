@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gh9v/x5zwjvdK5acamTN2A
+! Checksum: XFr2LKSW+eVZopj4fNcfqw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701071130
-! Last Modified: 2017年01月07日 11:30
+! Version: 201701071300
+! Last Modified: 2017年01月07日 13:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2920,7 +2920,6 @@ mg*.6park.com/img/$image
 ||bdimg.com^$domain=91fuli.xyz|diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
 ||bdsola.com/img/dbtnt.gif
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
-||bdstatic.com/box-static/interface-widget-1-cdn/pkg/mainSmallBanner-
 ||bdstatic.com/img/image/su/
 ||bdstatic.com/pc_static/detail/game_promotion/
 ||bdstatic.com/player/t/j/AEoIJIPB.js
@@ -3056,11 +3055,11 @@ mg*.6park.com/img/$image
 ||bx0635.com/tx/vip.gif
 ||bxwns.com/blz/
 ||bxwns.com/player/ad.html
-||bxwx8.org/1.js
-||bxwx8.org/caipiao.js
-||bxwx8.org/js/$subdocument
-||bxwx8.org/js/box_
-||bxwx8.org/myabc/
+||bxwx9.org/1.js
+||bxwx9.org/caipiao.js
+||bxwx9.org/js/$subdocument
+||bxwx9.org/js/box_
+||bxwx9.org/myabc/
 ||bxwxtxt.com/a/bxwx/indextan.js
 ||by8974.com^
 ||bytravel.cn/images/cus/
