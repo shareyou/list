@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PYZaU/iNz5RSPuNWvrsGyQ
+! Checksum: L6jGWLVzilXurRW52OPzMw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701121230
-! Last Modified: 2017年01月12日 12:30
+! Version: 201701121330
+! Last Modified: 2017年01月12日 13:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -123,7 +123,6 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
-&psr=*&par=
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -662,6 +661,8 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
+||yhzm.cc^
+&psr=$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
