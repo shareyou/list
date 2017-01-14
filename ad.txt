@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /hAZTzrUI1oquCjCOsSIBA
+! Checksum: 1TA4m60XzndIGRXKQQ168g
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701140830
-! Last Modified: 2017年01月14日 08:30
+! Version: 201701140930
+! Last Modified: 2017年01月14日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -702,7 +702,6 @@ _popAds.
 ###ads_top_video
 ###adtop1
 ###adx_cggp
-###asto_box
 ###crazy_ad_float
 ###crazy_ad_layer
 ###cs_left_couplet
@@ -6578,6 +6577,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+cyzone.cn##.article-middle-guanggao
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10388,7 +10388,7 @@ bilibilijj.com##a[href="##"]
 lovecqian.com##a[href="/gg/1.html"]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 zdfans.com##a[href="http://955.cc/FXZF"]
-103.17.211.13,cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
+cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 ccav1.com##a[href="http://duan.es/1v"]
 zdfans.com##a[href="http://dwz.cn/oJed9"]
 jobbole.com##a[href="http://group.jobbole.com/22945/"]
