@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BcQ0RmfGGtamctqZcbAn2w
+! Checksum: Gn3pJ5aGE3M6BCFv0rO2rQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701150930
-! Last Modified: 2017年01月15日 09:30
+! Version: 201701151030
+! Last Modified: 2017年01月15日 10:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -3530,7 +3530,6 @@ mg*.6park.com/img/$image
 ||chidir.com^
 ||china.chemnet.com/cnbanner/
 ||china.com.cn*/ads_js/
-||china.com.cn/2015ads/
 ||china.com.cn/food/node_7094923.htm
 ||china.com.cn/images/attachement/png/site555/20160226/5065f32cc251183aa79f03.png
 ||china.com.cn/statics/js/js_vag/
@@ -3861,10 +3860,6 @@ mg*.6park.com/img/$image
 ||download.game.yy.com/crossdomain.xml
 ||download.game.yy.com/resource/fodder/*.flv
 ||downxia.com/dgjs/download.js
-||downxia.com/dgjs/sy.html
-||downxia.com/haojs/
-||downxia.com/zejs/ad
-||downxia.com/zejs/soft
 ||downyi.com/tg/
 ||doyo.cn/Tpl/web/Public/images/material/www_couplets/
 ||dpfile.com/pc/trip/*(600x400)
@@ -6581,6 +6576,7 @@ mg*.6park.com/img/$image
 ||huacolor.com/YD/
 ||sinaimg.cn^$domain=llj22.com
 ||llj22.com/1.gif
+||china.com.cn/2016ads/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
