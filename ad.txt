@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lw/ns1ur+O11Q3gOsxz7aQ
+! Checksum: BcQ0RmfGGtamctqZcbAn2w
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701150900
-! Last Modified: 2017年01月15日 09:00
+! Version: 201701150930
+! Last Modified: 2017年01月15日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -390,6 +390,7 @@ tieba.baidu.com##.tuijian-wrap
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/ad220x240.
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -3865,8 +3866,6 @@ mg*.6park.com/img/$image
 ||downxia.com/zejs/ad
 ||downxia.com/zejs/soft
 ||downyi.com/tg/
-||downza.cn/html/skin/default/ad/
-||downza.cn/skin/v2015/images/soft/youdao
 ||doyo.cn/Tpl/web/Public/images/material/www_couplets/
 ||dpfile.com/pc/trip/*(600x400)
 ||dpp2019.com/js/swf/
@@ -8806,7 +8805,7 @@ iplaysoft.com##.d250x90
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
 xgrb.cn##.d_2016_ggw
-51jifenbao.net,daqianduan.com,downza.cn,fulibar.net,fulidang.com,ihref.com##.d_banner
+51jifenbao.net,daqianduan.com,fulibar.net,fulidang.com,ihref.com##.d_banner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
 qingdaonews.com##.da30050
