@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cZ64Qt3HYc4EF5LEK50eqw
+! Checksum: HsvtjwRgOJsgRqMD6QbDbQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701151245
-! Last Modified: 2017年01月15日 12:45
+! Version: 201701151500
+! Last Modified: 2017年01月15日 15:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -27,7 +27,8 @@ yahoo.com###html_fp
 yahoo.com###my-adsFPL
 yahoo.com###yom-ad-tbs-as
 yahoo.com###yom-ad-moneyball
-yahoo.com##.js-stream-featured-ad.Mb-content
+yahoo.com##.BillboardAd
+yahoo.com##.js-stream-featured-ad
 yahoo.com##.video-mode-experience-event
 yahoo.com##.yom-ad
 pornhub.com##.playlist-bar-tray,#adA,#adB
