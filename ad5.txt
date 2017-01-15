@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BV9aUWw2dQqzIzLI7cS6cA
+! Checksum: XV4DqDgqiD0G5SRyJzoSRw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701152000
-! Last Modified: 2017年01月15日 20:00
+! Version: 201701160730
+! Last Modified: 2017年01月16日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12831,6 +12831,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .net/px.js?
 .net/s.gif?
 .net/t.gif?
+.net/tp.gif?
 .net/trck/
 .net/trk.php?
 .net/vtrack|
@@ -12993,6 +12994,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /aftrackingplugin.swf
 /aggbug.aspx?
 /agof/iam-
+/aimp.php?
 /ajax-hits-counter/*
 /ajax/analytics/*
 /ajax/heatmap-
@@ -15256,7 +15258,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /triggit-analytics.
 /trk-fr.
 /trk.gif?
+/trk.php?
 /trk/p.gif?
+/trkpixel.gif
 /trkr.js
 /truehits.php?
 /tse/tracking.
@@ -15266,6 +15270,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /TwitterTracking.
 /tynt.js
 /uchkr.swf
+/ucount.php?
 /udctrack.
 /uds/stats?
 /ui/analytics/*
@@ -17437,6 +17442,7 @@ _mongo_stats/
 ||tns-cs.net^$third-party
 ||top100bloggers.com^$third-party
 ||top100webshops.com^$third-party
+||top10sportsites.com^$third-party
 ||topblogarea.com^$third-party
 ||topblogging.com^$third-party
 ||topdepo.com^$third-party
@@ -18961,6 +18967,7 @@ _mongo_stats/
 ||d1yu5hbtu8mng9.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^
+||d22v2nmahyeg2a.cloudfront.net^
 ||d23p9gffjvre9v.cloudfront.net^
 ||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d28g9g3vb08y70.cloudfront.net^
@@ -22394,7 +22401,6 @@ _mongo_stats/
 ||smetrics.att.com^
 ||smetrics.delta.com^
 ||snakesworld.com/cgi-bin/hitometer/
-||snippets.mozilla.com^$domain=~snippets.mozilla.com
 ||snorgtees.com/js/digitalbasement/conversion.js
 ||snowplow-collector.sugarops.com^
 ||socialcodedev.com/pixel/
