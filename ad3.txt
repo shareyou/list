@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q9TVwy4CeDL6d3vvNb25lA
+! Checksum: 09QCZ3GrKZf54IfHIROy5Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701151230
-! Last Modified: 2017年01月15日 12:30
+! Version: 201701151530
+! Last Modified: 2017年01月15日 15:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -1794,6 +1794,7 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||taobao.com^$popup,domain=gaoqingkong.com
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /freeone/1024.html$popup
@@ -6199,8 +6200,13 @@ mg*.6park.com/img/$image
 ||llj22.com/1.gif
 ||china.com.cn/2016ads/
 ||cnwnews.com/ad-nrtop/
+||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+gaoqingkong.com###blogname
+gaoqingkong.com###main_loading
+gaoqingkong.com##A[href="go?mm"]
+gaoqingkong.com##A[href="http://www.gaoqingkong.com/ad"]
 china.com.cn##IMG[width="665"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6310,7 +6316,6 @@ cxzyw.com,tuhaoylw.com###ShouYe_XiaBu + .themeauthor
 upan.cc###ShowDIV
 ifeng.com###StreamMediaWrap
 webkaka.com###Table1
-gaoqingkong.com###Tianmao1224
 7m.cn###Top_b
 csdn.net###Topic_Top
 qinzhou360.com###Txtadv-show
