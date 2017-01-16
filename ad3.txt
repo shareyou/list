@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5wW3bSiVDuKwFJ00qzdvOA
+! Checksum: Q24+4I1hI7zxZSOSpyyuwQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701161400
-! Last Modified: 2017年01月16日 14:00
+! Version: 201701161600
+! Last Modified: 2017年01月16日 16:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11336,8 +11336,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 senao.com.tw#@#.ad-wrap
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
-||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
-2c2.website,2p8.space,adultcao.com,cao.pe,caofoo.top,caohot.club,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+||caoimg.top/images/*.gif
+||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
+2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
