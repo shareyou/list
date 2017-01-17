@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fv4kbg6a+e9M4LQpYejdoA
+! Checksum: 0Ms4QL/yMD7OUgAvngZxEg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701171000
-! Last Modified: 2017年01月17日 10:00
+! Version: 201701171100
+! Last Modified: 2017年01月17日 11:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -550,6 +550,8 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &psr=
+||um29.com^$third-party
+||dm1080p.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1799,6 +1801,7 @@ ubmcmm.baidustatic.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||hxtk.taobao.com^$popup,domain=www.tsdm.me|www.tsdm.tw
 /BadwebRemindPage.aspx?param=$popup,third-party
 /freeone/1024.html$popup
 /freeone/htm/2048.html$popup
@@ -3436,7 +3439,6 @@ mg*.6park.com/img/$image
 ||dldl2.com/00tb/
 ||dm.aizhan.com^
 ||dm1.tom61.com^
-||dm1080p.com/wp-content/uploads/2016/12/vr300.jpg
 ||dm456.com/install/loading.html
 ||dm456.com/m/
 ||dm530.net/js/newjs/
@@ -6208,6 +6210,10 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||sinaimg.cn^$domain=acglover.top
+||acglover.top/wp-content/uploads/2016/12/mmzbwdno.jpg
+||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
+||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -11815,6 +11821,7 @@ _300_250.
 /tb/_/video_frs_head_
 /z.zolapp.
 /tencentvideo/script/webtips/*
+/loooyu.js
 !------------------------General element hiding rules-------------------------!
 ###windlocation
 ###qrcodeWrap
@@ -11840,19 +11847,13 @@ _300_250.
 ||goutong.baidu.com^
 ||soperson.com^$third-party
 !---------------------------Popups--------------------------------------------!
-||tsdm.net/qxs.php|$popup,domain=www.tsdm.net
-||tsdm.net/qxs.php/|$popup,domain=www.tsdm.net
-||mh.tsdm.net/|$popup,domain=www.tsdm.net
-||dm.tsdm.net/xinfandongman/|$popup,domain=www.tsdm.net
-||dmf8.taobao.com/|$popup,domain=www.tsdm.net
-||loli.cd/|$popup,domain=www.tsdm.net
 !--------------------------Specific blocking filters--------------------------!
 ||igo.cn/liuxue/js/slideBar.js
 ||eastmoney.com/js/news_fixed_
 ||dahe.cn/indiboy/ads/
 ||tianya.cn/shang/*/index.shtml
 ||bjsxt.com/statics/js/bjsxt/js.js
-||reaicomic.com/images/sound2/pm_
+||tsdmw.net/img01/MP3/pm_
 ||neuralstemcell.com.cn/img/js.js
 ||dmzj.com/module/js/float_code.js
 ||wumii.cn/ext/relatedItemsWidget
@@ -11999,6 +12000,8 @@ _300_250.
 ||jia.com/js/common/jia-common.js
 ||jia.com/js/zixun/news.js
 !------------------------Specific element hiding rules------------------------!
+jiankang.com##.all_eye
+jiankang.com##.three_hot
 ctfile.com##.speedydown-info-box
 soku.com###\5f xbox_ad
 smzdm.com###footer_layer
