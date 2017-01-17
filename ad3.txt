@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Ms4QL/yMD7OUgAvngZxEg
+! Checksum: KIL22MBTiX06kVij8NcEnw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701171100
-! Last Modified: 2017年01月17日 11:00
+! Version: 201701171200
+! Last Modified: 2017年01月17日 12:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3252,8 +3252,6 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
-||cncrk.com/505/
-||cncrk.com/code/Soft_
 ||cndesign.com/Content/images/new_taobao.jpg
 ||cndesign.com/Content/img/*x90_
 ||cndesign.com/Content/img/175x60_
@@ -6216,6 +6214,7 @@ mg*.6park.com/img/$image
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+cncrk.com###BZlocationID1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6364,7 +6363,6 @@ dbw.cn###ad-word
 baike.com###ad-xnsc
 duba.com###ad-zongyi
 price.com.hk###ad0
-cncrk.com###ad04
 90oo.com,etest8.com,eworldship.com,hntobacco.com,jc001.cn,price.com.hk,vipbuluo.com,wj001.com,xinhuanet.com,ylnet.com.cn,zbgl.net,zimuzu.tv###ad1
 eworldship.com,junshiqu.com,rshhy.com,xinhuanet.com,yinsha.com,zimuzu.tv###ad2
 mao-123.com,mengmao.org,rshhy.com,yinsha.com,zimuzu.tv###ad3
@@ -6508,7 +6506,6 @@ ms211.com###atf
 ck101.com###av_a
 qq.com###ay-bottom-tips > .bd > .pic-box
 qq.com###ay-tips-close + h2
-cr173.com###azbt
 163.com###backadframe
 hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
@@ -6628,7 +6625,6 @@ mydrivers.com###code_lb
 tc.cn###codefans_net
 qingdaonews.com###codex
 ithome.com###coin-slider > a[href*=".ruanmei."]
-cr173.com###colbt
 sina.com.tw###colorbox
 qq.com###comic_ad
 haianw.com###comiis_haianw01
