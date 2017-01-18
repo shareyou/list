@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i+vr2c/WS8GTWtp7ODaTBg
+! Checksum: 9vUUiEQdMXPoxl0Ba3rvNQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701181230
-! Last Modified: 2017年01月18日 12:30
+! Version: 201701182000
+! Last Modified: 2017年01月18日 20:00
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -929,6 +929,8 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &psr=
+||52lubo.cn^
+||daima.huoche.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -6570,6 +6572,7 @@ mg*.6park.com/img/$image
 ||chinaz.com/tool_img/alexa_a.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+gaoqingkong.com##A[href="http://www.gaoqingkong.com/go?zz"] > FONT
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7452,7 +7455,7 @@ huya.com###mbbs-qrcode
 gzmama.com###mdvtips
 hinet.net###media_ad_popup_overlay
 qtfy30.cn###menu + a
-gaoqingkong.com###menu-item-5874 ~ .menu-item
+gaoqingkong.com###menu-item-5874 + .menu-item
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 51cto.com###message
