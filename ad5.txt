@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J/kCpKAUoPiGwOhYS9kKUA
+! Checksum: GGQrzOvI87n1ChwULJY+MQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701182200
-! Last Modified: 2017年01月18日 22:00
+! Version: 201701190730
+! Last Modified: 2017年01月19日 07:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -16136,7 +16136,6 @@ _mongo_stats/
 ||csi-tracking.com^$third-party
 ||ctnsnet.com^$third-party
 ||cttracking02.com^$third-party
-||curalate.com^$third-party
 ||customer.io^$third-party
 ||customerconversio.com^$third-party
 ||customerdiscoverytrack.com^$third-party
@@ -16479,6 +16478,7 @@ _mongo_stats/
 ||heatmap.it^$third-party
 ||hellosherpa.com^$third-party
 ||hentaicounter.com^$third-party
+||hexagon-analytics.com^$third-party
 ||heystaks.com^$third-party
 ||hiconversion.com^$third-party
 ||higherengine.com^$third-party
@@ -17209,7 +17209,6 @@ _mongo_stats/
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
 ||showroomlogic.com^$third-party
-||siftscience.com^$third-party
 ||signup-way.com^$third-party
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
@@ -18906,6 +18905,7 @@ _mongo_stats/
 ||cts.channelintelligence.com^$third-party
 ||cts.vresp.com^
 ||cumulus-cloud.com/trackers/
+||curalate.com^*/events.jsonp$third-party
 ||curate.nestedmedia.com^
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
@@ -23863,6 +23863,7 @@ _mongo_stats/
 @@||atpworldtour.com/assets/js/util/googleAnalytics.js
 @@||att.com/webtrends/scripts/dcs_tag.js
 @@||autoscout24.net/unifiedtracking/ivw.js
+@@||azureedge.net/trackmeet-profilepicture/$image,domain=gotrackmeet.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
 @@||b-europe.com/HttpHandlers/httpCombiner.ashx?*/xiti.js$script
 @@||bam.nr-data.net^$script,domain=play.spotify.com
@@ -24622,6 +24623,10 @@ _mongo_stats/
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||s-msn.com^*/udctrack*.js$domain=ynet.com
 @@||streaming.cri.com.hk/geo.php?
+@@||tongji.baidu.com/analytics/js/common.js$domain=tongji.baidu.com
+@@||tongji.baidu.com/analytics/js/custom_report.js$domain=tongji.baidu.com
+@@||tongji.baidu.com/analytics/js/custom_report_overview.js$domain=tongji.baidu.com
+@@||tongji.baidu.com/analytics/js/hmcharts.js$domain=tongji.baidu.com
 @@||uwants.com/include/*/swfaddress.js
 @@||v.blog.sohu.com/dostat.do?*&n=videoList_vids&$script
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
