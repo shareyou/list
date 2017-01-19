@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NjQDv4BtAOv2pViAgIUitA
+! Checksum: mI5/kJAp6IBe4aT8xgKlzA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701190830
-! Last Modified: 2017年01月19日 08:30
+! Version: 201701190930
+! Last Modified: 2017年01月19日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3295,7 +3295,6 @@ mg*.6park.com/img/$image
 ||cpplay.com/inc/
 ||cqfishing.net/data/attachment/portal/
 ||cqnews.net:8080/vplayerAdv/
-||cqsq.com/temp/
 ||cqvip.com/viewserver/ViewAD
 ||cr173.com/js/
 ||cr173.com/show/
@@ -5693,7 +5692,6 @@ mg*.6park.com/img/$image
 ||upan.cc/images/pay/
 ||upantool.com/bay/
 ||upantool.com/playing/
-||upload.chinaz.com/20*.gif$domain=bbs.chinaz.com
 ||upload.jjxw.cn^*.swf
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uploads.duapp.com/images/$domain=52vip.net
@@ -6191,6 +6189,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||cnzz.cn/badu.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6267,7 +6266,6 @@ linovel.com###J_ad_
 xiami.com###J_albumSale
 gexing.com###J_bottomMes
 2345.com###J_go_erweima
-cqsq.com###J_posts_list > a[target="_blank"]
 2345.com###J_s11_foot
 2345.com###J_search_bd > div:last-child
 chem99.com###J_tcode
