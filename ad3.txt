@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Akr6kfot+vWU0MF8Iklo3g
+! Checksum: yLJYIFTTHA8hypuksU1JhA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701201400
-! Last Modified: 2017年01月20日 14:00
+! Version: 201701201430
+! Last Modified: 2017年01月20日 14:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -5252,7 +5252,7 @@ mg*.6park.com/img/$image
 ||s.video.sina.com.cn/video/play?video_id=249750205&
 ||s.yimg.com/*_160x800_$subdocument
 ||s.yimg.com/gs/apex/
-||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com
+||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com||tw.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
@@ -6201,6 +6201,7 @@ mg*.6park.com/img/$image
 ||1.win7china.com^
 ||baidu.com/xpage/interface/searchad?
 ||baidu.com/static/ecom/js/wise/home/nativeAds_
+||sinaimg.cn^$domain=aotu9.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 baidu.com##.ec_ad
