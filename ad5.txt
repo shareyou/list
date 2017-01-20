@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 10+QU3yZqTRA685u9BeM9g
+! Checksum: q5jWxiS8bbm5xfjnZJRO9w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701202100
-! Last Modified: 2017年01月20日 21:00
+! Version: 201701202130
+! Last Modified: 2017年01月20日 21:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6308,6 +6308,7 @@ mg*.6park.com/img/$image
 ||crsky.com/img/hezi
 ||crsky.com/theme/images/rd
 ||cngold.org/cngold_float
+||gwy.sdsgwy.com^
 !------------------------Specific element hiding rules------------------------!
 cngold.org##.fiexdAdvsClosed
 cnsat.net##A[href="http://www.sdhanrui.cn/"]
@@ -17297,6 +17298,7 @@ _mongo_stats/
 ||spylog.com^$third-party
 ||spylog.ru^$third-party
 ||spywords.com^$third-party
+||sqate.io^$third-party
 ||squidanalytics.com^$third-party
 ||srpx.net^$third-party
 ||stadsvc.com^$third-party
@@ -18571,6 +18573,7 @@ _mongo_stats/
 ||analytics.clickpathmedia.com^
 ||analytics.closealert.com^
 ||analytics.cmg.net^
+||analytics.codigo.se^
 ||analytics.conmio.com^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
@@ -23741,7 +23744,6 @@ _mongo_stats/
 ||terra.com/js/metrics/
 ||terra.com^*/td.asp?bstat
 ||trrsf.com/metrics/
-||analytics.codigo.se^
 ||beacon.mtgx.tv^
 ||blocket.se/js/trafikfonden.js
 ||falkenbergtorget.se/sc.gif?
