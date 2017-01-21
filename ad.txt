@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lv9QEfA1x3EU/h1ECYyKXA
+! Checksum: GB/Jp176MMbZGGzz9uIxkw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701211130
-! Last Modified: 2017年01月21日 11:30
-! Homepage: http://tieba.baidu.com/p/4379287802
+! Version: 201701211300
+! Last Modified: 2017年01月21日 13:00
+! Homepage: http://tieba.baidu.com/p/4948621632
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
 !并补充了贴吧过滤规则，感谢各位大大的分享！
@@ -6580,6 +6580,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||ningmengzhibo.com/ement/beforeSearchEment.action
+||demaxiya.com/v4/dd/
 !------------------------Specific element hiding rules------------------------!
 ningmengzhibo.com##.advbox
 gpcxw.com###AA2
@@ -10428,7 +10429,6 @@ ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
 moe-acg.cc##a[href^="http://game.moehuan.com/"] > img
-cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
 people.com.cn##a[href^="http://jump.726p."]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
