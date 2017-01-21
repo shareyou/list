@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DRzY7w/zycW8EujGqiE0tQ
+! Checksum: VLS2R+Af+KPdP04y7VQd7g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701210830
-! Last Modified: 2017年01月21日 08:30
+! Version: 201701210930
+! Last Modified: 2017年01月21日 09:30
 ! Homepage: http://tieba.baidu.com/p/4379287802
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -19266,6 +19266,7 @@ _mongo_stats/
 ||imptracker-pixel.dsp.linksynergy.com^$third-party
 ||inboxtag.com/tag.swf
 ||ind.sh/view.php?$third-party
+||infinityid.condenastdigital.com^
 ||infogr.am/logger.php?
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
@@ -19726,6 +19727,7 @@ _mongo_stats/
 ||seg.sharethis.com^
 ||segments.adap.tv^$third-party
 ||sendtonews.com/player/loggingajax.php?
+||sendtonews.com^*/data_logging.php
 ||session.timecommerce.net^
 ||sftrack.searchforce.net^
 ||shareaholic.com/analytics_
@@ -24278,7 +24280,7 @@ _mongo_stats/
 @@||pillsbury.com/Shared/StarterKit/Javascript/UnicaTag.js
 @@||ping.hellobar.com/?*&_e=click&$image
 @@||piwik.pro/images/
-@@||pixel.condenastdigital.com/sparrow.min.js$domain=video.gq.com|video.wired.com
+@@||pixel.condenastdigital.com/sparrow.min.js$domain=video.epicurious.com|video.gq.com|video.wired.com
 @@||pixel.facebook.com/ajax/gigaboxx/endpoint/UpdateLastSeenTime.php?$image
 @@||pixel.facebook.com/ajax/notifications/mark_read.php?*&alert_ids%$image
 @@||pixel.fetchback.com^$subdocument,domain=sears.com
@@ -24511,6 +24513,7 @@ _mongo_stats/
 @@||simyo.de/b/ss/$image
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
+@@||smetrics.walmartmoneycard.com/b/ss/$image
 @@||stat.safeway.com/b/ss/$image
 @@||walmart.com/b/ss/$image
 @@||heatmap.it^$domain=heatmap.me
