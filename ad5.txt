@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M8/KHwEn9x0z21PndE5csA
+! Checksum: +FDkw5jM1wJDOlMwKLdSew
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701221200
-! Last Modified: 2017年01月22日 12:00
+! Version: 201701221230
+! Last Modified: 2017年01月22日 12:30
 ! Homepage: http://tieba.baidu.com/p/4948621632
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11402,7 +11402,8 @@ zhidao.baidu.com#@#.share-area
 baidu.com#@#.share-line
 baidu.com#@#.share-list
 dj92cc.com,tingqq.com#@#.share_list
-@@||bdstatic.com^*/share/share_
+@@||bdstatic.com/po/??*,*,*,
+@@||bdstatic.com^*/share_
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
@@ -18522,6 +18523,7 @@ _mongo_stats/
 ||analyticapi.pho.fm^
 ||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
+||analytics-rhwg.rhcloud.com^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-v2.anvato.com^
 ||analytics.abacast.com^
@@ -18619,6 +18621,7 @@ _mongo_stats/
 ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
 ||archive.org/includes/analytics.js
 ||arclk.net/trax?
+||areyouahuman.com/kitten?
 ||aserve.directorym.com^
 ||ask.com^*/i.gif?
 ||assoc-amazon.*^e/ir?t=$image
