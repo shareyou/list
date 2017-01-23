@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8IL6wpm4zjNTBg98CNBzzQ
+! Checksum: cafSfVX7fAMXV6lOxrcPmA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701231330
-! Last Modified: 2017年01月23日 13:30
+! Version: 201701231830
+! Last Modified: 2017年01月23日 18:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11929,6 +11929,8 @@ _300_250.
 ||jia.com/js/common/jia-common.js
 ||jia.com/js/zixun/news.js
 !------------------------Specific element hiding rules------------------------!
+51cto.com###edu_adver
+qq.com###tips
 jiankang.com##.all_eye
 jiankang.com##.three_hot
 ctfile.com##.speedydown-info-box
@@ -12019,7 +12021,7 @@ mafengwo.cn##.hotel-banner
 tianya.cn###bbs_login_div
 tianya.cn###login_mask
 ifeng.com##.yc_con_r
-chinaacc.com##.banner
+51cto.com,chinaacc.com##.banner
 qq.com##.qGirl-wrap
 pchome.net###rightbar
 douyu.com,douyutv.com###js-live-room-recommend
@@ -12237,6 +12239,8 @@ blog.163.com###topbar_yxpArea
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
+||cnpc.infzm.com^
+||cbjg.cqnews.net^
 ||statis1.mama.cn^
 ||imgstat.baidu.com^
 ||91160.com/nykj/f=static/v4/common/tj.js

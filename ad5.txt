@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XBjEXLynfdylDOWNpNK2/g
+! Checksum: GD+i2Eqdemy5nBrNBx6xSA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701231800
-! Last Modified: 2017年01月23日 18:00
+! Version: 201701231830
+! Last Modified: 2017年01月23日 18:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12034,6 +12034,8 @@ _300_250.
 ||jia.com/js/common/jia-common.js
 ||jia.com/js/zixun/news.js
 !------------------------Specific element hiding rules------------------------!
+51cto.com###edu_adver
+qq.com###tips
 jiankang.com##.all_eye
 jiankang.com##.three_hot
 ctfile.com##.speedydown-info-box
@@ -12124,7 +12126,7 @@ mafengwo.cn##.hotel-banner
 tianya.cn###bbs_login_div
 tianya.cn###login_mask
 ifeng.com##.yc_con_r
-chinaacc.com##.banner
+51cto.com,chinaacc.com##.banner
 qq.com##.qGirl-wrap
 pchome.net###rightbar
 douyu.com,douyutv.com###js-live-room-recommend
@@ -12342,6 +12344,8 @@ blog.163.com###topbar_yxpArea
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
+||cnpc.infzm.com^
+||cbjg.cqnews.net^
 ||statis1.mama.cn^
 ||imgstat.baidu.com^
 ||91160.com/nykj/f=static/v4/common/tj.js
@@ -22373,6 +22377,7 @@ _mongo_stats/
 ||somniture.theglobeandmail.com^
 ||sony-europe.com/tr/p.gif?
 ||soonnight.com/stats.htm
+||soundcloud.com/event?
 ||sourceforge.net/images/mlopen_post.html?
 ||sourceforge.net/log/
 ||sovereignbank.com/utils/track.asp
