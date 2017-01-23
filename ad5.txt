@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yNHBihyzrpiRTb5P5A1Fig
+! Checksum: cxbKGeOY82CtJ3E4Vzzbew
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701231100
-! Last Modified: 2017年01月23日 11:00
+! Version: 201701231130
+! Last Modified: 2017年01月23日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -1926,8 +1926,7 @@ ubmcmm.baidustatic.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
-/freeone/1024.html$popup
-/freeone/htm/2048.html$popup
+/freeone/htm/2011.php$popup
 /hndxweb/push$popup,third-party
 /item.htm?$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 /portalwlanad/pages/*$popup
@@ -9799,7 +9798,6 @@ huarenjie.com##.topadcss
 huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
 itavcn.com##.topadvzone
-91fuli.xyz,diyifuli.top,idaohang.top,ifulione.com,onedh.xyz##.toparea
 21ic.com,hao565.cn,pyccoo.cn,qq.com##.topbanner
 kocpc.com.tw##.topbarad
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
@@ -15812,6 +15810,7 @@ _mongo_stats/
 ||angsrvr.com^$third-party
 ||anonymousdmp.com^$third-party
 ||anrdoezrs.net^$third-party
+||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||anxiousapples.com^$third-party
 ||apexstats.com^$third-party

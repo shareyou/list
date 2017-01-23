@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sxpYiC5W3C0WtGE7ks+9bQ
+! Checksum: nZaHA3gGkH8kAju3Ffe2iA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701231030
-! Last Modified: 2017年01月23日 10:30
+! Version: 201701231130
+! Last Modified: 2017年01月23日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -1816,8 +1816,7 @@ ubmcmm.baidustatic.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
-/freeone/1024.html$popup
-/freeone/htm/2048.html$popup
+/freeone/htm/2011.php$popup
 /hndxweb/push$popup,third-party
 /item.htm?$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 /portalwlanad/pages/*$popup
@@ -9690,7 +9689,6 @@ huarenjie.com##.topadcss
 huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
 itavcn.com##.topadvzone
-91fuli.xyz,diyifuli.top,idaohang.top,ifulione.com,onedh.xyz##.toparea
 21ic.com,hao565.cn,pyccoo.cn,qq.com##.topbanner
 kocpc.com.tw##.topbarad
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
