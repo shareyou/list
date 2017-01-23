@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O+7uZ/uGaOjpg2JG8SBA3g
+! Checksum: yNHBihyzrpiRTb5P5A1Fig
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701231030
-! Last Modified: 2017年01月23日 10:30
+! Version: 201701231100
+! Last Modified: 2017年01月23日 11:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15710,6 +15710,7 @@ _mongo_stats/
 ||abmr.net^$third-party
 ||absolstats.co.za^$third-party
 ||acc-hd.de^$third-party
+||acceptableserver.com^$third-party
 ||access-analyze.org^$third-party
 ||access-traffic.com^$third-party
 ||accessintel.com^$third-party
@@ -17321,6 +17322,7 @@ _mongo_stats/
 ||subtraxion.com^$third-party
 ||successfultogether.co.uk^$third-party
 ||summitemarketinganalytics.com^$third-party
+||sumologic.com^$third-party
 ||supercounters.com^$third-party
 ||superstats.com^$third-party
 ||supert.ag^$third-party
@@ -20196,6 +20198,7 @@ _mongo_stats/
 ||yimg.com^*/l?ig=$image
 ||ypcdn.com/*/webyp?
 ||ywxi.net/meter/
+||zdlogs.sphereup.com^
 ||zemanta.com/reblog_*.png$image,third-party
 ||zemanta.com/usersync/outbrain/?
 ||zemanta.com^*/pageview.js?
