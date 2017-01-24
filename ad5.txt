@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P5n/tpCMnj+YoEd4TO16oA
+! Checksum: rtuAyIQxSk3iUTsDHe64Lw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701241100
-! Last Modified: 2017年01月24日 11:00
+! Version: 201701241300
+! Last Modified: 2017年01月24日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -10895,7 +10895,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/fuckadblock/*$domain=wokao.co
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
-@@/ima/*ad.$domain=feimaott.com
+@@/ima/*ad.$domain=feemoo.com|feimaott.com
 @@/images/*/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
 @@/images/ad$domain=10pan.cn|789xz.com|gueizu.com|sju.wang|wwp5.com
 @@/images/ad/*$domain=9588.com|dod-tec.com|jxedt.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
