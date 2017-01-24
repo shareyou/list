@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yPlk2z9YLOdQ+ANn/DLgUA
+! Checksum: PplkMIQaius2XVv+j4eNFQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701242130
-! Last Modified: 2017年01月24日 21:30
+! Version: 201701242200
+! Last Modified: 2017年01月24日 22:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11853,6 +11853,8 @@ _300_250.
 ###qrcodeDownloadBar
 ###login_wp.foot_flwp
 ###SOHU_MAIN > .module-cmt-float-bar
+###appBottomIn
+###appIn
 !-----------------------------Union&third-party-------------------------------!
 ||knet.cn^$third-party
 ||pop800.com^$third-party
@@ -12013,7 +12015,6 @@ _300_250.
 ||chinanews.com/fileftp/2016/06/2016-06-13/U194P4T47D35171F967DT20160613093733.jpg
 ||chinanews.com/fileftp/2016/08/2016-08-04/U194P4T47D36220F967DT20160804155100.jpg
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
-||zuoyebang.cc/zyb_e47d9b7f269de651f60b8cd04718f762.jpg
 ||kekenet.com/images/*/app
 ||kgimg.com/public/root//images/hardware.jpg
 ||ithome.com/file/js/win8china.js
@@ -12023,7 +12024,9 @@ _300_250.
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||jia.com/js/common/jia-common.js
 ||jia.com/js/zixun/news.js
+||zuoyebang.cc/static/question/question/resource/QRCode_
 !------------------------Specific element hiding rules------------------------!
+zuoye.baidu.com,zybang.com###QRinside
 51cto.com###edu_adver
 qq.com###tips
 jiankang.com##.all_eye
@@ -12334,6 +12337,7 @@ blog.163.com###topbar_yxpArea
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
+||hiido.com^$third-party
 ||cnpc.infzm.com^
 ||cbjg.cqnews.net^
 ||statis1.mama.cn^
