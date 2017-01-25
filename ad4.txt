@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q3+bQhK/KrW27kmmvG5fxg
+! Checksum: h73gTR0wG/Ua6yOG16uUew
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201701242200
-! Last Modified: 2017年01月24日 22:00
+! Version: 201701250830
+! Last Modified: 2017年01月25日 08:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -508,7 +508,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 comefromchina.com,zhidao.baidu.com#@#.ad-block
 v.baidu.com#@#.has-ad
-@@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@|http://tieba.baidu.com/|$genericblock
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
@@ -532,6 +531,7 @@ v.baidu.com#@#.has-ad
 @@||pos.baidu.com^*?di=739405&$domain=epinv.com
 @@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
+@@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||pos.baidu.com^*?di=u2354095&$domain=epinv.com
 zhidao.baidu.com#@#.share-area
 baidu.com#@#.share-line
