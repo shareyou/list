@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2QruoPMREzbEUuDeDBFkzQ
+! Checksum: LWpJOwDyncj5ih2og5H/UA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701251200
-! Last Modified: 2017年01月25日 12:00
+! Version: 201701251300
+! Last Modified: 2017年01月25日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -3374,7 +3374,6 @@ mg*.6park.com/img/$image
 ||bforu.info/03.jpg
 ||bforu.info/images/ali.gif
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
-||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
 ||bilibili.com/x/web-show/res/loc?pf=0&id=128
 ||bilibili.com/x/web-show/res/loc?pf=0&id=160
@@ -3928,7 +3927,6 @@ mg*.6park.com/img/$image
 ||eprice.com.tw/img/dis/file/
 ||eprice.com.tw/img/tw_m/ad/
 ||eprice.com.tw/js/swfobject-2.3.js
-||eshow365.com/images/2011_adv/cbmes.gif
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
@@ -6006,7 +6004,6 @@ mg*.6park.com/img/$image
 ||twfuwu.info^*.gif
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
-||txt789.com/cpa/
 ||txt99.com/js/common.js
 ||txtbbs.com/data/txtbbs/
 ||txtshu365.com/img/
@@ -6285,7 +6282,6 @@ mg*.6park.com/img/$image
 ||xkxs.org/js/tongji.js
 ||xlpu.cc/adv/
 ||xm9x.net/includes/js/dl.js
-||xmcimg.com/data/bcs/2016/1108/1_1478603008_827.jpg
 ||xmfish.com/chanel/www/cpm.html
 ||xnnews.com.cn/images/yr_wsm.js
 ||xnnews.com.cn/templets/image/*gg
@@ -6551,6 +6547,10 @@ mg*.6park.com/img/$image
 ||oscaches.com/dj.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ispot.news##.ui_adblock
+eprice.com.tw###popup-ad-overlay
+eprice.com.tw##.ad-300x250-popup-g
+muchong.com##A[href^="http://www.zhuanyejun.com/"]
 etidol.com##.adBlockR
 etidol.com##.products
 dyhjw.com##A[href^="http://www.hjtd88.com/"]
@@ -10360,7 +10360,6 @@ open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 fuliba.net,fulibba.com,uliba.net##a[href="http://www.ruyig.com/?v"]
 cnsat.net##a[href="http://www.sdhanrui.cn/"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
-muchong.com##a[href="http://www.zhuanyejun.com/"]
 bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
@@ -11388,7 +11387,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||edu.cn/epstar/*/gg/
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
-@@||esquirehk.com/design/esquirehk/javascript/adtag_
 @@||feng.com/images/%*logo.png
 @@||feng.com/images/560a0b6b83143.png
 @@||feng.com/images/580de2ab8d68e.png
