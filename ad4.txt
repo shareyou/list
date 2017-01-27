@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ObaaWke8PHadRnn7b3wgDA
+! Checksum: /+EusvR6AU2aIFPoiz3dGQ
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201701261930
-! Last Modified: 2017年01月26日 19:30
+! Version: 201701270900
+! Last Modified: 2017年01月27日 09:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -520,6 +520,7 @@ v.baidu.com#@#.has-ad
 @@||pos.baidu.com/crossdomain.xml
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=u1331029&$domain=epinv.com
+@@||pos.baidu.com^*=u2354095&$domain=epinv.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
@@ -532,7 +533,6 @@ v.baidu.com#@#.has-ad
 @@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
-@@||pos.baidu.com^*=u2354095&$domain=epinv.com
 zhidao.baidu.com#@#.share-area
 baidu.com#@#.share-line
 baidu.com#@#.share-list
