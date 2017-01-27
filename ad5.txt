@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dFQ9T1UxK6uP9GX5SSTXnQ
+! Checksum: wvjRktcq9Es15QwKCzB4kQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701272130
-! Last Modified: 2017年01月27日 21:30
+! Version: 201701280730
+! Last Modified: 2017年01月28日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12993,6 +12993,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics.php?
 /analytics.swf?
 /analytics.v1.js
+/analytics/activity.
 /analytics/cms/*
 /analytics/core.
 /analytics/eloqua/*
@@ -13011,6 +13012,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics/socialTracking.js
 /analytics/tagx-
 /analytics/track-
+/analytics/track.
 /analytics/track?
 /analytics/tracker.
 /analytics/trackers?
@@ -14773,6 +14775,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /slimstat/*
 /small.gif?type
 /smarta.
+/smartpixel-1.js
 /smartserve-
 /smarttag.js
 /snowplow.js$script,third-party
@@ -19217,6 +19220,7 @@ _mongo_stats/
 ||heroku.com/?callback=getip$third-party
 ||hgcdn.net/?$third-party
 ||hi.hellobar.com^
+||hit-pool.upscore.io^
 ||hits-*.iubenda.com^
 ||hits.dealer.com^
 ||hits.informer.com^
@@ -19761,6 +19765,7 @@ _mongo_stats/
 ||spot.im/api/tracker/
 ||spread.ly^*/statistics.php
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
+||st.dynamicyield.com^
 ||stat.boredomtherapy.com^
 ||stat.easydate.biz^
 ||stat.ed.cupidplc.com^
@@ -19871,6 +19876,7 @@ _mongo_stats/
 ||systemmonitoring.badgeville.com^
 ||t-staging.powerreviews.com^
 ||t.a3cloud.net^
+||t.beopinion.com^
 ||t.bimvid.com^
 ||t.c4tw.net^
 ||t.cfjump.com^
@@ -20453,6 +20459,7 @@ _mongo_stats/
 ||zebestof.com^$third-party
 ||minsk-in.net/counter.php?
 ||aff*.kolektiva.net^
+||analytics.styria.hr^
 ||360.cn/mapping_service?
 ||alimama.cn/inf.js
 ||alipay.com/common/um/lsa.swf
