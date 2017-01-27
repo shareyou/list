@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qcm1LuOgXC5YK8CwEgeESg
+! Checksum: 67+SJSb3Be3gWJu7t8Pt9A
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701271600
-! Last Modified: 2017年01月27日 16:00
+! Version: 201701271700
+! Last Modified: 2017年01月27日 17:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -912,7 +912,6 @@ ubmcmm.baidustatic.com
 ||aqgyju.cn^
 ||aralego.com^
 ||arealx.com^
-||artxun.com^$third-party
 ||aswlx.cn^
 ||at918.com^$third-party
 ||at98.com^
@@ -6170,6 +6169,7 @@ mg*.6park.com/img/$image
 ||meiyouad.com/static/pc/img/111.gif
 !------------------------Specific element hiding rules------------------------!
 meiyouad.com##.ads
+toutiao.com##DIV[style="margin-bottom:16px; padding: 20px; background-color: #f4f5f6;"]
 gpcxw.com###AA2
 subhd.com##.win_win
 subhd.com##.win_content
@@ -10165,8 +10165,8 @@ enorth.com.cn##div[class^="guanggao"]
 5iyq.com##div[class^="index_ad"]
 meiguoshenpo.com##div[class^="info_"]
 jzhome.cn##div[class^="main_gg"]
-fqlook.cn##div[class^="main_tonglan"]
-fqlook.cn##div[class^="main_tonglan"] + .main_center_z
+fqlook.cn##.tl20160901
+fqlook.cn##.tl20160901 + .main_center_z
 kkkmh.com##div[class^="mm-"]
 nba.hupu.com##div[class^="nba-ad"]
 sun0769.com##div[class^="pagecenter sungg"]
@@ -10936,7 +10936,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||appledaily.com.hk/admedia/$object-subrequest
 @@||appledaily.com.tw^*_ad_logo.
 @@||aqy103.com/js/aqy/main.js
-@@||artxun.com^$domain=findart.com.cn
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
