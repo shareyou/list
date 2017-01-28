@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lk8ykjTray+j9hw6XjWuKA
+! Checksum: vE/BGB1numCMSY0GNSMlyw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701281100
-! Last Modified: 2017年01月28日 11:00
+! Version: 201701281200
+! Last Modified: 2017年01月28日 12:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3690,8 +3690,8 @@ mg*.6park.com/img/$image
 ||gaoqingkong.com/wp-content/themes/Loostrive/images/body.jpg
 ||gaoqingkong.com/wp-content/themes/Loostrive/js/bar.js
 ||gaoqingkong.com^$subdocument
-||gczb.com/upfile/20*.gif
-||gczb.com/upfile/20*.swf
+||zbwmy.com/upfile/20*.gif
+||zbwmy.com/upfile/20*.swf
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd.vodtw.com^
@@ -6169,7 +6169,9 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zhihu.com/api/v4/banners/
+||gopher.qiniudn.com/bar/submail-
 !------------------------Specific element hiding rules------------------------!
+golangtc.com##.top
 gpcxw.com###AA2
 zhuhai.gd.cn##.ad
 hc360.com,yaolan.com###AD
