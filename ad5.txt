@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OFyaJJJ7Siy0GpKLcmsq4g
+! Checksum: o8qq5klWc5ZRtvP12q+ctg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701292130
-! Last Modified: 2017年01月29日 21:30
+! Version: 201701292230
+! Last Modified: 2017年01月29日 22:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3762,7 +3762,6 @@ mg*.6park.com/img/$image
 ||g.163.com/*&affiliate=
 ||g.chuiyao.com^
 ||g.cnzz.cn/Static/js/*-
-||g.gxorg.com^
 ||g.hsw.cn^
 ||g.jinti.com/f/a/a
 ||g.ousns.net^
@@ -3867,8 +3866,6 @@ mg*.6park.com/img/$image
 ||greenxiazai.com/greenjs/
 ||greenxiazai.com/jsgreen/
 ||groupa.onlylady.com^
-||gscn.com.cn/home/images/advscroll.js
-||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
 ||gsspcln.jp^
 ||gt.yy.com^
 ||gter.net^*adv
@@ -3911,11 +3908,9 @@ mg*.6park.com/img/$image
 ||gx.xinhuanet.com/images2007/banner.htm
 ||gxnews.com.cn/cache/wwwads.js
 ||gxnews.com.cn/clientscript/index_duilian_
-||gxorg.com/index.php?m=poster&
 ||gywb.cn/content/attachement/jpg/site2/20140901/50465d69af2b156e340c09.jpg
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
-||gzcol.com/uploads/ad/
 ||hacken.cc/file/ads/
 ||hackhome.com/hz/*down
 ||hackhome.com/js/*top.js
@@ -6274,7 +6269,11 @@ mg*.6park.com/img/$image
 ||dybird.com/Runtime/js/yd
 ||cdnxiazai.com/img/
 ||sitv.com.cn/cookiead.php
+||gucheng.com/2016/ggimg/
 !------------------------Specific element hiding rules------------------------!
+gucheng.com##.right_info
+beva.com###beva-av-left
+beva.com###beva-av-right
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6573,7 +6572,7 @@ ifeng.com###baidualading
 52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
@@ -6964,7 +6963,6 @@ wj001.com###guanggao
 creaders.net###guanggao2
 hao123.com###guesslikesite-block
 zhicheng.com###guideLayer
-www.gxorg.com###h
 hao123.com###hao123-gw11
 java1234.com###hao_search_content
 macd.cn###hbad
@@ -7064,7 +7062,6 @@ tieba.baidu.com###j_light_see_index
 freehao123.com###jieweigg
 iqiyi.com###jingdongArea
 cnbeta.com###job_box
-gog.cn###jqzxAd
 aiyuke.com###js-ad-type4
 tigtag.com###js-dropdown
 haosou.com,so.com###js-mod-fixed-float
@@ -8094,7 +8091,6 @@ elecfans.com##.advertising
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
 cngold.org,qq.com,tongxiang.net##.advs
-gscn.com.cn##.advscroll
 it165.net##.advyello
 itavcn.com##.advzone
 123.sogou.com##.adword > a
@@ -9482,8 +9478,6 @@ cnstock.com##.sBox-right
 15w.com##.s_count_st
 baidu.com##.sam_iebrowser_banner
 ithome.com##.sb_list > .bx
-gog.cn##.sbh1_nav
-gog.cn##.sbh_nav
 1010jiajiao.com##.sbox
 mail.pchome.com.tw##.sceng
 wps.cn##.school
@@ -10417,7 +10411,6 @@ taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
 dfpan.com##div[style*="img.com/"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
-gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
 divcss5.com##div[style*="width:336px;height:280px;"]
 wufangbo.com##div[style*="width:360px; height:300px;"]
@@ -10597,7 +10590,6 @@ jd-bbs.com##img[width="900"][height="100"]
 hz0572.com,pingpang.info##img[width="950"]
 0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn,pt80.net##img[width="960"]
 biz.zjol.com.cn,jznews.com.cn##img[width="980"]
-gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
 apk.tw##ins.adsbygoogle
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
