@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bM2jH6AuuxELB2mtHfR6rQ
+! Checksum: ZfdYtgDe3bLzZ5nT/rdKmw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201701301230
-! Last Modified: 2017年01月30日 12:30
+! Version: 201701301330
+! Last Modified: 2017年01月30日 13:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5612,7 +5612,6 @@ mg*.6park.com/img/$image
 ||techug.com/pad-linux.jpg
 ||techweb.com.cn/static/img/aly
 ||techweb.com.cn^*aliyun
-||teteyu.com/tpl/*.html
 ||tf.360.cn^
 ||tfg2.com/images/upfile/AD/
 ||tgbus.com/search/article_endcontent_google.htm
@@ -6252,6 +6251,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||hcwang.cn/images/g/*.swf
+||hcwang.cn/images/g/20161210133158887.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 html-js.com##A[style^="margin-top:20px;"]
@@ -6338,7 +6339,6 @@ sozi.cn,techweb.com.cn###Javascript\.LeftDiv
 qzwb.com,sozi.cn,techweb.com.cn###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 huarenjie.com###LeftAd2
-hcwang.cn###LeftAda
 eastmoney.com###ListPage_r_Ad
 yunlaige.com###PAGE_baidu_4
 yunlaige.com###PAGE_baidu_5
@@ -6352,7 +6352,6 @@ qzone.qq.com###QM_Container_100005
 mxwz.com###QwMove
 elecfans.com###Right2
 huarenjie.com###RightAd2
-hcwang.cn###RightAda
 sina.com.cn###SI_Comment_DA
 www.sina.com.cn###SI_EDU_AD
 cxzyw.com###ShouYe_ShangBu > .themeauthor > a
@@ -6766,7 +6765,6 @@ ck101.com,pchome.com.tw###div_superbar_swf
 0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,shhhy.xyz,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 d7w.net###diy10
 yb.jl.cn###diy100
-hcwang.cn###diy111
 cbber.com###diy2
 gpshk.cc,oneplusbbs.com,xiaot.com###diy4
 cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
@@ -9047,7 +9045,6 @@ hao123.cn##.llc
 tianya.cn##.load_m_top
 uc123.com##.logo > a
 wdzj.com##.logo-banner
-hcwang.cn##.logo3
 fashionguide.com.tw##.logo_ad
 7399.com##.logo_r_hd
 qinbing.cn##.logo_right
@@ -9891,8 +9888,6 @@ btbtt.co##.wrapper_bg_c
 image.baidu.com##.wrapper_dot_box.dot_black
 wallstreetcn.com##.wscn-page-ad
 jmw.com.cn##.wy_bottom_box
-hcwang.cn##.wz2
-hcwang.cn##.wz3
 liaoxuefeng.com##.x-promo-b
 autofan.com.cn##.xf_ad
 familydoctor.com.cn##.xg
