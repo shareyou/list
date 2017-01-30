@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WTzOSWDR2rldCkUbEK36/w
+! Checksum: jRfXIcrKQNgumeYkTR0RXw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201701300900
-! Last Modified: 2017年01月30日 09:00
+! Version: 201701301000
+! Last Modified: 2017年01月30日 10:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -932,6 +932,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||ggxt.net^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -3253,7 +3254,6 @@ mg*.6park.com/img/$image
 ||badmintoncn.com/cbo_gg/
 ||bahamut.com.tw/B/2KU/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/M/2KU/$~collapse,domain=www.gamer.com.tw
-||bahamut.com.tw/M/2KU/60/0001411360.JPG$~collapse
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
 ||baidu.com/adver?
 ||baidu.com/api/proxyapi?tag=adv&
@@ -4110,7 +4110,6 @@ mg*.6park.com/img/$image
 ||gmbuluo.com/js/shouye
 ||gmbuluo.com/js/yxj
 ||gminfo.cn/flash/
-||gminfo.cn/js/ad-
 ||go.hangzhou.com.cn^
 ||go2tutor.com/lifebox.asp
 ||gogorenti.wang/js/m_cp
@@ -8698,7 +8697,6 @@ qb5.com##.con_top
 firefox.com.cn,firefoxchina.cn##.cont-promote
 jfinfo.com##.contBottomFix
 u-car.com.tw##.contad
-gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
 sspai.com##.content > hr:nth-last-child(-n+4) ~ p
 cnbeta.com##.content > p:last-child > a[href]
