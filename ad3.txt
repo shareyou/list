@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qrSKn6KAGiiyjAF5zgrJ6Q
+! Checksum: E7oadrHJOTii+YJzRTcJZw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201701311330
-! Last Modified: 2017年01月31日 13:30
+! Version: 201701312130
+! Last Modified: 2017年01月31日 21:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3957,7 +3957,6 @@ mg*.6park.com/img/$image
 ||httpcn.com/tg/
 ||huabian.com/hb/ad/
 ||huacolor.com/all/
-||huacolor.com/daocaoren/
 ||huacolor.com/nei/
 ||huacolor.com/YD/
 ||huaiduoduo.info/Runtime/js/
@@ -6139,6 +6138,8 @@ mg*.6park.com/img/$image
 ||taporn.com/d/
 ||hudong.com/11/85/26100000005581147339859649123.jpg
 ||hudong.com/68/39/26100000010302148507390614810.jpg
+||myhsw.cn/ticai/img/ad
+||gugeys.com/96080.gif
 !------------------------Specific element hiding rules------------------------!
 taporn.com##.ima
 finance.ifeng.com##.sConRbox
@@ -6439,7 +6440,7 @@ ifeng.com###baidualading
 52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
@@ -8584,7 +8585,6 @@ xiaopi.com##.gg_box
 kisssub.org##.gg_canvas
 eastday.com##.gg_channel_r_b
 eeyy.com##.gg_top
-hgitv.com##.ggall
 360che.com##.ggbanner
 2300sjz.com##.ggbanner-1
 2300sjz.com##.ggbanner-2

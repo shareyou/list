@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dJqPGaM3nVLYQG3qDtq7AA
+! Checksum: d2zSWJXh7iMpCoNrw//d+A
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201701292230
-! Last Modified: 2017年01月29日 22:30
+! Version: 201701312130
+! Last Modified: 2017年01月31日 21:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -202,7 +202,7 @@ baidu.com###asideLeft
 baidu.com###asideRight
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
 baidu.com###bdyx_float_rb
