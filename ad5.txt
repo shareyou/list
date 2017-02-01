@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: siprYxLHac8nsL6/3QXH6A
+! Checksum: 4KPDwXmKmZpz3XCTfHGIVw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702012145
-! Last Modified: 2017年02月01日 21:45
+! Version: 201702012200
+! Last Modified: 2017年02月01日 22:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6243,6 +6243,8 @@ mg*.6park.com/img/$image
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||ppshk.com^*banner/
 ||18183.com/js.php?pid=
+||apic.in/mmd.gif
+||upaiyun.com/system/post_tile/new_web_banners/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 bilibili.com##A[href$="_suning.html"]
@@ -16356,6 +16358,7 @@ _mongo_stats/
 ||gaug.es^$third-party
 ||gbotvisit.com^$third-party
 ||geistm.com^$third-party
+||gemius.pl^$third-party
 ||gemtrackers.com^$third-party
 ||genieesspv.jp^$third-party
 ||geobytes.com^$third-party
@@ -16467,6 +16470,7 @@ _mongo_stats/
 ||hqhrt.com^$third-party
 ||hs-analytics.net^$third-party
 ||hs-scripts.com^$third-party
+||hudb.pl^$third-party
 ||humanclick.com^$third-party
 ||hunt-leads.com^$third-party
 ||hurra.com^$third-party
@@ -18204,7 +18208,6 @@ _mongo_stats/
 ||webgozar.ir^$third-party
 ||adstat.4u.pl^$third-party
 ||clickonometrics.pl^$third-party
-||gemius.pl^$third-party
 ||gostats.pl^$third-party
 ||hub.com.pl^$third-party
 ||inaudium.com^$third-party
