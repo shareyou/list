@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8pktor8pYIfPmf+rspa/2g
+! Checksum: 1+eSPjASBozuYoEieX4vtA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702011000
-! Last Modified: 2017年02月01日 10:00
+! Version: 201702011130
+! Last Modified: 2017年02月01日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3894,7 +3894,7 @@ mg*.6park.com/img/$image
 ||hinet.net/radio/getAdcode.do
 ||hinews.cn/eweb/img/*/1000x
 ||hinews.cn/js/09page/10pagesjbtj
-||hinews.cn/out/$script
+||hinews.cn/out/*.js?
 ||hinews.cn/swf/0/*.swf
 ||hipowerd.com/outbound/images/*_banner.
 ||hitsukirei.idv.st/dns/bar.htm
@@ -3932,7 +3932,6 @@ mg*.6park.com/img/$image
 ||hot.580k.com/share/Ad_
 ||hot000.com/m-
 ||hotavxxx.com/images/*96
-||hoto.cn/source/img/index_
 ||house.inhe.net/javascript/flashdiv.js
 ||house.jschina.com.cn/userfiles/flash/
 ||house.shangdu.com/d/file/p/*.swf
@@ -6140,6 +6139,8 @@ mg*.6park.com/img/$image
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hexun.com###tonglan_1 + .layout
+news.hf365.com##.main-r > DIV:first-child
 iask.sina.com.cn##.tui-nav-txt
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
