@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s7MhBZxbdDzDTg/WhmJB/g
+! Checksum: VUepArhmnwPEu8/4vR2x+A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201702011800
-! Last Modified: 2017年02月01日 18:00
+! Version: 201702011900
+! Last Modified: 2017年02月01日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2571,7 +2571,6 @@ mg*.6park.com/img/$image
 ||17ok.com/img2016/list/295_90.gif
 ||17yy.com/style/ifra_ad/
 ||180.96.27.85^*.htm
-||18183.com/common/js/naruto.js
 ||182.92.234.239^*.html
 ||183.136.168.78:8082/ad/
 ||183yf.cn/img/nz.png
@@ -3838,7 +3837,6 @@ mg*.6park.com/img/$image
 ||duba.com/dhads?id=
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
-||duoku.com/common/js/maruko.js
 ||dup.baidustatic.com/js/
 ||dushiwenxue.com/add/
 ||dvbcn.com/index.php?m=poster&
@@ -3906,7 +3904,6 @@ mg*.6park.com/img/$image
 ||eeyy.com/templates/js/other/yxj.js
 ||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
-||eezdx.erc.18183.com^
 ||elecfans.com/baidu_m.html
 ||elecfans.com/images2012/pcb.gif
 ||embest-tech.cn/js/jquery.blockUI.js
@@ -4080,7 +4077,6 @@ mg*.6park.com/img/$image
 ||gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
 ||gfan.com/press/
 ||gg.0598yu.com^
-||gg.18183.com^
 ||gg.blueidea.com^
 ||gg.cs090.com^
 ||gg.gao7.com^
@@ -6515,6 +6511,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||ppshk.com^*banner/
+||18183.com/js.php?pid=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hexun.com###tonglan_1 + .layout
