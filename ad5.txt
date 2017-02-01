@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jw+N7ssbuz2PlnhWGX23oA
+! Checksum: BFsPMcAo5BHryZaOMIuQZQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702020000
-! Last Modified: 2017年02月02日 00:00
+! Version: 201702020730
+! Last Modified: 2017年02月02日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12600,6 +12600,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .cn/gs.gif?
 .cn/r.gif?
 .cn/s.gif?
+.cn/xy.gif?
 .cn/z.gif?
 .com.au/HG?hc=
 .com.com/redir?timestamp
@@ -12814,6 +12815,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /addlogdetails.
 /addpageview/*
 /addrtlog/*
+/adds/counter.js
 /addTrackingScripts.
 /adimppixel/*
 /adinteraction/*
@@ -13290,6 +13292,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cnt-combined.php?
 /cnt.aspx?
 /cnt.cgi?
+/cnt.js
 /cnt/cnt.php?
 /cnt/start.php?
 /cntpixel.
@@ -13341,6 +13344,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /count.fcg?
 /count.fcgi?
 /count.fgi?
+/count.png?
 /count/?ad=
 /count/count.cgi?
 /count?pid=
@@ -13633,6 +13637,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ga_no_cookie.
 /ga_no_cookie_
 /ga_outgoinglinks.
+/ga_sip.js
 /ga_social.
 /ga_social_tracking_
 /ga_track.php?adurl=
@@ -13703,6 +13708,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /glbltrackjs.
 /global-analytics.js
 /global/ga.js?
+/global/tracker.
 /globalpagetracking.js
 /gmasst.gif?guid=
 /gn_analytics.
@@ -13786,6 +13792,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /hit.png?
 /hit.t?
 /hit.xiti?
+/hit/?r=
 /hit/tracker
 /hit2.php
 /hit?artefactId=
@@ -13963,6 +13970,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /json?referer=
 /jsonp_geoip?
 /jsstat.
+/jstatphp.
 /jstats.php
 /jstats/js/*
 /jtracking/*
@@ -14005,6 +14013,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /loadcounter.
 /loader-counter.
 /loadJsFingerprint.js
+/locotrack.js
 /log-ads.
 /log-view.
 /Log.ashx?
@@ -14364,6 +14373,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ping/?p=
 /ping/?url=
 /ping/dot.gif?
+/ping/pageload?
 /ping/show?
 /ping?h=
 /ping?spacedesc
@@ -14385,6 +14395,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /piwikC_
 /piwikTracker.
 /pix.fcg?
+/pix.fly/*
 /pix.gif?
 /pixall.min.js
 /pixel-manager.js?
@@ -14398,6 +14409,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pixel.swf?
 /pixel.track?
 /pixel/?__tracker
+/pixel/img/*
 /pixel/impression/*
 /pixel/visit?
 /pixel1/impression.
@@ -14429,6 +14441,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /player_counter.ashx?
 /PlayerDashboardLoggingService.svc/json/StartSession?
 /playerlogger.
+/playerstats.gif?
 /playertracking/*
 /plgtrafic.
 /plingatracker.
@@ -14476,8 +14489,11 @@ weibo.com##.apps_PCD_reco_detail_right
 /pubstats.
 /pv.gif?url
 /pv.txt?
+/pv?place=
+/pv?token=
 /pvcount.
 /pview?event
+/pvmax.js
 /pvserver/pv.js
 /PvServlet?
 /px.gif?
@@ -14561,6 +14577,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /restats_
 /resxclsa.
 /resxclsa_
+/ret_pixels/*
 /retargetingScript/*
 /revenue-science.
 /revenuescience.
@@ -14592,6 +14609,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /rum-dytrc.
 /rum-track?
 /rum/id?
+/rumstat.
 /rwtag.gif?
 /rwtag.js
 /rwtaghome.js
@@ -14756,14 +14774,18 @@ weibo.com##.apps_PCD_reco_detail_right
 /stat.php?
 /stat.png?
 /stat.tiff?
+/stat/ad?
 /stat/count
 /stat/event?
+/stat/fe?
 /stat/inserthit.
 /stat/track.php?mode=js
+/stat/track_
 /stat/uvstat?
 /stat2.aspx?
 /stat2.js
 /stat36/stat/track.php
+/stat?sid=
 /stat?SiteID=
 /stat?track=
 /stat_js.asp?
@@ -14789,10 +14811,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /statistics.js?
 /statistics/fab.
 /statistics/ga.
+/statistics/get?
 /statistics/getcook.php?
 /statistics/imr.
 /statistics/logging/*
 /statistics/metrica.
+/statistics/set?
 /statistics?eventType=
 /statlogger.
 /stats-js.cgi?
@@ -14910,6 +14934,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /timeslog.
 /timestrend_
 /tiwik.
+/tmpstats.gif?
 /tmv11.
 /tncms/tracking.js
 /tnsCounter.
@@ -14969,6 +14994,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track_js/?
 /track_metric/*
 /track_pageview?
+/track_proxy?
 /track_social.
 /track_views.
 /track_visit.
@@ -15482,6 +15508,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?[AQB]&ndh=1&t=
 ?_siteid=
 ?act=counter&
+?action=event&
 ?action=track_visitor&
 ?action=tracking_script
 ?affiliate=$third-party
@@ -15497,6 +15524,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?record&*&serve_js
 ?ref=*&itemcnt=
 ?stwc_cz=
+?target-ref=
 ?token=*&sessionid=*&visitorid=
 ?trackingCategory=
 ?triggertags=
@@ -15952,6 +15980,7 @@ _mongo_stats/
 ||cedexis.com^$third-party
 ||cedexis.net^$third-party
 ||celebros-analytics.com^$third-party
+||celebrus.com^$third-party
 ||centraltag.com^$third-party
 ||cetrk.com^$third-party
 ||cftrack.com^$third-party
@@ -16107,6 +16136,7 @@ _mongo_stats/
 ||datacaciques.com^$third-party
 ||datafeedfile.com^$third-party
 ||datam.com^$third-party
+||datamind.ru^$third-party
 ||dataperforma.com^$third-party
 ||datvantage.com^$third-party
 ||daylife-analytics.com^$third-party
@@ -16412,6 +16442,7 @@ _mongo_stats/
 ||gravity4.com^$third-party
 ||grepdata.com^$third-party
 ||grmtech.net^$third-party
+||group-ib.ru^$third-party
 ||gsecondscreen.com^$third-party
 ||gsimedia.net^$third-party
 ||gsspat.jp^$third-party
@@ -16650,6 +16681,7 @@ _mongo_stats/
 ||lloogg.com^$third-party
 ||localytics.com^$third-party
 ||lockview.cn^$third-party
+||locotrack.net^$third-party
 ||logaholic.com^$third-party
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
@@ -17205,6 +17237,7 @@ _mongo_stats/
 ||smartctr.com^$third-party
 ||smarterhq.io^$third-party
 ||smarterremarketer.net^$third-party
+||smartology.co^$third-party
 ||smartracker.net^$third-party
 ||smartzonessva.com^$third-party
 ||smct.co^$third-party
@@ -17222,6 +17255,7 @@ _mongo_stats/
 ||socketanalytics.com^$third-party
 ||sodoit.com^$third-party
 ||softonic-analytics.net^$third-party
+||sojern.com^$third-party
 ||sokrati.com^$third-party
 ||sometrics.com^$third-party
 ||sophus3.com^$third-party
@@ -17357,6 +17391,7 @@ _mongo_stats/
 ||thisisacoolthing.com^$third-party
 ||thisisanothercoolthing.com^$third-party
 ||thron.com^$third-party
+||tinkoff.ru^$third-party
 ||tinycounter.com^$third-party
 ||tiser.com.au^$third-party
 ||tkqlhce.com^$third-party
@@ -18025,6 +18060,7 @@ _mongo_stats/
 ||eyeota.net^$third-party
 ||gostats.cn^$third-party
 ||gridsum.com^$third-party
+||gridsumdissector.com^$third-party
 ||growingio.com^$third-party
 ||gtags.net^$third-party
 ||hotrank.com.tw^$third-party
@@ -18033,21 +18069,26 @@ _mongo_stats/
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||mediav.com^$third-party
+||miaozhen.com^$third-party
 ||mmstat.com^$third-party
 ||oadz.com^$third-party
 ||p0y.cn^$third-party
 ||phpstat.com^$third-party
 ||pixanalytics.com^$third-party
 ||ptengine.cn^$third-party
+||pvmax.net^$third-party
 ||sagetrc.com^$third-party
 ||sitebot.cn^$third-party
+||tagmanager.cn^$third-party
 ||tanx.com^$third-party
+||tenmax.io^$third-party
 ||top-bloggers.com^$third-party
 ||topsem.com^$third-party
 ||tovery.net^$third-party
 ||users.51.la^$third-party
 ||vamaker.com^$third-party
 ||vdoing.com^$third-party
+||webdissector.com^$third-party
 ||yigao.com^$third-party
 ||zampda.net^$third-party
 ||ztcadx.com^$third-party
@@ -18235,6 +18276,7 @@ _mongo_stats/
 ||trafix.ro^$third-party
 ||zontera.com^$third-party
 ||24log.ru^$third-party
+||24smi.info^$third-party
 ||a-counter.com.ua^$third-party
 ||a-counter.kiev.ua^$third-party
 ||announcement.ru^$third-party
@@ -18247,6 +18289,8 @@ _mongo_stats/
 ||cityua.net^$third-party
 ||clubcollector.com^$third-party
 ||cnstats.ru^$third-party
+||cpaevent.ru^$third-party
+||cszz.ru^$third-party
 ||e-kuzbass.ru^$third-party
 ||exe.bid^$third-party
 ||faststart.ru^$third-party
@@ -18263,12 +18307,15 @@ _mongo_stats/
 ||kmindex.ru^$third-party
 ||lentainform.com^$third-party
 ||listtop.ru^$third-party
+||livetex.ru^$third-party
 ||logger.su^$third-party
 ||logua.com^$third-party
 ||logxp.ru^$third-party
 ||logz.ru^$third-party
 ||lookmy.info^$third-party
 ||lugansk-info.ru^$third-party
+||luxup2.ru^$third-party
+||luxupcdna.com^$third-party
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
@@ -18280,12 +18327,14 @@ _mongo_stats/
 ||proext.com^$third-party
 ||quick-counter.net^$third-party
 ||r24-tech.com^$third-party
+||retailrocket.ru^$third-party
 ||sarov.ws^$third-party
 ||sensor.org.ua^$third-party
 ||seo-master.net^$third-party
 ||serating.ru^$third-party
 ||site-submit.com.ua^$third-party
 ||skylog.kz^$third-party
+||stat.media^$third-party
 ||stat24.ru^$third-party
 ||stattds.club^$third-party
 ||targetix.net^$third-party
@@ -18701,6 +18750,7 @@ _mongo_stats/
 ||bzpics.com/jslib/st.js?
 ||c.compete.com^
 ||c.homestore.com^
+||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
 ||c.wen.ru^
@@ -19620,6 +19670,7 @@ _mongo_stats/
 ||rackcdn.com/easie.js
 ||rackcdn.com/icon2.gif?
 ||rackcdn.com/knotice.api.js
+||rackcdn.com/stf.js
 ||rackcdn.com^$script,domain=buysubscriptions.com|cbsnews.com|cbssports.com|cnet.com|dailystar.co.uk|express.co.uk|gamerant.com|gamespot.com|inyt.com|metacritic.com|metrolyrics.com|page3.com|rotoworld.com|sh.st|thesun.co.uk|thesun.ie|thesundaytimes.co.uk|thetimes.co.uk|zdnet.com
 ||rackcdn.com^*/analytics.js
 ||radiocompanion.com/count.php?
@@ -20432,6 +20483,7 @@ _mongo_stats/
 ||baidu.com/hm.gif?
 ||baidu.com/js/m.js
 ||baidu.com/js/o.js
+||baidu.com/x.js?
 ||beacon.sina.com.cn^
 ||bokecc.com/flash/playlog?
 ||bokecc.com/flash/timerecorder?
@@ -20443,6 +20495,7 @@ _mongo_stats/
 ||cms.grandcloud.cn^$third-party
 ||cnzz.com/c.php?
 ||counter.csdn.net^$script
+||counter.pixplug.in^
 ||cri.cn/js/a1.js
 ||csbew.com^$third-party
 ||csdn.net^*/counter.js
@@ -20454,13 +20507,18 @@ _mongo_stats/
 ||imp.ad-plus.cn^
 ||imp.go.sohu.com^
 ||imp.optaim.com^
+||itc.cn/pv/
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
 ||log.hiiir.com^
 ||log.v.iask.com^
 ||look.urs.tw^$third-party
+||msg.71.am^
 ||n.yunshipei.com^
+||p.aty.sohu.com^
 ||pos.baidu.com^
+||pv.hd.sohu.com^
+||pv.sohu.com^
 ||qbox.me/vds.js
 ||r.sax.sina.com.cn^
 ||sitemaji.com/nownews.php?
@@ -20479,7 +20537,6 @@ _mongo_stats/
 ||v.emedia.cn^
 ||yigouw.com/c.js
 ||tracking.vid4u.org^
-||c.imedia.cz^
 ||counter.cnw.cz^
 ||h.imedia.cz^
 ||hit.skrz.cz^
@@ -20714,10 +20771,13 @@ _mongo_stats/
 ||stainlesssteel.ru/counter.php?
 ||stat-22.medialand.ru^
 ||stat-counter.tass-online.ru^
+||stat.eagleplatform.com^
 ||stat.radar.imgsmail.ru^
 ||stat.rum.cdnvideo.ru^
+||stat.sputnik.ru^
 ||stat.tvigle.ru^
 ||stats.internet-yadro.com^
+||stats.seedr.com^
 ||t.pusk.ru^
 ||target.mirtesen.ru^
 ||target.smi2.net^
@@ -20729,6 +20789,9 @@ _mongo_stats/
 ||track.recreativ.ru^
 ||track.revolvermarketing.ru^
 ||track.rtb-media.ru^
+||tracking.i-vengo.com^
+||tracking.retailrocket.net^
+||tracking.vengovision.ru^
 ||traktor.ru^*/counter.php?
 ||ulogin.ru/js/stats.js
 ||upstats.yadro.ru^
@@ -22640,6 +22703,7 @@ _mongo_stats/
 ||tracking.mycapture.com^
 ||tracking.olx-st.com^
 ||tracking.olx.
+||tracking.porndoelabs.com^
 ||tracking.realtor.com^
 ||tracking.resumecompanion.com^
 ||tracking.shoptogether.buy.com^
@@ -23407,7 +23471,9 @@ _mongo_stats/
 ||cast.ra.icast.cn^
 ||cdn.baidupcs.com/monitor.jpg?
 ||clkstat.qihoo.com^
+||cmstool.youku.com^
 ||cnzz.com/stat.
+||collect.tianya.cn^
 ||count.joy.cn^
 ||count.kandian.com^$object-subrequest
 ||count.newhua.com^
@@ -23419,6 +23485,7 @@ _mongo_stats/
 ||counter.sina.com.cn/moodq?
 ||cri.cn/a1.js
 ||cri.cn/wrating.js
+||cupid.iqiyi.com^
 ||dayoo.com/sta/da.js
 ||dc.letv.com^
 ||dj.renren.com^
@@ -23433,6 +23500,7 @@ _mongo_stats/
 ||firefoxchina.cn/*/trac.js
 ||fls-cn.amazon.cn^
 ||ftchinese.com/js/log.js
+||funshion.com/interface/
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
 ||hk.ndx.nextmedia.com^
@@ -23442,6 +23510,8 @@ _mongo_stats/
 ||js.soufunimg.com/count/
 ||jscss.kdslife.com/club/html/count/PChome_Count.js
 ||ku6.com/ku6.gif?
+||le.com/op/
+||letv.com/op?
 ||log*.ku6.com^
 ||log.51cto.com^
 ||log.kuwo.cn^
@@ -23461,6 +23531,9 @@ _mongo_stats/
 ||pb.i.sogou.com^
 ||pingback.sogou.com^
 ||pingjs.qq.com^
+||pptv.com/stg/add?
+||pptv.com/webdelivery/
+||pv.ltn.com.tw^
 ||qq.com/p?
 ||ranking.ynet.com^
 ||rcgi.video.qq.com^
@@ -23523,9 +23596,12 @@ _mongo_stats/
 ||youdao.com/cf.gif?
 ||youdao.com/imp/cac.js
 ||youku.com/compvlog?
+||youku.com/recikupushshow?
 ||youku.com/ykvvlog?
 ||youku.com/yplaylog?
+||youku.com/ypvlog?
 ||youku.com^*/click.php?
+||zhihu-web-analytics.zhihu.com^
 ||jutarnji.hr/template/js/eph_analytics.js
 ||blesk.cz/js/tracker.js
 ||kbmg.cz/tracker.js
@@ -23690,18 +23766,28 @@ _mongo_stats/
 ||tracker.publico.pt^
 ||uol.com.br/stats?
 ||urchin.estadao.com.br^
+||4pda.ru/stat/
 ||ad7.bigmir.net^
 ||analytics.carambatv.ru^
+||avito.ru/stat/
+||consultant.ru/js/counter.js
+||counter.drom.ru^
+||fb.ru/stat/
+||fotostrana.ru/start/
+||irecommend.ru/collect/
 ||kommersant.ru/a.asp?p=
+||log.ren.tv^
 ||mail.ru/count/
 ||mail.ru/counter?
 ||montblanc.lenta.ru^
+||ozon.ru/tracker/
 ||rbc.ru/click?
 ||rbc.ru/count/
+||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
-||rutube.ru/img/playerstats.gif?
 ||ssp.rambler.ru^
+||stat.api.2gis.ru^
 ||stat.lenta.ru^
 ||stats.lifenews.ru^
 ||sync.rambler.ru^
