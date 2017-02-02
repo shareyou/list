@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BFsPMcAo5BHryZaOMIuQZQ
+! Checksum: 7uBXS0fEi/0Sbt0DU3n7nA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702020730
-! Last Modified: 2017年02月02日 07:30
+! Version: 201702020800
+! Last Modified: 2017年02月02日 08:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15005,6 +15005,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /trackClickEvent.js
 /trackContentViews.
 /trackconversion?
+/tracker-config.js
 /tracker-ev-sdk.js
 /tracker-pb-min-rem.js
 /tracker-r1.js
@@ -18294,7 +18295,9 @@ _mongo_stats/
 ||e-kuzbass.ru^$third-party
 ||exe.bid^$third-party
 ||faststart.ru^$third-party
+||ftrack.ru^$third-party
 ||gdeslon.ru^$third-party
+||giraff.io^$third-party
 ||gostats.ru^$third-party
 ||hitmir.ru^$third-party
 ||hsdn.org^$third-party
@@ -18328,6 +18331,7 @@ _mongo_stats/
 ||quick-counter.net^$third-party
 ||r24-tech.com^$third-party
 ||retailrocket.ru^$third-party
+||ru.net^$third-party
 ||sarov.ws^$third-party
 ||sensor.org.ua^$third-party
 ||seo-master.net^$third-party
@@ -22129,6 +22133,7 @@ _mongo_stats/
 ||papajohns.com/index_files/activityi_data/ct-*.js
 ||paper.li/javascripts/analytics.js
 ||pardot.com/pd.js
+||partner.worldoftanks.com^
 ||partners.badongo.com^
 ||partners.mysavings.com^
 ||paypal.com/webapps/beaconweb/
@@ -23792,6 +23797,7 @@ _mongo_stats/
 ||stats.lifenews.ru^
 ||sync.rambler.ru^
 ||vedomosti.ru/boom?
+||vesti.ru/counter/
 ||yast.rutube.ru^
 ||trak-analytics.blic.rs^
 ||24ur.com/bin/player/?mod=statistics&
