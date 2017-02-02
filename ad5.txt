@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7uBXS0fEi/0Sbt0DU3n7nA
+! Checksum: MIngqQIyWZpAJB78t8k/xQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702020800
-! Last Modified: 2017年02月02日 08:00
+! Version: 201702020830
+! Last Modified: 2017年02月02日 08:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -665,7 +665,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||yghua.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1858,6 +1857,7 @@ ubmcmm.baidustatic.com
 ||ydlnt.com^
 ||ye3.com^$third-party
 ||yf898.com^
+||yghua.com^$third-party
 ||yhtcd.com^
 ||yhzm.cc^
 ||yidulive.net^
@@ -2303,6 +2303,7 @@ mg*.6park.com/img/$image
 ||17ok.com/img2016/list/295_90.gif
 ||17yy.com/style/ifra_ad/
 ||180.96.27.85^*.htm
+||18183.com/js.php?pid=
 ||182.92.234.239^*.html
 ||183.136.168.78:8082/ad/
 ||183yf.cn/img/nz.png
@@ -2918,6 +2919,7 @@ mg*.6park.com/img/$image
 ||anzhuan.net/wp-content/uploads/2015/01/huizhe.jpg
 ||anzhuotan.com/Runtime/js/bofangye.js
 ||api.bilibili.com/x/ad/
+||apic.in/mmd.gif
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
 ||appfh.com/api/
@@ -3987,6 +3989,7 @@ mg*.6park.com/img/$image
 ||hf365.com/0/13/79/87/13798795_912593.jpg
 ||hf365.com/0/14/31/00/14310068_933922.png
 ||hf365.com/0/14/60/93/14609355_921128.jpg
+||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hf365.com/0/16/33/26/16332686_243404.gif
 ||hf365.com/swf/0/16/32/43/16324347_993754.swf
 ||hi.people.com.cn/NMediaFile/*.gif
@@ -5070,6 +5073,7 @@ mg*.6park.com/img/$image
 ||posts.cdn.wallstcn.com^*/wap-
 ||potplayer.org/sc/
 ||poxiao.com/template/default/images/12345.js
+||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||ppsj.com.cn/images/usa_250_120.gif
 ||ppsj.com.cn/ppsj728.gif
@@ -5742,6 +5746,7 @@ mg*.6park.com/img/$image
 ||upaiyun.com/2016/08/4a67c5a415c21916e6591af5351bb174.jpg
 ||upaiyun.com/2016/09/e3ae3563c836df9a44a73d985dcb6196.jpg
 ||upaiyun.com/css88/20
+||upaiyun.com/system/post_tile/new_web_banners/
 ||upan.cc/images/pay/
 ||upantool.com/bay/
 ||upantool.com/playing/
@@ -6240,17 +6245,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||hf365.com/0/15/64/87/15648725_922274.jpg
-||ppshk.com^*banner/
-||18183.com/js.php?pid=
-||apic.in/mmd.gif
-||upaiyun.com/system/post_tile/new_web_banners/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bilibili.com##A[href$="_suning.html"]
-hexun.com###tonglan_1 + .layout
-news.hf365.com##.main-r > DIV:first-child
-iask.sina.com.cn##.tui-nav-txt
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7450,6 +7446,7 @@ kan300.com,xxdm.com,xxdm.org###tiepianDIV
 wpsoso.com###tips
 xinhuanet.com###tisoad
 dict.cn###tjcd
+hexun.com###tonglan_1 + .layout
 10.0.0.211###toolbar
 2345.com###tools-gameTmp
 uuu9.com###top
@@ -9058,6 +9055,7 @@ hupu.com##.m_text_ad
 www.tiexue.net##.main > style + div[class]
 firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
+news.hf365.com##.main-r > div:first-child
 expreview.com##.main-side-tao
 greatwuyi.com##.main_ad2
 tvmost.com.hk##.main_ad_b
@@ -9751,6 +9749,7 @@ ithome.com##.tt1
 hualady.com##.tu_guangao
 hualady.com##.tu_guangao2
 coladrive.com,colayun.com##.tui
+iask.sina.com.cn##.tui-nav-txt
 7060.la,haosou.com,so.com##.tuiguang
 m.hao123.com##.tuizhan
 tvhome.com##.tvAd
@@ -9963,6 +9962,7 @@ oschina.net##a[data-traceid="news_detail_above_text_link_1"]
 oschina.net##a[data-traceid^="questionbanner"]
 oschina.net##a[data-tracepid^="index_banner_"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
+bilibili.com##a[href$="_suning.html"]
 17173.com##a[href*="&ad_code="]
 neatstudio.com##a[href*="&cps_key="]
 xianzhenyuan.cn##a[href*=".1688.com"]
@@ -10353,8 +10353,8 @@ da-fan-shu.cn##div[style*="468"][style*="60"]
 imanhua.com##div[style*="980"][style*="26px"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
-bilibili.com##div[style*="height:"][data-loc-id]
 bbhou.com##div[style*="height: 90px;"]
+bilibili.com##div[style*="height:"][data-loc-id]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
@@ -12941,6 +12941,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics/js/*
 /analytics/mbox.js
 /analytics/mouse_
+/analytics/pageview.
+/analytics/pv.gif?
 /analytics/report/*
 /analytics/socialTracking.js
 /analytics/tagx-
@@ -14626,6 +14628,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /savetracking?
 /sb.logger.js
 /sb.trackers.js
+/sbtracking/pageview2?
 /sclanalyticstag.
 /script/analytics.
 /script/analytics/*
@@ -14733,6 +14736,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /small.gif?type
 /smarta.
 /smartpixel-1.js
+/smartpixel.
 /smartserve-
 /smarttag.js
 /snowman.gif?p=
@@ -18276,6 +18280,7 @@ _mongo_stats/
 ||top-ro.ro^$third-party
 ||trafix.ro^$third-party
 ||zontera.com^$third-party
+||109.169.66.161^$third-party,domain=~adult-site.ip
 ||24log.ru^$third-party
 ||24smi.info^$third-party
 ||a-counter.com.ua^$third-party
@@ -18285,11 +18290,14 @@ _mongo_stats/
 ||audsp.com^$third-party
 ||audtd.com^$third-party
 ||bid.run^$third-party
+||bidderrtb.com^$third-party
 ||botscanner.com^$third-party
 ||bumlam.com^$third-party
 ||cityua.net^$third-party
 ||clubcollector.com^$third-party
 ||cnstats.ru^$third-party
+||cntcash.ru^$third-party
+||countstat.ru^$third-party
 ||cpaevent.ru^$third-party
 ||cszz.ru^$third-party
 ||e-kuzbass.ru^$third-party
@@ -18333,6 +18341,7 @@ _mongo_stats/
 ||retailrocket.ru^$third-party
 ||ru.net^$third-party
 ||sarov.ws^$third-party
+||sas.com^$third-party
 ||sensor.org.ua^$third-party
 ||seo-master.net^$third-party
 ||serating.ru^$third-party
@@ -18346,6 +18355,7 @@ _mongo_stats/
 ||tds.io^$third-party
 ||toptracker.ru^$third-party
 ||tpm.pw^$third-party
+||trbna.com^$third-party
 ||uarating.com^$third-party
 ||uptolike.com^$third-party
 ||uzrating.com^$third-party
@@ -18358,6 +18368,7 @@ _mongo_stats/
 ||webest.info^$third-party
 ||webtalking.ru^$third-party
 ||webvisor.ru^$third-party
+||wwgate.ru^$third-party
 ||www.rt-ns.ru^$third-party
 ||zero.kz^$third-party
 ||blogtraffic.sg^$third-party
@@ -23781,6 +23792,8 @@ _mongo_stats/
 ||fotostrana.ru/start/
 ||irecommend.ru/collect/
 ||kommersant.ru/a.asp?p=
+||lamoda.ru/z?
+||lmcdn.ru^*/statistics.js
 ||log.ren.tv^
 ||mail.ru/count/
 ||mail.ru/counter?
@@ -23796,6 +23809,7 @@ _mongo_stats/
 ||stat.lenta.ru^
 ||stats.lifenews.ru^
 ||sync.rambler.ru^
+||tracker.tiu.ru^
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
 ||yast.rutube.ru^
