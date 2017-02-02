@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QqdG4DwDjy6KBpH/XOdrdw
+! Checksum: 1ceX7ltg3Njh78UmFLr1WQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702021930
-! Last Modified: 2017年02月02日 19:30
+! Version: 201702022000
+! Last Modified: 2017年02月02日 20:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2199,7 +2199,6 @@ mg*.6park.com/img/$image
 ||114so.cn/js/nm*.js
 ||114so.cn^$subdocument
 ||115.28.114.149^*_proxy.
-||115.28.6.94:8090/js/s
 ||115.29.46.146^$subdocument
 ||115mm.com/js/
 ||119.167.73.60/m_code/
@@ -3827,7 +3826,6 @@ mg*.6park.com/img/$image
 ||ggg.zj.com^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
-||ggxt.net/sdk/js/core.m.js
 ||ghjie.com/images/2012/images/bg
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
@@ -3971,8 +3969,6 @@ mg*.6park.com/img/$image
 ||hebei.com.cn/swf/
 ||hebei.com.cn/sys/online_calc.js
 ||hefei.cc/templates/default/index_ad
-||hego123.net/760-90.js
-||hego123.net/top.js
 ||heiguang.com/f/uad/
 ||heikexs.com/wp-content/themes/Duoxs*/js/
 ||heitu5.com/js/heituad/
@@ -4089,8 +4085,6 @@ mg*.6park.com/img/$image
 ||hy5.com.cn/admin/
 ||hybbs.com/i/$image,object
 ||hz.shouyoutv.com^
-||hz66.com/2015/1117/1447725901890.jpg
-||hz66.com/2016/0121/1453343855270.jpg
 ||hzhyhm.com^
 ||hznzcn.com/moban/youxiajiao.js
 ||i-gamer.net/promo_
@@ -6608,7 +6602,7 @@ xiaopi.com###bottombar
 dnvod.eu,dxlwwang.com,vzhuan.cn###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
-www.hupu.com###box1_bigImg > ul > li > a[href^="http://goto.hupu."]
+hupu.com##.slider-pic > .list > LI > A[href^="http://goto.hupu."]
 cwyuni.tw###box34614 > [class^="box-"]
 lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
@@ -7797,7 +7791,6 @@ hupu.com##.ad361-240-240
 5imx.com##.ad4:first-child
 jieshao.org##.ad580x80
 china.com.cn##.ad6
-hatuwang.com##.ad600x25
 wuseng.com##.ad600x250
 qtv.com.cn##.ad610_z
 juyouqu.com##.ad630
@@ -18318,6 +18311,7 @@ _mongo_stats/
 ||idntfy.ru^$third-party
 ||imrk.net^$third-party
 ||infostroy.nnov.ru^$third-party
+||infox.sg^$third-party
 ||instreamatic.com^$third-party
 ||intergid.ru^$third-party
 ||iryazan.ru^$third-party
@@ -18376,6 +18370,7 @@ _mongo_stats/
 ||webtalking.ru^$third-party
 ||webturn.ru^$third-party
 ||webvisor.ru^$third-party
+||wunderdaten.com^$third-party
 ||wwgate.ru^$third-party
 ||www.rt-ns.ru^$third-party
 ||zero.kz^$third-party
@@ -23795,12 +23790,14 @@ _mongo_stats/
 ||ad7.bigmir.net^
 ||analytics.carambatv.ru^
 ||avito.ru/stat/
+||babyblog.ru/pixel?
 ||consultant.ru/js/counter.js
 ||counter.drom.ru^
 ||dot-stat.radikal.ru^
 ||fb.ru/stat/
 ||fotostrana.ru/start/
 ||irecommend.ru/collect/
+||kiks.auto.ru^
 ||kommersant.ru/a.asp?p=
 ||lamoda.ru/z?
 ||lmcdn.ru^*/statistics.js
@@ -23818,6 +23815,7 @@ _mongo_stats/
 ||ssp.rambler.ru^
 ||stat.api.2gis.ru^
 ||stat.lenta.ru^
+||stat.russianfood.com^
 ||stat.woman-announce.ru^
 ||stats.lifenews.ru^
 ||superjob.ru/ws/
