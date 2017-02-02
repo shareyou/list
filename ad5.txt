@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1ceX7ltg3Njh78UmFLr1WQ
+! Checksum: M+58vJRnKwp8OoO3EgIiSA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702022000
-! Last Modified: 2017年02月02日 20:00
+! Version: 201702022030
+! Last Modified: 2017年02月02日 20:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -4115,7 +4115,6 @@ mg*.6park.com/img/$image
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
 ||iefans.net/wp-content/uploads/2009/js/llq/2345llq.gif
-||ietv.cc/min/b=Runtime/Js&f=
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
 ||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
@@ -4350,7 +4349,6 @@ mg*.6park.com/img/$image
 ||itiexue.net/other/shuang11.jpg
 ||itiexue.net^*.gif?w=1500&h=1500
 ||itjkr.com/upload/ad/
-||itjsb.com/file/upload/201604/02/17-58-36-17-1.jpg
 ||itjsb.com/itjsbwx.jpg
 ||itmsc.cn^*ad0
 ||itmxc.com/mxc-news/960x
@@ -6853,7 +6851,6 @@ uwants.com###foruminfo + div[align="center"]
 qq.com###fr_ad
 wcjbb.com###frame2TVWk2
 wcjbb.com###frame37boCx
-iafbbs.com###frame3v9fyC
 opbbs.in###frame435JTi
 yangluo.cn###frame51RcxP
 tvapk.net###frame5zglZ4
@@ -7208,7 +7205,7 @@ hao.360.cn###plane-ria
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
 160.com###playBox
 tingroom.com###play_ggr
-7k7k.com,icoolxue.com###player-ad
+7k7k.com###player-ad
 yxingqiu.com###playertipian
 youku.com###playlistIkuAD
 mail.qq.com###plp_ad_container
@@ -7630,7 +7627,7 @@ ifeng.com##.ColFLAvt
 ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
-it165.net##.ContentAdv
+it165.net##.showinfo
 imeee.cn##.DA336
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 cnfol.com##.EtGA
@@ -12949,6 +12946,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics/trackers?
 /Analytics/Tracking.
 /analytics/tracking/*
+/analytics/urlTracker.
 /analytics/visit/*
 /Analytics/Visitor.
 /analytics/yell-
@@ -13504,6 +13502,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /EMERPEventCollector.
 /emos2-$script
 /emos2.js$~xmlhttprequest
+/empty-1px-gif;
 /emstrack.
 /endpoint/stats.
 /entry_stats?
@@ -15201,6 +15200,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /turn-proxy.html?
 /TwitterTracking.
 /tynt.js
+/tzr.fcgi?
 /uchkr.swf
 /ucount.php?
 /udctrack.
@@ -15532,6 +15532,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?token=*&sessionid=*&visitorid=
 ?trackingCategory=
 ?triggertags=
+?url=*&id=*&res=*&ref=
 ?wpgb_public_action=*&referrer=
 ^name=atatracker^
 _.gif?ref=
@@ -18313,6 +18314,7 @@ _mongo_stats/
 ||infostroy.nnov.ru^$third-party
 ||infox.sg^$third-party
 ||instreamatic.com^$third-party
+||interakt.ru^$third-party
 ||intergid.ru^$third-party
 ||iryazan.ru^$third-party
 ||jetcounter.ru^$third-party
@@ -18327,7 +18329,9 @@ _mongo_stats/
 ||lookmy.info^$third-party
 ||lugansk-info.ru^$third-party
 ||luxup2.ru^$third-party
+||luxupadva.com^$third-party
 ||luxupcdna.com^$third-party
+||luxupcdnc.com^$third-party
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
@@ -20814,6 +20818,7 @@ _mongo_stats/
 ||ulogin.ru/js/stats.js
 ||upstats.yadro.ru^
 ||uptolike.com/widgets/*/imp?
+||vgtrk.com/js/stat.js
 ||viewstat.promoblocks.ru^
 ||wapson.ru/counter.php?
 ||webtrack.biz^$third-party
@@ -21939,6 +21944,7 @@ _mongo_stats/
 ||mediabistro.com/blogshare/js/trackingheader.js
 ||mediaplex.com^*/universal.html
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
+||meduza.io/stat/
 ||mercent.com/js/tracker.js
 ||merchantcircle.com/static/track.js
 ||merck.com/js/mercktracker.js
@@ -23792,6 +23798,7 @@ _mongo_stats/
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
 ||consultant.ru/js/counter.js
+||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
 ||dot-stat.radikal.ru^
 ||fb.ru/stat/
