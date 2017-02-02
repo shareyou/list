@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UUlpohFro8/OPfB0rDVOtg
+! Checksum: 4ixOXoh4WFU6ry+q2MCsGQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702020900
-! Last Modified: 2017年02月02日 09:00
+! Version: 201702021000
+! Last Modified: 2017年02月02日 10:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3976,7 +3976,6 @@ mg*.6park.com/img/$image
 ||hego123.net/760-90.js
 ||hego123.net/top.js
 ||heiguang.com/f/uad/
-||heiguang.com/statics/201404/img/tiop-1.jpg
 ||heikexs.com/wp-content/themes/Duoxs*/js/
 ||heitu5.com/js/heituad/
 ||henan.sina.com.cn/iframe/7/
@@ -6245,8 +6244,10 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||img*.hc360.com^$subdocument
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hc360.com##IMG[width="1000"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10790,6 +10791,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||hc360.com/ad/*.css
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
