@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YbddTHVJRVw3yRNshwK/YQ
+! Checksum: QqdG4DwDjy6KBpH/XOdrdw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702021900
-! Last Modified: 2017年02月02日 19:00
+! Version: 201702021930
+! Last Modified: 2017年02月02日 19:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14623,6 +14623,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /s.gif?l=
 /s.gif?log=
 /s.gif?t=
+/s1.php?type=
 /sage_tracker.
 /salog.js
 /SAPOWebAnalytics/*
@@ -23789,12 +23790,14 @@ _mongo_stats/
 ||tracker.publico.pt^
 ||uol.com.br/stats?
 ||urchin.estadao.com.br^
+||2ch.hk^*/tracker.js?
 ||4pda.ru/stat/
 ||ad7.bigmir.net^
 ||analytics.carambatv.ru^
 ||avito.ru/stat/
 ||consultant.ru/js/counter.js
 ||counter.drom.ru^
+||dot-stat.radikal.ru^
 ||fb.ru/stat/
 ||fotostrana.ru/start/
 ||irecommend.ru/collect/
@@ -23805,6 +23808,7 @@ _mongo_stats/
 ||mail.ru/count/
 ||mail.ru/counter?
 ||montblanc.lenta.ru^
+||ngs.ru/s/
 ||ozon.ru/tracker/
 ||rbc.ru/click?
 ||rbc.ru/count/
@@ -23814,6 +23818,7 @@ _mongo_stats/
 ||ssp.rambler.ru^
 ||stat.api.2gis.ru^
 ||stat.lenta.ru^
+||stat.woman-announce.ru^
 ||stats.lifenews.ru^
 ||superjob.ru/ws/
 ||sync.rambler.ru^
