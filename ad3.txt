@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ucwmiz8/BQIKoqAIdcsz5w
+! Checksum: dhn42E4NrnvxJhukgIasCQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702030900
-! Last Modified: 2017年02月03日 09:00
+! Version: 201702031530
+! Last Modified: 2017年02月03日 15:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3202,7 +3202,6 @@ mg*.6park.com/img/$image
 ||chinasexq.com/js/ad
 ||chinaso.com/iframe336/
 ||chinataxservice.cn/static/jquery.1.1.4.min.jxh.js
-||chinatimes.com/ads/forums/carouselad.js
 ||chinatimes.com/Scripts/bennerad.
 ||chinayes.com/Include%5Cad%5C
 ||chinayk.com/js/float.js
@@ -3793,7 +3792,6 @@ mg*.6park.com/img/$image
 ||gywb.cn/content/attachement/jpg/site2/20140901/50465d69af2b156e340c09.jpg
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
-||hacken.cc/file/ads/
 ||hackhome.com/hz/*down
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/zt.js
@@ -4004,7 +4002,6 @@ mg*.6park.com/img/$image
 ||iecer.de^$domain=bzdiao.com
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
-||iefans.net/wp-content/uploads/2009/js/llq/2345llq.gif
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
 ||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
@@ -4846,7 +4843,6 @@ mg*.6park.com/img/$image
 ||panpan.org/other/
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
-||panzz.com/file/ads/
 ||paopaoku.com/js/loadingshow.html
 ||patmm.com/ad/
 ||pbtxt.com/k-
@@ -4860,7 +4856,6 @@ mg*.6park.com/img/$image
 ||pcgames.com.cn/g/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/img/js/xpcadshow.js
-||pchome.com.tw/js/idlead.js
 ||pcjishu.com/other/yj300x3006.jpg
 ||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
@@ -5091,7 +5086,6 @@ mg*.6park.com/img/$image
 ||qqtn.com/js/*0.js
 ||qqtz.com/ad$subdocument
 ||qqxbt.com/Content/images/hd
-||qqxzb.com/api/ad.
 ||qqxzb.com^*/js/global.js
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -5510,7 +5504,6 @@ mg*.6park.com/img/$image
 ||tiantian.tv/sda/$image
 ||tianyaui.com/gamify/broadcast/js/
 ||tianyaui.com/global/broadcast/*/bc_play_ebook_
-||tianyaui.com/qy/adsame/ads.js
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.$domain=52jifenbao.net|btago.com|fulisuo1.com|henbt.com|papa1024.com|potplayer.org|totuwo.com
 ||tietuku.*.gif$domain=lightnovel.cn
@@ -7754,7 +7747,6 @@ feng.com##.ad_654
 qq.com##.ad_670_90
 zyue.com##.ad_90
 cna.com.tw##.ad_970
-cna.com.tw##.ad_970_2
 hupu.com##.ad_980
 cheshi.com##.ad_980105
 tpy888.cn##.ad_all
@@ -9209,7 +9201,6 @@ dnvod.eu##.r-gg
 ahtv.cn,bzfl1.cc,onlinedown.net,sexbarss.net##.r1
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 7hcn.com##.rCont
-chinatimes.com##.r_ad
 g1080.com##.r_img_m
 douni.com##.rad_1
 mydigit.cn##.radio
@@ -9430,7 +9421,6 @@ qqbody.com##.special_ggw
 geekpark.net,northnews.cn##.sponsor
 u148.net##.sponsor-250
 u148.net##.sponsor-abeam
-cam4.tw##.sponsorAd
 sogou.com##.sponsored
 163.com##.sports_300x60_ad1
 99ff1.com,99re.com##.spots
@@ -11258,6 +11248,11 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+##.r_ad
+/file/ads/*
+/Api/Ad.
+/adsame/*
+/securepubads.
 ||alimama.com^$third-party
 _advert.
 /advert_
@@ -11852,6 +11847,7 @@ _300_250.
 ||jia.com/js/zixun/news.js
 ||zuoyebang.cc/static/question/question/resource/QRCode_
 !------------------------Specific element hiding rules------------------------!
+hupu.com##.m-app-info
 pclady.com.cn##.mdxyAppEnter
 hao123.com##.cjcard2017Container
 zuoye.baidu.com,zybang.com###QRinside
@@ -12165,6 +12161,8 @@ blog.163.com###topbar_yxpArea
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
+||track.hujiang.com^
+||trackcommon.hujiang.com^
 ||bdstatic.eastmoney.com^
 ||hiido.com^$third-party
 ||cnpc.infzm.com^
