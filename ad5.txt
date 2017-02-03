@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LgUZh6TYQgTDBn7TsN1WSw
+! Checksum: 6wG7hNLDtG/Qrmny6nHI8w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702032130
-! Last Modified: 2017年02月03日 21:30
+! Version: 201702032230
+! Last Modified: 2017年02月03日 22:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6220,8 +6220,17 @@ mg*.6park.com/img/$image
 ||itavcn.com/pic/news/*x90.
 ||iyaxin.com^*/os.js
 ||ifanr.cn/wp-content/uploads/*/mina_
+||gavbus*.com/assets/common/js/ad.js
+||scriptwap1.360doc.cn^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+360doc.com###divaboveReflectionAd1
+360doc.com###divaboveReflectionAd2
+360doc.com###divunderZcommondAd
+360doc.com###divyoulikead
+360doc.com##.clear360doc[style^="padding-top:"]
+360doc.com##DIV[style="height: 90px; padding-top: 13px;"]
+360doc.cn##.dowloadBtn
 im286.net##.qybj
 isso.com.cn##.idxAdv
 17173.com##.mod-tg1
@@ -8228,7 +8237,6 @@ news.liao1.com##.border_more[height="32"]
 tingshuge.com##.bordercs[align="center"]
 biz.zjol.com.cn##.bot
 52ch.net##.bot_adv
-360doc.com##.both[style^="padding-top:"]
 115.com,muzhi.baidu.com##.bottom-banner
 dianping.com##.bottom-contrainer
 liba.com##.bottom-pic
