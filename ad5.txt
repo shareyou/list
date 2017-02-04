@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 23FcDDcNqzfoMeqyoQWPIA
+! Checksum: ozfKqMzJcHAx9WqPLFM6rQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702042130
-! Last Modified: 2017年02月04日 21:30
+! Version: 201702042330
+! Last Modified: 2017年02月04日 23:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12942,6 +12942,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics/pageview.
 /analytics/pv.gif?
 /analytics/report/*
+/analytics/smarttag-
 /analytics/socialTracking.js
 /analytics/tagx-
 /analytics/track-
@@ -13442,6 +13443,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /dm.gif?
 /dmtracking2.
 /DNATracking.
+/dni_reporting.js
 /doIperceptionsRegulator.
 /dolWebAnalytics.
 /domcount.
@@ -13538,6 +13540,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /evercookie.
 /evercookie/*
 /evercookie_
+/evtrack-
 /ewtrack.
 /EWTRACK_
 /exaonclick.js
@@ -17349,6 +17352,7 @@ _mongo_stats/
 ||supercounters.com^$third-party
 ||superstats.com^$third-party
 ||supert.ag^$third-party
+||surefire.link^$third-party
 ||surfcounters.com^$third-party
 ||surfertracker.com^$third-party
 ||surveyscout.com^$third-party
@@ -18694,6 +18698,7 @@ _mongo_stats/
 ||atom-data.io/session/latest/track.html?$third-party
 ||attributiontrackingga.googlecode.com^
 ||auctiva.com/Default.aspx?query
+||audience.newscgp.com^
 ||audienceapi.newsdiscover.com.au^$third-party
 ||audienceinsights.net^$third-party
 ||audioeye.com/ae.js
@@ -19946,6 +19951,7 @@ _mongo_stats/
 ||tag.sonymusic.com^
 ||tagcdn.com/pix/?
 ||tags.master-perf-tools.com^
+||tags.newscgp.com^
 ||tags.rd.linksynergy.com^$third-party
 ||target.fark.com^
 ||targeting.wpdigital.net^
