@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IYVXzcfyySM5he70WtFjJQ
+! Checksum: uJ5aatruGBSPrwUOV/ZZOQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201702040830
-! Last Modified: 2017年02月04日 08:30
+! Version: 201702040900
+! Last Modified: 2017年02月04日 09:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -932,6 +932,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||uc610.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -10323,7 +10324,7 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
-allyingshi.com,zimuzu.tv##a[href^="http://www.6.cn/coop/"]
+allyingshi.com,zimuzu.tv,zmz2017.com##a[href^="http://www.6.cn/coop/"]
 v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
