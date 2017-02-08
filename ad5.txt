@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qvV/Dy3ilff+mNqXxFBAQQ
+! Checksum: yPtMFpTr5G8+IaZ6YaPMZQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702081900
-! Last Modified: 2017年02月08日 19:00
+! Version: 201702082000
+! Last Modified: 2017年02月08日 20:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3497,7 +3497,7 @@ mg*.6park.com/img/$image
 ||dio88.net/images/*.gif
 ||dio99.com/images/*.gif
 ||dioguitar23.*/images/*.gif
-||diopic.net^$domain=18p2p.com
+||diopic.net^$domain=18board.com|18p2p.com
 ||discuss.com.hk/dfp_forum.php?au=Discuss_Web_
 ||discuss.com.hk/yna*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
@@ -5343,7 +5343,7 @@ mg*.6park.com/img/$image
 ||shouyoutan.com/Runtime/js/
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||showbean.net/cpma.js
-||showhaotu.$domain=18p2p.com
+||showhaotu.$domain=18board.com|18p2p.com
 ||showhaotu.com/2016/03/31/c42e72fb676522c97c84fc06295ac6c6.gif
 ||shows.21cn.com^
 ||shuajizhijia.com/static/js/rightdown.js
@@ -6202,8 +6202,12 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||xoimg.com^$domain=18board.com|18p2p.com
+||25xt.com/25te.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+25xt.com##.adbox
+25xt.com##.forum-20150311101555
 v.qq.com##.module-image[style*="height:100px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
