@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 04PWMpQgvY5o/liWF1Hf5Q
+! Checksum: HyE8aUTDkmU7mlM0WQUY7Q
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702091100
-! Last Modified: 2017年02月09日 11:00
+! Version: 201702091130
+! Last Modified: 2017年02月09日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -4904,8 +4904,6 @@ mg*.6park.com/img/$image
 ||oscaches.com/dj.js
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/*_banner_
-||oschina.net/uploads/gitimages/1479690283.jpg
-||oschina.net/uploads/gitimages/1479863335.jpg
 ||oupeng.com/ezine/res/js/advcontrol.js
 ||ousns.net/daohang/
 ||ouyaoxiazai.com^$script,subdocument
@@ -6210,6 +6208,7 @@ mg*.6park.com/img/$image
 ||btexe.cc/static/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+oschina.net##A[data-traceid="explore_right_bar_70"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9884,7 +9883,7 @@ bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
 oschina.net##a[data-traceid$="_ad"]
-oschina.net##a[data-traceid="news_detail_above_text_link_1"]
+oschina.net##A[data-traceid*="_detail_above_text_link_"]
 oschina.net##a[data-traceid^="questionbanner"]
 oschina.net##a[data-tracepid^="index_banner_"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
