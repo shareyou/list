@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S6w/u4/K+WRKMONnCNkgng
+! Checksum: RX8gpOyTjLmK0mTf6W0i+A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702092100
-! Last Modified: 2017年02月09日 21:00
+! Version: 201702092130
+! Last Modified: 2017年02月09日 21:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -1942,6 +1942,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+|http:$popup,third-party,domain=motelppp.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -5168,7 +5169,7 @@ mg*.6park.com/img/$image
 ||qqread.com/swf/
 ||qqtn.com/js/*0.js
 ||qqtz.com/ad$subdocument
-||qqxbt.com/Content/images/hd
+||qqxbt.com/Content/img/hd
 ||qqxzb.com^*/js/global.js
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -6208,6 +6209,8 @@ mg*.6park.com/img/$image
 ||btexe.cc/static/js/
 ||oschina.net/promotion/
 ||jd-bbs.com/company/gif/topsound-
+||motelppp.com/Content/img/hd
+||sinaimg.cn/large/006CZIQPgw1faa7n9mlocg30jg01o0wr.gif
 !------------------------Specific element hiding rules------------------------!
 oschina.net##.jj
 jjxw.cn##.logo_ad_r
