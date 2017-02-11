@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ws476f20YO1UINhkImt2Fw
+! Checksum: Dpijjzfjwl/z24O1XJ8tnA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702111230
-! Last Modified: 2017年02月11日 12:30
+! Version: 201702111630
+! Last Modified: 2017年02月11日 16:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -551,6 +551,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||koopei.com^$third-party
 ||qingqu.la^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -5256,7 +5257,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
-||sinaimg.cn/large/006CZIQPgw1faa7n9mlocg30jg01o0wr.gif
 ||sinaimg.cn/large/4bab3bccgw1fakos6x37xj20qe0akq7x.jpg
 ||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
 ||sinaimg.cn/large/5ff1c93agw1fbqnzzraosj205l02iaav.jpg
@@ -5275,7 +5275,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/eb52fa4bgw1f9l21uqgbnj20hs01omya.jpg
 ||sinaimg.cn/large/ed5e6a1dly1fbvwgnxd2cj20r808cajy.jpg
 ||sinaimg.cn/mw690/006pfRVrjw1f2mzpvp18jg305k05kgqg.gif
-||sinaimg.cn/mw690/006pfRVrjw1f61lg21i2jg304g0go76n.gif
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d74zmij.jpg
 ||sinaimg.cn/mw690/a6a976a2*j207e02a
@@ -6078,6 +6077,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||sinaimg.cn^$domain=qqxbt.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jitapu.com##A[href*=".taobao.com"]
