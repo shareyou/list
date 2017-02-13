@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0/ODbj32XgTzwVKhBW4oOw
+! Checksum: rltfkFHkLL/e7sUF1XixmA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702131230
-! Last Modified: 2017年02月13日 12:30
+! Version: 201702131900
+! Last Modified: 2017年02月13日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -4721,7 +4721,7 @@ mg*.6park.com/img/$image
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||miyun360.com/data/attachment/portal/
 ||mlbuy.com/gg.js
-||mm.wap.xxbiquge.com^
+||uuhh.wap.xxbiquge.com^
 ||mm387.com/images/*.gif
 ||mmtalk.net/images/banner
 ||mnw.cn/2015-11-05/g14.shtml
@@ -10689,6 +10689,7 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
+mrmad.com.tw#@##adsense
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
