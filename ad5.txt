@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ynGlQMnR5zvMewcUUUy+FA
+! Checksum: 02F2FDqdmlVK7hgF6kQhJQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702122230
-! Last Modified: 2017年02月12日 22:30
+! Version: 201702131030
+! Last Modified: 2017年02月13日 10:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -2737,6 +2737,7 @@ mg*.6park.com/img/$image
 ||969g.com/common/iframe/
 ||971abc.com/js/
 ||973.com/a/
+||973.com/static/js/pccom.js
 ||97aa1.com/g/
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
@@ -4506,6 +4507,7 @@ mg*.6park.com/img/$image
 ||ktzhk.com/file/adv/
 ||ku6.com^*/index.shtml
 ||ku6img.com/data1/p8/cms/2016/1/5/pic_1451965769733.png
+||kuaidi100.com/js/share/im.js
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuailiyu.com/templates/cyzonev3/js/m.js
@@ -5390,7 +5392,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2jw1eptzya6d9cj20go01odgn.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|234qyl.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff3.com|99re.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb66.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|qyle9.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff3.com|99re.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb66.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=btshoufa.net
 ||sinaimg.cn^*/7d1c8e$domain=d5yuansu.com
 ||sinaimg.cn^*/deco/$script
@@ -6184,11 +6186,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||973.com/static/js/pccom.js
-||kuaidi100.com/js/share/im.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-kaoyan1v1.com###showAD
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7264,6 +7263,7 @@ myqcloud.com###sharebtn > a
 hupu.com###shihuo1111
 hao123.com###shortcut-box > .tip
 hao123.com###shortcut-tuiguang
+kaoyan1v1.com###showAD
 chinaec.net###showEcAd
 100shuai.com###show_startgg
 hinews.cn###showgg
@@ -7903,7 +7903,7 @@ qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-234qyl.com,345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,xunleihd.com,yeeyi.com##.ads
+qyle9.com,345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -11234,7 +11234,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
-@@||ipip.net/ping.php?
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
@@ -11253,6 +11252,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hm.baidu.com^$domain=ihome99.com
+@@||ipip.net/ping.php?
 @@||jd.com/setCookie?
 @@||kfcorder.com.tw/web/Script/Analytics.js
 @@||lobi.co/1/track/event/
