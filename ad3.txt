@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dHIMNDF8VKRr1uQYhTxxcw
+! Checksum: /eaX1xaOkg1m/77I3uLTKQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702151000
-! Last Modified: 2017年02月15日 10:00
+! Version: 201702151030
+! Last Modified: 2017年02月15日 10:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -550,6 +550,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||mzy2014.com^$third-party
 .com/show?id=$script,third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -4381,8 +4382,6 @@ mg*.6park.com/img/$image
 ||kekenet.com/images/*/tom468X60.gif
 ||kekenet.com/Images/*/tom640X40.gif
 ||kekenet.com/images/*980
-||kekenet.com/images/*990
-||kekenet.com/images/2015/xuedou
 ||kelepan.com/cp
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
@@ -4390,8 +4389,6 @@ mg*.6park.com/img/$image
 ||kiees.cn/img/
 ||kikicici.com/up_files/2013-11-25/
 ||kikinote.net/iframe
-||kk55.net/beitou.js
-||klss.cn/jc/
 ||kmplayer.cn/include/jscript/*-a.js
 ||knnwdyou.com^
 ||kocpc.com.tw/adsbyso.js
@@ -6085,6 +6082,10 @@ mg*.6park.com/img/$image
 ||mydrivers.com/news/2017/pc_hsb_677_210.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ku6.com##.gg-img4
+ku6.com##.gg-img5
+ku6.com##.gg-img6
+ku6.com##.top-aku6
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7631,7 +7632,6 @@ tgbus.com##.ad86
 ifeng.com,laohe360.com,laohe360.net,sohu.com##.ad950
 pharmnet.com.cn##.ad950-t
 pharmnet.com.cn##.ad9502
-kumi.cn##.ad96060Box
 yaolan.com##.ad96090
 logo160.com##.ad9680
 danlan.org##.ad98090
@@ -8105,7 +8105,6 @@ aohua.com.au##.c_ad
 shangxueba.com##.c_user + .h20 + p
 3lian.com##.cal2
 duba.com##.car_ads
-kuaipan.cn##.card
 16888.com##.cardataclass
 sd173.com##.carousel
 baidu.com##.cbg-Ads
@@ -9360,7 +9359,6 @@ baidu.com##.spread-wrap
 2345.com##.spreadHotWords
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
 aisex.com##.sptable
-klss.cn##.stat8
 07073.com##.subarea_ad
 10jqka.com.cn##.subbanner
 cam4.tw##.subfoot-section
