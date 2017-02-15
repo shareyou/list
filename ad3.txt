@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: krCRf9kZ3hKET9Ld7E5t7g
+! Checksum: yS/enevA5urOKExQdT812A
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702151730
-! Last Modified: 2017年02月15日 17:30
+! Version: 201702151930
+! Last Modified: 2017年02月15日 19:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3006,7 +3006,6 @@ mg*.6park.com/img/$image
 ||bego.cc/img/
 ||beijing-air.com/images/a/j
 ||beiwo.tv/Runtime/js/list01.js
-||bejson.com^$image
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/mo/adm_iframe.htm?
 ||besc.baidustatic.com^
@@ -6085,6 +6084,8 @@ mg*.6park.com/img/$image
 ||lotpc.com/dedemao/js/articlebanner.js
 ||iplaypython.com/images/banner
 ||iplaypy.com/uploads/allimg/160127/2-16012G50U0c1.jpg
+||qq24h.com^$domain=bejson.com
+||sinaimg.cn^$domain=bejson.com
 !------------------------Specific element hiding rules------------------------!
 iplaypy.com##DIV[style*="width:336px;height:280px;"]
 gpcxw.com###AA2
@@ -9533,7 +9534,7 @@ qz828.com##.topadv
 itavcn.com##.topadvzone
 21ic.com,hao565.cn,pyccoo.cn,qq.com##.topbanner
 kocpc.com.tw##.topbarad
-bilibili.com##.topic-preview > li > a[href*="="]
+bilibili.com##.title > span > A[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
 makaidong.com##.topimg
