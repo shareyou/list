@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l36tOi2qmxmiVLD9HLV7OQ
+! Checksum: TzQXLZry1iS6pcGWEjAzhw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702181030
-! Last Modified: 2017年02月18日 10:30
+! Version: 201702181130
+! Last Modified: 2017年02月18日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -3504,7 +3504,6 @@ mg*.6park.com/img/$image
 ||ddooo.com/ddshow/
 ||ddshu.net/a_d_code/
 ||de.as.pptv.com^
-||dealmoon.com/hotdeals/
 ||dealmoon.com/images/n/creditcard-160.png
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/images/qcloud/
@@ -4261,7 +4260,6 @@ mg*.6park.com/img/$image
 ||img2.126.net^
 ||img2.e0575.com*/upload/image/
 ||img2.e0575.com//upload/adv/
-||img2.lanrenzhijia.com/demo
 ||img2.plures.net^*.gif
 ||img2.win007.com/image/*.jpg
 ||imgbus.com^$domain=88files.net|ref.so
@@ -4550,7 +4548,6 @@ mg*.6park.com/img/$image
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
 ||langya.cn/images/ad_down.js
-||lanrenzhijia.com/maiziedu2.jpg
 ||laod.*/wp-content/uploads/2015/11/1.jpg
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
@@ -4608,7 +4605,6 @@ mg*.6park.com/img/$image
 ||linuxeye.com/ad_buttom.html
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
-||linuxidc.com/linuxfile/y9.js
 ||liu16.com/sfvpnn.gif
 ||liu16.com/yuyue.jpg
 ||liveany.com/images/8d8d.gif
@@ -8933,7 +8929,6 @@ lywww.com##.lianmengclass
 zhidao.baidu.com##.link-banner
 m.qidian.com##.link_banner
 linux.cn##.linuxcnad
-linuxidc.com##.linuxy1
 news.ifeng.com##.list022
 niutuku.com##.listAD
 hljtv.com##.listAd1
