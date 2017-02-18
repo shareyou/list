@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AiUr4Ke0Nv8tG+GB9WEj/A
+! Checksum: JcIPjUHDMULhwatnYG5lfw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201702181730
-! Last Modified: 2017年02月18日 17:30
+! Version: 201702181900
+! Last Modified: 2017年02月18日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -924,6 +924,7 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.ad-below-related-post
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
@@ -4852,8 +4853,6 @@ mg*.6park.com/img/$image
 ||lianyexiuchang.cc/js/
 ||liao1.com/js/floatVideoAd.js
 ||liao1.com/publicize/file/news_detail_
-||liaoing.com/egou/
-||liaoing.com/image/picture_g/zhengzhou/index/*.swf
 ||liaoxuefeng.com/files/attachments/00144*/0
 ||liba.com/ads/
 ||licai18.com/bk/$object
@@ -4918,7 +4917,6 @@ mg*.6park.com/img/$image
 ||lzep.cn/ep/ads/
 ||lzep.cn/ep/js/index_window.js
 ||lzep.cn/ep/old/finance/ad
-||lzep.cn/ep/sda/*_1000x60_
 ||lzep.cn/images/*/ad
 ||lzep.cn^*/2014ad/
 ||lzqss.net/data/attachment/portal/
@@ -6520,7 +6518,7 @@ pchome.net###Daybuy
 qidian.com###DoublePop_left
 qidian.com###DoublePop_right
 dongfangtai.com###ETE
-house.shangdu.com,liaoing.com###FlatLayer
+house.shangdu.com###FlatLayer
 pcworld.com.cn,stnn.cc###FloatDIV
 chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
@@ -8028,7 +8026,7 @@ it.com.cn##.ad750
 8264.com##.ad780_80
 ting89.com##.ad8
 tgbus.com##.ad86
-ifeng.com,laohe360.com,laohe360.net,sohu.com##.ad950
+ifeng.com,sohu.com##.ad950
 pharmnet.com.cn##.ad950-t
 pharmnet.com.cn##.ad9502
 yaolan.com##.ad96090
