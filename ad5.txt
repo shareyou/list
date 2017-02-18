@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9oa9dg86SM7VSf6BVhojaA
+! Checksum: Ijuc5AYbtc58szncwAXNVA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702181930
-! Last Modified: 2017年02月18日 19:30
+! Version: 201702190730
+! Last Modified: 2017年02月19日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14728,6 +14728,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stat/inserthit.
 /stat/track.php?mode=js
 /stat/track_
+/stat/tracker.
 /stat/uvstat?
 /stat2.aspx?
 /stat2.js
@@ -14848,6 +14849,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tacoda.
 /tacoda_
 /TacodaFTT.
+/tag/tag.jsp?
 /TagCommander.cfc?
 /tagcommander/*
 /tagomnitureengine.js
@@ -15020,6 +15022,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking/addview/*
 /tracking/adobe.js
 /tracking/ads.
+/tracking/article/*
 /tracking/beacon/?
 /tracking/clicks
 /tracking/create?
@@ -15474,6 +15477,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?log_visibility=
 ?record&*&serve_js
 ?ref=*&itemcnt=
+?service=settrace&
 ?stwc_cz=
 ?target-ref=
 ?token=*&sessionid=*&visitorid=
@@ -16244,6 +16248,7 @@ _mongo_stats/
 ||explore-123.com^$third-party
 ||exposebox.com^$third-party
 ||extole.com^$third-party
+||extole.io^$third-party
 ||extreme-dm.com^$third-party
 ||eyein.com^$third-party
 ||ezec.co.uk^$third-party
@@ -17426,6 +17431,7 @@ _mongo_stats/
 ||triggertag.gorillanation.com^$third-party
 ||triggit.com^$third-party
 ||trkjmp.com^$third-party
+||trksrv44.com^$third-party
 ||trovus.co.uk^$third-party
 ||tru.am^$third-party
 ||truehits.in.th^$third-party
@@ -18486,6 +18492,7 @@ _mongo_stats/
 ||akamai.net^*/sitetracking/
 ||akanoo.com/tracker/
 ||akatracking.esearchvision.com^
+||aklamio.com/ovlbtntrk?
 ||aksb-a.akamaihd.net^
 ||alenty.com/trk/
 ||alexa.com/traffic/
@@ -19346,6 +19353,7 @@ _mongo_stats/
 ||log.adap.tv^$object-subrequest
 ||log.ideamelt.com^
 ||log.invodo.com^
+||log.kcisa.kr^
 ||log.kibboko.com^
 ||log.kukuplay.com^$third-party
 ||log.liverail.com^
@@ -22259,6 +22267,7 @@ _mongo_stats/
 ||redtube.com/trackimps
 ||redtube.com/trackplay?
 ||redtube.com^*/jscount.php
+||refer.evine.com^
 ||reference.com/track/
 ||refinery29.com/api/stats?
 ||register.it/scripts/track_
@@ -23137,6 +23146,7 @@ _mongo_stats/
 ||aol.de/track/
 ||arlt.com^*/econda/
 ||arte.tv^*=countstats,
+||as.base.de^
 ||banner.t-online.de^$image
 ||baur.de/servlet/LandmarkServlet?
 ||beacon.gutefrage.net^
@@ -23231,6 +23241,7 @@ _mongo_stats/
 ||homepage-baukasten.de/cookie.php?
 ||horizont.net/stats/
 ||ht4u.net^*/blackpixel2.php
+||is.base.de^
 ||jobanova.de/stats.php?
 ||jolie.de^*/pic.gif?
 ||k-files.de/screen.js
@@ -23401,6 +23412,7 @@ _mongo_stats/
 ||lecho.be/fb/?
 ||lemde.fr^*/metrics/
 ||lemde.fr^*/tracking/
+||logs-qos.tf1.fr^
 ||nouvelobs.com/scripts/stats.php?
 ||nouvelobs.com/tools/csrum.php
 ||nouvelobs.com/trafiz-
