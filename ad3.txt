@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q3P31KgKgEj1vpQ0/34APQ
+! Checksum: USt73LREFcIPWmVA9O2dXg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702181900
-! Last Modified: 2017年02月18日 19:00
+! Version: 201702181930
+! Last Modified: 2017年02月18日 19:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -3717,7 +3717,7 @@ mg*.6park.com/img/$image
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
 ||gaofen.com/source/plugin/gaofen_ad/
-||gaoqingkong.com/images/bann.jpg$~collapse
+||gaoqingkong.com/images/bann$~collapse
 ||gaoqingkong.com/images/body.jpg$~collapse
 ||gaoqingkong.com/uploads/2017/01/384ee4680f2d755cfd0c177bf1f2bcaa.png$~collapse
 ||gaoqingkong.com/wp-content/themes/Loostrive/images/body.jpg
@@ -5285,7 +5285,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
-||sinaimg.cn/large/eb52fa4bgw1f9l21uqgbnj20hs01omya.jpg
 ||sinaimg.cn/large/ed5e6a1dly1fbvwgnxd2cj20r808cajy.jpg
 ||sinaimg.cn/mw690/006pfRVrjw1f2mzpvp18jg305k05kgqg.gif
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
@@ -6100,6 +6099,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn^$domain=avtb55.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hexieshe.com,xxshe.com##A[href*=".gameduchy.cn"]
 tuku.cc###box
 tuku.cc###clickbgRight
 tuku.cc###clickbgleft
@@ -9746,7 +9746,7 @@ meili.cn##.zw_300_ad
 iqiyi.com##.zzVideo
 v7v3.com##.zzsl
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
-www.bilibilijj.com,www.jiji.party##:not(form):not(textarea):not(br):not(canvas):not(html):not(body):not(div):not(img):not(input):not(a):not(span):not(iframe):not(ul):not(li):not(.BGZZ)
+www.bilibilijj.com,www.jiji.party,www.jijidown.com##:not(form):not(textarea):not(br):not(canvas):not(html):not(body):not(div):not(img):not(input):not(a):not(span):not(iframe):not(ul):not(li):not(.BGZZ)
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 zdfans.com##A[href="http://t.cn/zOPcnAI"]
@@ -10235,8 +10235,8 @@ buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 580k.com##div[style="width: 300px; height: 250px; float: left; margin:18px 10px 5px;border:solid 1px #ddd"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
-bilibilijj.com,jiji.party##div[style="width: 500px;"]:last-child
-jiji.party##div[style="width: 525px;"]:last-child
+bilibilijj.com,jiji.party,jijidown.com##div[style="width: 500px;"]:last-child
+jiji.party,jijidown.com##div[style="width: 525px;"]:last-child
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 bilibilijj.com##div[style="width: 676px;"]:last-child
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
@@ -10595,6 +10595,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||csdn.net/static/static/js/apps/popShow.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
