@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZS4AXCBgBEaizl6j9w/VFQ
+! Checksum: 8k9+U0TBKQafxdDaVo89Sg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702192300
-! Last Modified: 2017年02月19日 23:00
+! Version: 201702200730
+! Last Modified: 2017年02月20日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12720,6 +12720,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ablank.gif?
 /aby.gif?
 /acbeacon2.
+/accAnal.js
 /AccessCounter/*
 /AccessTrackingLogServlet?
 /acclog.cgi?
@@ -12733,6 +12734,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /activity-track/?
 /activity.gif?
 /ad_1_trans.
+/ad_imp.
 /adam.js
 /adb/track.php?
 /AdCount/*
@@ -12749,6 +12751,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /addrtlog/*
 /adds/counter.js
 /addTrackingScripts.
+/adimp?
 /adimppixel/*
 /adinteraction/*
 /adlogger.
@@ -12836,7 +12839,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /analyse.js
 /analysis-logger/*
 /analytic/count.
-/analytic/view.gif?
 /analytic_data_
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
@@ -12918,6 +12920,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analyticstracking_
 /analyticstrain-
 /analyticsUnitaire?
+/analyze.js
 /analyzer.gif?
 /analyzer2.
 /anametrix.js
@@ -12944,6 +12947,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /apixel?
 /appendOmnitureTracking.
 /AppMeasurement.js
+/aqtag.
 /argtk.min.
 /arstat?
 /article_counter.php?
@@ -13347,8 +13351,10 @@ weibo.com##.apps_PCD_reco_detail_right
 /custom-tracking.
 /CustomTrackingScript.
 /cwTRACK.js
+/cx-video-analytics.js
 /cx_tracking.js
 /cXense-Analytics-
+/cxense-video/*
 /cxense/cx.js
 /cyberestat/*
 /dart_wrapper.html?
@@ -13680,6 +13686,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /google_page_track
 /google_tracker.
 /googleana.
+/googleAnal.js
 /GoogleAnalystics.
 /googleanalytics-
 /googleanalytics.js
@@ -13805,6 +13812,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /imp.gif?
 /imp.php?
 /imp/a.gif?
+/imp/ad_
 /imp2.js?
 /imp?imgid=
 /imp_cnt.gif?
@@ -13844,6 +13852,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /init_cookie.php?
 /inpl.measure.
 /insert_impressions.
+/InsightTrk/*
 /insightXe.js
 /insitemetrics/*
 /InstantTracking.
@@ -13930,6 +13939,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /kelkooSponsoredLinks.
 /keywordlogger.
 /kGoogleAnalytics.js
+/khan_analystics.js
 /kissmetrics.
 /kissmetrics/*
 /KISSmetricsTrackCode.
@@ -14964,6 +14974,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracker-ev-sdk.js
 /tracker-pb-min-rem.js
 /tracker-r1.js
+/tracker.do?
 /tracker.js.php?
 /tracker.json.php?
 /tracker.log?
@@ -15224,8 +15235,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /VideoTracking.
 /videotracking/*
 /vidtrack.
-/view.gif?c=
-/view.gif?page=
+/view.gif?
 /view_stats.js.php
 /ViewCounter/*
 /viewcounterjqueryproxy.
@@ -15311,6 +15321,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /weblog.*?cookie
 /weblog.js?
 /weblog.php?
+/weblog/*
 /WebLogScript.
 /WebLogWriter.
 /webmetricstracking.
@@ -16804,6 +16815,7 @@ _mongo_stats/
 ||netclickstats.com^$third-party
 ||netflame.cc^$third-party
 ||netgraviton.net^$third-party
+||netinsight.co.kr^$third-party
 ||netmining.com^$third-party
 ||netmng.com^$third-party
 ||netratings.com^$third-party
@@ -16983,6 +16995,7 @@ _mongo_stats/
 ||pstats.com^$third-party
 ||psyma-statistics.com^$third-party
 ||ptengine.com^$third-party
+||ptengine.jp^$third-party
 ||pto-slb-09.com^$third-party
 ||ptp123.com^$third-party
 ||ptrk-wn.com^$third-party
@@ -18165,6 +18178,7 @@ _mongo_stats/
 ||wstatslive.com^$third-party
 ||zt-dst.com^$third-party
 ||a-cast.jp^$third-party
+||bb-analytics.jp^$third-party
 ||beanscattering.jp^$third-party
 ||blogranking.net^$third-party
 ||cosmi.io^$third-party
@@ -18180,11 +18194,11 @@ _mongo_stats/
 ||mobylog.jp^$third-party
 ||omiki.com^$third-party
 ||owldata.com^$third-party
-||ptengine.jp^$third-party
 ||research-artisan.com^$third-party
 ||rtoaster.jp^$third-party
 ||sibulla.com^$third-party
 ||trackfeed.com^$third-party
+||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
 ||logger.co.kr^$third-party
 ||recobell.io^$third-party
@@ -19308,6 +19322,7 @@ _mongo_stats/
 ||keywee.co/analytics.js?
 ||keyword.daumdn.com^
 ||kiwari.com^*/impressions.asp?
+||kmib.co.kr/ref/
 ||l-host.net/etn/omnilog?
 ||l.coincident.tv^
 ||l.fairblocker.com^$third-party
@@ -20659,6 +20674,7 @@ _mongo_stats/
 ||yahoo.co.jp/js/retargeting.js
 ||yahoo.co.jp/js/s_retargeting.js
 ||180.70.93.115/ndmclick/$domain=~daum.ip
+||analyzer.livere.com^
 ||cafe24.com/weblog.js
 ||tracking.adweb.co.kr^$third-party
 ||counter.hackers.lv^
@@ -21656,6 +21672,7 @@ _mongo_stats/
 ||hexus.net/trk/$image
 ||higheredjobs.com/ClickThru/
 ||hitcount.heraldm.com^
+||hitweb2.chosun.com^
 ||hobsons.co.uk^*/WebBeacon.aspx?
 ||holiday-rentals.co.uk/thirdparty/tag
 ||holiday-rentals.co.uk^*/tracking-home.html
@@ -21798,6 +21815,7 @@ _mongo_stats/
 ||jobthread.com/t/
 ||johansens.com^*/LogPageView
 ||joins.com/hc.aspx?
+||joins.com^*/JTracker.js?
 ||jokeroo.com/i/.gif
 ||jpmorgan.co.uk/tagging/
 ||jtv.com^*/__analytics-tracking?
@@ -23712,6 +23730,9 @@ _mongo_stats/
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
 ||mainichi.jp^*/null.gif?
+||mtc.nhk.or.jp^
+||nhk.or.jp^*/bc.js
+||sankei.co.jp/js/analytics/
 ||seesaawiki.jp/img/rainman.gif?
 ||visit.geocities.jp^
 ||yahoo.co.jp/b?p=
@@ -23720,9 +23741,10 @@ _mongo_stats/
 ||count.munhwa.com^
 ||gather.hankyung.com^
 ||hits.zdnet.co.kr^
-||hitweb2.chosun.com^
 ||lcs.naver.com^
 ||naver.com/PostView.nhn?$image
+||track.tiara.daum.net^
+||veta.naver.com^
 ||ytn.co.kr/_comm/ylog.php?
 ||cv.ee/static/stat.php
 ||delfi.lv/t/p.js
