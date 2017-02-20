@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IKQ3yT24RTh/mRjiuKDSew
+! Checksum: P9iqNA88/ybHnUcG3Lh9tw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702201230
-! Last Modified: 2017年02月20日 12:30
+! Version: 201702201830
+! Last Modified: 2017年02月20日 18:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15443,6 +15443,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /zemtracker.
 /zonapixel.
 /zone-log.
+/ztagtrackedevent/*
 /~r/Slashdot/slashdot/*
 /~utm_gif?
 ://adclear.*/acc?
@@ -24066,7 +24067,7 @@ _mongo_stats/
 @@||cloudflare.com/analytics?$domain=cloudflare.com
 @@||cloudflare.com^*/angulartics-google-analytics.min.js$domain=chromeexperiments.com
 @@||cloudfront.net/assets/js/comscore_beacon.js?$domain=zap2it.com
-@@||cloudfront.net/atrk.js$domain=karnaval.com|livestream.com|luxuryrealestate.com
+@@||cloudfront.net/atrk.js$domain=eatthis.com|karnaval.com|livestream.com|luxuryrealestate.com
 @@||cloudfront.net/bugsnag-*.min.js$domain=splice.com|storenvy.com|tvguide.com
 @@||cloudfront.net/js/reach.js$domain=zap2it.com
 @@||cloudfront.net/mngr/$script,domain=theladbible.com
@@ -24251,6 +24252,7 @@ _mongo_stats/
 @@||keremerkan.net/wp-content/plugins/wp-minify/min/*/google-analyticator/
 @@||koalabeast.com/stats?$script
 @@||koldcast.tv/mint/*/tracker.php?
+@@||krxd.net/controltag?$script,domain=eatthis.com
 @@||krxd.net^$script,domain=nbcnews.com
 @@||l.yimg.com/g/combo/*/comscore.$script
 @@||latimes.com/hive/javascripts/loggingService.js
