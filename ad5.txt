@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P9iqNA88/ybHnUcG3Lh9tw
+! Checksum: G+Ldm9vCGBDYlAAy9c8exg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702201830
-! Last Modified: 2017年02月20日 18:30
+! Version: 201702201900
+! Last Modified: 2017年02月20日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12949,6 +12949,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /aqtag.
 /argtk.min.
 /arstat?
+/Article/ViewCount/*
 /article_counter.php?
 /article_hit.php?
 /ArticleCounterLogger.
@@ -16247,6 +16248,7 @@ _mongo_stats/
 ||europuls.eu^$third-party
 ||europuls.net^$third-party
 ||evanetpro.com^$third-party
+||eventoptimize.com^$third-party
 ||everestjs.net^$third-party
 ||everesttech.net^$third-party
 ||evergage.com^$third-party
@@ -16398,6 +16400,7 @@ _mongo_stats/
 ||google-analytics.com/collect
 ||google-analytics.com/cx/api.js
 ||google-analytics.com/ga_exp.js
+||google-analytics.com/gtm/js?
 ||google-analytics.com/internal/analytics.js
 ||google-analytics.com/internal/collect^
 ||google-analytics.com/plugins/
@@ -23996,6 +23999,7 @@ _mongo_stats/
 @@||atpworldtour.com/assets/js/util/googleAnalytics.js
 @@||att.com/webtrends/scripts/dcs_tag.js
 @@||autoscout24.net/unifiedtracking/ivw.js
+@@||azure.com/api/*/analytics/$~third-party,xmlhttprequest
 @@||azureedge.net/trackmeet-profilepicture/$image,domain=gotrackmeet.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
 @@||b-europe.com/HttpHandlers/httpCombiner.ashx?*/xiti.js$script
