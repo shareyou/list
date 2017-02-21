@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rFlr828RKd5bg7bOKDJI3w
+! Checksum: 8JMOCEGDt8sy+TtnQnfJSA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702212330
-! Last Modified: 2017年02月21日 23:30
+! Version: 201702220730
+! Last Modified: 2017年02月22日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15323,7 +15323,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /weblog.*?cookie
 /weblog.js?
 /weblog.php?
-/weblog/*
+/weblog/*&refer=
+/weblog_*&wlog_
 /WebLogScript.
 /WebLogWriter.
 /webmetricstracking.
@@ -23749,6 +23750,7 @@ _mongo_stats/
 ||hits.zdnet.co.kr^
 ||lcs.naver.com^
 ||naver.com/PostView.nhn?$image
+||seoul.co.kr/weblog/
 ||track.tiara.daum.net^
 ||veta.naver.com^
 ||ytn.co.kr/_comm/ylog.php?
@@ -24058,7 +24060,7 @@ _mongo_stats/
 @@||cdn-redfin.com^*/page_analytics.xd.js
 @@||cdn-redfin.com^*/PixelTracking.js$domain=redfin.com
 @@||cdn.cxense.com/cx.js$domain=channelnewsasia.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|dramafever.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com
+@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|dramafever.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|planetromeo.com|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com
 @@||centurylink.net/images/track/track.gif?track=$xmlhttprequest
 @@||chanel.com/js/chanel-tracking.js$script
 @@||chartbeat.com/*/chartbeat/$~third-party
