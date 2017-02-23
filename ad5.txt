@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sScv82+LPkZwVmS1RjfTKA
+! Checksum: MPDrVY2K9BEFMS1hIOA+/g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702240000
-! Last Modified: 2017年02月24日 00:00
+! Version: 201702240730
+! Last Modified: 2017年02月24日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -17557,6 +17557,8 @@ _mongo_stats/
 ||verticalscope.com^$third-party
 ||verticalsearchworks.com^$third-party
 ||vertster.com^$third-party
+||video.oms.eu^$third-party
+||videos.oms.eu^$third-party
 ||videostat.com^$third-party
 ||vinlens.com^$third-party
 ||vinub.com^$third-party
@@ -17985,8 +17987,6 @@ _mongo_stats/
 ||up-rank.com^$third-party
 ||urstats.de^$third-party
 ||verypopularwebsite.com^$third-party
-||video.oms.eu^$third-party
-||videos.oms.eu^$third-party
 ||viewar.org^$third-party
 ||vinsight.de^$third-party
 ||visitor-stats.de^$third-party
@@ -19367,6 +19367,7 @@ _mongo_stats/
 ||keyword.daumdn.com^
 ||kiwari.com^*/impressions.asp?
 ||kmib.co.kr/ref/
+||kununu.com^*/tracking/
 ||l-host.net/etn/omnilog?
 ||l.coincident.tv^
 ||l.fairblocker.com^$third-party
@@ -23021,6 +23022,7 @@ _mongo_stats/
 ||xhcdn.com/js/analytics.js?
 ||xhcdn.com/js/track.min.js?
 ||xing.com/collect/
+||xing.com/logjam/
 ||xnxx.com/in.php?referer
 ||yahoo.com/__perf_log_
 ||yahoo.com/_td_api/beacon/
