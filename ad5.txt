@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zvfVINKwULCnvBdl7aYzHg
+! Checksum: 5IAJxfSU9miqce+aQBefiw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702231930
-! Last Modified: 2017年02月23日 19:30
+! Version: 201702232230
+! Last Modified: 2017年02月23日 22:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -663,6 +663,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||dgpzx.com^
 ||njdijiani.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -12886,6 +12887,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics.php?
 /analytics.swf?
 /analytics.v1.js
+/analytics/*satellitelib.js
 /analytics/activity.
 /analytics/cms/*
 /analytics/core.
@@ -18885,6 +18887,7 @@ _mongo_stats/
 ||cnpapers.com/scripts/library/
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
+||cnzz.com/stat.
 ||coinbase.com/assets/application-*.js$third-party
 ||collect.igodigital.com^
 ||collect.rewardstyle.com^
@@ -23531,7 +23534,6 @@ _mongo_stats/
 ||cdn.baidupcs.com/monitor.jpg?
 ||clkstat.qihoo.com^
 ||cmstool.youku.com^
-||cnzz.com/stat.
 ||collect.tianya.cn^
 ||count.joy.cn^
 ||count.kandian.com^$object-subrequest
