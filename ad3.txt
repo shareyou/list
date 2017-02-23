@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F1ZWIKAUWA/p422mFcSICw
+! Checksum: /S/LEAQPh3gJldINjkKAmg
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702232330
-! Last Modified: 2017年02月23日 23:30
+! Version: 201702240000
+! Last Modified: 2017年02月24日 00:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -546,6 +546,7 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.gpt_ads_box
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
@@ -8551,7 +8552,6 @@ techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
 tiexue.net##.gousi
 mzyfz.com##.gov_article_banner
-weekendhk.com##.gpt_ads_box
 owyb1688.com##.gray-show
 jiaodong.net##.grayB
 loldk.com##.grid-adv
@@ -10622,6 +10622,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 10jqka.com.cn#@#.ad_1
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@/nmg-lazy-load/assets/js/adgpt.js$domain=gotrip.hk|weekendhk.com
 @@||gaoqingkong.com/ads/300x250.js
 @@/adview_pic_$domain=meijukankan.net
 @@.adserver.$domain=litv.tv
