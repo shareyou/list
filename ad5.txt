@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5IAJxfSU9miqce+aQBefiw
+! Checksum: qkD55CBJ6sRVOiunzC36Yw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702232230
-! Last Modified: 2017年02月23日 22:30
+! Version: 201702232330
+! Last Modified: 2017年02月23日 23:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -664,6 +664,8 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 &par=
 ||dgpzx.com^
+||iuuff.com^
+||dante2007.com^
 ||njdijiani.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -6221,6 +6223,9 @@ mg*.6park.com/img/$image
 ||i-gamer.net^$domain=cartonmad.com
 ||gasaq.com/public/flash/
 ||sinaimg.cn^$domain=99ff4.com
+||733dm.net/skin/footer.js
+||733dm.net/skin/middle.js
+||chinauui.com/fumeiti.js
 !------------------------Specific element hiding rules------------------------!
 cartonmad.com##TABLE[width="728"][height="110"]
 gpcxw.com###AA2
@@ -12642,6 +12647,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .html?wpl=
 .idge/js/analytics/
 .in/c.gif?
+.inc.php?
 .io/0.gif?
 .io/track?
 .io/w.gif?
@@ -12674,6 +12680,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .php?logRefer=
 .php?logType=
 .php?p=stats&
+.php?ref=
 .php?refcode=
 .php?tracking=
 .PixelNedstatStatistic/
@@ -12793,6 +12800,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /adrum-
 /adrum.
 /ads/track/*
+/ads?cookie_
 /ads_tracker.
 /ads_tracking.
 /adsct?
@@ -14389,6 +14397,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pixel.php?
 /pixel.png?
 /pixel.swf?
+/pixel.track2?
 /pixel.track?
 /pixel/?__tracker
 /pixel/img/*
@@ -14885,6 +14894,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /syndstats.
 /szm_mclient.js
 /t-richrelevance-
+/t.*?ref=
 /tacoda.
 /tacoda_
 /TacodaFTT.
@@ -15858,6 +15868,7 @@ _mongo_stats/
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
 ||b1img.com^$third-party
+||b1js.com^$third-party
 ||b2c.com^$third-party
 ||babator.com^$third-party
 ||bam-x.com^$third-party
@@ -19711,7 +19722,7 @@ _mongo_stats/
 ||rackcdn.com/icon2.gif?
 ||rackcdn.com/knotice.api.js
 ||rackcdn.com/stf.js
-||rackcdn.com^$script,domain=buysubscriptions.com|cbsnews.com|cbssports.com|cnet.com|dailystar.co.uk|express.co.uk|gamerant.com|gamespot.com|inyt.com|metacritic.com|metrolyrics.com|page3.com|rotoworld.com|sh.st|thesun.co.uk|thesun.ie|thesundaytimes.co.uk|thetimes.co.uk|zdnet.com
+||rackcdn.com^$script,domain=buysubscriptions.com|cbsnews.com|cbssports.com|cnet.com|dailystar.co.uk|express.co.uk|gamerant.com|gamespot.com|giantbomb.com|inyt.com|metacritic.com|metrolyrics.com|page3.com|rotoworld.com|sh.st|thesun.co.uk|thesun.ie|thesundaytimes.co.uk|thetimes.co.uk|zdnet.com
 ||rackcdn.com^*/analytics.js
 ||radiocompanion.com/count.php?
 ||ramp.purch.com^
