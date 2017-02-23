@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PH5RxFXS37sf+nCAjQBsgw
+! Checksum: kVMx69RtUF36auJTecBdQQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702231100
-! Last Modified: 2017年02月23日 11:00
+! Version: 201702231130
+! Last Modified: 2017年02月23日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5394,7 +5394,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
-||sinaimg.cn/large/00637iPCgw1fb1vmkkrvng308c08cto6.gif
+||sinaimg.cn/large/*.gif$domain=mp4ba.la
 ||sinaimg.cn/large/0066A9h6gw1fbdmctew4cg30qo028agm.gif
 ||sinaimg.cn/large/4bab3bccgw1fakos6x37xj20qe0akq7x.jpg
 ||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
@@ -10718,6 +10718,7 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
+10jqka.com.cn#@#.ad_1
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@/adview_pic_$domain=meijukankan.net
