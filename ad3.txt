@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Go2MuwLXakxMOouo+yEWxQ
+! Checksum: B9ptfNQxy/YIKLMczuin7Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201702240900
-! Last Modified: 2017年02月24日 09:00
+! Version: 201702240930
+! Last Modified: 2017年02月24日 09:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -552,6 +552,7 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
+||imneinei.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -10672,10 +10673,10 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img_ad/*$domain=tkec.com.tw|yy960.com
 @@/js/ad_test.js$domain=coladrive.com|colayun.com
-@@/LoadAds.$domain=webcars.com.cn
+@@/Loadads.$domain=webcars.com.cn
 @@/mobileads.$domain=naviking.localking.com.tw
-@@/nmg-lazy-load/assets/js/adgpt.js$domain=gotrip.hk|weekendhk.com
-@@/PIC/AD/*$domain=ybjk.com
+@@/adgpt.js$domain=gotrip.hk|weekendhk.com
+@@/pic/ad/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net
 @@/pop.php?id=$domain=videomega.tv
 @@/popunderv2.$domain=up2stream.com
@@ -11624,6 +11625,7 @@ _300_250.
 /z.zolapp.
 /tencentvideo/script/webtips/*
 /loooyu.js
+/wp-content/plugins/upprev/*
 !------------------------General element hiding rules-------------------------!
 ###windlocation
 ###qrcodeWrap
@@ -11632,6 +11634,7 @@ _300_250.
 ###SOHU_MAIN > .module-cmt-float-bar
 ###appBottomIn
 ###appIn
+###upprev_box
 !-----------------------------Union&third-party-------------------------------!
 ||knet.cn^$third-party
 ||pop800.com^$third-party
