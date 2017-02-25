@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /Xo6slHIQzVdwRaFK9r3VQ
+! Checksum: I3oq/kty+MIFxP7gisteIQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702252230
-! Last Modified: 2017年02月25日 22:30
+! Version: 201702260730
+! Last Modified: 2017年02月26日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12711,6 +12711,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .webstats.
 /!crd_prm!.
 //feedproxy.*/~r/*$image
+/0.png?ver=
 /0pixel.php?
 /1px.php?
 /1x1.gif?browser
@@ -15016,6 +15017,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracker.pl?
 /tracker.tsp?
 /tracker/event?
+/tracker/eventBatch/*
 /tracker/imp?
 /tracker/index.jsp?
 /tracker/log?
@@ -15167,6 +15169,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tradelab.js
 /traffic.asmx/*
 /traffic/status.gif?
+/traffic/track^
 /traffic4u.
 /traffic_link_client.php?
 /traffic_record.php?
@@ -15303,6 +15306,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /VisitorAPI.js
 /visitorCookie.
 /VisitorIdentification.js
+/visitortrack?
 /visitortracker.pl?
 /visits_contor.
 /VisitSite.js
@@ -15381,6 +15385,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /WebTrackingHandler.
 /webtraffic.js
 /webtraxs.
+/WebTrendsAnalytics/*
 /wego.farmer.
 /wf/open?upn=$image
 /where-go-add.js
@@ -15467,6 +15472,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ybn_pixel/*
 /yell-analytics-
 /yell-analytics.
+/youtube-track-event_
 /ystat.do
 /ystat.js
 /YuduStatistics/*
@@ -16448,6 +16454,7 @@ _mongo_stats/
 ||gopjn.com^$third-party
 ||gosquared.com^$third-party
 ||gostats.com^$third-party
+||gostats.org^$third-party
 ||gostats.ro^$third-party
 ||govmetric.com^$third-party
 ||grapheffect.com^$third-party
@@ -16733,6 +16740,7 @@ _mongo_stats/
 ||market2lead.com^$third-party
 ||marketizator.com^$third-party
 ||marketo.net^$third-party
+||markitondemand.com^$third-party
 ||martianstats.com^$third-party
 ||masterstats.com^$third-party
 ||matheranalytics.com^$third-party
@@ -18744,6 +18752,7 @@ _mongo_stats/
 ||beacon.sojern.com^
 ||beacon.squixa.net^
 ||beacon.thred.woven.com^
+||beacon.viewlift.com^
 ||beacon2.indieclick.com^
 ||beacon2.indieclicktv.com^$third-party
 ||beacons.brandads.net^
@@ -19139,6 +19148,7 @@ _mongo_stats/
 ||eventlog.inspsearch.com^
 ||eventlog.inspsearchapi.com^
 ||events.eyeviewdigital.com^*.gif?r=
+||events.izooto.com^
 ||events.jotform.com^
 ||events.marquee-cdn.net^
 ||events.medio.com^
@@ -21400,6 +21410,7 @@ _mongo_stats/
 ||derkeiler.com/gam/tag.js
 ||designtaxi.com/tracker.php
 ||despegar.com/t?
+||desr.fkapi.net^
 ||destructoid.com/img2.phtml?
 ||diag.doba.com^
 ||dictionary.com/track/
@@ -21567,6 +21578,7 @@ _mongo_stats/
 ||fool.com/tracking/
 ||forbes.com/fps/cookie_backup.php?
 ||forbes.com^*/track.php?
+||forbesimg.com/assets/js/forbes/fast_pixel.js
 ||ford.com/ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
 ||ford.com/ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
 ||fotothing.com/space.gif?
