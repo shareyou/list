@@ -6,13 +6,13 @@
             <RDF:Seq>
                 <RDF:li>
                     <RDF:Description>
-                        <em:version>16.10.22.01</em:version>
+                        <em:version>17.02.26.12</em:version>
                         <em:targetApplication>
                             <RDF:Description>
                                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                                 <em:minVersion>10.0</em:minVersion>
                                 <em:maxVersion>54.0a1</em:maxVersion>
-                                <em:updateLink>https://git.oschina.net/halflife/xpi/raw/master/acvaa-16.10.22.01-signed.xpi</em:updateLink>
+                                <em:updateLink>https://git.oschina.net/halflife/xpi/raw/master/acvaa-17.02.26.12-signed.xpi</em:updateLink>
                             </RDF:Description>
                         </em:targetApplication>
                     </RDF:Description>
