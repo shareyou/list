@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CmmWDzhRs2vAMGpYx8BCVw
+! Checksum: VHYtgqLyuDy4CZi1fmgmtw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702262330
-! Last Modified: 2017年02月26日 23:30
+! Version: 201702270730
+! Last Modified: 2017年02月27日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -662,10 +662,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||2f.com^$third-party
-||topqualitylink.com^
-||junfull.com^
-/s/js/fshow.js$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -719,6 +715,7 @@ _popAds.
 /pd2.js$third-party
 /pge/?s=$third-party
 /s/i.php?id=$script,third-party
+/s/js/fshow.js$third-party
 /showpage2.asp?u=$script,third-party
 /svr/popwin.aspx?$third-party
 /tourl.html?url=
@@ -833,6 +830,7 @@ ubmcmm.baidustatic.com
 ||268mob.cn^
 ||272xb.com^
 ||28acglz.com^
+||2f.com^$third-party
 ||2m2n.com^
 ||321tui.cn^$third-party
 ||321tui.com^$third-party
@@ -1422,6 +1420,7 @@ ubmcmm.baidustatic.com
 ||juandou.com^$third-party
 ||juejdkio.com^$third-party
 ||juhepen.com^$third-party
+||junfull.com^
 ||junnew.com^$third-party
 ||jusha.com^$third-party
 ||jwqj.net^
@@ -1736,6 +1735,7 @@ ubmcmm.baidustatic.com
 ||toourbb.com^
 ||top267.com^
 ||top888.com^$third-party
+||topqualitylink.com^
 ||touchrom.com^$third-party
 ||toufangke.com^$third-party
 ||toy9090.com^$third-party
@@ -6221,8 +6221,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-my0538.com##.duilian
-btime.com##.business-box
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8228,6 +8226,7 @@ aizhan.com##.btn
 cssmoban.com##.btn-host
 17173.com,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
+btime.com##.business-box
 ipeen.com.tw##.buttom_special_AD-root
 zealer.com##.buy_container
 sogou.com##.buy_mxx
@@ -8408,7 +8407,7 @@ yxzoo.com##.downgg
 p2peye.com##.drag + .mod-side:nth-child(4)
 top81.com.cn##.dsmain_jph
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
-2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,ofweek.com,silver.org.cn,sjzbus.com.cn,ttmeiju.com,wendu.cn##.duilian
+2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,sjzbus.com.cn,ttmeiju.com,wendu.cn##.duilian
 hnr.cn##.duilian_close
 0772fang.com##.duilian_l
 0772fang.com##.duilian_r
@@ -12621,7 +12620,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .html?wpl=
 .idge/js/analytics/
 .in/c.gif?
-.inc.php?
 .io/0.gif?
 .io/track?
 .io/w.gif?
@@ -12723,6 +12721,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /a.php?ref=
 /aa.php?anuid=
 /ablank.gif?
+/abp-analytics.
 /aby.gif?
 /acbeacon2.
 /accAnal.js
@@ -12774,6 +12773,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /adplogger/
 /adrum-
 /adrum.
+/ads/counter.
 /ads/track/*
 /ads?cookie_
 /ads_tracker.
@@ -12882,6 +12882,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /Analytics/Google.
 /analytics/gw.
 /analytics/hit
+/analytics/hmac-
 /analytics/idg_
 /analytics/js/*
 /analytics/mbox.js
@@ -12997,6 +12998,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /aw-tracker.
 /awAnalytics.
 /awesc.php?
+/aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
 /aztrack.
@@ -13256,6 +13258,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cognitive_match/*
 /collect/kf?
 /collect?callback=
+/collect_data.php?
 /collection.php?data=
 /collector/*/*?*&euidl=*&url=
 /collector/hit?
@@ -14216,6 +14219,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ntpagetag_
 /ntpagetaghttps.
 /ntrack.asp?
+/null.gif?
 /numericAnalyticsFramework.
 /oas_analytics.
 /object_stats.
@@ -14535,6 +14539,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /RemoteTargetingService.
 /remoteTrackingManager.cfc?*trackPage&
 /render?trackingId=
+/report-re.
 /report?event_
 /reporting/analytics.js
 /RequestTrackerServlet?
@@ -15454,6 +15459,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ystat.do
 /ystat.js
 /YuduStatistics/*
+/z.inc.php?
 /zag.gif?
 /zagcookie.
 /ZagUser.js
@@ -16199,6 +16205,7 @@ _mongo_stats/
 ||dv0.info^$third-party
 ||dwin1.com^$third-party
 ||dwin2.com^$third-party
+||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
 ||e-pagerank.net^$third-party
 ||e-referrer.com^$third-party
@@ -16827,6 +16834,7 @@ _mongo_stats/
 ||navegg.com^$third-party
 ||navilytics.com^$third-party
 ||naytev.com^$third-party
+||ndf81.com^$third-party
 ||ndg.io^$third-party
 ||neatstats.com^$third-party
 ||nedstat.com^$third-party
@@ -19309,6 +19317,7 @@ _mongo_stats/
 ||ind.sh/view.php?$third-party
 ||infinityid.condenastdigital.com^
 ||infogr.am/logger.php?
+||informer.yandex.ru^
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
 ||inphonic.com/tracking/
@@ -20284,6 +20293,7 @@ _mongo_stats/
 ||yimg.com/wi/ytc.js
 ||yimg.com^*/l?ig=$image
 ||ypcdn.com/*/webyp?
+||ys.ddns.me^
 ||ywxi.net/meter/
 ||zdlogs.sphereup.com^
 ||zemanta.com/reblog_*.png$image,third-party
@@ -20924,6 +20934,7 @@ _mongo_stats/
 ||abc.net.au^*/stats/
 ||abebooks.com/timer.gif?
 ||about.me/wf/open?
+||abplive.in/analytics/
 ||academia.edu/record_hit
 ||accountnow.com/SyslogWriter.ashx
 ||accuradio.com/static/track/
@@ -22342,7 +22353,6 @@ _mongo_stats/
 ||register.it/scripts/track_
 ||rel.msn.com^
 ||rent.com/track/visit/
-||report-re.nj.com^
 ||report-zt.allmusic.com^
 ||report.shell.com^
 ||reporter-times.com/js/tk.js?
