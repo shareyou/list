@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I3oq/kty+MIFxP7gisteIQ
+! Checksum: 7AkO66QzBeyUMS64xg+a8w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702260730
-! Last Modified: 2017年02月26日 07:30
+! Version: 201702260800
+! Last Modified: 2017年02月26日 08:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -19976,6 +19976,7 @@ _mongo_stats/
 ||tag.myplay.com^
 ||tag.sonymusic.com^
 ||tagcdn.com/pix/?
+||tagger.opecloud.com^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.rd.linksynergy.com^$third-party
@@ -20344,6 +20345,7 @@ _mongo_stats/
 ||ctr-iwb.nmg.de^
 ||ctr-opc.nmg.de^
 ||ctr.nmg.de^$third-party
+||d.adrolays.de^
 ||data.econa.com^
 ||datacomm.ch^*/count.cgi?
 ||events.kaloo.ga^$third-party
@@ -20359,6 +20361,7 @@ _mongo_stats/
 ||gibts-hier.com/counter.php
 ||giga.de/vw/$image,third-party
 ||global-media.de^*/track/ai.img
+||hbx.df-srv.de^
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
 ||house27.ch/counter/
@@ -21559,6 +21562,7 @@ _mongo_stats/
 ||financeglobe.com/Visit/
 ||financialstandardnews.com^*/webstats/
 ||flagfox.net/js/analytics.js
+||flashget.org/cow_$script
 ||flickr.com/beacon_client_api_timings.gne
 ||flickr.com/beacon_page_timings.gne
 ||fling.com/zeftour/t_i.php?
