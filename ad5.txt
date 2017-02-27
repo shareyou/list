@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yl2l8c7737h2Sb3O5mhGpA
+! Checksum: 5BmApbT5FN/GZhf3ysKhNg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201702272130
-! Last Modified: 2017年02月27日 21:30
+! Version: 201702272300
+! Last Modified: 2017年02月27日 23:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13802,6 +13802,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /i?redir=*&page=*&cookie=
 /i?siteid=
 /ics/2/pview.gif?
+/id?d_visid_ver=
 /iframe.tracker.js
 /iframe_googleAnalytics
 /iframetracker.
@@ -15741,6 +15742,7 @@ _mongo_stats/
 ||adku.com^$third-party
 ||admantx.com^$third-party
 ||admitad.com^$third-party
+||adobedtm.com^$third-party
 ||adobetag.com^$third-party
 ||adoftheyear.com^$third-party
 ||adprotraffic.com^$third-party
@@ -16688,6 +16690,7 @@ _mongo_stats/
 ||listrakbi.com^$third-party
 ||livecount.fr^$third-party
 ||livehit.net^$third-party
+||livesegmentservice.com^$third-party
 ||livestat.com^$third-party
 ||lloogg.com^$third-party
 ||localytics.com^$third-party
@@ -17268,6 +17271,7 @@ _mongo_stats/
 ||sniphub.com^$third-party
 ||snoobi.com^$third-party
 ||snowsignal.com^$third-party
+||socialhoney.co^$third-party
 ||socialprofitmachine.com^$third-party
 ||socialtrack.co^$third-party
 ||socialtrack.net^$third-party
@@ -19757,6 +19761,7 @@ _mongo_stats/
 ||ria.ru/js/counter.js
 ||rich-agent.s3.amazonaws.com^
 ||richrelevance.com/rrserver/tracking?
+||rlinks.one.in^
 ||rodalenl.com/imp?$third-party
 ||roitrack.addlvr.com^
 ||rokt.com/pixel/
@@ -20952,6 +20957,9 @@ _mongo_stats/
 ||acura.ca/_Global/js/includes/tracker.js
 ||ad2links.com/lpajax.php?
 ||adapd.com/addon/upixel/
+||adc.9news.com.au^
+||adc.api.nine.com.au^
+||adc.nine.com.au^
 ||adf.ly/omni*.swf
 ||adguru.guruji.com^
 ||adidas.com/analytics/
@@ -22171,6 +22179,7 @@ _mongo_stats/
 ||olark.com/nrpc/c?c=create$script
 ||olark.com/track/
 ||om.cbsi.com^
+||omni.nine.com.au^
 ||omniture.stuff.co.nz^
 ||omniture.theglobeandmail.com^
 ||onetravel.com/TrackOnetravelAds.js
