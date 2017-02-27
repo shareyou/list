@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yKPirwSab/dVu5ZdSMiPxg
+! Checksum: 28nIOZbL7LJIfjn/38BsFA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201702271730
-! Last Modified: 2017年02月27日 17:30
+! Version: 201702272000
+! Last Modified: 2017年02月27日 20:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -10465,7 +10465,6 @@ tzfdc.com.cn##div[id^="LMT_"]
 90bifen.com##div[id^="ShowTopAds_"]
 kunming.cn##div[id^="_picadv_"]
 vpser.net##div[id^="ab_thread"]
-ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
 58.com,pcpop.com##div[id^="ad_"]
 pchome.com.tw##div[id^="ad_div_"]
@@ -10488,7 +10487,6 @@ kankan.com##div[id^="cm"].banner
 66rd.cn##div[id^="comiis_xizi_gg"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
-discuss.com.hk##div[id^="crt-"]
 bendibao.com##div[id^="dad_"]
 yb983.com##div[id^="div"]
 gohome.com.hk##div[id^="div-gpt-ad"][style]
