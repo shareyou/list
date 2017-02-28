@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V9RTbV3RxXYlTFqyKFad+g
+! Checksum: NBAk59W1J9M93xPRyO7Y7w
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201702272130
-! Last Modified: 2017年02月27日 21:30
+! Version: 201702280900
+! Last Modified: 2017年02月28日 09:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -931,10 +931,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||yfycy.com^
-||taohanpai.com^
-||intentarget.com^$third-party
-||f11w.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1508,6 +1504,7 @@ ubmcmm.baidustatic.com
 ||ez33.org.cn^
 ||ezucods.cn^
 ||f1190.com^
+||f11w.com^$third-party
 ||f1zd.com^$third-party
 ||f2zd.com^
 ||f6ce.com^
@@ -1646,6 +1643,7 @@ ubmcmm.baidustatic.com
 ||imneinei.com^
 ||index8.cn^$third-party
 ||instreet.cn^$third-party
+||intentarget.com^$third-party
 ||ipaypay.cn^$third-party
 ||iprefer.com.tw^$third-party
 ||iroby.com^
@@ -1987,6 +1985,7 @@ ubmcmm.baidustatic.com
 ||taobaoaliyun.cn^
 ||taobaoij.com:
 ||taobayun.cn^
+||taohanpai.com^
 ||taojingu.cn^$third-party
 ||taotu001.com^$third-party
 ||tbaocdn.com^
@@ -2186,6 +2185,7 @@ ubmcmm.baidustatic.com
 ||ydlnt.com^
 ||ye3.com^$third-party
 ||yf898.com^
+||yfycy.com^
 ||yghua.com^$third-party
 ||yhtcd.com^
 ||yhzm.cc^
@@ -5024,6 +5024,7 @@ mg*.6park.com/img/$image
 ||miwifi.com/pcads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mlbuy.com/gg.js
+||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mmtalk.net/images/banner
 ||mnw.cn/2015-11-05/g14.shtml
@@ -6372,6 +6373,7 @@ mg*.6park.com/img/$image
 ||yxdown.com/open/*ad
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
+||yxtvg.com/types/
 ||yxzoo.com/style/js/fmt.js
 ||yy18.info/yyads/
 ||yy521.com/js/baidu
@@ -6490,16 +6492,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||mm111.net/api.php?mod=ad&
-||yxtvg.com/types/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-moe-acg.us##A[href*=".taobao.com"]
-acg18.us##.yamiadie
-acg18.us##.yamiadie-below
-acg18.us##A[href*="/ad/"]
-hexieshe.com,xxshe.com##A[href*=".51bi.com"]
-meizhou.com##.adwords + DIV
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8266,6 +8260,7 @@ cngold.org,qq.com,tongxiang.net##.advs
 it165.net##.advyello
 itavcn.com##.advzone
 123.sogou.com##.adword > a
+meizhou.com##.adwords + div
 gamme.com.tw##.adwrpt
 down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
@@ -10097,6 +10092,8 @@ zj.com##.xx_gg
 techweb.com.cn##.xxbox
 techweb.com.cn##.xxbox_news
 moviesunusaaa.org##.yahooinner
+acg18.us##.yamiadie
+acg18.us##.yamiadie-below
 1kkk.com,dm5.com##.yddiv
 techweb.com.cn##.yipin
 ifeng.com##.yiyuan
@@ -10171,6 +10168,7 @@ xianzhenyuan.cn##a[href*=".1688.com"]
 loldk.com##a[href*=".2144.cn"]
 quanmin.tv##a[href*=".2144.cn/"]
 people.com.cn##a[href*=".516a.com/"]
+hexieshe.com,xxshe.com##a[href*=".51bi.com"]
 mop.com##a[href*=".7477.com"]
 oupeng.com##a[href*=".adbxb."]
 163.com,bilibili.com##a[href*=".admaster."]
@@ -10184,7 +10182,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -10193,6 +10191,7 @@ zhibo8.cc##a[href*=".wanjiashe."]
 tiexue.net##a[href*=".yueleyu."]
 108.62.192.124,plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
+acg18.us##a[href*="/ad/"]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 cangku.in,galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
