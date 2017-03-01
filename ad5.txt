@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: caATvBdnU/pUVBLo3JYZPA
+! Checksum: H+if638OMzv2exB4DtTsog
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703010900
-! Last Modified: 2017年03月01日 09:00
+! Version: 201703011030
+! Last Modified: 2017年03月01日 10:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -660,9 +660,32 @@ _popAds.
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
-!----------------------------------Ads-Union----------------------------------!
 &par=
 &pcs=
+?pdbid=$subdocument
+&pdbid=$subdocument
+|http://*/s?di=u
+||baidu.greenxf.cn^
+||scriptwap1.360doc.cn^
+||daima.chazidian.com^
+||gzlykj.cn^
+||dn7788.com^
+||gwy.sdsgwy.com^
+||1.win7china.com^
+||firefang.cn^
+||52lubo.cn^
+||daima.huoche.net^
+||yhzm.cc^
+||fmgoal.com^
+||yjbys.org^$third-party
+||feidalu.com^
+||lele999.com^
+||youbian.com^$third-party
+||fuz.cc^$third-party
+||1.rengshu.com^
+||3.guidaye.com^
+||ap*.pl520.com^
+!----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -875,7 +898,6 @@ ubmcmm.baidustatic.com
 ||52kmh.com^$third-party
 ||52kmk.com^
 ||52lover.info^$third-party
-||52lubo.cn^
 ||5399.com^$third-party
 ||565882.com^$third-party
 ||57union.com^
@@ -1152,7 +1174,6 @@ ubmcmm.baidustatic.com
 ||czpwm.com^
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
-||daima.huoche.net^
 ||daima123.cc^
 ||dante2007.com^
 ||dashet.com^
@@ -1179,7 +1200,6 @@ ubmcmm.baidustatic.com
 ||dleke.com^
 ||dm1080p.com^$third-party
 ||dmtrck.com^$third-party
-||dn7788.com^
 ||dnvus.com^
 ||doniv.net^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
@@ -1244,15 +1264,12 @@ ubmcmm.baidustatic.com
 ||fadama.com^$third-party
 ||farm-cn.plista.com^
 ||fd7c.com^
-||feidalu.com^
 ||feitian001.com^$third-party
 ||ffhtek.com^
-||firefang.cn^
 ||fjkst.com^
 ||fjmeyer.com^
 ||flashwing.net^$third-party
 ||fmad.cc^$third-party
-||fmgoal.com^
 ||fnkjj.com^
 ||founseezb.cn^
 ||fthcz.com^
@@ -1300,7 +1317,6 @@ ubmcmm.baidustatic.com
 ||gydag.com^
 ||gzbywl.com^$third-party
 ||gzktpf.com^
-||gzlykj.cn^
 ||gzmjnx.cn^
 ||gzqudou.com^
 ||h9377c.com^
@@ -1471,7 +1487,6 @@ ubmcmm.baidustatic.com
 ||le123.cn^$third-party
 ||le4le.com^
 ||leeyuoxs.com^
-||lele999.com^
 ||letaoxiaochi.com^$third-party
 ||leturich.org^$subdocument
 ||leturich.org^$third-party
@@ -1918,7 +1933,6 @@ ubmcmm.baidustatic.com
 ||yfycy.com^
 ||yghua.com^$third-party
 ||yhtcd.com^
-||yhzm.cc^
 ||yidulive.net^
 ||yigao.com^$third-party
 ||yiiwoo.com^$third-party
@@ -1931,7 +1945,6 @@ ubmcmm.baidustatic.com
 ||yiranxian.cn^
 ||yiwad.com^$third-party
 ||yiwuds.com^
-||yjbys.org^$third-party
 ||yk0712.com^
 ||ykjmy.com^
 ||ymcqb.com^
@@ -2228,7 +2241,6 @@ mg*.6park.com/img/$image
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
 ||0dian8.org/data/js/
-||1.win7china.com^
 ||100.admin5.com^
 ||100ksw.com/include/ksbdfd.js
 ||100yangsheng.com/a1/a.js
@@ -3524,7 +3536,6 @@ mg*.6park.com/img/$image
 ||dabin69.com/template/comiis_ydzx/ads/topad01.jpg
 ||dailyfx.com.hk/ext/ad/cn.js
 ||dailynews.sina.com/gb/ads/
-||daima.chazidian.com^
 ||danlan.org/KFC/
 ||daohangtx.com/jishudaohang/indextop.js
 ||daqianduan.com/wp-content/uploads/*/ads*.jpg
@@ -3967,7 +3978,6 @@ mg*.6park.com/img/$image
 ||gusuwang.com/ymsextweb/javascript/gs
 ||guyizhou.cn/temp/top_banner_
 ||gwbnsh.net.cn/hd/unicom/ad.html
-||gwy.sdsgwy.com^
 ||gx.xinhuanet.com/images2007/banner.htm
 ||gxnews.com.cn/cache/wwwads.js
 ||gxnews.com.cn/clientscript/index_duilian_
@@ -5301,7 +5311,6 @@ mg*.6park.com/img/$image
 ||script.cmfu.com/ADScript/
 ||script.cmfu.com/Script/GameAdAptationInfo.js
 ||script.vccoo.com^
-||scriptwap1.360doc.cn^
 ||scsn.cn/Public/config/Couplet/16.js
 ||scsn.cn/Public/config/Couplet/Index
 ||scupio.com/adpinline/
