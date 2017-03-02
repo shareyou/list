@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fstAnYONWVpX2KJ3Z4UVg
+! Checksum: /bsw/7U3N92d2eg7k0yW8A
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703021900
-! Last Modified: 2017年03月02日 19:00
+! Version: 201703030730
+! Last Modified: 2017年03月03日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12846,6 +12846,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ajaxlog?
 /ajaxservice.svc/registersession?session_id=
 /ajaxstat/*
+/ajaxtracker.
 /ajx/ptrack/*
 /akamai/pixy.gif
 /akamai_analytics_
@@ -12939,6 +12940,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analyticsid.
 /analyticsjs.
 /analyticsjs/*
+/analyticsmediator.
 /AnalyticsOnDemand/*
 /analyticsscript_
 /analyticstick.
@@ -13438,6 +13440,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /dtm_cm.js
 /dtmtag.js
 /dtrack.js
+/dwanalytics-
 /dwanalytics.
 /DynamicAnalytics.
 /dynaTraceMonitor?
@@ -13854,6 +13857,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /impression.ashx
 /impression.gif?
 /impression.js?
+/impression.php?
 /impression.pl?
 /impression.track?
 /impression/widget?
@@ -15074,6 +15078,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking/addview/*
 /tracking/adobe.js
 /tracking/ads.
+/tracking/article.
 /tracking/article/*
 /tracking/beacon/?
 /tracking/clicks
@@ -15310,6 +15315,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /VisitorIdentification.js
 /visitortrack?
 /visitortracker.pl?
+/visits/pixel?
 /visits_contor.
 /VisitSite.js
 /VisitTracking?
@@ -16079,6 +16085,7 @@ _mongo_stats/
 ||confirmit.com^$third-party
 ||contactmonkey.com^$third-party
 ||contemporaryceremonies.ca^$third-party
+||content-square.net^$third-party
 ||content.ad^$third-party
 ||contentexchange.me^$third-party
 ||contentinsights.com^$third-party
@@ -16655,6 +16662,8 @@ _mongo_stats/
 ||justuno.com^$third-party
 ||jwmstats.com^$third-party
 ||k-analytix.com^$third-party
+||kameleoon.com^$third-party
+||kameleoon.eu^$third-party
 ||kampyle.com^$third-party
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
 ||keyade.com^$third-party
@@ -16774,6 +16783,7 @@ _mongo_stats/
 ||mediagauge.com^$third-party
 ||mediametrics.ru^$third-party
 ||mediaplex.com^$third-party
+||mediarithmics.com^$third-party
 ||mediaseeding.com^$third-party
 ||mediego.com^$third-party
 ||mega-stats.com^$third-party
@@ -18059,7 +18069,6 @@ _mongo_stats/
 ||goyavelab.com^$third-party
 ||graphinsider.com^$third-party
 ||hunkal.com^$third-party
-||kameleoon.com^$third-party
 ||leadium.com^$third-party
 ||libstat.com^$third-party
 ||livestats.fr^$third-party
@@ -19007,6 +19016,7 @@ _mongo_stats/
 ||d1ivexoxmp59q7.cloudfront.net^*/live.js
 ||d1ksyxj9xozc2j.cloudfront.net^
 ||d1lm7kd3bd3yo9.cloudfront.net^
+||d1m6l9dfulcyw7.cloudfront.net^
 ||d1nh2vjpqpfnin.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
@@ -22011,6 +22021,7 @@ _mongo_stats/
 ||mashable.com/pv.xml
 ||mastercard.com/dynamictag.swf
 ||mastercard.com^*/Analytics/
+||matchesfashion.com/js/Track.js
 ||mate1.com^*/iframe/pixel/
 ||mate1.com^*/reg.logging.js
 ||mayoclinic.org/js/gconversion.js
@@ -22403,7 +22414,6 @@ _mongo_stats/
 ||reuters.com^*/rcom-wt-mlt.js
 ||reuters.com^*/tracker_video.js
 ||reuters.com^*/widget-rta-poc.js
-||reutersmedia.net^*/px.js
 ||reutersmedia.net^*/tracker-article*.js
 ||revsci.tvguide.com^
 ||rgbstock.com/logsearch/
@@ -22670,6 +22680,7 @@ _mongo_stats/
 ||t.blinkist.com^
 ||t.cinemablend.com^
 ||t.dailymail.co.uk^
+||t.delfi.
 ||t.eharmony.com^
 ||t.hulu.com/beacon/
 ||t.kck.st^
