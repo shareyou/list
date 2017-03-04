@@ -1,26 +1,26 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201702022000
-! Last Modified: 2017年02月02日 20:00
+! Version: 201703041500
+! Last Modified: 2017年03月04日 15:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2017/02/02
+! Last modified: 2017/03/04
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
 @@*$domain=taobao.com|alipay.com|suning.com|www.vmall.com|etao.com|tmall.com|paipai.com|jd.com|i.qq.com|my.csdn.net
 |http://$subdocument,domain=u17.com|iqiyi.com|dm456.com|sz1001.net|music.baidu.com
 !-----------------------屏蔽第三方资源---------------------------
-! |http://$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.com
+! |http://$script,third-party,domain=yatu.tv|xunzai.com|dygang.com|hjwzw.com|23zw.me
 ! |http://$subdocument,third-party,domain=lepan.cc|tieba.baidu.com|yatu.tv
-*$third-party,domain=greasyfork.org|xxbiquge.com|shumilou.co|btkitty.bid|diggbt.ws|btfuli.com
+*$third-party,domain=xxbiquge.com|shumilou.co|btkitty.bid|diggbt.ws|btfuli.com
 @@*/jquery.$script
 @@*/jquery-$script
 !---------------------NoScript，可加上自己要过滤的域名--------------------
-*$script,domain=ty2016.net|eywedu.com|365essay.com|xsbashi.com|zdfans.com|storebt.com|baishuku.com|btspread.la|btkitty.bid
+*$script,domain=ty2016.net|eywedu.com|365essay.com|xsbashi.com|zdfans.com|storebt.com|baishuku.com|btspread.ws|btkitty.bid
 !--------------FlashBlock。免过滤白名单如下----------------------
 !|http://$object,domain=~youku.com|~tudou.com|~iqiyi.com|~pps.tv|~yatu.tv|~baidu.com|~bilibili.com|~1905.com|~acfun.tv|~fun.tv|~dj92cc.com|~qq.com|~163.com|~cntv.cn|~ku6.com|~56.com|~le.com|~nba.com|~yinyuetai.com|~51zxw.net|~tv.sohu.com|~flvcd.com|~mgtv.com|~pptv.com
 !@@*upload.swf^$object
@@ -530,7 +530,7 @@ nos.netease.com/$image,domain=~blizzard.cn|~battlenet.com.cn|~manhua.163.com
 ||baoxian.163.com/$subdocument
 ||caipiao.163.com/$subdocument
 ||lofter.com/$subdocument
-163.com###bobo,#layout-bobo,.txt-bobo,#js_a_bobo,.bobo-area,.imglist-bobo-app,#layout-love,#layout-shop,.top-banner,.m-adv,.quickmark,.vhouse_ad_houselist,div.float-bar,div.post_adtop_main,div.post_adtop_side
+163.com##[class$="_ad"],div.mod_ad_text,div.mod_index_ad,#bobo,#layout-bobo,.txt-bobo,#js_a_bobo,.bobo-area,.imglist-bobo-app,#layout-love,#layout-shop,.top-banner,div.float-bar,div.post_adtop_main,div.post_adtop_side
 163.com,~love.163.com##A[href^="http://love.163.com/"]
 blog.163.com##div#lofter_single,div.f-trans
 open.163.com###j-hbtj,#j-footertj
@@ -637,7 +637,7 @@ coladrive.com##.ad1>div.tui
 @@|http://my.csdn.net/service/favorite/add_favorite?
 csdn.net##div[class^="ad_"],iframe#Topic_Top,div#ad_left,div#ad_right,div.AD.mb-bg,#header
 |http://static.blog.csdn.net/skin/*.jpg|
-duowan.com###udbsdk_cookieFrm~*,a[adid]
+duowan.com##a[adid]
 eastmoney.com##.footer-ads,#rightAD,.adbox
 ||cmsjs.eastmoney.com/$subdocument
 ||fund.eastmoney.com/trade/Hot_$subdocument
