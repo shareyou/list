@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZtGdiupGXARLXAYvXGdJzw
+! Checksum: uUVu8TGm6NcTPGo9JKmqXg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703051230
-! Last Modified: 2017年03月05日 12:30
+! Version: 201703051730
+! Last Modified: 2017年03月05日 17:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -2250,6 +2250,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+|http://t.cn/$popup,domain=yifile.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -2399,7 +2400,6 @@ ubmcmm.baidustatic.com
 /moneymaker/js/kppp.js
 /moneymaker/js/tmpp.js
 /moneymaker/js/videoplayer.js
-/msnportal/wp/2014/08/29/742784a6-b14f-420b-80cc-d6bd0be6b15d.jpg
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 /nddailyfile/webadv/*
 /newhuagg/*_right
@@ -4742,7 +4742,6 @@ mg*.6park.com/img/$image
 ||js.bju888.com^
 ||js.bxwns.com^
 ||js.duotegame.com^
-||js.mumayi.net/76090.gif
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
 ||js.shiwt.com/110.js
