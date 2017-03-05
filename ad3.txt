@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bo6+4mJp0+f8QVmernW9DA
+! Checksum: MQ14qi4TW54oEcggZgHOwQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703051200
-! Last Modified: 2017年03月05日 12:00
+! Version: 201703051230
+! Last Modified: 2017年03月05日 12:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2802,7 +2802,6 @@ mg*.6park.com/img/$image
 ||aipai.com/app/www/templates/common/*_videos_
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
-||airenti.in^$script
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
 ||aiyidu.com/aiyidu/adver/
@@ -6096,6 +6095,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||mahoupao.net/api.php?mod=ad&
+||meitui.org^*.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 360zhibo.com###selectpd
@@ -10750,7 +10750,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||advertise.shijue.cvidea.cn^
 @@||afpeng.alimama.com^$domain=crecgec.com
 @@||airchina.com.cn/dynamicAd/
-@@||airenti.in/*/$script
 @@||alicdn.com/g/mm/afp-cdn/JS/k.js$domain=crecgec.com
 @@||alimama.com^$domain=tanx.com
 @@||angpic.3g.net.cn/ai/*/
