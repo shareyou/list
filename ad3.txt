@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JzjW2gDQPAG5Xm6J6rTgQw
+! Checksum: JjO4v3JprwDJEhKNMvHtfw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703071030
-! Last Modified: 2017年03月07日 10:30
+! Version: 201703071200
+! Last Modified: 2017年03月07日 12:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -2422,8 +2422,7 @@ mg*.6park.com/img/$image
 ||5068.com/*gg
 ||5068.com/websleft.js
 ||506ys.com/js/200.js
-||50970.com/js/jd_view/jbox_l05.html
-||50970.com/picimg/*120.gif
+||50970.com/js/gg.js
 ||50megumi.com.tw^$subdocument
 ||51.com/up/bdfmt/
 ||512ms.com/js/index_ggw_show.js
@@ -4736,8 +4735,8 @@ mg*.6park.com/img/$image
 ||newsmth.net/nForum/baiduunion/
 ||newsmth.net/nForum/files/adv/
 ||newsmth.net/nForum/googlead/
-||nga.*/common_res/js_adscommon.js
-||nga.*/proxy/cache_attach/ds_list.js
+||nga*/common_res/js_adscommon.js
+||nga*/proxy/cache_attach/ds_list.js
 ||ningmengzhibo.com/ement/beforeSearchEment.action
 ||niu20.com/g/
 ||niutuku.com/skin/style2013/ad/
@@ -7378,7 +7377,6 @@ btbtt.co###wrapper2 > .width
 wuleba.com###wulebashowcpc
 k.sogou.com###wx_m
 huanqiu.com###wxhz1
-50970.com###wz-box-2016
 oh100.com###wzMid1
 zhiboche.com###wzad
 oh100.com###wztopL
