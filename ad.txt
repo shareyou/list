@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RIgJKa9PNnI1dccSK5oZiw
+! Checksum: 82GmgzvcYoyV6Kj+KUKWbw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703081345
-! Last Modified: 2017年03月08日 13:45
+! Version: 201703081800
+! Last Modified: 2017年03月08日 18:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -12175,7 +12175,17 @@ _300_250.
 ||zuoyebang.cc/static/question/question/resource/QRCode_
 ||iciba.com/static/images/download_banner.png
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
+||soufunimg.com/common_m/m_public/js/wa
+||taobao.com/js/smartbanner/
 !------------------------Specific element hiding rules------------------------!
+m.baidu.com,www.baidu.com###banner_call + div[id]
+m.baidu.com,www.baidu.com###header + script + div[id]
+ifanr.com##.popup-app-download
+kaopu001.com###pokemon
+m.taobao.com##.install-app
+zhiyoo.com###body-bg
+zhiyoo.com###dialog1
+zhiyoo.com###header_app
 itmo.com##.aside-game-icon-box
 itmo.com##.right-side-pop
 hupu.com##.m-app-info
@@ -12473,7 +12483,7 @@ house365.com##.left_fudong_ad
 hao123.com##.newskin-tip
 news.baidu.com##.recommend-animate
 news.baidu.com##.recommend-mask
-hao123.com##.slidetoolbarContainr
+hao123.com###slidetoolbarContainer
 hao123.com##.tvtip
 163.com##.m-adv
 feng.com##.wea_d_panel_980
