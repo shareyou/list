@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZhywjJjheFe5QKI9Kca8BA
+! Checksum: p+4AG4NG0xQYkEBjgg0/Bg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703091000
-! Last Modified: 2017年03月09日 10:00
+! Version: 201703091130
+! Last Modified: 2017年03月09日 11:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -6482,6 +6482,9 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+.shuotxts.com%2Fad
+||qq.com/happyfarm/hotspot_v_9.swf
+||client.88tours.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10967,6 +10970,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||passiontimes.hk/player-$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -12185,6 +12189,9 @@ _300_250.
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||chinacloudsites.cn/api/promotion?
 !------------------------Specific element hiding rules------------------------!
+tmall.com##.app-download-popup
+p2peye.com##.red-box
+yidianzixun.com##.layer-download
 yidianzixun.com##.banner
 58.com##.invokeApp
 bing.com###BottomAppPro
