@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dBY88dlWsSrU4V0awsfG0Q
+! Checksum: XVmWnFjsJeNhq/KNOChaVQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703091800
-! Last Modified: 2017年03月09日 18:00
+! Version: 201703091900
+! Last Modified: 2017年03月09日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6103,8 +6103,11 @@ mg*.6park.com/img/$image
 ||qq.com/happyfarm/hotspot_v_9.swf
 ||client.88tours.com^
 ||bmp2.ali213.net/js/
+||sina.cn/api/article/news_banner?
+||sinaimg.cn/wap/online/cms/article/formal/js/economyClup.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sina.cn##.videoArt_newsapp
 360.cn###banner
 2345.com###hongbao
 zhidao.baidu.com##.w-question-list[data-sign]
@@ -10599,6 +10602,15 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
+gamer.com.tw#@#.pub_300x250
+gamer.com.tw#@#.pub_300x250m
+gamer.com.tw#@#.pub_728x90
+gamer.com.tw#@#.text-ad
+gamer.com.tw#@#.textAd
+gamer.com.tw#@#.text_ad
+gamer.com.tw#@#.text_ads
+gamer.com.tw#@#.text-ads
+gamer.com.tw#@#.text-ad-links
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@||passiontimes.hk/player-$generichide
@@ -11120,6 +11132,10 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 &pcs=
 &pdbid=$subdocument
 ?pdbid=$subdocument
+||hehe1.200218.com^
+||sscm1.mipujia.com^
+||whn.star-media.cn^
+||d6.mobaders.com^
 |http://*/s?di=u
 ||1.rengshu.com^
 ||1.win7china.com^
