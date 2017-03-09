@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q2uneqRM/AouRIekCKFcQg
+! Checksum: mW2RU06t5NIp2a6brTXHZw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703091230
-! Last Modified: 2017年03月09日 12:30
+! Version: 201703091300
+! Last Modified: 2017年03月09日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -12194,6 +12194,7 @@ _300_250.
 ||chinacloudsites.cn/api/promotion?
 !------------------------Specific element hiding rules------------------------!
 tmall.com##.app-download-popup
+tmall.com###J_BottomSmartBanner
 p2peye.com##.red-box
 yidianzixun.com##.layer-download
 yidianzixun.com##.banner
@@ -12207,7 +12208,7 @@ m.babytree.com##.wrap > section[class*="0"],.wrap > DIV[class*="0"]
 m.babytree.com##.wrap > section[class*="4"],.wrap > DIV[class*="4"]
 m.babytree.com##.wrap > section[class*="9"],.wrap > DIV[class*="9"]
 m.baidu.com,www.baidu.com###banner_call + div[id]
-m.baidu.com,www.baidu.com###header + script + div[id]
+m.baidu.com,www.baidu.com###index-card > DIV[id][style]
 ifanr.com##.popup-app-download
 kaopu001.com###pokemon
 m.taobao.com##.install-app
