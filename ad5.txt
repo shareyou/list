@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DqArXO7utCLhjnO4P4V9yQ
+! Checksum: EhG6kyEXzrFflXCZPYVKtw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703102130
-! Last Modified: 2017年03月10日 21:30
+! Version: 201703102200
+! Last Modified: 2017年03月10日 22:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13459,6 +13459,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /criteoRTA.
 /crmTracking.
 /cross_pixels.
+/crtracker.
 /cs_api/log
 /CSAdobeTracking.
 /csc-event?
@@ -13578,6 +13579,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /empty-1px-gif;
 /emstrack.
 /endpoint/stats.
+/engine/ping?
 /entry_stats?
 /envoy.sb?sbaid
 /epf_v1_95.js
@@ -16825,6 +16827,7 @@ _mongo_stats/
 ||logentries.com^$third-party
 ||loggly.com^$third-party
 ||lognormal.net^$third-party
+||logsss.com^$third-party
 ||lookery.com^$third-party
 ||loopfuse.net^$third-party
 ||lopley.com^$third-party
@@ -19109,6 +19112,7 @@ _mongo_stats/
 ||d1cerpgff739r9.cloudfront.net^
 ||d1clfvuu2240eh.cloudfront.net^
 ||d1clufhfw8sswh.cloudfront.net^
+||d1cr9zxt7u0sgu.cloudfront.net^
 ||d1gp8joe0evc8s.cloudfront.net^
 ||d1ivexoxmp59q7.cloudfront.net^*/live.js
 ||d1ksyxj9xozc2j.cloudfront.net^
