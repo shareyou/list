@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ErYeHHORc6yk3Ui00Uxbrg
+! Checksum: sA5KBWrkO8d0GnrR0ycClg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703102330
-! Last Modified: 2017年03月10日 23:30
+! Version: 201703110000
+! Last Modified: 2017年03月11日 00:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12949,6 +12949,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
+/amp-analytics-
 /amplitude-*.js$script
 /amptrack.
 /analiz.php3?
@@ -13210,6 +13211,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /bugsnag-
 /BuiltRegister.aspx?upt=
 /bundles/cm.js|
+/bundles/tracciamento?
 /buzz_stats.
 /byside_webcare.
 /c.gif?daid
@@ -15015,6 +15017,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tagx.js
 /targetemsecure.
 /taxtag.js
+/tbuy/tracker/*
 /tc_logging.js
 /tc_targeting.
 /tc_throttle.js
@@ -15073,6 +15076,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track/*&CheckCookieId=
 /track/*?rnd=0.$image
 /track/?site
+/track/a.gif?
 /track/aggregate?
 /Track/Capture.aspx?
 /track/count*js
@@ -15126,6 +15130,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracker.php?
 /tracker.pl?
 /tracker.tsp?
+/tracker/aptimized-
 /tracker/event?
 /tracker/eventBatch/*
 /tracker/imp?
@@ -18622,6 +18627,7 @@ _mongo_stats/
 ||50.16.191.59^$third-party,domain=~tritondigital.net.ip
 ||51network.com^$third-party
 ||5251.net/stat.jsp?
+||54.217.234.232^$third-party,domain=~moleskine-store.ip
 ||54.246.124.188/analytics/$domain=~racinguk.ip
 ||58.68.146.44:8000^$third-party,domain=~peoplesdaily.cn.ip
 ||5min.com/flashcookie/StorageCookieSWF_
