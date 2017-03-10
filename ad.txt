@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7pGoTRGMZ+A7p+JWqf6a8g
+! Checksum: kiLQ5fAn1S6NtugBZc/QBg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703102130
-! Last Modified: 2017年03月10日 21:30
+! Version: 201703102300
+! Last Modified: 2017年03月10日 23:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -12227,10 +12227,15 @@ _300_250.
 ||taobao.com/js/smartbanner/
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||chinacloudsites.cn/api/promotion?
+||zhiyoo.com/mplus/images/banner.jpg
+||youdao.com/market/banner/banner_qq.js
 !------------------------Specific element hiding rules------------------------!
+youdao.com##.dict-dl
+sogou.com##.bottombar
+sogou.com##.tg-box-1
 caijing.com.cn##.downdiv
 ci123.com###fixed-recom
-ci123.com##DIV[onclick^="window.location='http://a.myapp.com/"]
+ci123.com##DIV[onclick^="window.location="]
 bing.com###bingBrand
 so.com###msocomBottomBanner
 tmall.com##.app-download-popup

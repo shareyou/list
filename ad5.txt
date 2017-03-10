@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EhG6kyEXzrFflXCZPYVKtw
+! Checksum: r3ipv2RxY7GtEusJtdd8iQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703102200
-! Last Modified: 2017年03月10日 22:00
+! Version: 201703102300
+! Last Modified: 2017年03月10日 23:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11948,10 +11948,15 @@ _300_250.
 ||taobao.com/js/smartbanner/
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||chinacloudsites.cn/api/promotion?
+||zhiyoo.com/mplus/images/banner.jpg
+||youdao.com/market/banner/banner_qq.js
 !------------------------Specific element hiding rules------------------------!
+youdao.com##.dict-dl
+sogou.com##.bottombar
+sogou.com##.tg-box-1
 caijing.com.cn##.downdiv
 ci123.com###fixed-recom
-ci123.com##DIV[onclick^="window.location='http://a.myapp.com/"]
+ci123.com##DIV[onclick^="window.location="]
 bing.com###bingBrand
 so.com###msocomBottomBanner
 tmall.com##.app-download-popup
@@ -12830,6 +12835,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /acbeacon2.
 /accAnal.js
 /AccessCounter/*
+/accesstracking/*
 /AccessTrackingLogServlet?
 /acclog.cgi?
 /ace.*/?cookie
@@ -13711,6 +13717,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ga_no_cookie.
 /ga_no_cookie_
 /ga_outgoinglinks.
+/ga_setup.js
 /ga_sip.js
 /ga_social.
 /ga_social_tracking_
@@ -13904,6 +13911,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /hrtrackjs.gif?
 /hs_track.
 /hstrck-detect.
+/i.php?i=
+/i.png?id=
 /i/b.gif?
 /i/i.gif?
 /i2a.js
@@ -14656,6 +14665,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /RemoteTargetingService.
 /remoteTrackingManager.cfc?*trackPage&
 /render?trackingId=
+/repdata.*/b/ss/
 /report-re.
 /report?event_
 /reporting/analytics.js
@@ -15533,6 +15543,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wstats.php?
 /wt.js?http
 /wt?p=*&cp1=
+/wt?p=*&pu=
 /wt_capi.js
 /wtbase.js
 /wtcore.js
@@ -19006,6 +19017,7 @@ _mongo_stats/
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
 ||cloudfront.net/js/analytics.js
+||cloudfront.net/js/ca.js
 ||cloudfront.net/js/reach.js
 ||cloudfront.net/khp.js
 ||cloudfront.net/log.js?
@@ -21356,6 +21368,7 @@ _mongo_stats/
 ||brightcove.com/1pix.gif?
 ||britannica.com/webstats/
 ||broadbandchoices.co.uk/track.js
+||broadwayworld.com/regionalbug.cfm?
 ||brobible.com/?ACT
 ||bulgari.com/bulgari/wireframe_script/BulgariGa.js
 ||business.com/images2/anal.gif?
@@ -21549,6 +21562,7 @@ _mongo_stats/
 ||desr.fkapi.net^
 ||destructoid.com/img2.phtml?
 ||diag.doba.com^
+||diamond.transfermarkt.de^
 ||dictionary.com/track/
 ||diet.rodale.com^
 ||digitalchocolate.com/event/track?
@@ -22116,7 +22130,6 @@ _mongo_stats/
 ||maps.nokia.com^*/tracking.c.js
 ||marketing.kalahari.net^
 ||marketing.nodesource.com^
-||marketwire.com/accesstracking/
 ||marriott.com^*/mi_customer_survey.js
 ||mashable.com/pv.xml
 ||mastercard.com/dynamictag.swf
@@ -22813,7 +22826,6 @@ _mongo_stats/
 ||tfl.gov.uk/tfl-global/scripts/stats-config.js
 ||tfl.gov.uk/tfl-global/scripts/stats.js
 ||tgw.com/1/t.gif
-||the42.ie/i.php
 ||theage.com.au^*/behave.js
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thecreatorsproject.com/tracker.html
@@ -22827,7 +22839,6 @@ _mongo_stats/
 ||thegameslist.com/wb/t.gif
 ||thegumtree.com^*/tracking.js
 ||thejc.com/metatraffic2/
-||thejournal.ie/i.php
 ||thenewsroom.com//playerreporting/
 ||theolivepress.es/cdn-cgi/cl/
 ||thesaurus.com/track/
