@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gsoW+20KBFB2/T2sBAXXVQ
+! Checksum: x/3DFqMZoxRV9D2nQYfAxQ
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201703091630
-! Last Modified: 2017年03月09日 16:30
+! Version: 201703100900
+! Last Modified: 2017年03月10日 09:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -185,12 +185,6 @@ tieba.baidu.com##.tuijian-wrap
 ||sp*.baidu.com^*.gif?
 ||tieba.baidu.com/f/urlcheck?
 ||youxi.baidu.com/tips/bdtips_min.js
-zhidao.baidu.com##.w-question-list[data-sign]
-zhidao.baidu.com##DIV[class$="-ecom-ads"]
-image.baidu.com##.sample0
-image.baidu.com##.sample1
-image.baidu.com##.sample2
-image.baidu.com##.tjad
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2)
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .t > a[href^="http://www.baidu.com/baidu.php?"]
@@ -208,7 +202,7 @@ baidu.com###asideLeft
 baidu.com###asideRight
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
+18avhub.com,18avtube.com,360.cn,adultwefong.com,aijiatxt.com,avmimi.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
 baidu.com###bdyx_float_rb
@@ -436,6 +430,9 @@ baidu.com##.rightAd-skin
 muzhi.baidu.com##.rightnest
 baidu.com##.s-news-special[data-url^="http://vip.baidu.com/"]
 baidu.com##.sam_iebrowser_banner
+image.baidu.com##.sample0
+image.baidu.com##.sample1
+image.baidu.com##.sample2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.score_ecr_wrapper
 baidu.com##.search-aside-adWrap
 iwan.baidu.com##.side-banner
@@ -450,6 +447,7 @@ baidu.com##.text-advertise
 baidu.com##.text-link-ads
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
+image.baidu.com##.tjad
 tieba.baidu.com##.tl_spread
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 baidu.com##.top-ad-cont
@@ -463,6 +461,7 @@ fanyi.baidu.com##.trans-side-ad-wrap
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 zhidao.baidu.com##.union-tg
+zhidao.baidu.com##.w-question-list[data-sign]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.wanle_tab_tip
 baidu.com##.wapAd
 baidu.com##.wgt-ads
@@ -485,6 +484,7 @@ m.baidu.com##a[href*="m.lecai.com"]
 v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 api.so.lianmeng.360.cn,pos.baidu.com##body
+zhidao.baidu.com##div[class$="-ecom-ads"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="EC_pla_"]
