@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I1pPcSX64ZJwUnTuWLqrww
+! Checksum: oexL7z8T8XsBgmi63U3BRA
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201703101200
-! Last Modified: 2017年03月10日 12:00
+! Version: 201703101300
+! Last Modified: 2017年03月10日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -548,8 +548,8 @@ baidu.com#@#.share-list
 ||goutong.baidu.com^
 ||baidu.com/cms/lemmaconfig/baikeDynamic.
 ||baidu.com/cms/lemmaconfig/navbarAd.
-m.baidu.com,www.baidu.com###banner_call + div[id]
-m.baidu.com,www.baidu.com###index-card > DIV[id][style]
+3g.baidu.com,m.baidu.com,www.baidu.com###banner_call + div[id]
+3g.baidu.com,m.baidu.com,www.baidu.com###index-card > DIV[id][style]
 zuoye.baidu.com,zybang.com###QRinside
 yd.baidu.com##.ui-distribution-bar
 baidu.com###activateGuidePopupOuter
@@ -579,6 +579,7 @@ news.baidu.com##.recommend-mask
 ||baidu.com^*/w.gif?
 ||baidu.com/4.gif?
 ||push.zhanzhang.baidu.com/push.js
+||hm.baidu.com^$third-party
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/img/image/su/
 ||bdstatic.com/pc_static/detail/game_promotion/

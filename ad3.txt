@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V3EonlkdotFCJMezwob8ig
+! Checksum: WHR6Jmn61gEIS9L9O+sbvA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703101200
-! Last Modified: 2017年03月10日 12:00
+! Version: 201703101300
+! Last Modified: 2017年03月10日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11231,6 +11231,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+&adsrc=
 ?ad_ids=
 ##.r_ad
 /file/ads/*
@@ -11839,6 +11840,11 @@ _300_250.
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||chinacloudsites.cn/api/promotion?
 !------------------------Specific element hiding rules------------------------!
+caijing.com.cn##.downdiv
+ci123.com###fixed-recom
+ci123.com##DIV[onclick^="window.location='http://a.myapp.com/"]
+bing.com###bingBrand
+so.com###msocomBottomBanner
 tmall.com##.app-download-popup
 tmall.com###J_BottomSmartBanner
 p2peye.com##.red-box
@@ -11853,8 +11859,8 @@ m.babytree.com##.recommend-img-box
 m.babytree.com##.wrap > section[class*="0"],.wrap > DIV[class*="0"]
 m.babytree.com##.wrap > section[class*="4"],.wrap > DIV[class*="4"]
 m.babytree.com##.wrap > section[class*="9"],.wrap > DIV[class*="9"]
-m.baidu.com,www.baidu.com###banner_call + div[id]
-m.baidu.com,www.baidu.com###index-card > DIV[id][style]
+3g.baidu.com,m.baidu.com,www.baidu.com###banner_call + div[id]
+3g.baidu.com,m.baidu.com,www.baidu.com###index-card > DIV[id][style]
 ifanr.com##.popup-app-download
 kaopu001.com###pokemon
 m.taobao.com##.install-app
@@ -12405,6 +12411,22 @@ blog.163.com###topbar_yxpArea
 ||s-msn.com/portal/js/vendor/manto/
 ||hoopchina.com.cn/web/module/dace/
 ||cjyun.org/assets/js/analytics.js
+/__utm.gif
+/gen_204?$image,script
+/log.gif?
+/track.gif?
+||cnzz.com^$third-party
+||google-analytics.com/analytics.js
+||googletagmanager.com/gtm.js?$third-party
+||wrating.com^$third-party
+||users.51.la^$third-party
+||hm.baidu.com^$third-party
+||rs.sinajs.cn^
+||sinajs.cn/open/analytics/
+||beacon.sina.com.cn^
+||msg.71.am^
+||google.*/gen_204?$~xmlhttprequest
+||stadig.ifeng.com^
 !---------------------------------微博首页------------------------------------!
 !---首页顶部:提示【微博热点：神最右，爆料，找节操...总有一款适合你，点击使用！】
 weibo.com###v6_pl_content_hometip
