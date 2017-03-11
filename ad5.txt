@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R/wCqKGunhZ3bHj5lSI0sA
+! Checksum: zpMT61r0BbjLkgrDKu3u1g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703111230
-! Last Modified: 2017年03月11日 12:30
+! Version: 201703111300
+! Last Modified: 2017年03月11日 13:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11344,6 +11344,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 ! EasyList Lite
+##.ad_bar
 &adsrc=
 ?ad_ids=
 ##.r_ad
@@ -11766,6 +11767,7 @@ _300_250.
 /tencentvideo/script/webtips/*
 /loooyu.js
 /wp-content/plugins/upprev/*
+/shenmago_download_app_
 !------------------------General element hiding rules-------------------------!
 ###windlocation
 ###qrcodeWrap
@@ -11953,7 +11955,18 @@ _300_250.
 ||chinacloudsites.cn/api/promotion?
 ||zhiyoo.com/mplus/images/banner.jpg
 ||youdao.com/market/banner/banner_qq.js
+||39.net/PictureLib/A/f76/20160825/org_749281.png
 !------------------------Specific element hiding rules------------------------!
+zhiyoo.com##.prompt
+yesky.com###flayer
+yesky.com###gfapp1
+bilibili.com###b_app_link
+zhihu.com##.AppMagicBanner
+douyu.com###js-fix-download
+baidu.com##.apphint
+kdnet.net##.download-bar
+btime.com##.top-bar
+btime.com###download
 youdao.com##.dict-dl
 sogou.com##.bottombar
 sogou.com##.tg-box-1
@@ -12303,6 +12316,7 @@ blog.163.com###topbar_yxpArea
 /mysql/count/*$script,domain=ts.cn
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
+/yesky/js/counter/*
 ||tingyun.com^$third-party
 ||lotour.net/analytics/statsv2.js
 ||count.iyaxin.com^
