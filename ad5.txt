@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 787qqGTBiXhGRZTWzVFy/g
+! Checksum: YRfRCKou0+slf1VfWDt9Yw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703122300
-! Last Modified: 2017年03月12日 23:00
+! Version: 201703130730
+! Last Modified: 2017年03月13日 07:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -124,8 +124,6 @@ tieba.baidu.com##.tuijian-wrap
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/30814100317.gif
-/30814100318.gif
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -157,6 +155,8 @@ tieba.baidu.com##.tuijian-wrap
 /1867fa6ff2e978a303d41b08e2b30b50.gif
 /20160420_uho_bn.gif
 /2016v2/js/adm2.js
+/30814100317.gif
+/30814100318.gif
 /66bubu/ads/*
 /8drama_yahoo/*
 /8w5QL8HJF0vknl8Z/*
@@ -420,6 +420,7 @@ _popAds.
 ###MyMoveAd
 ###QQ_Full
 ###RightAd1
+###ad-SNSSplashAd
 ###ad6cn
 ###adBody01
 ###adBody02
@@ -653,13 +654,12 @@ _popAds.
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="]
 ##a[href*="/?intr="]
-##A[href^="/freeone/htm/"]
+##a[href^="/freeone/htm/"]
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###ad-SNSSplashAd
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -1990,7 +1990,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||uum6.com^$popup,domain=77file.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -2044,6 +2043,7 @@ ubmcmm.baidustatic.com
 ||taobao.com^$popup,domain=bilibilijj.com|gaoqingkong.com|xianzhenyuan.cn
 ||tmall.com^$popup,domain=xianzhenyuan.cn
 ||todayapp.tv^$popup,third-party
+||uum6.com^$popup,domain=77file.com
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
 ||xiyouhope.com^$popup,third-party
@@ -2943,11 +2943,11 @@ mg*.6park.com/img/$image
 ||alabout.com/images/*.gif
 ||alexa.cn/upfile/images/
 ||ali213.net/css/data/promotion.css
-||ali213.net^*/promotion/
 ||ali213.net/pubjs/SetScreen
 ||ali213.net/static/js/*_ali213tv.js
 ||ali213.net/static/js/kktv
 ||ali213.net/static/js/kv
+||ali213.net^*/promotion/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/tps/*-950-90.
@@ -3434,6 +3434,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/320x50.
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
+||cnbetacdn.com/frontend/vipics/yijian_
 ||cnchu.com/aps/
 ||cndzys.com/huanlian/
 ||cnfol.com/f=ud/Js/Ad
@@ -3972,6 +3973,7 @@ mg*.6park.com/img/$image
 ||gusuwang.com/ymsextweb/images/index/ist_t.jpg
 ||gusuwang.com/ymsextweb/javascript/gs
 ||guyizhou.cn/temp/top_banner_
+||gvm.com.tw/scripts/jquery.colorbox-
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gx.xinhuanet.com/images2007/banner.htm
 ||gxnews.com.cn/cache/wwwads.js
@@ -6222,16 +6224,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||cnbetacdn.com/frontend/vipics/yijian_
-||gvm.com.tw/scripts/jquery.colorbox-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-oneinstack.com###secondary
-dy2018.com,xiaopian.com##A[href^="http://www.xiacai.com/"]
-m.cnbeta.com##DIV[data-role="content"] > DIV[style^="text-align:"]
-image.so.com##.cmitem
-image.so.com##LI[class="waterfall_cell"]
-haosou.com,so.com###mohe-m-etao_shangye
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7105,6 +7099,7 @@ hao123.com###mingzhanresource
 hk.yahoo.com###mntl1
 neihanshe.cn###mobile_client
 haosou.com,so.com,youdao.com###mohe-etao_shangye
+haosou.com,so.com###mohe-m-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
 dnvod.eu,itavcn.com,jmnews.com.cn,xt700.com###msg_win
@@ -7299,6 +7294,7 @@ duba.com###searchRight
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
 baidu.com###search_bottomad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
+oneinstack.com###secondary
 iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
@@ -8294,6 +8290,7 @@ tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
 tieba.baidu.com##.client_ad_topBanner_all
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + div:last-child
 v.duba.com##.cmcm-stuct-x
+image.so.com##.cmitem
 2345.com##.cmoe-nxh-dx
 bbs.xmfish.com##.cmp_v
 24en.com##.cnt_banner
@@ -10042,6 +10039,7 @@ dyhjw.com##a[href^="http://www.hjtd88.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 6park.com##a[href^="http://www.vava8.com"]
+dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
@@ -10179,6 +10177,7 @@ yahoo.com##div[data-ad-feedback-beacon]
 baidu.com##div[data-ad]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[data-click="\7b \"rsv_srcid\":49516\7d "]
 cqmmgo.com##div[data-id*="_adv_"]
+m.cnbeta.com##div[data-role="content"] > div[style^="text-align:"]
 sina.com.cn##div[data-sudaclick="ad_ppzq"]
 zhihu.com##div[data-type="ad"]
 weibo.com##div[feedtype="ad"]
@@ -10481,6 +10480,7 @@ hz0572.com,pingpang.info##img[width="950"]
 biz.zjol.com.cn##img[width="980"]
 0597kk.com##img[width^="37"][height="30"]
 apk.tw##ins.adsbygoogle
+image.so.com##li[class="waterfall_cell"]
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
@@ -11266,12 +11266,11 @@ gamer.com.tw#@#.text_ads
 &pss=
 ?pdbid=$subdocument
 |http://*/s?di=u
-||js.syiae.com^
-||a.fengyx.com^
 ||1.rengshu.com^
 ||1.win7china.com^
 ||3.guidaye.com^
 ||52lubo.cn^
+||a.fengyx.com^
 ||ap*.pl520.com^
 ||baidu.greenxf.cn^
 ||d6.mobaders.com^
@@ -11286,6 +11285,7 @@ gamer.com.tw#@#.text_ads
 ||gwy.sdsgwy.com^
 ||gzlykj.cn^
 ||hehe1.200218.com^
+||js.syiae.com^
 ||lele999.com^
 ||milk.yesky.com.cn^
 ||sscm1.mipujia.com^
@@ -16353,6 +16353,7 @@ _mongo_stats/
 ||daylogs.com^$third-party
 ||dc-storm.com^$third-party
 ||dc.tremormedia.com^$third-party
+||ddm.io^$third-party
 ||decdna.net^$third-party
 ||decibelinsight.net^$third-party
 ||decideinteractive.com^$third-party
