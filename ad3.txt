@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RDHP0e99WdqWAIrZJrpNTg
+! Checksum: sSexi7jead4Pi4C3Gl5ZvQ
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703121030
-! Last Modified: 2017年03月12日 10:30
+! Version: 201703121100
+! Last Modified: 2017年03月12日 11:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -11862,12 +11862,20 @@ _300_250.
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||chinacloudsites.cn/api/promotion?
 ||zhiyoo.com/mplus/images/banner.jpg
-||youdao.com/market/banner/banner_qq.js
+||youdao.com/market/banner/banner
 ||39.net/PictureLib/A/f76/20160825/org_749281.png
 ||enet.com.cn/counter.php
 ||youku.com/video/js/yksmartbanner.
 ||caixin.com/file/content/js/mobile_news_app_banner.js
+||ettoday.net/style/mobileweb2014/js/smartbanner/jquery.smartbanner.
+||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
 !------------------------Specific element hiding rules------------------------!
+to8to.com##.whan-ad
+focus.cn##.index-app-download
+anjuke.com###xajk_down_new
+acfun.cn###prompt-box
+zhibo8.cc###m_adv
+pchome.net,kdslife.com##.weixin
 douban.com##.bottom_ad_download
 jianshu.com##.top
 jrj.com.cn##.wbyy
