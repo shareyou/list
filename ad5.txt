@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R9lMd3ewjEkF50ACf0/6kw
+! Checksum: wwVcF416Sq4ctrl0XmN8Zw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703141130
-! Last Modified: 2017年03月14日 11:30
+! Version: 201703141530
+! Last Modified: 2017年03月14日 15:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11959,7 +11959,10 @@ _300_250.
 ||ettoday.net/style/mobileweb2014/js/smartbanner/jquery.smartbanner.
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
 ||ali213.net/js/3g/newsdetail.js
+||21sq.org/js/downloadbanner.js
 !------------------------Specific element hiding rules------------------------!
+baijiahao.baidu.com##.openBox-shareEntry
+mobile.baidu.com##.p_fixed_lb
 mydrivers.com###a_showhotnews_list_dia
 appchina.com###yyh-bottom
 jiemian.com##.header-container > DIV > SECTION[style="width: 100%;"]
@@ -12017,8 +12020,8 @@ m.babytree.com##SCRIPT + A[class]
 m.babytree.com##.wrap > section[class*="0"],.wrap > DIV[class*="0"]
 m.babytree.com##.wrap > section[class*="4"],.wrap > DIV[class*="4"]
 m.babytree.com##.wrap > section[class*="9"],.wrap > DIV[class*="9"]
-3g.baidu.com,m.baidu.com,www.baidu.com###banner_call + div[id]
-3g.baidu.com,m.baidu.com,www.baidu.com###index-card > DIV[id][style]
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###index-card > [-abp-properties='height: 53px;']
 ifanr.com##.popup-app-download
 kaopu001.com###pokemon
 m.taobao.com##.install-app
@@ -12345,6 +12348,7 @@ blog.163.com###topbar_yxpArea
 /soku/giantstar/js/youlog.js
 /hunter/alog/*
 /yesky/js/counter/*
+||olpv.onlylady.com^
 ||comm100.cn/livechatserver/chatbutton.*&res=
 ||tingyun.com^$third-party
 ||lotour.net/analytics/statsv2.js
@@ -24221,6 +24225,9 @@ _mongo_stats/
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
 @@||adblockanalytics.com/ads.js|
 @@||adidas.com^*/adidasAnalytics.js?
+@@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|vanityfair.com|wired.com
+@@||adobedtm.com^*/satellite-$script
+@@||adobedtm.com^*/satelliteLib-$script,domain=icimusique.ca|lenovo.com|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
 @@||adobetag.com/d2/$script,domain=thestar.com
 @@||adobetag.com^*/amc.js$script
 @@||adobetag.com^*/sitecatalyst.js$domain=hbf.com.au|seattlepi.com|tv.com
@@ -24996,6 +25003,7 @@ _mongo_stats/
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||actiris.be/urchin.js
 @@||actiris.be^*/urchin.js
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.fr
 @@||adyoulike.omnitagjs.com^$script,domain=dl.free.fr
 @@||analytics.belgacom.be/tms/loader.js$domain=proximus.be
 @@||analytics.ladmedia.fr/parismatch/xtcore_mod2.js$domain=parismatch.com
@@ -25046,6 +25054,7 @@ _mongo_stats/
 @@||bolha.com/js/gemius_.js?
 @@||csfd.cz/log?
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|sportrevue.cz|zive.cz
+@@||adobedtm.com^*/satelliteLib-$script,domain=elgiganten.dk
 @@||bilka.dk/assets/ext/adobe/VisitorAPI.js
 @@||cxense.com/cx.js$domain=common.tv2.dk
 @@||dbastatic.dk/Content/scripts/analytics.js$script
@@ -25062,6 +25071,7 @@ _mongo_stats/
 @@||sport.be/javascripts/tracking/metriweb/spring.js
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?$object
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?
+@@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi|markantalo.fi
 @@||emediate.se/EAS_tag*.js$domain=forssanlehti.fi
 @@||ensighten.com^*/Bootstrap.js$domain=mikrobitti.fi
 @@||googletagmanager.com/gtm.js?$domain=cdon.fi
@@ -25109,6 +25119,7 @@ _mongo_stats/
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@/webtracking/*$domain=pasts.lv
 @@||google-analytics.com/analytics.js$domain=skaties.lv
+@@||adobedtm.com^*/satelliteLib-$script,domain=elkjop.no
 @@||cloudfront.net/autoTracker.min.js$domain=direkte.vg.no
 @@||google-analytics.com/analytics.js$domain=tv3play.no
 @@||gemius.pl/gstream.js
@@ -25152,6 +25163,7 @@ _mongo_stats/
 @@||estafeta.com/shared/js/tracking.js
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||segundamano.mx^*/tealium.js
+@@||adobedtm.com^*/satelliteLib-$script,domain=elgiganten.se
 @@||google-analytics.com/analytics.js$domain=tradera.com|xxl.se
 @@||google-analytics.com/plugins/ua/ec.js$domain=xxl.se
 @@||googletagmanager.com/gtm.js?id=$domain=tradera.com|xxl.se

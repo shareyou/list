@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZpG1ZTHR0J5oJpt91FwNMA
+! Checksum: jEN4g3+lANctwCbLJTXSCA
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201703140800
-! Last Modified: 2017年03月14日 08:00
+! Version: 201703141530
+! Last Modified: 2017年03月14日 15:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
@@ -549,13 +549,15 @@ baidu.com#@#.share-list
 ||goutong.baidu.com^
 ||baidu.com/cms/lemmaconfig/baikeDynamic.
 ||baidu.com/cms/lemmaconfig/navbarAd.
+baijiahao.baidu.com##.openBox-shareEntry
+mobile.baidu.com##.p_fixed_lb
 baidu.com###exp-fixed-bottom
 baidu.com##.home-app-promotion
 zhidao.baidu.com##.link
 zhidao.baidu.com###main-content > DIV[class]:first-child > a
 baidu.com##.apphint
-3g.baidu.com,m.baidu.com,www.baidu.com###banner_call + div[id]
-3g.baidu.com,m.baidu.com,www.baidu.com###index-card > DIV[id][style]
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###index-card > [-abp-properties='height: 53px;']
 zuoye.baidu.com,zybang.com###QRinside
 yd.baidu.com##.ui-distribution-bar
 baidu.com###activateGuidePopupOuter
