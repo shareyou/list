@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Wg5FIOEkpWZI/xR2BfFqcg
+! Checksum: MBz3LyTP6OpD5pbSUon0hQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703141730
-! Last Modified: 2017年03月14日 17:30
+! Version: 201703141900
+! Last Modified: 2017年03月14日 19:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -15326,6 +15326,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /trackpixel.
 /trackpxl?
 /trackr.swf
+/TrackShopAnalytics.
 /trackstats?
 /tracksubprop.
 /trackTimings.gif?
@@ -15569,6 +15570,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wijitTrack.gif?
 /WikiaStats/*
 /wildfire/i/CIMP.gif?
+/wiseRtSvcVisit.
 /wjcounter-
 /wjcounter.
 /wjcountercore.
@@ -18365,6 +18367,7 @@ _mongo_stats/
 ||tracking*.euroads.fi^$third-party
 ||vihtori-analytics.fi^$third-party
 ||hotstats.gr^$third-party
+||linkwi.se^$third-party
 ||enter-system.com^$third-party
 ||hetchi.com^$third-party
 ||gpr.hu^$third-party
@@ -18565,6 +18568,7 @@ _mongo_stats/
 ||proext.com^$third-party
 ||quick-counter.net^$third-party
 ||r24-tech.com^$third-party
+||retag.xyz^$third-party
 ||retailrocket.ru^$third-party
 ||ru.net^$third-party
 ||sarov.ws^$third-party
@@ -19309,6 +19313,7 @@ _mongo_stats/
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
+||early-birds.fr/tracker/
 ||ebay.northernhost.com^
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
 ||ebaystatic.com^*/rover_$script
@@ -21665,6 +21670,7 @@ _mongo_stats/
 ||dw.de^*/run.dw?
 ||dx.com/?utm_rid=
 ||dyo.gs/track/
+||ea.laredoute.
 ||ea.pixmania.
 ||eafyfsuh.net/track/
 ||easy2.com^*/logging/
@@ -22873,6 +22879,7 @@ _mongo_stats/
 ||tab.co.nz/track?
 ||tacobell.com/tb_files/js/tracker.js
 ||tag-stats.huffpost.com^
+||tagcommander.laredoute.
 ||tags.msnbc.com^
 ||tags.news.com.au^
 ||tags.transportdirect.info^
@@ -24228,7 +24235,7 @@ _mongo_stats/
 @@||adidas.com^*/adidasAnalytics.js?
 @@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|vanityfair.com|wired.com
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=icimusique.ca|lenovo.com|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.co.uk|laredoute.com|lenovo.com|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
 @@||adobetag.com/d2/$script,domain=thestar.com
 @@||adobetag.com^*/amc.js$script
 @@||adobetag.com^*/sitecatalyst.js$domain=hbf.com.au|seattlepi.com|tv.com
@@ -25004,7 +25011,7 @@ _mongo_stats/
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||actiris.be/urchin.js
 @@||actiris.be^*/urchin.js
-@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.fr
+@@||adobedtm.com^*/satelliteLib-$script,domain=icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr
 @@||adyoulike.omnitagjs.com^$script,domain=dl.free.fr
 @@||analytics.belgacom.be/tms/loader.js$domain=proximus.be
 @@||analytics.ladmedia.fr/parismatch/xtcore_mod2.js$domain=parismatch.com
@@ -25097,6 +25104,7 @@ _mongo_stats/
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
 @@||cloudfront.net/bugsnag-2.min.js$domain=miutcank.hu
 @@||rtl.hu/javascripts/UserTracking.js
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.it
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||androidgalaxys.net/wp-content/plugins/*/google-analyticator/$script
 @@||beppegrillo.it/mt-static/js/ga_social_tracking.js
@@ -25123,12 +25131,14 @@ _mongo_stats/
 @@||adobedtm.com^*/satelliteLib-$script,domain=elkjop.no
 @@||cloudfront.net/autoTracker.min.js$domain=direkte.vg.no
 @@||google-analytics.com/analytics.js$domain=tv3play.no
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
 @@||gemius.pl/gstream.js
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
 @@||77.91.202.130/js/20050/xiti.js$domain=custojusto.pt
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pt
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
@@ -25143,6 +25153,7 @@ _mongo_stats/
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||playwire.com/bolt/js/zeus/$script,domain=desi-tashan.com
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru
@@ -25160,6 +25171,7 @@ _mongo_stats/
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
 @@||acb.com/javascripts/jv_feeder_stats.js
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.es
 @@||c5n.com^*/angulartics-google-analytics.min.js
 @@||estafeta.com/shared/js/tracking.js
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
