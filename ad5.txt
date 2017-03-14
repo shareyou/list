@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MBz3LyTP6OpD5pbSUon0hQ
+! Checksum: dyMO+mtqeIzgWqoARPvkDw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703141900
-! Last Modified: 2017年03月14日 19:00
+! Version: 201703142030
+! Last Modified: 2017年03月14日 20:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13980,6 +13980,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /iframetracker.
 /IGA.linktagger.
 /ignition-one.js
+/image.articleview?
 /image.ng/*
 /image/count.gif?
 /images/1px.gif?
@@ -14265,6 +14266,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /media_viewed_tracking.
 /mediateGA.js
 /megacounter/*
+/mendelstats.
 /metatraffic/track.asp?
 /metrics-ga.
 /metrics.xml
@@ -20070,7 +20072,6 @@ _mongo_stats/
 ||statm.the-adult-company.com^
 ||stats-messages.gifs.com^
 ||stats-newyork1.bloxcms.com^
-||stats.24.com^
 ||stats.adm-vids.com^
 ||stats.big-boards.com^
 ||stats.bitgravity.com^
@@ -21439,7 +21440,6 @@ _mongo_stats/
 ||bridgetrack.com/site/
 ||bridgetrack.com/track/
 ||brightcove.com/1pix.gif?
-||britannica.com/webstats/
 ||broadbandchoices.co.uk/track.js
 ||broadwayworld.com/regionalbug.cfm?
 ||brobible.com/?ACT
