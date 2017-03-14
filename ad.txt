@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: faDTwoKHo7wSag1QfYDVuA
+! Checksum: ZOmHl/s8SuZFfMeiIigVTg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703142130
-! Last Modified: 2017年03月14日 21:30
+! Version: 201703142145
+! Last Modified: 2017年03月14日 21:45
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -78,7 +78,6 @@ xhamster.com##.sponsorBottom
 |http://$third-party,domain=09xs.com|bookbao.net|gaybonegdage.com|mybtfiles.com|ranwen.org|biquge.com|biquge.tw|biqudao.com|pbtxt.com|piaov.com|ttdbh.com|xxbiquge.com
 |https://$third-party,domain=ttdbh.com
 @@|http://$generichide,domain=nibblebit.com|www.aiwanba.net
-@@||adblockdetect.xyz^
 @@||apis.google.com^
 ||115.com/static/plug/video_play/qrcode.js
 ||123yq.org/ssi/
@@ -156,7 +155,7 @@ xhamster.com##.sponsorBottom
 ||okmuxdbq.com^
 ||onclickpredictiv.com^
 ||onclickads.net^
-||openload.co/embed/
+||openload.co/assets/js/script.packed
 ||optimix.asia^
 ||optimizely.com^$third-party
 ||networld.hk^$third-party
