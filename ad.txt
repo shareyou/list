@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0nneqyfmJ51NIy2j4Vg/kA
+! Checksum: k4+4a/A1uMB06nqGI2I+bQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703151200
-! Last Modified: 2017年03月15日 12:00
+! Version: 201703151600
+! Last Modified: 2017年03月15日 16:00
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -933,6 +933,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
+||jkmxy.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -11001,15 +11002,15 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-gamer.com.tw#@#.pub_300x250
-gamer.com.tw#@#.pub_300x250m
-gamer.com.tw#@#.pub_728x90
-gamer.com.tw#@#.text-ad
-gamer.com.tw#@#.text-ad-links
-gamer.com.tw#@#.text-ads
-gamer.com.tw#@#.textAd
-gamer.com.tw#@#.text_ad
-gamer.com.tw#@#.text_ads
+ck101.com,gamer.com.tw#@#.pub_300x250
+ck101.com,gamer.com.tw#@#.pub_300x250m
+ck101.com,gamer.com.tw#@#.pub_728x90
+ck101.com,gamer.com.tw#@#.text-ad
+ck101.com,gamer.com.tw#@#.text-ad-links
+ck101.com,gamer.com.tw#@#.text-ads
+ck101.com,gamer.com.tw#@#.textAd
+ck101.com,gamer.com.tw#@#.text_ad
+ck101.com,gamer.com.tw#@#.text_ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
@@ -11054,7 +11055,7 @@ gamer.com.tw#@#.text_ads
 @@/assets/adv/*$domain=4008927927.cn
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@/cms/ads/*$domain=17.com
-@@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
+@@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
 @@/fuckadblock.$domain=ck101.com
