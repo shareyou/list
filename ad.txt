@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LnccKbmWvfHtHIHJ0MP2kg
+! Checksum: IRy4iLaZMDCmfExQwEaZ2Q
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703161200
-! Last Modified: 2017年03月16日 12:00
+! Version: 201703161430
+! Last Modified: 2017年03月16日 14:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -198,6 +198,7 @@ xhamster.com##.sponsorBottom
 ||www.blnovel.com/cmjs/$script
 ||www.blnovel.com/e/$script
 ||www.blnovel.com/qrcode.php
+||www.gelbooru.com/thumbnails/*
 ||xiamp4.com/tj.js
 ||xiucm.com^$third-party
 ||xemphimviet.net^$third-party
