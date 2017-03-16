@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201703160930
-! Last Modified: 2017年03月16日 09:30
+! Version: 201703161030
+! Last Modified: 2017年03月16日 10:30
 ! Homepage: http://tieba.baidu.com/p/4951429693
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
@@ -630,8 +630,7 @@ cnbeta.com##div.tools>div.time,div.cbimage-fixed,.main_content+*,div.commt-r,.cb
 coladrive.com##.ad1>div.tui
 |http://www.coladrive.com/templates/cola3beta/js/anti.js
 @@|http://my.csdn.net/service/favorite/add_favorite?
-csdn.net##div[class^="ad_"],iframe#Topic_Top,div#ad_left,div#ad_right,div.AD.mb-bg,#header
-|http://static.blog.csdn.net/skin/*.jpg|
+csdn.net##div[class^=ad_],div#ad_left,div#ad_right,div.AD.mb-bg
 duowan.com##a[adid]
 eastmoney.com##.footer-ads,#rightAD,.adbox
 ||cmsjs.eastmoney.com/$subdocument
@@ -644,7 +643,6 @@ ftchinese.com##div[data-id|=banner],div[data-id|=storympu],div[data-id|=mpu],div
 ||ftchinese.com/m/marketing/$subdocument
 ||static.ftchinese.com/n/main-barrier.js
 |http://dolphin.ftimg.net/$script
-@@|http://union.bokecc.com/player
 |http://www.ftchinese.com/index.php/jsapi/
 ||orz.hupu.com
 |http://t1.hoopchina.com.cn/$subdocument
@@ -703,7 +701,6 @@ zimuzu.tv##ul.room
 !youtube.com##div.video-annotations
 ||s.youtube.com/api/stats/
 pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
-www.pptv.com###index-slider:style(overflow: visible !important;)
 |http://dy1000.applecdn.net/js/
 dy1000.com##div[class^=random]
 ||wsacdn1.miaopai.com/upload-pic/*.jpg|
@@ -711,8 +708,7 @@ dy1000.com##div[class^=random]
 ||log1.17173.com/
 |http://www.36dm.com/js/nu
 acfun.cn###ad-comment,#ad-player-view
-||static.acfun.tv/json/addata.json
-|http://www.acfun.tv/adnew.aspx
+|http://www.acfun.cn/adnew.aspx
 dygang.com,6vhao.com,6vhao.net###gd
 jiyingdm.com##div.abcde,#otherWindowBox
 |http://jiyingdm.com/js/loadingshow.html
@@ -727,14 +723,9 @@ yatu.tv###loadimg,#daohang
 |http://misc.t.kankan.com/level_demo/iframe/$subdocument
 v.duba.com###fixedad,div[id|=ad]
 |http://v.duba.com/$object
-|http://afp.wasu.cn/a.htm?pv=
-||afpcreative.wasu.cn^$script
-|http://apistat.wasu.cn/$script
-!||mlt01.com^$third-party
-||wasu.cn/mediafiles/creative/
-||baofeng.net/*.html?&adid=
-||static.hd.baofeng.com/script/baidu_
-baofeng.com##[class|=ad],div.play-top-ad
+||baofeng.net/*.html?adid=
+|http://static.hd.baofeng.com/script/baidu.js
+baofeng.com##[class|=ad],div.play-top-ad,.play-ad-box
 @@||stat.v-56.com/player
 56.com##div.qf_float
 ||qf.56.itc.cn^$image
@@ -787,7 +778,6 @@ v.pps.tv##div.pgbox-content
 @@||c.wrating.com/a1.js$domain=tudou.com
 tudou.com##body>iframe,div.ad_banner
 www.soku.com##li.sb_ad,div.sk-banner,div.sk_banner
-!@@|http://v2html.atm.youku.com/vhtml
 ||atm.youku.com/
 @@|http://hudong.pl.youku.com/crossdomain.xml
 @@|http://hudong.pl.youku.com/interact/live/get/live
@@ -829,7 +819,6 @@ bilibili.com##div.ad-f
 live.bilibili.com##.video-section+a
 @@||stat.letv.com/$script
 */letv-gug/$object-subrequest
-!|http://apple.www.letv.com/
 |http://ark.letv.com/
 |http://ark.le.com/
 |http://fz.letv.com/
@@ -848,10 +837,10 @@ yinyuetai.com##video~div,.shopMoney,div[class^=ad_],a.pic[href^="http://shop.yin
 ||hc.yinyuetai.com/partner/yyt/
 |http://acjs.aliyun.com/flash/JSocket.swf
 *.jpg|$object-subrequest,domain=yinyuetai.com
-tucao.tv##div.a2013d
-|http://www.tucao.tv/index.php?m=poster&c=index$subdocument
-|http://www.tucao.tv/uploadfile/201*.jpg|$object-subrequest
-@@||union.bokecc.com/flash/pocle/player.swf$object
+tucao.tv##div[class$="_poster"]
+|http://www.tucao.tv/index.php?m=poster&c=index$subdocument,popup
+|http://www.tucao.tv/uploadfile/201$image,object-subrequest
+@@||union.bokecc.com/*player$object
 ||bokecc.com/*.jpg|$object-subrequest
 ||bokecc.com/flash/playlog?
 |http://click.bokecc.com/
