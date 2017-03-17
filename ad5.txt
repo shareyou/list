@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oW0FuXYrwFLJevRn6o67Fw
+! Checksum: PnRBWssn0vMUw9SOpIcvow
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703171830
-! Last Modified: 2017年03月17日 18:30
+! Version: 201703172200
+! Last Modified: 2017年03月17日 22:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12659,6 +12659,7 @@ weibo.com##.apps_PCD_reco_detail_right
 &trackingserver=
 -AdTracking.
 -analytics-tagserver-
+-asset-tag.
 -audience-science-pixel/
 -baynote.
 -bluekai.
@@ -13377,6 +13378,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /clickAnalyse.
 /clickcount.cfm?
 /clickcount_
+/clickctrl.js
 /clickheat.js
 /clickheat^
 /clicklog.
@@ -13573,6 +13575,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /disp_cnt.
 /dispatch.fcgi?
 /divolte.js
+/dl_counter.
 /dla_tracker.
 /dltrack.
 /dltrack/*
@@ -14157,6 +14160,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /leadgen_track
 /library/svy/*/broker.js
 /library/svy/broker.js
+/libs/tracker.js
 /lingabot.
 /link_track.
 /link_tracking/*
@@ -14226,6 +14230,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /logger.ashx?
 /logger.dll/*
 /logger.pageperf?
+/logger/?referer=
 /logger/p.gif?
 /logger?d=
 /logger?description=
@@ -17526,6 +17531,7 @@ _mongo_stats/
 ||sqate.io^$third-party
 ||squidanalytics.com^$third-party
 ||srpx.net^$third-party
+||srv1010elan.com^$third-party
 ||stadsvc.com^$third-party
 ||startstat.ru^$third-party
 ||stat08.com^$third-party
@@ -18446,9 +18452,12 @@ _mongo_stats/
 ||bb-analytics.jp^$third-party
 ||beanscattering.jp^$third-party
 ||blogranking.net^$third-party
+||ca-mpr.jp^$third-party
 ||cosmi.io^$third-party
+||deteql.net^$third-party
 ||docodoco.jp^$third-party
 ||e-kaiseki.com^$third-party
+||ec-optimizer.com^$third-party
 ||eco-tag.jp^$third-party
 ||fout.jp^$third-party
 ||gmodmp.jp^$third-party
@@ -18463,6 +18472,7 @@ _mongo_stats/
 ||rtoaster.jp^$third-party
 ||sibulla.com^$third-party
 ||trackfeed.com^$third-party
+||ukw.jp^$third-party
 ||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
 ||logger.co.kr^$third-party
@@ -21579,6 +21589,7 @@ _mongo_stats/
 ||computing.co.uk^*/webtrends.js
 ||confirm-referer.glrsales.com^
 ||consumerreports.org^*/js/conversion.js
+||contadores.bolsamania.com^
 ||cooksunited.co.uk/counter*.php?
 ||cooksunited.co.uk^*/pixel/
 ||coolertracks.emailroi.com^
@@ -24028,6 +24039,7 @@ _mongo_stats/
 ||nhk.or.jp^*/bc.js
 ||sankei.co.jp/js/analytics/
 ||seesaawiki.jp/img/rainman.gif?
+||tsite.jp/static/analytics/
 ||visit.geocities.jp^
 ||yahoo.co.jp/b?p=
 ||211.106.66.62^*/statistics/$domain=yonhapnews.co.kr
