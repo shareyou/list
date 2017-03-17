@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PnRBWssn0vMUw9SOpIcvow
+! Checksum: jMoUqPWWszTBks7lZItz3w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703172200
-! Last Modified: 2017年03月17日 22:00
+! Version: 201703172230
+! Last Modified: 2017年03月17日 22:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13605,6 +13605,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /dwanalytics-
 /dwanalytics.
 /DynamicAnalytics.
+/dynamictag.
 /dynaTraceMonitor?
 /e086ec.aspx?q=l3mkwgak
 /ea-analytics/*
@@ -14897,6 +14898,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /sitestatforms.
 /sitestats.gif?
 /SiteTracker.
+/sitetracker21.
 /SiteTrackingGA.
 /sitetrek.js
 /sk1n-async.
@@ -15254,6 +15256,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking.php?id
 /tracking.php?q=
 /tracking.phtml?
+/tracking.relead.
 /tracking.vidt
 /tracking/*/agof-
 /tracking/addview/*
@@ -15315,6 +15318,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /trackingfilter.json?
 /trackingFooter.
 /TrackingHandler.
+/trackingheader.
 /trackingImpression/*
 /trackingp.gif
 /trackingPixel.
@@ -16904,6 +16908,7 @@ _mongo_stats/
 ||link-smart.com^$third-party
 ||linkconnector.com^$third-party
 ||linkpulse.com^$third-party
+||linksynergy.com^$third-party
 ||linkxchanger.com^$third-party
 ||listrakbi.com^$third-party
 ||livecount.fr^$third-party
@@ -17911,6 +17916,7 @@ _mongo_stats/
 ||xclk-integracion.com^$third-party
 ||xg4ken.com^$third-party
 ||xiti.com^$third-party
+||xlisting.jp^$third-party
 ||xpanama.net^$third-party
 ||xref.io^$third-party
 ||xtremline.com^$third-party
@@ -18927,7 +18933,6 @@ _mongo_stats/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/api/track/
 ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
-||archive.org/includes/analytics.js
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||aserve.directorym.com^
@@ -21242,15 +21247,17 @@ _mongo_stats/
 ||allafrica.com^*/s_trans_nc.gif?
 ||allcarpictures.com/stat/
 ||allexperts.com/px/
-||alliance-leicester.co.uk/assets/jslib/sitetracker21.js
 ||allmodern.com^*/sessioned_reqs.asp?
 ||allmovieportal.com/hostpagescript.js
 ||allvoices.com/track_page
 ||alot.com/tb/cookiewriter.php?
 ||amazon.*/action-impressions/
+||amazon.*/ajax/counter?
 ||amazon.*/batch/*uedata=$image
 ||amazon.*/gp/r.html?
+||amazon.*/record-impressions?
 ||amazon.*/uedata/
+||amazon.*/uedata?
 ||amazon.com/clog/
 ||amazon.com/empty.gif?$image
 ||amazon.com/gp/forum/email/tracking?
@@ -21258,7 +21265,6 @@ _mongo_stats/
 ||amazon.com^*/amazon-clicks/
 ||amazon.com^*/vap-metrics/
 ||amazonaws.com/beacon/vtpixpc.gif?
-||amazonaws.com/tracking.relead.js
 ||amazonaws.com^*/pzyche.js
 ||amazonsupply.com/uedata?
 ||amcnets.com/cgi-bin/true-ip.cgi
@@ -21321,7 +21327,7 @@ _mongo_stats/
 ||applegate.co.uk/javascript/dcs/track.js
 ||applifier.com/users/tracking?
 ||appspot.com/tracking/
-||archive.org/static/js/analytics.js
+||archive.org^*/analytics.js
 ||armystudyguide.com/hqxapi/it?
 ||arstechnica.co.uk/services/incr.php?stats$xmlhttprequest
 ||arstechnica.com/*.ars$object
@@ -22230,7 +22236,6 @@ _mongo_stats/
 ||marketing.nodesource.com^
 ||marriott.com^*/mi_customer_survey.js
 ||mashable.com/pv.xml
-||mastercard.com/dynamictag.swf
 ||mastercard.com^*/Analytics/
 ||matchesfashion.com/js/Track.js
 ||mate1.com^*/iframe/pixel/
@@ -22241,7 +22246,6 @@ _mongo_stats/
 ||mealime.com/assets/mealytics.js
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com^*/adblock.swf
-||mediabistro.com/blogshare/js/trackingheader.js
 ||mediaplex.com^*/universal.html
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
 ||meduza.io/stat/
@@ -22293,7 +22297,6 @@ _mongo_stats/
 ||modernsalon.com/includes/sc_video_tracking.js
 ||momtastic.com/libraries/pebblebed/js/pb.track.js
 ||moneysupermarket.com^*/ProphetInsert.js
-||monitor.co.ug/analytics/
 ||monkeyquest.com/monkeyquest/static/js/ga.js
 ||monova.org/js/ga.js
 ||monstercrawler.com/__kl.gif
@@ -22572,6 +22575,7 @@ _mongo_stats/
 ||radio.cz/assets/js/analytics.js
 ||rainbow-uk.mythings.com^
 ||rakuten-static.com/com/rat/
+||rakuten.com/dtagent_
 ||ralphlauren.com^*/icg.metrics.js
 ||rambler.ru/cnt/
 ||rangers.co.uk^*/tracking.js
@@ -24037,6 +24041,8 @@ _mongo_stats/
 ||mainichi.jp^*/null.gif?
 ||mtc.nhk.or.jp^
 ||nhk.or.jp^*/bc.js
+||ppf.rakuten.co.jp^
+||rakuten.co.jp/gw.js
 ||sankei.co.jp/js/analytics/
 ||seesaawiki.jp/img/rainman.gif?
 ||tsite.jp/static/analytics/
