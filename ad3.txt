@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +OlEkC2P8gJfZEt6v4PYrQ
+! Checksum: XBAElauSu42FABTFczIv0Q
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703171100
-! Last Modified: 2017年03月17日 11:00
-! Homepage: http://tieba.baidu.com/p/4951429693
+! Version: 201703180930
+! Last Modified: 2017年03月18日 09:30
+! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
 !如有任何疑问、意见或建议，请反馈至：HalfLife吧
@@ -549,7 +549,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||lyaeccn.com^
+||qzkxt.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1390,6 +1390,7 @@ ubmcmm.baidustatic.com
 ||lubosheng.cn^
 ||lv711.net^$third-party
 ||lx167.com^$third-party
+||lyaeccn.com^
 ||lyhdream.com^
 ||lyrymy.com^
 ||lzmm8.com^
@@ -4758,6 +4759,7 @@ mg*.6park.com/img/$image
 ||newsmth.net/nForum/googlead/
 ||nga*/common_res/js_adscommon.js
 ||nga*/proxy/cache_attach/ds_list.js
+||nimasou.info/static/xdm.js
 ||ningmengzhibo.com/ement/beforeSearchEment.action
 ||niu20.com/g/
 ||niutuku.com/skin/style2013/ad/
@@ -6104,7 +6106,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||nimasou.info/static/xdm.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
