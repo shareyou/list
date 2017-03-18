@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UL/WSS9iiZ7oafQ7Hw52pw
+! Checksum: Q18O4V6hIo8EBjnC8Qupqg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703181130
-! Last Modified: 2017年03月18日 11:30
+! Version: 201703181200
+! Last Modified: 2017年03月18日 12:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -11005,6 +11005,9 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||on.cc/html/AC_RunActiveContent.js
+@@||ad4.on.cc/web/$script,xmlhttprequest
+@@||stickyadstv.com/vast/vpaid-adapter/$domain=on.cc
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
