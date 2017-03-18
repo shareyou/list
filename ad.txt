@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q18O4V6hIo8EBjnC8Qupqg
+! Checksum: xw89k6Xy1KTtOaYAS8JuSQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703181200
-! Last Modified: 2017年03月18日 12:00
+! Version: 201703181730
+! Last Modified: 2017年03月18日 17:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -935,6 +935,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
+||189.gd^*.html$third-party
 ||qzkxt.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -6493,6 +6494,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||wmzhe.com/contents/37/86/3786322c8c0b7e32151d0dd63c1496d6.gif
 ||wmzhe.com/contents/8d/94/8d94744f4da06d2d58371f9623499e9d.gif
+||sspai.com/api/v1/advertisements?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 pyccoo.cn##.adbox
@@ -11530,10 +11532,10 @@ ck101.com,gamer.com.tw#@#.text-ads
 ck101.com,gamer.com.tw#@#.textAd
 ck101.com,gamer.com.tw#@#.text_ad
 ck101.com,gamer.com.tw#@#.text_ads
-&pdbid=$subdocument
-&pss=
-?pdbid=$subdocument
-|http://*/s?di=u
+?pss=
+&pcn=
+###cpro_container
+||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
 ||3.guidaye.com^
