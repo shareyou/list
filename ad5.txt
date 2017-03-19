@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 27MUi5namz4w+T6bD0nYrQ
+! Checksum: auF9Ov8YuXlXtzKVTgdvxw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703192230
-! Last Modified: 2017年03月19日 22:30
+! Version: 201703200730
+! Last Modified: 2017年03月20日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13239,6 +13239,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /beacon/vtn_loader.gif?
 /beacon?
 /beacon_async.
+/beaconconfigs/*
 /beaconimg.php?
 /BehaviourCaptureHandler.
 /betamax_tracker.gif?
@@ -14083,6 +14084,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /InstantTracking.
 /integration?pixel=
 /intellitracker.js
+/intercept.js
 /intervigil.
 /iperceptions.
 /iperceptions/*
@@ -14802,6 +14804,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /rum-track?
 /rum/id?
 /rumstat.
+/runtimejs/intercept/*
 /rwtag.gif?
 /rwtag.js
 /rwtaghome.js
@@ -19373,6 +19376,7 @@ _mongo_stats/
 ||edge.bredg.com^$third-party
 ||edge.sqweb.com^
 ||edgesuite.net^*/googleanalyt
+||edrta.mol.im^
 ||edw.insideline.com^$third-party
 ||elb.amazonaws.com/?page=$image
 ||elb.amazonaws.com/g.aspx?surl=
@@ -20920,7 +20924,6 @@ _mongo_stats/
 ||bstracker.blogspirit.net^
 ||click.kataweb.it^
 ||contatore-di-visite.campusanuncios.com^
-||corriereobjects.it^*/tracking/
 ||counter.ksm.it^
 ||counter2.condenast.it^
 ||dd3p.com/sensor/ddsense.aspx?
@@ -25164,9 +25167,7 @@ _mongo_stats/
 @@||codicebusiness.shinystat.com/cgi-bin/getcod.cgi?$script,domain=grazia.it|panorama-auto.it|panorama.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net|radioitalia.it
 @@||codicefl.shinystat.com/cgi-bin/getswf.cgi?*PolymediaShow$object-subrequest,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
-@@||corriereobjects.it^*/tracking/s_code.js
-@@||corriereobjects.it^*/tracking/TrackFunctions.js
-@@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it
+@@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
 @@||kataweb.it/wt/wt.js?http$domain=video.repubblica.it
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
