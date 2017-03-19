@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201703171000
-! Last Modified: 2017年03月17日 10:00
-! Homepage: http://tieba.baidu.com/p/4951429693
+! Version: 201703192030
+! Last Modified: 2017年03月19日 20:30
+! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2017/03/17
+! Last modified: 2017/03/19
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
@@ -74,7 +74,7 @@ play.baidu.com###m-client-product,#right-ads,div.rightAd-skin,.top-banner-ad-wra
 ||music.baidu.com/data/69xiu/
 ||music.baidu.com/cms/tingbox/$script
 !--贴吧---
-tieba.baidu.com###footer~*,#guide_fc,.firework_sender_wrap,#global_notice_wrap,.content_top,div.card_head,.forum_header>div:first-child,.app_forum_top_nav,#encourage_entry,[id^=pagelet_encourage-appforum],.iframe_wrapper.clearfix,.d_sign_split~*,#thread_list>li:not([class*=thread_]),#j_p_postlist>div:not([data-field]):not(#j_p_postlist),#j_p_postlist>div[data-isautoreply],#game_live_list,#com_u9_head,.play_list_panel.j_play_list_panel,[id$=xiu8_aside_slide],.dialogJmodal,.dialogJmodal+.dialogJ,div.live_show_aside,div.search_main_wrap~*,#aside_ad
+tieba.baidu.com###footer~*,#guide_fc,.firework_sender_wrap,#global_notice_wrap,.content_top,div.card_head,.forum_header>div:first-child,.app_forum_top_nav,#encourage_entry,[id^=pagelet_encourage-appforum],.iframe_wrapper.clearfix,.d_sign_split~*,#thread_list>li:not([class*=thread_]),#j_p_postlist>div:not([data-field]):not(#j_p_postlist),#j_p_postlist>div[data-isautoreply],#game_live_list,#com_u9_head,.play_list_panel.j_play_list_panel,[id$=xiu8_aside_slide],.dialogJmodal,.dialogJmodal+.dialogJ,div.live_show_aside,div.search_main_wrap~*,#aside_ad,a.j_click_stats.img_wrap
 tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tb1.bdstatic.com/??/tb/_/forum_info_$script
@@ -620,9 +620,8 @@ autohome.com.cn###s2287
 ||autohome.com.cn/adfront/
 baike.com###right_ad_div
 ||hdad.baike.com/
-bitauto.com##div.col-ad,div.col-adside,div[id^=bitAd_],#video_floatBox
-||bitautoimg.com/$object
-||bitauto.com/ResourceFiles/$object
+bitauto.com##.ad-tag-box,ins
+bitauto.com##div:has(cite[class^=ad-])
 ||btkitty.$script
 cnbeta.com##div.tools>div.time,div.cbimage-fixed,.main_content+*,div.commt-r,.cb_box.article+section.mt5,a[href^="http://qiyukf.com"],a[href^="http://click.aliyun.com"],div.item.cooperation
 |https://static.tigerbrokers.com/activity-cnbeta/img/banner_
