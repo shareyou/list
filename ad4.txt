@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: MkJTQ7ThRyY19U4ZhhUtww
+! Checksum: HA0IVcNazx3y6Jv9ip27Uw
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201703161945
-! Last Modified: 2017年03月16日 19:45
-! Homepage: http://tieba.baidu.com/p/4951429693
+! Version: 201703200930
+! Last Modified: 2017年03月20日 09:30
+! Homepage: http://tieba.baidu.com/p/5026569746
 !
-!本规则为基于iFL修改的贴吧过滤规则，感谢大大的分享！
+!本规则贴吧过滤规则，感谢大大的分享！
 !如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! Images & Scripts
@@ -516,6 +516,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 comefromchina.com,zhidao.baidu.com#@#.ad-block
 v.baidu.com#@#.has-ad
+@@||cbjs.baidu.com/js/m.js$domain=pctowap.com
+@@||pos.baidu.com^*=965703&$domain=pctowap.com
+@@||pos.baidu.com^*=965707&$domain=pctowap.com
 @@|https://tieba.baidu.com/index.html|$genericblock
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
