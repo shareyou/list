@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F1jGxY10nQxpmNLDGs8DjQ
+! Checksum: cD2H9Yl5QCnDVTmKGPbbyg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703212030
-! Last Modified: 2017年03月21日 20:30
+! Version: 201703212230
+! Last Modified: 2017年03月21日 22:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -20033,6 +20033,7 @@ _mongo_stats/
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
 ||referrer.disqus.com^
+||relap.io^*/head.js?
 ||relaymedia.com/ping?$third-party
 ||replyat.com/gadgetpagecounter*.asp?
 ||report.downloastar.com^
@@ -21049,6 +21050,8 @@ _mongo_stats/
 ||profiling.avandor.com^
 ||t5.ro/static/$third-party
 ||top.skyzone.ro^
+|http://a.pr-cy.ru^
+|https://a.pr-cy.ru^
 ||1in.kz/counter?
 ||1l-hit.mail.ru^
 ||7host.ru/tr/*?r=$third-party
@@ -22269,6 +22272,7 @@ _mongo_stats/
 ||madthumbs.com/tlog.php
 ||mail.advantagebusinessmedia.com/open.aspx
 ||mail.com/monitor/count?
+||mail.ru/counter?
 ||mail.yahoo.com/dc/rs?log=
 ||mailer.atlassian.com/open.aspx?
 ||mailings.gmx.net/action/view/$image
@@ -24176,7 +24180,6 @@ _mongo_stats/
 ||lmcdn.ru^*/statistics.js
 ||log.ren.tv^
 ||mail.ru/count/
-||mail.ru/counter?
 ||montblanc.lenta.ru^
 ||ngs.ru/s/
 ||ozon.ru/tracker/
@@ -24185,6 +24188,7 @@ _mongo_stats/
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
+||seedr.ru^*/stats/
 ||ssp.rambler.ru^
 ||stat.api.2gis.ru^
 ||stat.lenta.ru^
