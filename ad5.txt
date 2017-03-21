@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5F/JwpeXqlknL607SOyKIA
+! Checksum: WBGG7C4hDiKC6Er7CBIJcw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703220000
-! Last Modified: 2017年03月22日 00:00
+! Version: 201703220730
+! Last Modified: 2017年03月22日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14151,6 +14151,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /jquery.trackstar.
 /jquery.unica.
 /js/analitycs_
+/js/analytics.
 /js/count.js.
 /js/counter.js?
 /js/dart.js
@@ -14902,6 +14903,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /sessioncam.min.$script
 /sessioncam/*
 /set-cookie.gif?
+/set_tracking.js
 /SETCOOKAFF.
 /setcooki.
 /setcookie?
@@ -18522,6 +18524,7 @@ _mongo_stats/
 ||i2i.jp^$third-party
 ||japanmetrix.jp^$third-party
 ||keyword-match.com^$third-party
+||line-apps.com^$third-party
 ||mobylog.jp^$third-party
 ||omiki.com^$third-party
 ||owldata.com^$third-party
@@ -24100,6 +24103,8 @@ _mongo_stats/
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||carview.co.jp/include_api/log/
+||dmm.com/analytics/
+||dmm.com^*/dmm.tracking.
 ||fls-fe.amazon.co.jp^
 ||fujitv.co.jp/pc/space.gif?
 ||goo.ne.jp^*/vltracedmd.js
