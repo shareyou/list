@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SYhuoOEcrXWLbN0Bt6Zt8A
+! Checksum: zPIaCmzX0WfDVZ0ydA3Xxw
 ! Title: Diablo AdFilters(OnlyForTB)
 ! Expires: 12 hours
-! Version: 201703201800
-! Last Modified: 2017年03月20日 18:00
+! Version: 201703210900
+! Last Modified: 2017年03月21日 09:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则贴吧过滤规则，感谢大大的分享！
@@ -515,20 +515,19 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 comefromchina.com,zhidao.baidu.com#@#.ad-block
 v.baidu.com#@#.has-ad
-@@||cbjs.baidu.com/js/m.js$domain=pctowap.com
-@@||pos.baidu.com^*=965703&$domain=pctowap.com
-@@||pos.baidu.com^*=965707&$domain=pctowap.com
 @@|https://tieba.baidu.com/index.html|$genericblock
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
 @@||cb.baidu.com^$object-subrequest,domain=baomihua.com|v.baidu.com
-@@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pic.tiexue.net|xdf.cn
+@@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pctowap.com|pic.tiexue.net|xdf.cn
 @@||cbjs.baidu.com/js/o.js$domain=7958.com.cn|g3000.com.cn|jkpan.cc|missioncouver.com.cn
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||libs.baidu.com/jquery/$domain=xxbiquge.com
 @@||pos.baidu.com/crossdomain.xml
 @@||pos.baidu.com^$domain=xoyo.com
+@@||pos.baidu.com^*=965703&$domain=pctowap.com
+@@||pos.baidu.com^*=965707&$domain=pctowap.com
 @@||pos.baidu.com^*=u1331029&$domain=epinv.com
 @@||pos.baidu.com^*=u2354095&$domain=epinv.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
