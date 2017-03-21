@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ROJCvXcif7XjeQQmZ2Lkuw
+! Checksum: 5F/JwpeXqlknL607SOyKIA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703212330
-! Last Modified: 2017年03月21日 23:30
+! Version: 201703220000
+! Last Modified: 2017年03月22日 00:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13162,6 +13162,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /api/*/visitor?
 /api/0/stats
 /api/analytics/*
+/api/log?
 /api/lt/ref?
 /api/pageview?
 /api/radar/*
@@ -13210,6 +13211,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /audsci.js
 /autotag.
 /AutoTracker.js
+/aux/collect?
 /avant_sfpc_
 /avantlink/*$third-party
 /avmws_*.js
@@ -13424,6 +13426,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /clickheat.js
 /clickheat^
 /clicklog.
+/clicklog4pc.
 /clicklog_
 /clickLogger?
 /clicklognew.
@@ -13696,6 +13699,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /emstrack.
 /endpoint/stats.
 /engine/ping?
+/entry.count.image?
 /entry_stats?
 /envoy.sb?sbaid
 /epf_v1_95.js
@@ -14452,6 +14456,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /nm_track.js
 /nm_trck.gif?
 /no-impression.gif?
+/np?log=
 /npssurvey.
 /nStat/*
 /ntpagetag-
@@ -18502,6 +18507,7 @@ _mongo_stats/
 ||a-cast.jp^$third-party
 ||bb-analytics.jp^$third-party
 ||beanscattering.jp^$third-party
+||bigmining.com^$third-party
 ||blogranking.net^$third-party
 ||ca-mpr.jp^$third-party
 ||cosmi.io^$third-party
@@ -18522,6 +18528,7 @@ _mongo_stats/
 ||research-artisan.com^$third-party
 ||rtoaster.jp^$third-party
 ||sibulla.com^$third-party
+||socdm.com^$third-party
 ||trackfeed.com^$third-party
 ||ukw.jp^$third-party
 ||wonder-ma.com^$third-party
@@ -19551,6 +19558,7 @@ _mongo_stats/
 ||gridsumdissector.com/gs.gif?
 ||grymco.com^*/event?
 ||gsn.chameleon.ad^$~script
+||gsp1.baidu.com^
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/gen_204?
 ||gu-pix.appspot.com^$third-party
@@ -20862,6 +20870,7 @@ _mongo_stats/
 ||dw.cbsi.com.cn^$third-party
 ||etwun.com:8080/counter.php?
 ||haostat.qihoo.com^
+||idigger.qtmojo.com^
 ||ifengimg.com/sta_collection.*.js
 ||imp.ad-plus.cn^
 ||imp.go.sohu.com^
@@ -20879,6 +20888,7 @@ _mongo_stats/
 ||pv.hd.sohu.com^
 ||pv.sohu.com^
 ||qbox.me/vds.js
+||qtmojo.com/pixel?
 ||r.sax.sina.com.cn^
 ||sitemaji.com/nownews.php?
 ||sobeycloud.com/Services/Stat.
@@ -22781,6 +22791,7 @@ _mongo_stats/
 ||sidebar.issuu.com^
 ||similarsites.com/sbbgate.aspx/
 ||simplyhired.com^*/hit?
+||sinaimg.cn/unipro/pub/
 ||singer22-static.com/stat/
 ||sitelife.ehow.com^
 ||sitemeter.com/meter.asp
@@ -23898,6 +23909,7 @@ _mongo_stats/
 ||js.soufunimg.com/count/
 ||jscss.kdslife.com/club/html/count/PChome_Count.js
 ||ku6.com/ku6.gif?
+||l.qq.com^
 ||le.com/op/
 ||letv.com/op?
 ||log*.ku6.com^
@@ -23922,7 +23934,9 @@ _mongo_stats/
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
 ||pv.ltn.com.tw^
+||qq.com/kvcollect?
 ||qq.com/p?
+||qq.com/qqcom/
 ||ranking.ynet.com^
 ||rcgi.video.qq.com^
 ||report.qq.com^
@@ -23934,6 +23948,7 @@ _mongo_stats/
 ||s.renren.com^
 ||sclick.baidu.com^
 ||shrek.6.cn^
+||sina.com.cn/view?
 ||sohu.com.cn/hdpb.gif?
 ||sohu.com/count/
 ||sohu.com/ctr.gif?
@@ -24089,6 +24104,8 @@ _mongo_stats/
 ||fujitv.co.jp/pc/space.gif?
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
+||lcs.naver.jp^
+||ln.ameba.jp^
 ||mainichi.jp^*/null.gif?
 ||mtc.nhk.or.jp^
 ||nhk.or.jp^*/bc.js
@@ -24096,6 +24113,8 @@ _mongo_stats/
 ||rakuten.co.jp/gw.js
 ||sankei.co.jp/js/analytics/
 ||seesaawiki.jp/img/rainman.gif?
+||sy.amebame.com^
+||sy.ameblo.jp^
 ||tsite.jp/static/analytics/
 ||visit.geocities.jp^
 ||yahoo.co.jp/b?p=
