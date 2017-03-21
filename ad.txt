@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gs2dikz4QhEa297ORFWf/g
+! Checksum: 1xudClghqgf770iqbfu4Cg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703211000
-! Last Modified: 2017年03月21日 10:00
+! Version: 201703211100
+! Last Modified: 2017年03月21日 11:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -11551,15 +11551,16 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
-ck101.com,gamer.com.tw#@#.pub_300x250
-ck101.com,gamer.com.tw#@#.pub_300x250m
-ck101.com,gamer.com.tw#@#.pub_728x90
-ck101.com,gamer.com.tw#@#.text-ad
-ck101.com,gamer.com.tw#@#.text-ad-links
-ck101.com,gamer.com.tw#@#.text-ads
-ck101.com,gamer.com.tw#@#.textAd
-ck101.com,gamer.com.tw#@#.text_ad
-ck101.com,gamer.com.tw#@#.text_ads
+@@/fuckadblock.$domain=datehub.co
+datehub.co,ck101.com,gamer.com.tw#@#.pub_300x250
+datehub.co,ck101.com,gamer.com.tw#@#.pub_300x250m
+datehub.co,ck101.com,gamer.com.tw#@#.pub_728x90
+datehub.co,ck101.com,gamer.com.tw#@#.text-ad
+datehub.co,ck101.com,gamer.com.tw#@#.text-ad-links
+datehub.co,ck101.com,gamer.com.tw#@#.text-ads
+datehub.co,ck101.com,gamer.com.tw#@#.textAd
+datehub.co,ck101.com,gamer.com.tw#@#.text_ad
+datehub.co,ck101.com,gamer.com.tw#@#.text_ads
 ###cpro_container
 &pcn=
 ?pss=
