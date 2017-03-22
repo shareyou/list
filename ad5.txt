@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XIREMoSAmhLQ32Wlbnab6w
+! Checksum: bKoSS+dLCyPJQRkWBdWRnQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703221930
-! Last Modified: 2017年03月22日 19:30
+! Version: 201703230730
+! Last Modified: 2017年03月23日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -664,6 +664,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
+||guoshennet.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -10759,6 +10760,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||moviesunusa.net^$generichide
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=weithenn.org
 @@||weithenn.org^$generichide
 @@.adserver.$domain=litv.tv
@@ -25135,6 +25137,7 @@ _mongo_stats/
 @@||easypari.fr^*/sitestat.js
 @@||estat.com/js/$script,domain=francetvsport.fr
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr
+@@||hello.distribeo.com/atconnect/*?duration=$script,domain=laposte.fr
 @@||leboncoin.fr/js/xiti.js
 @@||lesinrocks.com/min/?f=*/chartbeat.js
 @@||lprs1.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
