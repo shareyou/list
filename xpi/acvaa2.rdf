@@ -6,13 +6,13 @@
             <RDF:Seq>
                 <RDF:li>
                     <RDF:Description>
-                        <em:version>17.03.12.14</em:version>
+                        <em:version>17.03.22.17</em:version>
                         <em:targetApplication>
                             <RDF:Description>
                                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                                 <em:minVersion>10.0</em:minVersion>
                                 <em:maxVersion>55.0a1</em:maxVersion>
-                                <em:updateLink>https://halflife.oschina.io/xpi/acvaa2-17.03.12.14-signed.xpi</em:updateLink>
+                                <em:updateLink>https://halflife.oschina.io/xpi/acvaa2-17.03.22.17-signed.xpi</em:updateLink>
                             </RDF:Description>
                     </em:targetApplication>
                     </RDF:Description>
