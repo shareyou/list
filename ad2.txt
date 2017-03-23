@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: ABP-FX
 ! Expires: 12 hours
-! Version: 201703221700
-! Last Modified: 2017年03月22日 17:00
+! Version: 201703231200
+! Last Modified: 2017年03月23日 12:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则来源于github.com/xinggsf，感谢大大的分享！
 !
-! Last modified: 2017/03/22
+! Last modified: 2017/03/23
 ! Expires: 2 days
 ! Homepage: http://bbs.kafan.cn/thread-1866845-1-1.html
 @@$stylesheet
@@ -552,7 +552,6 @@ v.360.cn##div.banner-g4
 @@|http://js.t.sinajs.cn/open/analytics/js/suda.js
 ||sinaimg.cn/unipro/$domain=~video.sina.com.cn|~weibo.com
 |http://rs.sinajs.cn/
-! ||sinajs.cn/$script,domain=~weibo.com|~sina.com.cn
 |http://simg.sinajs.cn/blog7style/images/activity/app_tuiguang/ewm.gif
 */weixin$image,domain=sina.com.cn
 ||sina.com.cn/iframe/76/$subdocument
@@ -591,10 +590,10 @@ ifeng.com##div[class^=adList],div[class^=adbox],div[class^=ad10]
 |http://zx.cp.ifeng.com/export/ifeng_sport_lottery_bet.htm
 |http://zx.cp.ifeng.com/export/js/ifeng_sport_lottery_channel_pic.js
 !-------------------起点、纵横、创世-----------------------
-qidian.com###topOpBox,div.games-op-wrap,div.banner-wrap,#tr-banner
-||qidian.qpic.cn/qidian_common/$object
-||script.cmfu.com/script/adbgscript
-||qidian.com/ejs/qd/js/index/banner$xmlhttprequest
+qidian.com###j-topHeadBox,#tr-banner,a[href*="game.qidian.com/"]
+||qidian.qpic.cn/qidian_common/$object,image
+||qidian.com/ejs/qd/js/read.qidian.com/gameBox.
+||book.qidian.com/ajax/book/getFansHall?$xmlhttprequest
 chuangshi.qq.com##.banner_index,.main_banner
 zongheng.com###zh_ab_rb,#sumcard_flag,#gameFTip
 |http://static.zongheng.com/*/ad$script

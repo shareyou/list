@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t4S2wCLyp9CoonPWXS19/Q
+! Checksum: 2w2Dqj7hlkKcl00EsMnYWw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703230930
-! Last Modified: 2017年03月23日 09:30
+! Version: 201703231330
+! Last Modified: 2017年03月23日 13:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -141,6 +141,7 @@
 /guanggao/*
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
+/phpvar.com/wp-content/uploads/image/100xuexi/*
 /hao123_api/api/cpc/*
 /hiring/hexieshe.jpg
 /huya_promotion_content_
@@ -551,6 +552,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
+||yigyx.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -6135,6 +6137,9 @@ mg*.6park.com/img/$image
 ||pchome.net/flow.php
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+yy.com###gg_left
+yy.com###gg_right
+pc0359.cn##DIV[style^="width:301px;height:250px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7688,7 +7693,6 @@ it.com.cn##.ad750
 afzhan.com,ting89.com##.ad8
 tgbus.com##.ad86
 ifeng.com,sohu.com##.ad950
-pharmnet.com.cn##.ad950-t
 pharmnet.com.cn##.ad9502
 yaolan.com##.ad96090
 logo160.com##.ad9680
@@ -7992,7 +7996,6 @@ qqcyl.org##.baiduadc
 hc360.com##.baidutuiguang
 3qzw.com##.ban1
 msn.people.com.cn##.banNSch
-phpfans.net##.banad
 100shuai.com##.bannar_gg
 3gsc.com.cn,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,ganji.com,guitarchina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,kdnet.net,kumi.cn,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
@@ -8449,7 +8452,7 @@ image.baidu.com##.ford-tag
 chineseinla.com##.forum_banner_ads
 pcbeta.com##.forum_top ~ div[class]
 vvshu.com##.forviewda
-paipai.fm##.fr[href="http://game.zixia.com"]
+paipai.fm###the-logo + .fr
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
 tieba.baidu.com##.frs_pb_leadapp_pop_show
 mei521.com##.fs_ad
@@ -11028,7 +11031,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||poster.weather.com.cn/p_files/base/$image
-@@||ps123.net/MyFile/toptxt.js
 @@||pub.alimama.com/common/adzone/
 @@||pubimg-weichouji.sina.com/img/ad/
 @@||qbao.com/hp/pc/*Ad.$~third-party
@@ -11223,7 +11225,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 |http:$script,third-party,domain=storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|btkitty.bid|dhzw.org|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
+|http:$script,third-party,xmlhttprequest,domain=33yq.com|8dushu.com|biquge.tw|btkitty.bid|dhzw.org|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
