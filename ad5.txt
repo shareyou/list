@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T+1vT7eKNC2o9q3FP0iz2A
+! Checksum: c8zntdYf9EIPAcJYpF69IQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703232300
-! Last Modified: 2017年03月23日 23:00
+! Version: 201703240730
+! Last Modified: 2017年03月24日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13061,7 +13061,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
-/amp-analytics-
 /amplitude-*.js$script
 /amptrack.
 /analiz.php3?
@@ -13483,6 +13482,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cnt.aspx?
 /cnt.cgi?
 /cnt.js
+/cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
 /cntpixel.
@@ -15069,6 +15069,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats.php?type=
 /stats.php?uri=
 /stats/?js
+/stats/?ref=
 /stats/add/*
 /stats/adonis_
 /stats/collector.js
@@ -18839,7 +18840,6 @@ _mongo_stats/
 ||admission.net^*/displaytracker.js
 ||ads-trk.vidible.tv^
 ||ads.bridgetrack.com^$image
-||adsimg.com/js/analytics.js?
 ||adtrack.calls.net^$third-party
 ||adultmastercash.com/e1.php$third-party
 ||affiliate.iamplify.com^
@@ -19179,7 +19179,6 @@ _mongo_stats/
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
-||cloudfront.net/js/analytics.js
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/reach.js
 ||cloudfront.net/khp.js
@@ -21881,7 +21880,6 @@ _mongo_stats/
 ||filmlinks4u.net/twatch/jslogger.php
 ||financeglobe.com/Visit/
 ||financialstandardnews.com^*/webstats/
-||flagfox.net/js/analytics.js
 ||flashget.org/cow_$script
 ||flickr.com/beacon_client_api_timings.gne
 ||flickr.com/beacon_page_timings.gne
@@ -22244,7 +22242,6 @@ _mongo_stats/
 ||linkbucks.com/clean.aspx?task=record$image
 ||linkbucks.com/track/
 ||linkedin.com/analytics/
-||linkedin.com/js/analytics.js
 ||linkedin.com^*/tracker.gif?
 ||linkpuls.idg.no^
 ||linuxtoday.com/hqxapi/
@@ -22644,7 +22641,6 @@ _mongo_stats/
 ||racingbase.com/tracking_fetchinfo.aspx?
 ||racinguk.com/images/home_sponsors/
 ||radio-canada.ca/lib/TrueSight/markerFile.gif?
-||radio.cz/assets/js/analytics.js
 ||rainbow-uk.mythings.com^
 ||rakuten-static.com/com/rat/
 ||rakuten.com/dtagent_
@@ -23160,7 +23156,6 @@ _mongo_stats/
 ||turn.com/js/module.tracking.js
 ||turnsocial.com/track/
 ||tv-links.eu/qtt_spacer.gif
-||tvnz.co.nz/stylesheets/tvnz/lib/js/analytics.js?
 ||tvshark.com/stats.js
 ||tw.i.hulu.com^
 ||tweako.com/imp.php
@@ -23281,7 +23276,6 @@ _mongo_stats/
 ||washingtonpost.com/wp-stat/analytics/
 ||washingtonpost.com^*/one.gif?
 ||watch-series.to/analytics.html
-||watch8x.com/JS/analytics.js
 ||watchmouse.com^*/jsrum/
 ||watson.live.com^
 ||wavescape.mobi/rest/track/
@@ -23338,7 +23332,6 @@ _mongo_stats/
 ||ws.elance.com^*&referrer=
 ||ws.md/c.png?
 ||ws.yellowpages.ca^
-||wstream.video/js/analytics.js
 ||wtk.db.com^
 ||wunderground.com/tag.php
 ||wusstrack.wunderground.com^
@@ -23353,10 +23346,7 @@ _mongo_stats/
 ||xbox.com^*/vortex_tracking.js
 ||xda-cdn.com/analytics.js
 ||xhamster.com/ajax.php?act=track_event
-||xhamster.com/cnt.php?
 ||xhamster.com/embed.log/
-||xhamster.com/stats/
-||xhcdn.com/js/analytics.js?
 ||xhcdn.com/js/track.min.js?
 ||xing.com/collect/
 ||xing.com/logjam/
@@ -23853,7 +23843,6 @@ _mongo_stats/
 ||tracker.mspy.com^
 ||tracking.ha.rueducommerce.fr^
 ||unblog.fr/cu.js
-||universfreebox.com/js/analytics.js
 ||virginmobile.fr/ea.js
 ||zonecss.fr/images/stat_robocop.gif?
 ||zonecss.fr/images/statscreen.gif?
@@ -24182,12 +24171,10 @@ _mongo_stats/
 ||g.bit.pt^
 ||g.bitmag.com.br^
 ||globo.com/geo?
-||iol.pt/js/analytics.js
 ||lancenet.com.br/pw.js
 ||log.r7.com^
 ||logger.rm.uol.com.br^
 ||metrics.uol.com.br^
-||rtp.pt/common/js/analytics.js
 ||sapo.*/clk?u=
 ||sl.pt/wa.gif?
 ||tm.jsuol.com.br^
