@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VVa08OOKPw1/8Os3pkl1rg
+! Checksum: TK/eWr/I8N9fLdrIFQ9NXQ
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703232300
-! Last Modified: 2017年03月23日 23:00
+! Version: 201703240800
+! Last Modified: 2017年03月24日 08:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -528,7 +528,6 @@ tieba.baidu.com##.tuijian-wrap
 /guanggao/*
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
-/phpvar.com/wp-content/uploads/image/100xuexi/*
 /hao123_api/api/cpc/*
 /hiring/hexieshe.jpg
 /huya_promotion_content_
@@ -583,6 +582,7 @@ tieba.baidu.com##.tuijian-wrap
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
 /pcqiqidongman.png
+/phpvar.com/wp-content/uploads/image/100xuexi/*
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
@@ -939,7 +939,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||yigyx.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -2219,6 +2218,7 @@ ubmcmm.baidustatic.com
 ||yhtcd.com^
 ||yidulive.net^
 ||yigao.com^$third-party
+||yigyx.com^
 ||yiiwoo.com^$third-party
 ||yijia2009.com^
 ||yinhaijuan.com^
@@ -5253,6 +5253,7 @@ mg*.6park.com/img/$image
 ||pcgames.com.cn/g/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/img/js/xpcadshow.js
+||pchome.net/flow.php
 ||pcjishu.com/other/yj300x3006.jpg
 ||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
@@ -6466,6 +6467,7 @@ mg*.6park.com/img/$image
 ||zhuanyewanjia.com/upload/show/
 ||zhujiangroad.com/js/alltop.js
 ||zhujiceping.com/F/
+||zhujiceping.com/wp-content/uploads/EhQemhZUHBtM/QlmIDXLdFKkP.js
 ||zhulang.com/ad_js/
 ||zhulong.com/poster/get?*_960
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
@@ -6521,13 +6523,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||pchome.net/flow.php
-||zhujiceping.com/wp-content/uploads/EhQemhZUHBtM/QlmIDXLdFKkP.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yy.com###gg_left
-yy.com###gg_right
-pc0359.cn##DIV[style^="width:301px;height:250px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7184,6 +7181,8 @@ vvshu.com###gg120
 5173.com###gg330
 5173.com###ggFloat
 hdzc.net###ggGao_content
+yy.com###gg_left
+yy.com###gg_right
 0dian8.org###ggad_l
 0dian8.org###ggad_r
 3d66.com###ggbody
@@ -7710,6 +7709,7 @@ sogou.com###text_ad_area
 tingvoa.com###textadbox
 hc360.com###textadv
 ref.so###tg2_main
+paipai.fm###the-logo + .fr
 kmplayer.cn###thead
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
@@ -8840,7 +8840,6 @@ image.baidu.com##.ford-tag
 chineseinla.com##.forum_banner_ads
 pcbeta.com##.forum_top ~ div[class]
 vvshu.com##.forviewda
-paipai.fm###the-logo + .fr
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
 tieba.baidu.com##.frs_pb_leadapp_pop_show
 mei521.com##.fs_ad
@@ -10729,6 +10728,7 @@ v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
 house365.com##div[style^="width:1200px;height:"]
 iplaysoft.com##div[style^="width:300px;height:250px;"]
+pc0359.cn##div[style^="width:301px;height:250px;"]
 iplaysoft.com##div[style^="width:336px;height:280px;"]
 avonline.org##div[style^="width:613px; height:"]
 jpwind.com##div[style^="width:730px; height:90px;"]
