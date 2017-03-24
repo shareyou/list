@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CKblDVaUd5aWlDHcWYjlzQ
+! Checksum: O7Yig+zncpA3OdfMv9BdPA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703242300
-! Last Modified: 2017年03月24日 23:00
+! Version: 201703250000
+! Last Modified: 2017年03月25日 00:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14903,6 +14903,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /segmentio.js
 /segmentIoTrackingProvider.js
 /SellathonCounterService.
+/sem-remarketing/*
 /semanticTagService.js
 /SEMTracking.
 /send-impressions.html
@@ -16450,6 +16451,7 @@ _mongo_stats/
 ||demandbase.com^$third-party
 ||demdex.net^$third-party
 ||deqwas.net^$third-party
+||devatics.com^$third-party
 ||device9.com^$third-party
 ||dgmsearchlab.com^$third-party
 ||dhmtracking.co.za^$third-party
@@ -17067,6 +17069,7 @@ _mongo_stats/
 ||metricsdirect.com^$third-party
 ||mezzobit.com^$third-party
 ||mialbj6.com^$third-party
+||micpn.com^$third-party
 ||midas-i.com^$third-party
 ||midkotatraffic.net^$third-party
 ||millioncounter.com^$third-party
@@ -19596,6 +19599,7 @@ _mongo_stats/
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
+||heraldandtimeslabs.com/sugar.js
 ||heroku.com/?callback=getip$third-party
 ||hgcdn.net/?$third-party
 ||hi.hellobar.com^
@@ -19879,6 +19883,7 @@ _mongo_stats/
 ||newsanalytics.com.au^$third-party
 ||newsletters.infoworld.com/db/$image,third-party
 ||newsletters.nationalgeographic.com^$image,third-party
+||newsquestdigital.co.uk/collector.php?
 ||nice264.com/data?$third-party
 ||ninja.onap.io^
 ||nol.yahoo.com^
@@ -20177,7 +20182,6 @@ _mongo_stats/
 ||statm.the-adult-company.com^
 ||stats-messages.gifs.com^
 ||stats-newyork1.bloxcms.com^
-||stats.adm-vids.com^
 ||stats.big-boards.com^
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
@@ -21297,6 +21301,7 @@ _mongo_stats/
 ||advancedtracker.appspot.com^
 ||advfn.com/space.gif?
 ||adwiretracker.fwix.com^
+||aeu.alicdn.com^
 ||aexp-static.com/api/axpi/omniture/s_code_serve.js?$domain=serve.com
 ||affiliate.mercola.com^
 ||affiliate.productreview.com.au^
@@ -21320,6 +21325,7 @@ _mongo_stats/
 ||alibaba.com/js/beacon_
 ||alibi.com/tracker.gif?
 ||alicdn.com/js/aplus_*.js
+||alicdn.com^*/log.js
 ||aliexpress.com/js/beacon_
 ||alipay.com/web/bi.do?ref=
 ||allafrica.com/img/static/s_trans_nc.gif
@@ -22313,6 +22319,7 @@ _mongo_stats/
 ||mansion.com/collect.js?
 ||manta.com/sbb?
 ||maps.nokia.com^*/tracking.c.js
+||marketing.alibaba.com^
 ||marketing.kalahari.net^
 ||marketing.nodesource.com^
 ||marriott.com^*/mi_customer_survey.js
