@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O7Yig+zncpA3OdfMv9BdPA
+! Checksum: niY5DS/BHkLMzjdubwbPFA
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703250000
-! Last Modified: 2017年03月25日 00:00
+! Version: 201703250730
+! Last Modified: 2017年03月25日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -12731,6 +12731,7 @@ weibo.com##.apps_PCD_reco_detail_right
 -criteo.
 -event-tracking.
 -ga-track.
+-gatracker.
 -geoIP.js
 -google-analytics.
 -google-analytics/
@@ -12881,6 +12882,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .nz/t.gif?
 .org/?js|
 .org/js/ga-
+.ovh/presbyters.js
 .PageHitServlet?
 .pageVisitCounter_
 .php?logRefer=
@@ -17142,6 +17144,7 @@ _mongo_stats/
 ||naturaltracking.com^$third-party
 ||navdmp.com^$third-party
 ||navegg.com^$third-party
+||navigator.io^$third-party
 ||navilytics.com^$third-party
 ||naytev.com^$third-party
 ||ndf81.com^$third-party
@@ -17248,6 +17251,7 @@ _mongo_stats/
 ||outboundlink.me^$third-party
 ||overstat.com^$third-party
 ||owlanalytics.io^$third-party
+||ownpage.fr^$third-party
 ||oxidy.com^$third-party
 ||p-td.com^$third-party
 ||p.l1v.ly^$third-party
@@ -17362,6 +17366,7 @@ _mongo_stats/
 ||qdtracking.com^$third-party
 ||qoijertneio.com^$third-party
 ||qsstats.com^$third-party
+||quantcount.com^$third-party
 ||quantserve.com/api/
 ||quantserve.com/pixel/$object-subrequest,third-party
 ||quantserve.com^$~object-subrequest,third-party
@@ -18359,7 +18364,6 @@ _mongo_stats/
 ||mmtro.com^$third-party
 ||ncdnprorogeraie.lol^$third-party
 ||netquattro.com/stats/
-||ownpage.fr^$third-party
 ||reseau-pub.com^$third-party
 ||semiocast.com^$third-party
 ||sk1n.fr^$third-party
@@ -20289,6 +20293,7 @@ _mongo_stats/
 ||t.theoutplay.com^
 ||t.ymlp275.net^$third-party
 ||t2.t2b.click^
+||taboola.com/tb?
 ||taboola.com^*/log/
 ||taboolasyndication.com/log/
 ||taboolasyndication.com^*/log/
