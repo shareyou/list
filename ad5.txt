@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xbXLg8pXUyExhSLAQ8KIIw
+! Checksum: xXJJVJfwupJHtjkXTSgftg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703241100
-! Last Modified: 2017年03月24日 11:00
+! Version: 201703241200
+! Last Modified: 2017年03月24日 12:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -11984,10 +11984,9 @@ _300_250.
 ||yytcdn.com/js/common/widget/pcpusher.
 ||rrjc.com/home/seo/ad/
 ||wuxibus.com/Image/title
-||hjfile.cn/site/js/bottomActive
-||hjfile.cn/site/js/passAddAd.js
+||hujiang.com/Web/tx.ashx
+||hjfile.cn/site/hj-lzs/
 ||hjfile.cn/site/js/pop_gift_plugin.js
-||hjfile.cn/site/js/questionnaire.js
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||hjapi.com/v1/pageSoftText?
 ||qudao.com/common/minisite.js
@@ -12022,7 +12021,10 @@ _300_250.
 ||ali213.net/js/3g/newsdetail.js
 ||21sq.org/js/downloadbanner.js
 ||dwstatic.com/p/2017dw/1.1.0/common/newsPopup/
+||kaoyan.com/school/js/yz.school.packed.js
 !------------------------Specific element hiding rules------------------------!
+kaoyan.com##.floatQrcode
+shejiben.com##.bottom_zb_box
 bilibili.com##A[href*=".biligame."]
 dianyingbar.com###jihuaslide
 dianyingbar.com##.alert_windows
