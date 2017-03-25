@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jEOOR/d/MUpT+8H8DBtwcA
+! Checksum: v5n7VuTPduQghnxgUZnLvg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703252000
-! Last Modified: 2017年03月25日 20:00
+! Version: 201703260000
+! Last Modified: 2017年03月26日 00:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14578,7 +14578,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageTracker_
 /pageTrackerEvent.
 /pageTracking.js
-/pageView.act
+/pageView.act^
 /pageview.ashx
 /pageview;
 /pageview?pageId=
@@ -24499,6 +24499,7 @@ _mongo_stats/
 @@||contentdef.com/assets/common/js/google-analytics.js
 @@||coremetrics.com*/eluminate.js
 @@||count.ly^$~third-party
+@@||coursehero.com/min/?f=*/tracker_pageview.js,$domain=coursehero.com
 @@||cqcounter.com^$domain=cqcounter.com
 @@||craveonline.com/wp-content/plugins/bwp-minify/$script
 @@||craveonline.com^*/google-analytics.min.js
@@ -24552,7 +24553,7 @@ _mongo_stats/
 @@||emjcd.com^$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingbymastercard.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
 @@||ensighten.com/crossdomain.xml$object-subrequest
 @@||ensighten.com/libs/flowplayer/ensightenplugin.swf$object-subrequest
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|caranddriver.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|staples.com|t-mobile.com|target.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|caranddriver.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|staples.com|t-mobile.com|target.com|verizonwireless.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -24929,6 +24930,7 @@ _mongo_stats/
 @@||thetenthwatch.com/js/tracking.js$~third-party
 @@||ticketm.net^*/click_track.js
 @@||toshiba.com/images/track/track.gif?track=load&$xmlhttprequest,domain=start.toshiba.com
+@@||toyota.com/analytics/recall_af.js$domain=toyota.com
 @@||track.atom-data.io/report?$xmlhttprequest,domain=rt.com
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
 @@||track2.royalmail.com^
@@ -24986,6 +24988,7 @@ _mongo_stats/
 @@||walmart.com^*/track?event=$xmlhttprequest
 @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
 @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
+@@||washingtonpost.com/wp-stat/analytics/main.js$domain=subscribe.washingtonpost.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||websimages.com/JS/Tracker.js
 @@||webtrack.dhlglobalmail.com^
