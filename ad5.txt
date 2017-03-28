@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xdBCT5I5I3iYMU8SY1QADQ
+! Checksum: p5b+EENY2fIqNATZsmbCng
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703280730
-! Last Modified: 2017年03月28日 07:30
+! Version: 201703280800
+! Last Modified: 2017年03月28日 08:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -665,15 +665,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||zgczjw.com^$third-party
-||360366.net^$third-party
-||cdyqc.com^
-||zqworks.com^
-||175bar.com^
-||cnscdj.com^
-||12306media.com^
-||ahyau.com^
-||qsbz2011.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -802,6 +793,7 @@ ubmcmm.baidustatic.com
 ||119.4.249.166^
 ||122.227.254.195^
 ||12291.com^$third-party
+||12306media.com^
 ||123hala.com^
 ||124.232.160.178^
 ||12l22.net^$third-party
@@ -811,6 +803,7 @@ ubmcmm.baidustatic.com
 ||1503.net/code/
 ||1680go.com^
 ||170yy.com^
+||175bar.com^
 ||176um.com^
 ||17un.co^
 ||17zhaole.com^$third-party
@@ -853,6 +846,7 @@ ubmcmm.baidustatic.com
 ||32414.com^$third-party
 ||3399.com/act/$third-party
 ||3600ys.com^$third-party
+||360366.net^$third-party
 ||360baidus.com^
 ||360doo.com^$third-party
 ||36500.com^$third-party
@@ -1027,6 +1021,7 @@ ubmcmm.baidustatic.com
 ||afjlb.com^
 ||agrantsem.com^$third-party
 ||ahhuazhen.com^
+||ahyau.com^
 ||aidaicn.com^$third-party
 ||aifei.info^$third-party
 ||aimato.com^$third-party
@@ -1109,6 +1104,7 @@ ubmcmm.baidustatic.com
 ||cctyly.com^
 ||cd-best.cn^
 ||cdnny.com^
+||cdyqc.com^
 ||cgskqg.com^
 ||chadegongxiao.com^
 ||championmachinery-cn.com^
@@ -1132,6 +1128,7 @@ ubmcmm.baidustatic.com
 ||cnbole.net^
 ||cncy8.com^
 ||cnfanglei.com^
+||cnscdj.com^
 ||cnsjx.net^
 ||cnxad.com^$third-party
 ||cnxad.net^
@@ -1639,6 +1636,7 @@ ubmcmm.baidustatic.com
 ||qq2.co^
 ||qq4g.cn^$third-party
 ||qqm98.com^
+||qsbz2011.com^
 ||qshxc.com^
 ||qtmojo.cn^
 ||qtmojo.com^$third-party
@@ -2003,6 +2001,7 @@ ubmcmm.baidustatic.com
 ||zd6789.com^$third-party
 ||ze5.com^$third-party
 ||zgc66.com^
+||zgczjw.com^$third-party
 ||zgksb.com^
 ||zgunion.cn^
 ||zgyemy.com^
@@ -2015,6 +2014,7 @@ ubmcmm.baidustatic.com
 ||zj66.net^$third-party
 ||zp22938576.com^
 ||zp265.com^$third-party
+||zqworks.com^
 ||zrpfk.com^
 ||zsdexun.com.cn^
 ||ztdsp.com^$third-party
@@ -6259,7 +6259,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jisutiyu.com##A[href*="/Register?aff="]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9979,6 +9978,7 @@ letv.com##a[href*=".vip.com"]
 zhibo8.cc##a[href*=".wanjiashe."]
 tiexue.net##a[href*=".yueleyu."]
 108.62.192.124,plus28.com##a[href*="/?Extend="]
+jisutiyu.com##a[href*="/Register?aff="]
 kcwiki.moe##a[href*="/ad."]
 acg18.us##a[href*="/ad/"]
 mkzhan.com##a[href*="/adid/"]
