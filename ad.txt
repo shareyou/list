@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kMPbnBvPDsDbblSyOwbP1w
+! Checksum: gr3nwUmgdGlG9RZzBZvd+w
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703281530
-! Last Modified: 2017年03月28日 15:30
+! Version: 201703281600
+! Last Modified: 2017年03月28日 16:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -75,9 +75,9 @@ xhamster.com##.sponsorBottom
 |http://$script,domain=imagebam.com|imagevenue.com|playvid.com
 |https://$script,domain=4horlover.blogspot.hk|4horlover2.blogspot.hk|4horlover.blogspot.jp|4horlover2.blogspot.jp
 |http://$subdocument,domain=imagebam.com|playvid.com|gaypornsexfree.net|gaybonegdage.com
-|http://$third-party,domain=09xs.com|biquge.com|biquge.tw|biqudao.com|bookbao8.com|gaybonegdage.com|lewenxsw.com|kankanwu.com|mybtfiles.com|pbtxt.com|piaov.com|quankan.tv|ranwen.org|ttdbh.com|xxbiquge.com
+|http://$third-party,domain=09xs.com|biquge.com|biquge.tw|biqudao.com|bookbao8.com|gaybonegdage.com|lewenxsw.com|kankanwu.com|mybtfiles.com|pbtxt.com|piaov.com|quankan.tv|ranwen.org|ttdbh.com|xqianqian.com|xxbiquge.com
 |https://$third-party,domain=ttdbh.com
-@@|http://$image,domain=kankanwu.com|quankan.tv|lewenxsw.com
+@@|http://$image,domain=kankanwu.com|quankan.tv|lewenxsw.com|xqianqian.com
 @@|http://$generichide,domain=nibblebit.com|www.aiwanba.net
 @@||apis.google.com^
 ||http://www.tucao.tv/uploadfile/2017$image,object,domain=http://www.tucao.tv
