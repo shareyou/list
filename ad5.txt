@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /fE2WI5L7rX1XqN4ttS3kw
+! Checksum: ICq67HUr4l+FnNO2Bn60PQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703291600
-! Last Modified: 2017年03月29日 16:00
+! Version: 201703291630
+! Last Modified: 2017年03月29日 16:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -14943,6 +14943,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /services/analytics/*
 /services/counter/*
 /services/counters/*
+/services/pixel.html?
 /servlet/Cookie?
 /session-hit.
 /session-tracker/tracking-
@@ -15031,6 +15032,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /spacer.gif?hscbrnd
 /spacer.gif?q=l3mkwgak
 /spannerworks-tracking-
+/speedlog?ts=
 /SpeedTrapInsert.
 /spi.gif?aid=
 /spip.php?page=stats.js
@@ -15073,6 +15075,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stataffs/track.php?
 /statcapture.
 /StatCms/ViewCount?
+/statcollector.
 /statcount.
 /statcounter.asp
 /statcounter.js
@@ -15094,6 +15097,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /statistics/metrica.
 /statistics/pageStat/*
 /statistics/set?
+/statistics?counter=
 /statistics?eventType=
 /statlogger.
 /stats-js.cgi?
@@ -15245,6 +15249,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track.js?screen=
 /track.php?*&uid=
 /track.png?
+/track.srv.
 /track/*&CheckCookieId=
 /track/*?rnd=0.$image
 /track/?site
@@ -15346,6 +15351,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking-pixel.
 /tracking-pixel/*
 /tracking-portlet/*
+/tracking-v3.
 /tracking-widget.
 /tracking.ashx?
 /tracking.cgi?
@@ -15381,6 +15387,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking/referrer?
 /tracking/setTracker/*
 /tracking/simplified_
+/tracking/t.srv?
 /tracking/tag_commander.php?
 /tracking/track.jsp?
 /tracking/track.php?
@@ -15560,6 +15567,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /video_count.php?
 /videoanalytic/*
 /videoAnalytics.
+/videolog?vid=
 /VideoTracking.
 /videotracking/*
 /vidtrack.
@@ -15999,6 +16007,7 @@ _mongo_stats/
 ||67.228.151.70^$third-party
 ||6sc.co^$third-party
 ||72.172.88.25^$third-party
+||720-trail.co.uk^$third-party
 ||74.55.82.102^$third-party
 ||77tracking.com^$third-party
 ||79.125.117.123^$third-party,domain=~amazon.cdn.ip.seen.on.cheapflight
@@ -16133,6 +16142,7 @@ _mongo_stats/
 ||apextwo.com^$third-party
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
+||app.link^$third-party
 ||appboycdn.com^$third-party
 ||aqtracker.com^$third-party
 ||arcadeweb.com^$third-party
@@ -16248,6 +16258,7 @@ _mongo_stats/
 ||botsvisit.com^$third-party
 ||bounceexchange.com^$third-party
 ||bouncex.com^$third-party
+||branch.io^$third-party
 ||brat-online.ro^$third-party
 ||brcdn.com^$third-party
 ||bridgevine.com^$third-party
@@ -19433,6 +19444,7 @@ _mongo_stats/
 ||dmcdn.net/behavior/
 ||dmdentertainment.com^*/video_debug.gif?
 ||dn-net.com/cc.js
+||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
 ||doug1izaerwt3.cloudfront.net^
@@ -20201,7 +20213,6 @@ _mongo_stats/
 ||stat.segitek.hu^
 ||stat.to.cupidplc.com^$third-party
 ||stat.web-regie.com^
-||statcollector.sidearmsports.com^
 ||statdb.pressflex.com^
 ||static.parsely.com^$third-party
 ||statistics.infowap.info^
@@ -21127,7 +21138,6 @@ _mongo_stats/
 ||1l-hit.mail.ru^
 ||7host.ru/tr/*?r=$third-party
 ||a.tovarro.com^
-||adlik.akavita.com/bin/lik?
 ||agates.ru/counters/
 ||all-top.ru/cgi-bin/topcount.cgi?
 ||anycent.com/analytics/
@@ -21581,7 +21591,6 @@ _mongo_stats/
 ||booking.com/js_tracking?
 ||booking.com/logo?
 ||boston.com/upixel/
-||bostonglobe.com/statistics?
 ||brandrepublic.com/session-img/
 ||branica.com/counter.php?
 ||bridgetrack.com/site/
@@ -23285,6 +23294,7 @@ _mongo_stats/
 ||vidxden.com^*/tracker.js
 ||vietnamnet.vn^*/tracking.js
 ||villarenters.com/inttrack.aspx
+||vimeo.com/*?type=click$ping
 ||vimeo.com/log/outro_displayed
 ||viralnova.com/track.php
 ||viralogy.com/javascript/viralogy_tracker.js
