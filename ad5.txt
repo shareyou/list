@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5Z/YfMevZLXI88k1GTCb0g
+! Checksum: 2Ejfpt9OSD28eoWrKZdH/g
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201703291800
-! Last Modified: 2017年03月29日 18:00
+! Version: 201703291900
+! Last Modified: 2017年03月29日 19:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -665,6 +665,7 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
+||1d1px.net^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -6261,6 +6262,8 @@ mg*.6park.com/img/$image
 ||ppty.tv/index/js/float.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+souqiu8.com##A[href^="http://www.444365.org/"]
+souqiu8.com##A[href^="http://www.888zr.com"]
 sea-group.org###text-7
 hacg.fi,hacg.red##A[href^="/gg/"]
 hc360.com,yaolan.com###AD
@@ -10859,8 +10862,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@?sid=ads$domain=126.com|mail.163.com
 @@_adview_pic_$domain=ygo-sem.cn
 @@u-ads.adap.tv*youku.$domain=youku.com
-@@|http:$image,script,domain=jjcast.com
-@@|http://*/AD/$domain=33kk.cc|ff7.cc
 @@|https://tieba.baidu.com/index.html|$genericblock
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
@@ -11424,6 +11425,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tbcdn.cn^*/click_track.js
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
+@@||cmstool.youku.com/cms/player/userinfo/
 ! EasyList Lite
 ##.ad_bar
 &adsrc=
