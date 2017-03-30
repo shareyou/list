@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q5FI1Y4odzmnNDQmDcmC6w
+! Checksum: OFVooi83pjm9Swsu78nxCw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201703301000
-! Last Modified: 2017年03月30日 10:00
+! Version: 201703301100
+! Last Modified: 2017年03月30日 11:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -603,7 +603,6 @@ tieba.baidu.com##.tuijian-wrap
 /qqlive/conf/playerlottery/*
 /qqliveweb/*.swf
 /qqyouyuead/*
-/qxq-images/livallbanner.jpg
 /RenderLapinBlock?
 /runtime/js/index960.js
 /Runtime/js/top960.js
@@ -5434,8 +5433,6 @@ mg*.6park.com/img/$image
 ||qiniudn.com/ad-zalra.jpg
 ||qiqibu.com/js/*.gif
 ||qitete.com/sp/
-||qiuziti.com/img/c4d.jpg
-||qiuziti.com/img/rightp20.gif
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
 ||qixingquan.com/qxq-images/js/qxq_t.js
@@ -5504,7 +5501,6 @@ mg*.6park.com/img/$image
 ||qqtn.com/js/*0.js
 ||qqtz.com/ad$subdocument
 ||qqxbt.com/Content/img/hd
-||qqxzb.com^*/js/global.js
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
 ||qqzhibo.tk/js/t
@@ -6553,6 +6549,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qixingquan.com##.qxq_h
 tiexue.net##A[href*=".liangada."]
 tiexue.net##A[href*="game.tiexue."]
 hc360.com,yaolan.com###AD
@@ -10394,7 +10391,6 @@ iqiyi.com##a[id^="100000"]
 360zhibo.com##a[name="thegg"]
 frdic.com,godic.net##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
-qiuziti.com##a[style$="height: 600px; cursor: pointer;"]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
 btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
@@ -11115,7 +11111,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=123564.com|btbt.tv|jkpan.com|liangzijievip.com|mahua.com|meijukankan.net|mfgun.com|qqzhibo.tk
-@@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|qdxqs.com|re-vat.com|sj-touch.com
+@@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/assets/adv/*$domain=4008927927.cn
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
