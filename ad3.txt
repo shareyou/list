@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iU91H9eEnpUGJ64eEw/6ng
+! Checksum: VB30pUpoBeCC6sSjBybKxA
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201703311700
-! Last Modified: 2017年03月31日 17:00
+! Version: 201703311730
+! Last Modified: 2017年03月31日 17:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -6160,7 +6160,13 @@ mg*.6park.com/img/$image
 ||titan007.com/ad/
 ||120.27.*.html
 ||gamme.com.tw/uploads/*?2
+||housefindeasy.com/images/b_*.png
+||housefindeasy.com/images/*banner978x90.
+||housefindeasy.com/images/vip_ads
 !------------------------Specific element hiding rules------------------------!
+housefindeasy.com##DIV[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"]
+housefindeasy.com##DIV[style="height:90px"]
+housefindeasy.com##div[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"] + DIV[style="display:inline-block"]
 mydrivers.com##DIV[style^="width:1100px; height:90px;"]
 acg18.us###text-html-widget-2 ~ .widget-box
 acg18.us##.buyaoa
