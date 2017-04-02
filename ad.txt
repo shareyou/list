@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uhBlNJB/V5Iles+2/PAkRA
+! Checksum: gkdfFb4CRFlWq2oxo9pERw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704021530
-! Last Modified: 2017年04月02日 15:30
+! Version: 201704022115
+! Last Modified: 2017年04月02日 21:15
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -19,7 +19,6 @@ cnbeta.com##DIV[style*="display:block !important;padding:10px;margin:0 auto"]
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
 gelbooru.com##A[href*="ads="]
-ifanr.com##.popup-app-download
 mp.weixin.qq.com###js_pc_qr_code
 m.jd.com##.download-pannel
 m.jiemian.com###js-b-ad
@@ -81,7 +80,7 @@ xhamster.com##.sponsorBottom
 @@|http://$generichide,domain=nibblebit.com|www.aiwanba.net
 @@||apis.google.com^
 ||www.tucao.tv/uploadfile/2017$image,object,domain=www.tucao.tv
-@@||www.tucao.tv/uploadfile/2017/*/thumb*$image,domain=www.tucao.tv
+@@||www.tucao.tv/uploadfile/2017/*/thumb$image,domain=www.tucao.tv
 ||115.com/static/plug/video_play/qrcode.js
 ||123yq.org/ssi/
 ||301digitalmedia.com/$popup
@@ -144,7 +143,6 @@ xhamster.com##.sponsorBottom
 ||guardwork.info^$third-party
 ||histats.com^$third-party
 ||insightexpressai.com^
-||jd.com/mkt/pcwap?ad_ids=
 ||juiceads.net^
 ||juicyads.com^
 ||live800.com^$domain=licai.com
@@ -199,7 +197,7 @@ xhamster.com##.sponsorBottom
 ||www.blnovel.com/cmjs/$script
 ||www.blnovel.com/e/$script
 ||www.blnovel.com/qrcode.php
-||www.gelbooru.com/thumbnails/*
+||www.gelbooru.com/thumbnails/
 ||xiamp4.com/tj.js
 ||xiucm.com^$third-party
 ||xemphimviet.net^$third-party
@@ -221,7 +219,6 @@ xhamster.com##.sponsorBottom
 ||zencdn.net^$domain=freegaypornsex.net|www.gayvl.info
 ||zrblog.net/zanzhu/
 ! BiliBili
-bilibili.com###b_app_link
 live.bilibili.com##.announcement-container
 live.bilibili.com##.check-my-title
 live.bilibili.com##.gift-msg
