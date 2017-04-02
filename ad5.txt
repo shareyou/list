@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U5UQEnkVgLrasZEBE5eG/Q
+! Checksum: W8l50JIzY1jChuPZXVMfoQ
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704020830
-! Last Modified: 2017年04月02日 08:30
+! Version: 201704020900
+! Last Modified: 2017年04月02日 09:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -5116,8 +5116,6 @@ mg*.6park.com/img/$image
 ||puudeng.com.tw^$subdocument
 ||q.cn/images/floater_
 ||q.cn/images/notepad.gif
-||qbaobei.com/data/attachment/portal/201310/23/171807xmyi29gah8cypbh6.gif
-||qbaobei.com/data/attachment/portal/201310/23/171915wh3ox3oiwck3dwxo.jpg
 ||qbox.me/ftq_
 ||qd.dhzw.org^
 ||qd.js.sanjiangge.com^
@@ -5183,7 +5181,6 @@ mg*.6park.com/img/$image
 ||qiyun.org/images/js/*.htm
 ||qjis.com/js/qjis_nr.js
 ||qk101.com/life/
-||qlwb.com.cn/2016/0602/1464834587674.gif
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
 ||qpic.cn/qidian_common/$object
 ||qq.com/article_qq/ad_article_qq/
@@ -6260,6 +6257,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qlwb.com.cn##.A3
 asus.com##.bg_block
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -11349,7 +11347,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||caoimgs.com/images/*.gif
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-|http:$script,third-party,domain=storebt.com|xtzgjx.com|zhuzhudao.com
+|http:$script,third-party,domain=storebt.com|xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=33yq.com|8dushu.com|biquge.tw|btkitty.bid|dhzw.org|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !-----------------------------Malware Domains rules---------------------------!
