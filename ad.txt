@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PYr0H6NSfec6QwnTYaIHFQ
+! Checksum: 2qSE9bGe4nmrYfJi6ZTWqg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704011930
-! Last Modified: 2017年04月01日 19:30
+! Version: 201704020800
+! Last Modified: 2017年04月02日 08:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -934,7 +934,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||acwgf.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1255,6 +1254,7 @@ ubmcmm.baidustatic.com
 ||a9377j.com^
 ||acgbase.com^$third-party
 ||acs86.com^$third-party
+||acwgf.com^
 ||ad-plus.cn^$third-party
 ||ad-survey.com^$third-party
 ||ad000000.com^
@@ -5499,6 +5499,7 @@ mg*.6park.com/img/$image
 ||qtfy30.cn/680_*.gif
 ||qtfy30.cn/980-90.gif
 ||quanmin.tv/static/pages/adranktit.html
+||qulishi.com/js/*Adv.js
 ||qunar.com/render/*Advertisement.jsp?
 ||qunar.com/vata?chan=
 ||qunar.com/vataframe/b.html?
@@ -6531,7 +6532,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||qulishi.com/js/*Adv.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
