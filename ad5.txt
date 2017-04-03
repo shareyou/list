@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9IiE0mNuJo5Dle7UEfUgVg
+! Checksum: 469mS2eV1WxaST0iwSlDvw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704032030
-! Last Modified: 2017年04月03日 20:30
+! Version: 201704032100
+! Last Modified: 2017年04月03日 21:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13512,6 +13512,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /clicky.js
 /client-event-logger.
 /client_pathlog.asp?
+/clientdatacollector/*
 /clientlibs/ga.js
 /clientstat?
 /cls_rpt.gif?
@@ -13581,6 +13582,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /count.fcg?
 /count.fcgi?
 /count.fgi?
+/count.gif?
 /count.png?
 /count/?ad=
 /count/count.cgi?
@@ -13775,6 +13777,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event.gif?
 /event/*/*?*&euidl=*&url=
 /event/pageview?
+/event/rumdata?
 /event?auditLinkReceived=
 /event?pmo=
 /event?stat_
@@ -14101,7 +14104,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /ignition-one.js
 /image.articleview?
 /image.ng/*
-/image/count.gif?
 /images/1px.gif?
 /images/mxl.gif?
 /images/uc.GIF?
@@ -14227,6 +14229,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /js/tophits_
 /js/tracking.js
 /js/tracking.min.js?
+/js/tracking/
 /js/trk_
 /js_hotlink.php?
 /js_logger.
@@ -15148,6 +15151,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats/pgview.
 /stats/ping?
 /stats/record.php?
+/stats/services/*
 /stats/track.asp?
 /stats/tracker.gif?
 /stats/tracker.js
@@ -15386,6 +15390,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracking/ads.
 /tracking/article.
 /tracking/article/*
+/tracking/at.js
 /tracking/beacon/?
 /tracking/clicks
 /tracking/create?
@@ -19285,6 +19290,7 @@ _mongo_stats/
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
 ||cloudfront.net/tracker.js
+||cloudfront.net/zephyr.js
 ||cm.dsp.linksynergy.com^$third-party
 ||cm.g.doubleclick.net^
 ||cmmeglobal.com/evt?
@@ -24488,9 +24494,9 @@ _mongo_stats/
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
 @@||adblockanalytics.com/ads.js|
 @@||adidas.com^*/adidasAnalytics.js?
-@@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|vanityfair.com|wired.com
+@@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|pnc.com|vanityfair.com|wired.com
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.co.uk|laredoute.com|lenovo.com|nbcnews.com|newyorker.com|oprah.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.co.uk|laredoute.com|lenovo.com|nbcnews.com|newyorker.com|oprah.com|pnc.com|realtor.com|stuff.co.nz|vanityfair.com|wired.com
 @@||adobetag.com/d2/$script,domain=thestar.com
 @@||adobetag.com^*/amc.js$script
 @@||adobetag.com^*/sitecatalyst.js$domain=hbf.com.au|seattlepi.com|tv.com
