@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dxmoLbmm0NkMCUBbAjaQ0w
+! Checksum: ILKJXbP+jdDwp8ml8SAK8A
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704030830
-! Last Modified: 2017年04月03日 08:30
+! Version: 201704031030
+! Last Modified: 2017年04月03日 10:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -7031,11 +7031,11 @@ ck101.com,pchome.com.tw###div_superbar_swf
 123du.cc,bokon.net###divtop2
 360doc.com###divunderZcommondAd
 360doc.com###divyoulikead
-0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,shhhy.xyz,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
+0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,shhhy.xyz,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 d7w.net###diy10
 cbber.com###diy2
 gpshk.cc,oneplusbbs.com,xiaot.com###diy4
-cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
+cbber.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
 5imx.com###diy_mxad02
 5imx.com###diy_mxad03
 5imx.com###diy_mxad04
@@ -7734,10 +7734,8 @@ iyejie.com###top > div:not([id]):not([class])
 hao123.com###top-anim
 bbs.houdao.com###top-banner
 teepr.com###topAdBlock
-qidian.com###topBgBox
 2345.com###topHf
 elecfans.com###topJf
-qidian.com###topOpBox
 starbaby.cn###top_ad_show
 ck101.com,cq.xinhuanet.com###top_banner
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
@@ -9217,8 +9215,6 @@ flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 langya.cn##.langya2014_passport > div[style="margin-bottom:4px;"]
 1kkk.com##.lanrenzhijia
 iqiyi.com##.lanzhi_cont2
-83133.com##.lay-300 > .test
-qiwen8.com##.lay-h-90
 le.com##.lay_body[style^="width:490px;height:320px;"]
 le.com##.lay_body[style^="width:980px;height:100px;"]
 le.com##.lay_body[style^="width:980px;height:90px;"]
@@ -9858,7 +9854,7 @@ chinaiiss.com##.taobaopic
 11584.com##.taomi_tong9602
 11584.com##.taomi_tong9603
 qq.com##.tb-activity-list
-83133.com,qiwen8.com##.tb-tanx
+83133.com##.tb-tanx
 qq.com##.tb12-activity
 17sucai.com##.tb300x250
 17sucai.com##.tb960x90
@@ -9879,7 +9875,6 @@ mobanwang.com##.teagg
 duba.com##.tempAd
 3g.qq.com##.template_gdt_div_blue
 hepuwang.com##.teshu_header
-qiwen8.com##.test
 startos.com##.test-240
 xiazaiba.com##.test-90
 baidu.com##.text-advertise
