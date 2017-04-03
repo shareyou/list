@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tg3/JVKQRzo5aBrDbWqEjQ
+! Checksum: gaV9Qv3Q0OXd7+SsovN1wg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704032130
-! Last Modified: 2017年04月03日 21:30
+! Version: 201704032200
+! Last Modified: 2017年04月03日 22:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6258,8 +6258,11 @@ mg*.6park.com/img/$image
 ||liewen.cc^*.htm$script
 ||gtimg.com/auto/js/autoproject/autoarticle/low-price-car_
 ||oneinstack.com/ad_buttom.html
+||0x01e7.website^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ganpapa.com###wrapper + DIV
+ganpapa.com##DIV[class*="_9cb0d"]
 qhnews.com###xwyc
 qq.com##.mod_ad_main
 sports.qq.com##A[href="http://teramont.svw-volkswagen.com/"]
@@ -15198,6 +15201,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tacoda.
 /tacoda_
 /TacodaFTT.
+/taevents-
 /tag/tag.jsp?
 /TagCommander.cfc?
 /tagcommander/*
@@ -17760,6 +17764,7 @@ _mongo_stats/
 ||tagifydiageo.com^$third-party
 ||tagsrvcs.com^$third-party
 ||tagtray.com^$third-party
+||tamgrt.com^$third-party
 ||tapfiliate.com^$third-party
 ||taps.io^$third-party
 ||tapstream.com^$third-party
@@ -22719,6 +22724,7 @@ _mongo_stats/
 ||presentationtracking.netflix.com^
 ||presstv.ir/stat/
 ||pricegrabber.com/analytics.php
+||priceline.com/svcs/
 ||princetonreview.com/logging/
 ||prnewswire.com/rit.gif?
 ||prnewswire.com/rt.gif?

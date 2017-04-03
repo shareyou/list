@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 72B6KOPDXbeT7UQV/dpL3w
+! Checksum: /n+hv5KIhlhR7VOG9dXiAw
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704032130
-! Last Modified: 2017年04月03日 21:30
+! Version: 201704032200
+! Last Modified: 2017年04月03日 22:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -6530,8 +6530,11 @@ mg*.6park.com/img/$image
 ||liewen.cc^*.htm$script
 ||gtimg.com/auto/js/autoproject/autoarticle/low-price-car_
 ||oneinstack.com/ad_buttom.html
+||0x01e7.website^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ganpapa.com###wrapper + DIV
+ganpapa.com##DIV[class*="_9cb0d"]
 qhnews.com###xwyc
 qq.com##.mod_ad_main
 sports.qq.com##A[href="http://teramont.svw-volkswagen.com/"]
