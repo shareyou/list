@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: ebpS6u3DVn2UjIU212/aeg
+! Checksum: WgxL7mPPV9nKti7kspJfQg
 ! Title: [proxy]Filters
 ! Expires: 12 hours
-! Version: 201704042245
-! Last Modified: 2017年04月04日 22:45
+! Version: 201704050945
+! Last Modified: 2017年04月05日 09:45
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则为自用简洁版，欢迎补充规则
@@ -77,7 +77,6 @@
 ||caobian.info
 ||caochangqing.com
 ||cdn13.com
-||cdninstagram.com
 ||cdn*.xda-developers.com
 ||certificate-transparency.org
 ||chatango.com
@@ -168,9 +167,6 @@
 ||gcr.io
 ||get-film.jp
 ||ggpht.com
-||githubapp.com
-||github.com
-||githubusercontent.com
 ||gmail.com^
 ||gmodules.com
 ||gnome.org
@@ -248,7 +244,6 @@
 ||incloak.com
 ||indiegala.com
 ||inoreader.com
-||instagram.com
 ||ionicframework.com
 ||ip-api.com
 ||ixquick.com
@@ -300,7 +295,6 @@
 ||panoramio.com
 ||pastebin.com
 ||phimsexporn.org
-||phncdn.com
 ||photobucket.com
 ||picktorrent.com
 ||piclect.com
@@ -314,7 +308,6 @@
 ||polymer-project.org
 ||popo8.com
 ||pornhd.com
-||pornhub.com
 ||pornolab.net
 ||postimg.org
 ||ppy.sh
