@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CvTPQoydC87i8slS+9kRxw
+! Checksum: L3kuIwVnBNYFPXm3wgjoUw
 ! Title: Diablo AdFilters(NoTB)
 ! Expires: 12 hours
-! Version: 201704051300
-! Last Modified: 2017年04月05日 13:00
+! Version: 201704051800
+! Last Modified: 2017年04月05日 18:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance，感谢各位大大的分享！
@@ -548,6 +548,7 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 ||139y.com^$third-party
+||runiman.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -5709,7 +5710,7 @@ mg*.6park.com/img/$image
 ||wanmcy.com/toolsda/
 ||wanwan.sina.com.cn/third_party/
 ||wanyx.com/Public/js/cqby.swf
-||wap.xxbiquge.com^*.html$script
+||xxbiquge.com^*.htm$script
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/plus/*.php?aid=
 ||wbzol.com/images/1120-
@@ -6135,6 +6136,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||ad-api.cnblogs.com^
+||jfrft.com/images/nono/
+||jfrft.com^*/w234.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 cnblogs.com##.sidebar-image
