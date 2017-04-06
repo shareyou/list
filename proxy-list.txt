@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: jwJSvOyq8EjBSxdbTLwp6A
+! Checksum: DdKofjPOUgv9ufybLsXS7w
 ! Title: [proxy]Filters
 ! Expires: 12 hours
-! Version: 201704061130
-! Last Modified: 2017年04月06日 11:30
+! Version: 201704061545
+! Last Modified: 2017年04月06日 15:45
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则为自用简洁版，欢迎补充规则
@@ -294,7 +294,6 @@
 ||openload.io^
 ||orkut.com
 ||panoramio.com
-||pastebin.com
 ||phimsexporn.org
 ||photobucket.com
 ||picktorrent.com

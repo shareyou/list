@@ -285,7 +285,6 @@ var rules = [
  "||openload.io^",
  "||orkut.com",
  "||panoramio.com",
- "||pastebin.com",
  "||phimsexporn.org",
  "||photobucket.com",
  "||picktorrent.com",
