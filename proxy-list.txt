@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: WgxL7mPPV9nKti7kspJfQg
+! Checksum: jwJSvOyq8EjBSxdbTLwp6A
 ! Title: [proxy]Filters
 ! Expires: 12 hours
-! Version: 201704050945
-! Last Modified: 2017年04月05日 09:45
+! Version: 201704061130
+! Last Modified: 2017年04月06日 11:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则为自用简洁版，欢迎补充规则
@@ -12,6 +12,7 @@
 ||100tbgv.com
 ||1069juno.com
 ||1155h.com
+||1e100.net
 ||1pondo.tv
 ||1tbgv.com
 ||20thingsilearned.com
