@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N1OOfeXKXvocWBRerOnD1g
+! Checksum: gNknbKKpR7WVG5mrIcOV/w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704072030
-! Last Modified: 2017年04月07日 20:30
+! Version: 201704080730
+! Last Modified: 2017年04月08日 07:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -13304,6 +13304,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /beacon.gif?
 /beacon.js
 /beacon/b.ashx?
+/beacon/track/*
 /beacon/vtn_loader.gif?
 /beacon?
 /beacon_async.
@@ -14300,6 +14301,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /log?data=
 /log?documentUrl=
 /Log?entry=
+/log?event=
 /log?id=
 /log?sLog=
 /log?type=
@@ -19749,6 +19751,7 @@ _mongo_stats/
 ||ioam.de/aid.io?
 ||ioam.de/tx.io?
 ||ios.mobile.linksynergy.com^$third-party
+||irqs.ioam.de^
 ||isacglobal.com/sa.js
 ||itracking.fccinteractive.com^
 ||iyisayfa.net/inc.php?
@@ -19926,6 +19929,7 @@ _mongo_stats/
 ||movementventures.com/_uid.gif
 ||mozilla.org/page/*/open.gif$third-party
 ||mp.pianomedia.eu^
+||mqs.ioam.de^
 ||msecnd.net/jscripts/HA-$script
 ||msecnd.net/scripts/a/ai.0.js
 ||mtrcs.samba.tv^
@@ -20775,7 +20779,6 @@ _mongo_stats/
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
 ||iqcontentplatform.de/tracking/
-||irqs.ioam.de^$third-party
 ||ivw.discover-outdoor.de^
 ||ivw.dumontreise.de^
 ||ivw.fem.com^
@@ -20795,7 +20798,6 @@ _mongo_stats/
 ||mlm.de/counter/
 ||mlm.de/pagerank-ranking/
 ||movad.de/c.ount?
-||mqs.ioam.de^
 ||myv-img.de/m2/e?
 ||nametec.de/cp/
 ||newelements.de/tracker/
@@ -22924,6 +22926,7 @@ _mongo_stats/
 ||skyrock.net/img/pix.gif
 ||skyrock.net/js/stats_blog.js
 ||skyrock.net/stats/
+||slack.com/clog/track/
 ||slacker.com/beacon/page/$image
 ||slashdot.org/images/js.gif?$image
 ||slashdot.org/purple.gif
