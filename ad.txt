@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DfZ7If40hzGjmrwz1ib88w
+! Checksum: UPxPeoX/ZPKkqiqdnto0Zg
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704071400
-! Last Modified: 2017年04月07日 14:00
+! Version: 201704071730
+! Last Modified: 2017年04月07日 17:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -72,7 +72,7 @@ xhamster.com##.sponsorBottom
 |http://*/source/plugin/u179_jtft/
 |http://$popup,domain=gaypornsexfree.net|gaybonegdage.com|openload.co|uploadrocket.net|mybtfiles.com|www.mirrorcreator.com
 |http://$script,domain=imagebam.com|imagevenue.com|playvid.com
-|https://$script,domain=4horlover.blogspot.hk|4horlover2.blogspot.hk|4horlover.blogspot.jp|4horlover2.blogspot.jp
+|https://$script,domain=4horlover.blogspot.com|4horlover2.blogspot.com|4horlover.blogspot.jp|4horlover2.blogspot.jp
 |http://$subdocument,domain=imagebam.com|playvid.com|gaypornsexfree.net|gaybonegdage.com
 |http://$third-party,domain=09xs.com|biquge.com|biquge.tw|biqudao.com|bookbao8.com|gaybonegdage.com|lewenxsw.com|linkshrink.net|lwxs520.com|kankanwu.com|mybtfiles.com|pbtxt.com|piaov.com|quankan.tv|ranwen.org|ttdbh.com|xqianqian.com|xxbiquge.com
 |https://$third-party,domain=ttdbh.com
