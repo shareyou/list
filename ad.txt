@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bBSr44+kErbw6XuZhz7BPA
+! Checksum: r6mxWYto1h05Y7pBMjnasA
 ! Title: Diablo AdFilters
 ! Expires: 12 hours
-! Version: 201704071230
-! Last Modified: 2017年04月07日 12:30
+! Version: 201704071300
+! Last Modified: 2017年04月07日 13:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -613,7 +613,6 @@ tieba.baidu.com##.tuijian-wrap
 /sta2rt.js
 /static/adsview/*
 /static/common/js/djlib_
-/stoneip_Sidebar.png
 /sxgg/12.js
 /sxgg/13
 /taihai/v2014/images/index/aa_10.
@@ -5751,7 +5750,6 @@ mg*.6park.com/img/$image
 ||skdh2.com/tp/
 ||skinme.cc/assets/index/*/banner2016
 ||skycn.com/js/top.js
-||skykiwi.com/video.html
 ||slit.cn/d/js/images/thea
 ||slit.cn/slimages/
 ||slooti.com/upload/30/38/1446711674.gif
@@ -5824,7 +5822,6 @@ mg*.6park.com/img/$image
 ||sto.cn*/temp/adv.jpg
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/info/*0x
-||stoneip.info/wp-content/uploads/*/SIM-
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
 ||storm.mg/ad?
@@ -6532,6 +6529,7 @@ mg*.6park.com/img/$image
 ||shufazidian.com/image/728x90ty.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+stoneip.info###text-57
 rising.cn###lowerrightAd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
