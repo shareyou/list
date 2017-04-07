@@ -12222,7 +12222,7 @@ var domains = {
   "zyzc9.com": 1
 };
 
-var proxy = "PROXY go1.ming92.tk:31485";
+var proxy = "HTTPS go1.ming92.tk:31485";
 
 var direct = 'DIRECT;';
 
