@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qVLg4eHu/yoHsCd9HcYgQA
+! Checksum: GKY1x2Qqo8EssmfU7uwJvg
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704081200
-! Last Modified: 2017年04月08日 12:00
+! Version: 201704081330
+! Last Modified: 2017年04月08日 13:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6261,6 +6261,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||sbo8.com/static/theme/js/bottom.
 !------------------------Specific element hiding rules------------------------!
+whichav.com##.ads
 gpcxw.com###AA2
 silver.org.cn##.atit_gg_index
 silver.org.cn##.logo_dsadas
@@ -10819,8 +10820,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
-@@/fuckadblock.$domain=ck101.com|datehub.co
-@@/fuckadblock/*$domain=wokao.co
+@@/fuckadblock.$domain=ck101.com|datehub.co|whichav.com|wokao.co
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/home/ads/*$domain=esunbank.com.tw
 @@/ima/*ad.$domain=feemoo.com|feimaott.com
