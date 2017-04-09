@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rqnVbM0Vo40zK7b6Ndv1iA
+! Checksum: oG8YVqTmzjO6SR7u5MsO0w
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704092030
-! Last Modified: 2017年04月09日 20:30
+! Version: 201704092130
+! Last Modified: 2017年04月09日 21:30
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -6264,6 +6264,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||bai3.gushiwen.org^
+||shicimingju.com/Public/js/buttom.js
 !------------------------Specific element hiding rules------------------------!
 gushiwen.org###ShowAd
 cartoonmad.com##TABLE[width="950"] > TBODY > TR > TD > TABLE[width="210"] > TBODY > TR > TD > TABLE[width="210"]
@@ -11211,7 +11212,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
 @@||sz3e.com/css/ad.
-@@||szeyz.com/szyz/portal/images/ad-
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
@@ -17121,6 +17121,7 @@ _mongo_stats/
 ||measure.ly^$third-party
 ||measuremap.com^$third-party
 ||measurementapi.com^$third-party
+||meatballsandads.com^$third-party
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
 ||mediagauge.com^$third-party
