@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wq9OP2+okX77Rgb9/7URgA
+! Checksum: 7ddtELv/luNEY3Ysq10GGw
 ! Title: Diablo AdFilters （增强隐私防护）
 ! Expires: 12 hours
-! Version: 201704090730
-! Last Modified: 2017年04月09日 07:30
+! Version: 201704091100
+! Last Modified: 2017年04月09日 11:00
 ! Homepage: http://tieba.baidu.com/p/5026569746
 !
 ! 本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance、
@@ -658,7 +658,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||guidashu.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1325,6 +1324,7 @@ ubmcmm.baidustatic.com
 ||guduopu.com^
 ||gugeys.com^$third-party
 ||gugulonger.cn^
+||guidashu.com^
 ||guoshennet.com^
 ||gydag.com^
 ||gzbywl.com^$third-party
@@ -5320,6 +5320,7 @@ mg*.6park.com/img/$image
 ||same.eastmoney.com^
 ||same.stockstar.com^
 ||sax.sina.com.cn/crossdomain.xml
+||sbo8.com/static/theme/js/bottom.
 ||sbpig.com/images/erweima.jpg
 ||sc.chinaiiss.com/do.php?do=ad&
 ||scibook.cn/tuiguang.
@@ -6259,12 +6260,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||sbo8.com/static/theme/js/bottom.
 !------------------------Specific element hiding rules------------------------!
-whichav.com##.ads
 gpcxw.com###AA2
-silver.org.cn##.atit_gg_index
-silver.org.cn##.logo_dsadas
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7984,7 +7981,7 @@ ifeng.com##.adpubpic
 doc88.com##.adpx250
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qyle9.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,xunleihd.com,yeeyi.com##.ads
+345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qyle9.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,whichav.com,wokao.co,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -8092,6 +8089,7 @@ anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
 asp300.com##.asp300-indexAD
 vx666.com##.async[href^="http"]
+silver.org.cn##.atit_gg_index
 haosou.com,so.com##.atom-adv
 gamefy.cn,sitv.com.cn##.att-bar
 u17.com##.auto_ad
@@ -9000,6 +8998,7 @@ uc123.com##.logo > a
 wdzj.com##.logo-banner
 fashionguide.com.tw##.logo_ad
 jjxw.cn##.logo_ad_r
+silver.org.cn##.logo_dsadas
 7399.com##.logo_r_hd
 qinbing.cn##.logo_right
 sd888.org##.loshow
