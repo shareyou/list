@@ -1,4 +1,4 @@
-var proxy = "PROXY 127.0.0.1:8087";
+var proxy = "HTTPS go1.ming92.tk:31838";
 var rules = [
  "||100tbgv.com",
  "||1069juno.com",
@@ -197,6 +197,7 @@ var rules = [
  "||gvt0.com",
  "||gvt1.com",
  "||gvt2.com",
+ "||gvt3.com",
  "||gvtujie2.com",
  "||gwtproject.org",
  "||h2porn.com",
@@ -212,7 +213,6 @@ var rules = [
  "||hotavxxx.com",
  "||hotgoo.com",
  "||html5rocks.com",
- "|http://45.35.43.180/",
  "/^https?:\/\/[^\/]+google\.(.*)/",
  "||humblebundle.com",
  "||hunk-ch.com",
@@ -302,9 +302,6 @@ var rules = [
  "||pornolab.net",
  "||postimg.org",
  "||ppy.sh",
- "||psiphon.ca",
- "||psiphon.net",
- "||pubnub.com",
  "||pubu.com.tw",
  "||pubu.tw",
  "||quantserve.com",
@@ -322,9 +319,6 @@ var rules = [
  "||redtube.com",
  "||redtubefiles.com",
  "||rfi.fr",
- "||rncdn1.com",
- "||rncdn2.com",
- "||rncdn3.com",
  "||rockettube.com",
  "||rockstargames.com",
  "||scallyguy.net",
